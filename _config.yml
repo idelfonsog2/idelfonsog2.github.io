@@ -1,1 +1,2 @@
-theme: jekyll-theme-cayman
+markdown: kramdown
+remote-theme: jekyll-theme-cayman
