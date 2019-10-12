@@ -121,7 +121,7 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 # Experience
 
-#### `Lead iOS Mobile Developer` [GrowIt!](http://growitmobile.com/) `Feb 2018 - Nov 2019`
+#### `Lead iOS Mobile Developer` [GrowIt!](http://growitmobile.com/) `Currently`
 
 - Re-architecture the iOS application to follow the combination of Navigation Detail Views and Tab Bar Views using the Coordinator Pattern
 - Implemented a Behavior Driven Development, which is basically is a an abstract layer for business stakeholders before developers get to it using a Test Driven Development pattern
