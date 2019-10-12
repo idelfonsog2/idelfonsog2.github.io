@@ -4,21 +4,33 @@
 
 #layout: home
 #--- -->
-## Idelfonso Gutierrez
+# Idelfonso Gutierrez
+
+![](img/circular-shot.png)
+
+**iOS Developer from Venezuela 🇻🇪**  currently in Chicago, IL [@GrowIt]()
 
 `$ someone who creates computer software`
 
-[idelfonsog2@gmai.com](mailto://idelfong2@gmail.com)
+- Let's go dance 🕺🏻 tango, salsa, or swing.
+- _Reading_ Apple documentation, Combine, Vapor Framework 📄
+- _Best dishes_ Indian Paneere, Italian Cannolies, Argentinian steak, Tequeños de Venezuela
 
-[+1 954 513 9568](tel://+19545139568)
+[Projects](#projects) | [Experience](#experience) | [Clients](#clients) | [Education](#education) | [Contact](#contact-information)
 
-Projects
------
+# Projects
 <!-- ![sds](img/al1.jpg) -->
 
 ### **`Stranded`**
-`WIP: some brief changes`
+`h233f7343sh2sd chores: brief changes`
+
+**tech:** Vapor Framework
+
+---
+
 ### **`YellowPepper Talks`**
+
+![](img/map1.png) ![](img/map2.png) ![](img/map3.png)
 
  Introduction to Firebase Database, IAM, and backend for the front end developers.
 
@@ -32,6 +44,7 @@ Projects
 
 [Demo video](https://www.youtube.com/embed/tImGKXMNiMw)
 
+---
 
 ### **`Hero World`**
 
@@ -43,7 +56,11 @@ Our dev team was able to implement a database using normalization, which helps i
 
 [GitHub](https://github.com/idelfonsog2/tumblr-app)
 
+---
+
 ### **`Tubmlr Client`**
+
+![](img/tm2.png) ![](img/tm3.png) ![](img/tm4.png)
 
 Created an iOS client in order to search blog users in Tumblr, follow users, and post text blogs.
 
@@ -51,7 +68,10 @@ Created an iOS client in order to search blog users in Tumblr, follow users, and
 
 [GitHub](https://github.com/idelfonsog2/tumblr-app)
 
+---
 ### **`On the Map`**
+
+![](img/map2.png) ![](img/map3.png) ![](img/map4.png)
 
 "On The Map" app allows users to share their location and a URL with their fellow students
 
@@ -59,7 +79,11 @@ Created an iOS client in order to search blog users in Tumblr, follow users, and
 
 [GitHub](https://github.com/idelfonsog2/udacity-on-the-map)
 
+---
+
 ### **`Virtual Tourist`**
+
+![](img/vir1.png) ![](img/vir2.png)
 
 Wondering what kind of pictures have people taken in a particular place around the world?
 
@@ -73,6 +97,8 @@ Clients
 ----
 
 ### **`Ally's Flower`**
+
+![](img/al1.png) ![](img/al2.png) ![](img/al3.png)
 
 Using Wordpress and Woocommerce was able to create a simple solution for a small business.
 
@@ -93,8 +119,7 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 **tech**: iOS: Objective-C, CoreData, UIKit
 
-Experience
-----
+# Experience
 
 #### `Lead iOS Mobile Developer` [GrowIt!](http://growitmobile.com/) `Feb 2018 - Nov 2019`
 
@@ -111,36 +136,44 @@ Experience
 - Learning and working with user testing results to implement a great UI and business logic
 - Participate in company forums and lectures, which explore new technologies.
 
-`Intern  iOS Mobile Developer` [YellowPepper](http://www.yellowpepper.com) `Nov 2016 - May 2017`
+#### `Intern  iOS Mobile Developer` [YellowPepper](http://www.yellowpepper.com) `Nov 2016 - May 2017`
 
 - Worked with multiple iOS mobile banking projects developed with Objective-C and third-party frameworks
 - Contributed to daily stand-ups with different teams around the world using the agile framework
 - Addressed client’s concern regarding the app’s privacy policy in the App Store.
 - Developed, released, and debugged native iOS mobile banking apps created with Objective-C for LATAM
 
-`Programming Learning Assistant Florida International University Dec 2015 - May 2016`
-
-- Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
-- Explained Object Oriented Programming concepts during in and out sessions
-- Used pair programming with students in order to practice and review material
-
-`Instructor CoderDojo Dec 2014 - May 2016`
+#### `Instructor CoderDojo Dec 2014 - May 2016`
 
 - Created stimulating lessons/games to an average of 20 students per session.
 - Taught ongoing process and/or created new projects for beginners in a class of twenty students.
 - Adapted sites like scratch.mit.edu and arduino.cc to motivate student’s creativity through technology.
 - Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
 
-`IT Intern Developer Martin Digital Group Jan 2014 - April 2015`
+#### `Programming Learning Assistant Florida International University Dec 2015 - May 2016`
+
+- Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
+- Explained Object Oriented Programming concepts during in and out sessions
+- Used pair programming with students in order to practice and review material
+
+#### `IT Intern Developer Martin Digital Group Jan 2014 - April 2015`
 
 - Strengthen relationship with the clients by integrating my technical experience and expertise.
 - Fashioned a blog to look like a fitness site for moms and a subscription program.
 - Checked logs and malfunctioning errors to avoid conflict with purchasing process on the website.
 - Maintained the network, installation, and use of new software and process.
 
-Education
------
+# Education
+
 - Startup Cohort @FIU Jan 2017 - April 2017
 - B.S. Software Developer Florida International University Aug 2012 - May 2016
   - Minor: Social Media and E-marketing Analytics
 - iOS Nanodegree Udacity Sep 2016 - Nov 2016
+
+# *Contact Information*
+
+**Email** [idelfonsog2@gmai.com](mailto://idelfong2@gmail.com)
+
+**Mobile** [+1 954 513 9568](tel://+19545139568)
+
+![](img/qr_code.png)
