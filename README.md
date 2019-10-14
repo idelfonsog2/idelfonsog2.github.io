@@ -14,7 +14,7 @@
 
 - Let's go dance 🕺🏻 tango, salsa, or swing.
 - _Reading_ Apple documentation, Combine, Vapor Framework 📄
-- _Best dishes_ Indian Paneere, Italian Cannolies, Argentinian steak, Tequeños de Venezuela 🤤
+- _Best dishes_ Indian Paneere, Italian Cannolies, Chimichurri, Tequeños de Venezuela 🤤
 
 [Projects](#projects) | [Experience](#experience) | [Clients](#clients) | [Education](#education) | [Contact](#contact-information)
 
@@ -176,4 +176,4 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 📞 [+1 954 513 9568](tel://+19545139568)
 
-📸📱 ![](img/qr_code.png)
+📱 [contact card](idelfonso.vcf)
