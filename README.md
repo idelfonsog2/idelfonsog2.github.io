@@ -18,7 +18,7 @@
 
 [Projects](#projects) | [Experience](#experience) | [Clients](#clients) | [Education](#education) | [Contact](#contact-information)
 
-# Projects
+# Projects 👨🏻‍🔬
 <!-- ![sds](img/al1.jpg) -->
 
 ### **`Stranded`**
@@ -93,8 +93,7 @@ Think about Virtual Tourist before Instagram search feature using Flicker
 
 [GitHub](https://www.idelfonso.com/)
 
-Clients
-----
+# Clients 👨🏻‍🌾
 
 ### **`Ally's Flower`**
 
@@ -119,7 +118,7 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 **tech**: iOS: Objective-C, CoreData, UIKit
 
-# Experience
+# Experience 👨🏻‍💻
 
 #### `Lead iOS Mobile Developer` [GrowIt!](http://growitmobile.com/) `Currently`
 
@@ -163,17 +162,15 @@ Our dev team was able to quickly identify the main problem in their workflow and
 - Checked logs and malfunctioning errors to avoid conflict with purchasing process on the website.
 - Maintained the network, installation, and use of new software and process.
 
-# Education
+# Education 🎓
 
 - Startup Cohort @FIU Jan 2017 - April 2017
 - B.S. Software Developer Florida International University Aug 2012 - May 2016
   - Minor: Social Media and E-marketing Analytics
 - iOS Nanodegree Udacity Sep 2016 - Nov 2016
 
-# *Contact Information*
+# *Contact Information* 📱 ['Save as ...'](idelfonso.vcf)
 
 📨 [idelfonsog2@gmai.com](mailto://idelfong2@gmail.com)
 
 📞 [+1 954 513 9568](tel://+19545139568)
-
-📱 [contact card](idelfonso.vcf)
