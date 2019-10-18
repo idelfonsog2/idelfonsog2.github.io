@@ -8,9 +8,9 @@
 
 ![](img/circular-shot.png)
 
-**iOS Developer from Venezuela 🇻🇪**  currently in Chicago, IL [@GrowIt]()
+**Software Developer from Venezuela 🇻🇪**  currently in Chicago, IL [@GrowIt]()
 
-`$ someone who creates computer software`
+`$ someone who creates a computer software to solve a probem`
 
 - Let's go dance 🕺🏻 tango, salsa, or swing.
 - _Reading_ Apple documentation, Combine, Vapor Framework 📄
