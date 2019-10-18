@@ -1,27 +1,42 @@
-<!-- # ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-#layout: home
-#--- -->
 # Idelfonso Gutierrez
 
 ![](img/circular-shot.png)
 
 **Software Developer from Venezuela 🇻🇪**  currently in Chicago, IL [@GrowIt]()
 
-`$ someone who creates a computer software to solve a probem`
+`$ someone who creates a computer software to solve a problem`
 
-- Let's go dance 🕺🏻 tango, salsa, or swing.
+- Let's go dance 🕺🏻 Cha-Cha, Tango, Salsa, Swing.
 - _Reading_ Apple documentation, Combine, Vapor Framework 📄
 - _Best dishes_ Indian Paneere, Italian Cannolies, Chimichurri, Tequeños de Venezuela 🤤
 
-[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [Contact 📱](#contact-information)
+[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
 
 # Projects
 <!-- ![sds](img/al1.jpg) -->
 
 ### **`Stranded`**
+
+##### _ORD_ 🛫 _MIA_ 🛬 _ETD 2:00 hr_
+
+##### _What's there to do at an airport besides waiting for your flight?_
+
+##### _What about if we could meet someone?... Don't worry is not tinder_
+
+##### _What's the ice breaker?_
+
+##### _Math_ ➗ _is international spoken, food_ 🍝 _is international spoken, a language_ 🗣 _not so much_ 😕
+
+##### _But music it is!_ 🎻 🎹
+
+##### _You don't need to talk when dancing Foxtrot, Salsa, Tango or Swing!_
+
+##### 🎻 + 💃🏻 = stranded
+
+##### 🌸 _It brings people together at an international place (airport) in order to allow them to have a joy of moment by connecting them through dance before each one of them go separate ways_
+
+![](img/badge.svg)
+
 `h233f7343sh2sd chores: brief changes`
 
 **tech:** Vapor Framework
@@ -34,7 +49,7 @@
 
 ##### _Were the events or appointments located close to each other?_
 
-##### _Do you always take into cosideration how long will it take you to go from appointment A to appointment B?_
+##### _Do you always take into consideration how long will it take you to go from appointment A to appointment B?_
 
 ##### _What about lunch? Do you have time to eat in the middle?_
 
@@ -192,5 +207,3 @@ Our dev team was able to quickly identify the main problem in their workflow and
 📨 [idelfonsog2@gmai.com](mailto://idelfong2@gmail.com)
 
 📞 [+1 954 513 9568](tel://+19545139568)
-
-💾[Save as ...](idelfonso.vcf)
