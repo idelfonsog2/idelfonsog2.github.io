@@ -56,7 +56,7 @@
 ##### _Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its an 1:40 min traffic along the I-95_
 
 #### _But most importantly!_
-##### 🤯 _How happy or how stress are you?_ ⛱
+##### _How happy or how stress are you?_ ⛱ 🤯
 
 ![](img/badge.svg)
 
