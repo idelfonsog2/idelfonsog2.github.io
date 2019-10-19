@@ -8,10 +8,8 @@
 
 - Let's go dance 🕺🏻 Cha-Cha, Tango, Salsa, Swing.
 - _Reading_ Apple documentation, Combine, Vapor Framework 📄
-- _Best dishes_ Indian Paneere, Italian Cannolies, Chimichurri, Tequeños de Venezuela 🤤
-
-- Spanish 🇪🇸
-- English 🇺🇸
+- Native language Spanish 🇪🇸
+- Second language English 🇺🇸
 
 [Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
 
