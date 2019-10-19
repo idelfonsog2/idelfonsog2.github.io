@@ -206,6 +206,6 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 # *Contact Information*
 
-📨 [idelfonsog2@gmai.com](mailto://idelfong2@gmail.com)
+📨 [idelfonsog2@gmai.com](mailto:idelfonsog2@gmai.com)
 
 📞 [+1 954 513 9568](tel://+19545139568)
