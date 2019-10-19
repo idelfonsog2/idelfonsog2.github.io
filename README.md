@@ -164,7 +164,8 @@ Our dev team was able to quickly identify the main problem in their workflow and
 - Re-wrote essential feature into Swift in combination with ModelView-ViewModel design pattern
 - Trained an image recognition machine learning model based on a plant database to identify plant names
 - Implemented a Not Safe For Work image recognition machine learning model to help the community team reduce the amount of flagging inapropiate content in the feed of the app
-- Help develop several process that helps the development team building, testing and deploying front end and backend applications, some of them involve the use of Fastlane, JIRA + Github, Wiki's for development workflow, technical talks
+- Continuously improve the build and release pipelines to provide a better development experience to other iOS Engineers
+- Continuously discover, evaluate and implement new technologies to maximize development efficiency
 
 #### `Technical Analyst iOS Mobile Developer` [Solstice Consulting](http://solstice.com/) `Sept 2017 - Feb 2018`
 `▷ agriculture`
