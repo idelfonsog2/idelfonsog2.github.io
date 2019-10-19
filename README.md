@@ -157,6 +157,7 @@ Our dev team was able to quickly identify the main problem in their workflow and
 # Experience
 
 #### `Lead iOS Mobile Developer` [GrowIt!](http://growitmobile.com/) `Feb. 2018 - currently`
+`▷ horticulture`
 
 - Re-architecture the iOS application to follow the combination of Navigation Detail Views and Tab Bar Views using the Coordinator Pattern
 - Implemented a Behavior Driven Development, which is basically is a an abstract layer for business stakeholders before developers get to it using a Test Driven Development pattern
@@ -166,33 +167,33 @@ Our dev team was able to quickly identify the main problem in their workflow and
 - Help develop several process that helps the development team building, testing and deploying front end and backend applications, some of them involve the use of Fastlane, JIRA + Github, Wiki's for development workflow, technical talks
 
 #### `Technical Analyst iOS Mobile Developer` [Solstice Consulting](http://solstice.com/) `Sept 2017 - Feb 2018`
-
+`▷ agriculture`
 - Developing and maintaining client-side code through testing methodologies in agile environment
 - Learning and working with user testing results to implement a great UI and business logic
 - Participate in company forums and lectures, which explore new technologies.
 
 #### `Intern  iOS Mobile Developer` [YellowPepper](http://www.yellowpepper.com) `Nov 2016 - May 2017`
-
+`▷ finnancial technology`
 - Worked with multiple iOS mobile banking projects developed with Objective-C and third-party frameworks
 - Contributed to daily stand-ups with different teams around the world using the agile framework
 - Addressed client’s concern regarding the app’s privacy policy in the App Store.
 - Developed, released, and debugged native iOS mobile banking apps created with Objective-C for LATAM
 
 #### `Instructor CoderDojo Dec 2014 - May 2016`
-
+`▷ education`
 - Created stimulating lessons/games to an average of 20 students per session.
 - Taught ongoing process and/or created new projects for beginners in a class of twenty students.
 - Adapted sites like scratch.mit.edu and arduino.cc to motivate student’s creativity through technology.
 - Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
 
 #### `Programming Learning Assistant Florida International University Dec 2015 - May 2016`
-
+`▷ education`
 - Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
 - Explained Object Oriented Programming concepts during in and out sessions
 - Used pair programming with students in order to practice and review material
 
 #### `IT Intern Developer Martin Digital Group Jan 2014 - April 2015`
-
+`▷ online marketing`
 - Strengthen relationship with the clients by integrating my technical experience and expertise.
 - Fashioned a blog to look like a fitness site for moms and a subscription program.
 - Checked logs and malfunctioning errors to avoid conflict with purchasing process on the website.
