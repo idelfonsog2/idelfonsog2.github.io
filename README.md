@@ -10,6 +10,8 @@
 - _Reading_ Apple documentation, Combine, Vapor Framework 📄
 - _Best dishes_ Indian Paneere, Italian Cannolies, Chimichurri, Tequeños de Venezuela 🤤
 
+[U.S. resume.pdf](Resume.pdf)|
+
 [Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
 
 # Projects
