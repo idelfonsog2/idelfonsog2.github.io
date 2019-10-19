@@ -10,7 +10,7 @@
 - _Reading_ Apple documentation, Combine, Vapor Framework 📄
 - _Best dishes_ Indian Paneere, Italian Cannolies, Chimichurri, Tequeños de Venezuela 🤤
 
-[U.S. resume.pdf](Resume.pdf)|
+[resume_us.pdf](resume_us.pdf)|
 
 [Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
 
@@ -206,6 +206,6 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 # *Contact Information*
 
-📨 [idelfonsog2@gmai.com](mailto:idelfonsog2@gmai.com)
+📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
 
 📞 [+1 954 513 9568](tel://+19545139568)
