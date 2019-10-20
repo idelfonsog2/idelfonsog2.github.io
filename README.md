@@ -16,7 +16,31 @@
 [resume_us.pdf](resume_us.pdf)|
 
 # Projects
-<!-- ![sds](img/al1.jpg) -->
+
+### **`Display vCard`**
+
+![](img/contact.jpg)
+
+##### _Do you have a business card? it probably has a cool design_
+
+##### _They are useful when you need to leave in a rush_
+
+##### _There is a individual in the middle, or "man in the middle"_
+
+##### _manual work is prompt to error_
+
+##### _Installation:_
+
+_Download https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a_
+
+_Select your contact card, it will show "me" on the right hand side of the list item_
+
+_Now everytime you have to leave in a rush have the person use the **built-in! camera app** to properly add your information_
+
+_**Note:** also use "Share sheet" to send it using AirDrop, not too many users allow airdrop from everyone_
+tech: Siri shortcut
+
+---
 
 ### **`Stranded`**
 
