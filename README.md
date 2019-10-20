@@ -17,34 +17,6 @@
 
 # Projects
 
-### **`Display vCard`**
-
-![](img/contact.jpg)
-
-##### _Do you have a business card? it probably has a cool design_ 📇
-
-##### _They are useful when you need to leave in a rush_
-
-##### _There is a individual in the middle, or "man in the middle"_
-
-##### _manual work is prompt to error_
-
-##### _Installation:_
-
-[Download](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) from 🛠Siri Shortcuts
-
-_Select your contact card, it will show "me" on the right hand side of the list item_
-
-_Now everytime you have to leave in a rush have the person use the **built-in! camera app**_ 📲📷 _to properly add your information_
-
-_**Note:** also use "Share sheet" to send it using AirDrop, not too many users allow airdrop from everyone_
-
-![](img/display_vcard.gif)
-
-tech: Siri shortcut
-
----
-
 ### **`Stranded`**
 
 ##### _ORD_ 🛫 _MIA_ 🛬 _ETD 2:00 hr_
@@ -89,6 +61,34 @@ tech: Siri shortcut
 ##### _How happy or how stress are you?_ ⛱ 🤯
 
 ![](img/badge.svg)
+
+---
+
+### **`Display vCard`**
+
+![](img/contact.jpg)
+
+##### _Do you have a business card? it probably has a cool design_ 📇
+
+##### _They are useful when you need to leave in a rush_
+
+##### _There is a individual in the middle, or "man in the middle"_
+
+##### _manual work is prompt to error_
+
+##### _Installation:_
+
+[Download](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) from 🛠Siri Shortcuts
+
+_Select your contact card, it will show "me" on the right hand side of the list item_
+
+_Now everytime you have to leave in a rush have the person use the **built-in! camera app**_ 📲📷 _to properly add your information_
+
+_**Note:** also use "Share sheet" to send it using AirDrop, not too many users allow airdrop from everyone_
+
+![](img/display_vcard.gif)
+
+tech: Siri shortcut
 
 ---
 ### **`YellowPepper Talks`**
