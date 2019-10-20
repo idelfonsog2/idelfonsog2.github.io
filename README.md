@@ -78,11 +78,10 @@
 
 ##### _Installation:_
 
-[Download](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) from 🛠Siri Shortcuts
-
-_Select your contact card, it will show "me" on the right hand side of the list item_
-
-_Now everytime you have to leave in a rush have the person use the **built-in! camera app**_ 📲📷 _to properly add your information_
+- _Update your Contact information properly_
+- [Download](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) from 🛠Siri Shortcuts
+- _Select your contact card, it will show "me" on the right hand side of the list item_
+- _Now everytime you have to leave in a rush have the person use the **built-in! camera app**_ 📲📷 _to scan your contact in one second_
 
 _**Note:** also use "Share sheet" to send it using AirDrop, not too many users allow airdrop from everyone_
 
