@@ -21,7 +21,7 @@
 
 ![](img/contact.jpg)
 
-##### _Do you have a business card? it probably has a cool design_
+##### _Do you have a business card? it probably has a cool design_ 📇
 
 ##### _They are useful when you need to leave in a rush_
 
@@ -31,7 +31,7 @@
 
 ##### _Installation:_
 
-_Download_ https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a
+[Download](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) from 🛠Siri Shortcuts
 
 _Select your contact card, it will show "me" on the right hand side of the list item_
 
