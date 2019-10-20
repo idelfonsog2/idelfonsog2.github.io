@@ -85,7 +85,7 @@
 
 _**Note:** also use "Share sheet" to send it using AirDrop, not too many users allow airdrop from everyone_
 
-![](img/display_vcard.gif)
+![](img/display_vcard.gif) ![](img/sample_qrcode.gif)
 
 tech: Siri shortcut
 
