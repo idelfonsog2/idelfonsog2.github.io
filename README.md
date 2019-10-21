@@ -1,5 +1,6 @@
 # Idelfonso Gutierrez
 
+
 ![](img/circular-shot.png)
 
 **Software Developer from Venezuela 🇻🇪**  currently in Chicago, IL [@GrowIt]()
@@ -19,23 +20,30 @@
 
 ### **`Stranded`**
 
-#### _ORD_ 🛫 _MIA_ 🛬 _ETD 2:00 hr_
+<!-- Follow: https://krausefx.com/ Pattern
+  The Problem
+  the Solution + images
+  how it works + images
+-->
 
-#### _What's there to do at an airport besides waiting for your flight?_
+#### _Background:_
+_ORD_ 🛫 _MIA_ 🛬 _ETD 2:00 hr_
 
-#### _What about if we could meet someone?... Don't worry is not tinder_
+What's there to do at an airport besides waiting for your flight?
 
-#### _What's the ice breaker?_
+What about if we could meet someone?... Don't worry is not tinder
 
-#### _Math_ ➗ _is international spoken, food_ 🍝 _is international spoken, a language_ 🗣 _not so much_ 😕
+What's the ice breaker?
 
-#### _But music it is!_ 🎻 🎹
+Math ➗ is international spoken, food 🍝 is international spoken, a language_ 🗣 not so much 😕
 
-#### _You don't need to talk when dancing Foxtrot, Salsa, Tango or Swing!_
+But music it is! 🎻 🎹
 
-#### 🎻 + 💃🏻 = stranded
+You don't need to talk when dancing Foxtrot, Salsa, Tango or Swing!
 
-#### 🌸 _It brings people together at an international place (airport) in order to allow them to have a joy of moment by connecting them through dance before each one of them go separate ways_
+#### _The Solution: Coming soon_
+
+🌸 It brings people together at an international place (airport) in order to allow them to have a joy of moment by connecting them through dance before each one of them go separate ways 🎻 + 💃🏻
 
 ![](img/badge.svg)
 
@@ -47,18 +55,21 @@
 
 ### **`mmMapp`**
 
-#### _Have you ever had too many events in the same day at different times and different locations?_
+#### _Background:_
+_Have you ever had too many events in the same day at different times and different locations?_
 
-#### _Were the events or appointments located close to each other?_
+_Were the events or appointments located close to each other?_
 
-#### _Do you always take into consideration how long will it take you to go from appointment A to appointment B?_
+_Do you always take into consideration how long will it take you to go from appointment A to appointment B?_
 
-#### _What about lunch? Do you have time to eat in the middle?_
+_What about lunch? Do you have time to eat in the middle?_
 
-#### _Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its an 1:40 min traffic along the I-95_
+_Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its an 1:40 min traffic along the I-95_
 
-#### _But most importantly!_
-#### _How happy or how stress are you?_ ⛱ 🤯
+_But most importantly!_
+_How happy or how stress are you?_ ⛱ 🤯
+
+#### _The Solution: Coming soon_
 
 ![](img/badge.svg)
 
@@ -68,15 +79,17 @@
 
 ![](img/contact.jpg)
 
-#### _Do you have a business card? it probably has a cool design_ 📇
+#### _The Problem:_
 
-#### _They are useful when you need to leave in a rush_
+_Do you have a business card? it probably has a cool design_ 📇
 
-#### _There is a individual in the middle, or "man in the middle"_
+_They are useful when you need to leave in a rush_
 
-#### _manual work is prompt to error_
+_There is a individual in the middle, or "man in the middle"_
 
-##### _Installation:_
+_manual work is prompt to error_
+
+#### _The Solution:_
 
 - _Update your Contact information properly_
 - [Download](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) from 🛠Siri Shortcuts
