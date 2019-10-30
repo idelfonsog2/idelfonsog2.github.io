@@ -199,11 +199,11 @@ Our dev team was able to quickly identify the main problem in their workflow and
 `▷ horticulture`
 
 - Participate in the decision making for the related feature.
-- Refactor the existing code to improve the performance and maintainability.
-- Implement Behavior Driven Development, an abstract layer for business stakeholders. First set of tests before developers get to TDD
-- Write high quality code to ship new features in our native mobile app.
+- Refactor the existing code to improve performance and maintainability.
+- Implement Behavior Driven Development, an abstract layer for business stakeholders. The first set of tests before developers get to TDD
+- Write high-quality code to ship new features in our native mobile app.
 - Train image recognition machine learning model based on a plant database to identify plant names
-- Implement image recognition machine learning model (NSFW) to help the community team.
+- Implement an image recognition machine learning model (NSFW) to help the community team.
 - Improve build time and ci to provide a better development experience to other iOS Engineers
 - Manage the app delivery process (App Store).
 - Monitor platform-related trends and new features.
