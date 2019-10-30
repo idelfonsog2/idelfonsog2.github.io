@@ -45,7 +45,7 @@ You don't need to talk when dancing Foxtrot, Salsa, Tango or Swing!
 
 🌸 It brings people together at an international place (airport) in order to allow them to have a joy of moment by connecting them through dance before each one of them go separate ways 🎻 + 💃🏻
 
-![](img/badge.svg)
+<!-- ![](img/badge.svg) -->
 
 `h233f7343sh2sd chores: brief changes`
 
@@ -71,7 +71,7 @@ _How happy or how stress are you?_ ⛱ 🤯
 
 #### _The Solution: Coming soon_
 
-![](img/badge.svg)
+<!-- ![](img/badge.svg) -->
 
 ---
 
@@ -198,13 +198,15 @@ Our dev team was able to quickly identify the main problem in their workflow and
 #### `Lead iOS Mobile Developer` [GrowIt!](http://growitmobile.com/) `Feb. 2018 - currently`
 `▷ horticulture`
 
-- Re-architecture the iOS application to follow the combination of Navigation Detail Views and Tab Bar Views using the Coordinator Pattern
-- Implemented a Behavior Driven Development, which is basically is a an abstract layer for business stakeholders before developers get to it using a Test Driven Development pattern
-- Re-wrote essential feature into Swift in combination with ModelView-ViewModel design pattern
-- Trained an image recognition machine learning model based on a plant database to identify plant names
-- Implemented a Not Safe For Work image recognition machine learning model to help the community team reduce the amount of flagging inapropiate content in the feed of the app
-- Continuously improve the build and release pipelines to provide a better development experience to other iOS Engineers
-- Continuously discover, evaluate and implement new technologies to maximize development efficiency
+- Participate in the decision making for the related feature.
+- Refactor the existing code to improve the performance and maintainability.
+- Implement Behavior Driven Development, an abstract layer for business stakeholders. First set of tests before developers get to TDD
+- Write high quality code to ship new features in our native mobile app.
+- Train image recognition machine learning model based on a plant database to identify plant names
+- Implement image recognition machine learning model (NSFW) to help the community team.
+- Improve build time and ci to provide a better development experience to other iOS Engineers
+- Manage the app delivery process (App Store).
+- Monitor platform-related trends and new features.
 
 #### `Technical Analyst iOS Mobile Developer` [Solstice Consulting](http://solstice.com/) `Sept 2017 - Feb 2018`
 `▷ agriculture`
