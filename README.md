@@ -3,7 +3,7 @@
 </p>
 <h2 align="center"> Idelfonso Gutierrez 🇻🇪</h2>
 
-##### `$ mobile developer creating software solutions for old manual processes`
+##### `$ mobile developer creating seamlessly solutions for common taks`
 
 - Let's go dance 🕺🏻 Cha-Cha, Tango, Salsa, Swing
 - _Reading:_ Apple documentation, Combine, Vapor Framework 📄
@@ -32,15 +32,15 @@ What about if we could meet someone?... Don't worry is not tinder
 
 What's the ice breaker?
 
-Math ➗ is international spoken, food 🍝 is international spoken, a language_ 🗣 not so much 😕
+Math ➗ is international spoken, music 🎼 is international heard, body language too. A language_ 🗣 not so much 😕
 
-But music it is! 🎻 🎹
+🎺 + 💃🏻 + 🕺🏻 = social interaction
 
 You don't need to talk when dancing Foxtrot, Salsa, Tango or Swing!
 
 #### _The Solution: Coming soon_
 
-🌸 It brings people together at an international place (airport) in order to allow them to have a joy of moment by connecting them through dance before each one of them go separate ways 🎻 + 💃🏻
+🙂 Stranded brings people together at an international place (airport) in different time zones! 😲 Allowing them to socialize through dancing `<insert research paper here>`
 
 <!-- ![](img/badge.svg) -->
 
