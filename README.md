@@ -6,7 +6,7 @@
 `$ mobile developer creating seamlessly solutions for common taks`
 
 - Let's go dance 🕺🏻 Cha-Cha, Tango, Salsa, Swing
-- _Reading:_ Apple documentation, Combine, Vapor Framework 📄
+- _Reading:_ BDD in Action, Combine, Vapor Framework, A metabolic approach to cancer 📚
 - Spanish 🇪🇸 English 🇺🇸 speaker
 
 [Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
