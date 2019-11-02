@@ -1,16 +1,13 @@
-# Idelfonso Gutierrez
+<p align="center">
+	<img width="180" height="180" src="/img/circular-shot.png"/>
+</p>
+<h2 align="center"> Idelfonso Gutierrez 🇻🇪</h2>
 
+##### `$ mobile developer creating software solutions for old manual processes`
 
-![](img/circular-shot.png)
-
-**Software Developer from Venezuela 🇻🇪**  currently in Chicago, IL [@GrowIt]()
-
-`$ someone who creates a computer software to solve a problem`
-
-- Let's go dance 🕺🏻 Cha-Cha, Tango, Salsa, Swing.
-- _Reading_ Apple documentation, Combine, Vapor Framework 📄
-- Native language Spanish 🇪🇸
-- Second language English 🇺🇸
+- Let's go dance 🕺🏻 Cha-Cha, Tango, Salsa, Swing
+- _Reading:_ Apple documentation, Combine, Vapor Framework 📄
+- Spanish 🇪🇸 English 🇺🇸 speaker
 
 [Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
 
@@ -56,18 +53,18 @@ You don't need to talk when dancing Foxtrot, Salsa, Tango or Swing!
 ### **`mmMapp`**
 
 #### _Background:_
-_Have you ever had too many events in the same day at different times and different locations?_
+Have you ever had too many events in the same day at different times and different locations?
 
-_Were the events or appointments located close to each other?_
+Were the events or appointments located close to each other?
 
-_Do you always take into consideration how long will it take you to go from appointment A to appointment B?_
+Do you always take into consideration how long will it take you to go from appointment A to appointment B?
 
-_What about lunch? Do you have time to eat in the middle?_
+What about lunch? Do you have time to eat in the middle?
 
-_Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its an 1:40 min traffic along the I-95_
+Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its an 1:40 min traffic along the I-95
 
-_But most importantly!_
-_How happy or how stress are you?_ ⛱ 🤯
+**But most importantly!**
+How happy or how stress are you? ⛱ 🤯
 
 #### _The Solution: Coming soon_
 
@@ -105,7 +102,7 @@ tech: Siri shortcut
 ---
 ### **`YellowPepper Talks`**
 
-![](img/map1.png) ![](img/map2.png) ![](img/map3.png)
+![](img/fir1.png)
 
  Introduction to Firebase Database, IAM, and backend for the front end developers.
 
@@ -195,7 +192,7 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 # Experience
 
-#### `Lead iOS Mobile Developer` [GrowIt!](http://growitmobile.com/) `Feb. 2018 - currently`
+#### `iOS Mobile Developer` [GrowIt!](http://growitmobile.com/) `Feb. 2018 - currently`
 `▷ horticulture`
 
 - Participate in the decision making for the related feature.
@@ -207,6 +204,11 @@ Our dev team was able to quickly identify the main problem in their workflow and
 - Improve build time and ci to provide a better development experience to other iOS Engineers
 - Manage the app delivery process (App Store).
 - Monitor platform-related trends and new features.
+- Sole developer
+
+tools/frameworks/libraries:
+
+- fastlane, circleCI, apple push notifications services, RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
 
 #### `Technical Analyst iOS Mobile Developer` [Solstice Consulting](http://solstice.com/) `Sept 2017 - Feb 2018`
 `▷ agriculture`
@@ -214,12 +216,20 @@ Our dev team was able to quickly identify the main problem in their workflow and
 - Learning and working with user testing results to implement a great UI and business logic
 - Participate in company forums and lectures, which explore new technologies.
 
+tools/frameworks/libraries:
+
+- Jenkins, MongoDB, WebSockets, AutoLayout, Protobuf, ReactiveCocoa/Swift 🛠
+
 #### `Intern  iOS Mobile Developer` [YellowPepper](http://www.yellowpepper.com) `Nov 2016 - May 2017`
 `▷ finnancial technology`
 - Worked with multiple iOS mobile banking projects developed with Objective-C and third-party frameworks
 - Contributed to daily stand-ups with different teams around the world using the agile framework
 - Addressed client’s concern regarding the app’s privacy policy in the App Store.
 - Developed, released, and debugged native iOS mobile banking apps created with Objective-C for LATAM
+
+tools/frameworks/libraries:
+
+- PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
 
 #### `Instructor CoderDojo Dec 2014 - May 2016`
 `▷ education`
