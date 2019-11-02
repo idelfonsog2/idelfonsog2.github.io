@@ -3,7 +3,7 @@
 </p>
 <h2 align="center"> Idelfonso Gutierrez 🇻🇪</h2>
 
-##### `$ mobile developer creating seamlessly solutions for common taks`
+`$ mobile developer creating seamlessly solutions for common taks`
 
 - Let's go dance 🕺🏻 Cha-Cha, Tango, Salsa, Swing
 - _Reading:_ Apple documentation, Combine, Vapor Framework 📄
