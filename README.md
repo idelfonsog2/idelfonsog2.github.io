@@ -3,7 +3,7 @@
 </p>
 <h2 align="center"> Idelfonso Gutierrez 🇻🇪</h2>
 
-`$ mobile developer creating seamlessly solutions for common taks`
+##### `$ ios-developer: Geek about software, clean code, app architecture, and diving deep into the details to create a solution`
 
 - Let's go dance 🕺🏻 Cha-Cha, Tango, Salsa, Swing
 - _Reading:_ BDD in Action, Combine, Vapor Framework, A metabolic approach to cancer 📚
