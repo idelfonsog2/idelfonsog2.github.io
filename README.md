@@ -102,22 +102,25 @@ tech: Siri shortcut
 ---
 ### **`YellowPepper Talks`**
 
-![](img/fir1.png)
+<table>
 
- Introduction to Firebase Database, IAM, and backend for the front end developers.
+<tr>
+<td><img src="/img/fir1.png"/></td>
+<td> Introduction to Firebase Database, IAM, and backend for the front end developers.
 
  I talked about how to start with Firebase, Realtime Database, and its rules. Also about Storage Database and it rules
 
  Along with it, I developed a small sample iOS project using Swift to send text and image nodes, how they are shown in the firebase console, and which methods I use to retrieve them in the client
 
-**tech:** iOS: UIKit, Firebase
+**tech:** Swift, UIKit, AutoLayout, Firebase Realtime DB
 
 [GitHub](https://github.com/idelfonsog2/firebase_ios)
 
-[Demo video](https://www.youtube.com/embed/tImGKXMNiMw)
+[Demo video](https://www.youtube.com/embed/tImGKXMNiMw)</td>
+</tr>
+</table>
 
 ---
-
 ### **`Hero World`**
 
 Creating a test case for a new park for The Walt Disney company in order to track schedules and budgeting for the construction of all the projects.
