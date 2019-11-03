@@ -102,11 +102,9 @@ tech: Siri shortcut
 ---
 ### **`YellowPepper Talks`**
 
-<table>
+![](img/fir1.png)
 
-<tr>
-<td><img src="/img/fir1.png"/></td>
-<td> Introduction to Firebase Database, IAM, and backend for the front end developers.
+Introduction to Firebase Database, IAM, and backend for the front end developers.
 
  I talked about how to start with Firebase, Realtime Database, and its rules. Also about Storage Database and it rules
 
@@ -116,9 +114,7 @@ tech: Siri shortcut
 
 [GitHub](https://github.com/idelfonsog2/firebase_ios)
 
-[Demo video](https://www.youtube.com/embed/tImGKXMNiMw)</td>
-</tr>
-</table>
+[Demo video](https://www.youtube.com/embed/tImGKXMNiMw)
 
 ---
 ### **`Hero World`**
