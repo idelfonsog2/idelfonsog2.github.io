@@ -29,6 +29,9 @@ Geek about software, clean code, and diving deep into the details to create solu
 BDD: Behavior driven development
 
 TDD: Test driven development
+
+---
+
 ### **`Stranded`**
 
 <!-- Follow: https://krausefx.com/ Pattern
