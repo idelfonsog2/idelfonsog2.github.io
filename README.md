@@ -32,7 +32,7 @@ Behavior driven development (BDD), Test driven development (TDD)
 A developer could write the following below. But this is missing some context, and only developers _**could!**_ be able to understand what is the system is doing.
 
 <!-- not java, swift -->
-```java
+```swift
 func testSystem_whenReset_isInStarted() {
 	sut.setToInProgress()
 
@@ -52,7 +52,7 @@ Then the application will set to "default"
 ```
 
 <!-- not java, swift -->
-```java
+```swift
 func Given("the system is [regex]") { state in
 	sut.set(state)
 }
