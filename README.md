@@ -26,9 +26,50 @@ Geek about software, clean code, and diving deep into the details to create solu
 - **Where?** TextEdit! 📑 honestly!
 - **How to?** Gherkin + Cucumber...ish + XCTest take a look [https://github.com/idelfonsog2/Cucumberish-UnitTest](https://github.com/idelfonsog2/Cucumberish-UnitTest) 👈🏽👀
 
-BDD: Behavior driven development
+Behavior driven development (BDD), Test driven development (TDD)
 
-TDD: Test driven development
+####  The Problem
+A developer could write the following below. But this is missing some context, and only developers _**could!**_ be able to understand what is the system is doing.
+
+<!-- not java, swift -->
+```java
+func testSystem_whenReset_isInStarted() {
+	sut.setToInProgress()
+
+	sut.restart()
+
+	XCTAssertEqual(sut.state, .blank)
+}
+
+```
+
+#### A different approach
+
+```gherkin
+Given the application is "in progress"
+When a user "restarts" the application
+Then the application will set to "default"
+```
+
+<!-- not java, swift -->
+```java
+func Given("the system is [regex]") { state in
+	sut.set(state)
+}
+
+func When("a user [regex] the system") { action in
+	sut.perform(action)
+}
+
+func Then("the system will [regex]") { expected in
+	XCTAssertEqual(expected, sut.state)
+}
+
+```
+
+The result out of it is that developers can make a set of reusable tests and stakeholders, product owners, QA tester can expand this tests into every state of the system.
+
+Developers only need to keep following their TDD approach.
 
 ---
 
