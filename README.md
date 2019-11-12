@@ -7,7 +7,7 @@ Software developer from Venezuela 🇻🇪. Currently Chicago, IL
 
 Geek about software, clean code, and diving deep into the details to create solutions to common tasks.
 
-- Let's go dance 🕺🏻 Cha-Cha, Tango, Salsa, Swing
+- Let's go dance Cha-Cha, [Tango 🎻](#tango), Salsa, Swing
 - _Reading:_ BDD in Action, Combine, Vapor Framework, A metabolic approach to cancer 📚
 - Spanish 🇪🇸 English 🇺🇸 speaker
 
@@ -320,3 +320,8 @@ tools/frameworks/libraries:
 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
 
 📞 [+1 954 513 9568](tel://+19545139568)
+
+# Tango
+by Charapin
+
+![Charapin](/img/tango.jpg)
