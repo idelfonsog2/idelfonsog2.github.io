@@ -53,15 +53,15 @@ Then the application will set to "default"
 
 <!-- not java, swift -->
 ```swift
-func Given("the system is [regex]") { state in
+func Given("the application is [regex]") { state in
  sut.set(state)
 }
 
-func When("a user [regex] the system") { action in
+func When("a user [regex] the application") { action in
  sut.perform(action)
 }
 
-func Then("the system will [regex]") { expected in
+func Then("the application will set to [regex]") { expected in
  XCTAssertEqual(expected, sut.state)
 }
 
