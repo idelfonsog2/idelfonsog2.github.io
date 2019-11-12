@@ -51,7 +51,6 @@ When a user "restarts" the application
 Then the application will set to "default"
 ```
 
-<!-- not java, swift -->
 ```swift
 func Given("the application is [regex]") { state in
  sut.set(state)
@@ -322,6 +321,6 @@ tools/frameworks/libraries:
 📞 [+1 954 513 9568](tel://+19545139568)
 
 # Tango
-by Charapin
+Photograph by Charapin
 
 ![Charapin](/img/tango.jpg)
