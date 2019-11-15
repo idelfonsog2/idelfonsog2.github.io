@@ -3,7 +3,7 @@
 </p>
 <h2 align="center"> Idelfonso Gutierrez</h2>
 
-Software developer from Venezuela 🇻🇪. Currently Chicago, IL
+📲iOS software developer from Venezuela 🇻🇪. Currently Chicago, IL
 
 Geek about software, clean code, and diving deep into the details to create solutions to common tasks.
 
