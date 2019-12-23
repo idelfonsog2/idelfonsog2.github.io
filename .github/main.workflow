@@ -1,8 +1,15 @@
-workflow "make QA build" {
-  on = "pull_request_review_comment"
-  resolves = ["fastlane"]
-}
+name: CI
+on: [push]
 
-action "fastlane" {
-  uses = "fastlane"
-}
+jobs:
+    build:
+        strategy:
+            matrix:
+            os: [unbuntu-latest, macos-latest]
+
+        runs-on: ${{ matrix.os }}
+        steps:
+            - name: Checkout
+            uses: actions/checkout@v1
+            - name: Build
+            run: echo "hello"
