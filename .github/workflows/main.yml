@@ -6,8 +6,8 @@ jobs:
   mac:
     runs-on: macos-latest
     steps:
-      - run: brew install ninja
-      - run: ninja version
+      - run: brew install tree
+      - run: tree
   # build:
   #   strategy:
   #     matrix: 
