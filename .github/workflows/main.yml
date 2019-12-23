@@ -5,7 +5,8 @@ on: [push]
 jobs:
   build:
     strategy:
-      matrix: [ubuntu-latest, macos-latest]
+      matrix: 
+        os: [ubuntu-latest, macos-latest]
       
     runs-on: ${{ matrix.os }}
 
