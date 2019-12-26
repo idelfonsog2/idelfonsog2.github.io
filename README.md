@@ -5,13 +5,12 @@
 
 📲iOS software developer from Venezuela 🇻🇪. Currently Chicago, IL
 
-Geek about software, clean code, and diving deep into the details to create solutions to common tasks.
-
-- Let's go dance Cha-Cha, [Tango 🎻](#tango), Salsa, Swing
-- _Reading:_ BDD in Action, Combine, Vapor Framework, A metabolic approach to cancer 📚
 - Spanish 🇪🇸 English 🇺🇸 speaker
+- Let's go dance Cha-Cha, [Tango 🎻](#tango), Salsa, Swing
+- _Reading:_ BDD in Action, Combine, Vapor Framework, A metabolic approach to cancer 📚... _a lot_
 
-[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [tech stack 🛠](#tech-stack) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
+
+[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [tech stack 🛠](#tech-stack) | [Education 🎓](#education) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
 
 [resume_us.pdf](resume_us.pdf)|
 
