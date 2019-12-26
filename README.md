@@ -316,7 +316,9 @@ tools/frameworks/libraries:
 
 # Tech stack
 
+- machine learning on mobile: CoreML
 - mobile software design patterns: coordinator, mvvm, mvc, mv?
+- location: CoreLocation (MapKit), Google Maps, Mapbox
 - dependency managers: Swift package manager, Cocoapods
 - version control systems: Git, Github
 - testing suites: XCTest, Cucumber
@@ -327,6 +329,7 @@ tools/frameworks/libraries:
 - database: CoreData, Realm
 - cloud providers: heroku
 - object Oriented programming languages: Swift, Objective-C
+- network: RESTs apis, websockets
 
 # *Contact Information*
 
