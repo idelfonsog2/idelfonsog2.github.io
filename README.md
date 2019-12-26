@@ -11,7 +11,7 @@ Geek about software, clean code, and diving deep into the details to create solu
 - _Reading:_ BDD in Action, Combine, Vapor Framework, A metabolic approach to cancer 📚
 - Spanish 🇪🇸 English 🇺🇸 speaker
 
-[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
+[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [tech stack 🛠](#tech-stack) [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
 
 [resume_us.pdf](resume_us.pdf)|
 
@@ -313,6 +313,20 @@ tools/frameworks/libraries:
 - B.S. Software Developer Florida International University Aug 2012 - May 2016
   - Minor: Social Media and E-marketing Analytics
 - iOS Nanodegree Udacity Sep 2016 - Nov 2016
+
+# Tech stack
+
+- mobile software design patterns: coordinator, mvvm, mvc, mv?
+- dependency managers: Swift package manager, Cocoapods
+- version control systems: Git, Github
+- testing suites: XCTest, Cucumber
+- Continuous integration and continuous delivery: circleCI, Github Actions
+- Bluetooth device integration: CoreBluetooth, Estimote Beacons
+- functional reactive libraries: ReactiveCocoa/ReactiveSwift
+- App Store release process
+- database: CoreData, Realm
+- cloud providers: heroku
+- object Oriented programming languages: Swift, Objective-C
 
 # *Contact Information*
 
