@@ -11,7 +11,7 @@ Geek about software, clean code, and diving deep into the details to create solu
 - _Reading:_ BDD in Action, Combine, Vapor Framework, A metabolic approach to cancer 📚
 - Spanish 🇪🇸 English 🇺🇸 speaker
 
-[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [tech stack 🛠](#tech-stack) [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
+[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Education 🎓](#education) | [tech stack 🛠](#tech-stack) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
 
 [resume_us.pdf](resume_us.pdf)|
 
