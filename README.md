@@ -322,7 +322,7 @@ tools/frameworks/libraries:
 - dependency managers: Swift package manager, Cocoapods
 - version control systems: Git, Github
 - testing suites: XCTest, Cucumber
-- Continuous integration and continuous delivery: circleCI, Github Actions
+- Continuous integration and continuous delivery: fastlane, circleCI, Github Actions
 - Bluetooth device integration: CoreBluetooth, Estimote Beacons
 - functional reactive libraries: ReactiveCocoa/ReactiveSwift
 - App Store release process
