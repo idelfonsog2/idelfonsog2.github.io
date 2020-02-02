@@ -3,11 +3,11 @@
 </p>
 <h2 align="center"> Idelfonso Gutierrez</h2>
 
-📲iOS software developer from Venezuela 🇻🇪. Currently Chicago, IL
+ iOS Software Developer 📲 Venezuela 🇻🇪 Currently Chicago, IL 
 
 - Spanish 🇪🇸 English 🇺🇸 speaker
 - Let's go dance Cha-Cha, [Tango 🎻](#tango), Salsa, Swing
-- _Reading:_ BDD in Action, Combine, Vapor Framework, A metabolic approach to cancer 📚... _a lot_
+- _Reading:_ BDD in Action, Combine, Vapor Framework, Data-Driven Applications, A metabolic approach to cancer 📚... _a lot_
 
 
 [Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [tech stack 🛠](#tech-stack) | [Education 🎓](#education) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
