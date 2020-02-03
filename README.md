@@ -17,7 +17,7 @@ From Venezuela 🇻🇪 in Chicago, IL
 
 [Download PDF](resume_us.pdf) |
 
-[Projects 🔬](#projects | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf) | [Interests](#tango)
+[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf) | [Interests](#tango)
 
 # Projects
 
