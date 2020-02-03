@@ -4,7 +4,7 @@
 <h2 align="center"> Idelfonso Gutierrez</h2>
 <h3 align="center">👨🏻‍💻iOS Software Developer</h3>
 
-From Venezuela 🇻🇪 in Chicago, IL 
+From Venezuela 🇻🇪 in Chicago, IL
 
 - Spanish 🇪🇸 English 🇺🇸 speaker
 - _Recommended Books:_ 
@@ -15,9 +15,7 @@ From Venezuela 🇻🇪 in Chicago, IL
   - Vapor Framework 
   - A metabolic approach to cancer 📚... _a lot_
 
-[Download PDF](resume_us.pdf) |
-
-[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf) | [Interests](#tango)
+[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | [Interests](#tango) | [Download PDF](resume_us.pdf) |
 
 # Projects
 
@@ -361,6 +359,8 @@ tags: online marketing
 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
 
 📞 [+1 954 513 9568](tel://+19545139568)
+
+💾 [Save Contact as ...](idelfonso.vcf)
 
 # Favorite talk
 
