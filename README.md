@@ -43,7 +43,7 @@ tools/frameworks/libraries:
 #### `Technical Analyst iOS Mobile Developer` [Solstice Consulting](http://solstice.com/) `Sept 2017 - Feb 2018`
 `▷ agriculture`
 - Developing and maintaining ongoing project using unit testing frameworks, **AWS APIs** and **Protobuf**
-- Communicate with clients in order to address concerns and drive feature between hardware and iPad App
+- Development of features between Internet of Things device and iPad App
 - Deliver a presentation about machine learning intro which helped implement **image recognition** on a robot
 
 tools/frameworks/libraries:
