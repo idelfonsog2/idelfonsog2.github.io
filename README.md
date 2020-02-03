@@ -3,16 +3,81 @@
 </p>
 <h2 align="center"> Idelfonso Gutierrez</h2>
 
- iOS Software Developer 📲 Venezuela 🇻🇪 Currently Chicago, IL 
+ 👨🏻‍💻iOS Software Developer. From Venezuela 🇻🇪. Present: Chicago, IL 
 
 - Spanish 🇪🇸 English 🇺🇸 speaker
 - Let's go dance Cha-Cha, [Tango 🎻](#tango), Salsa, Swing
-- _Reading:_ BDD in Action, Combine, Vapor Framework, Data-Driven Applications, A metabolic approach to cancer 📚... _a lot_
+- _Recommended Books:_ 
+  - BDD in Action
+  - Combine, SwiftUI, Working With Legacy Code
+  - Vapor Framework 
+  - Desgining Data-Intensive Applications, 
+  - A metabolic approach to cancer 📚... _a lot_
+
+[Download PDF](resume_us.pdf) |
+
+[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [Tech Stack 🛠](#tech-stack) | [Education 🎓](#education) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
 
 
-[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience) | [Clients 🌾](#clients) | [tech stack 🛠](#tech-stack) | [Education 🎓](#education) | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf)
+# Experience
 
-[resume_us.pdf](resume_us.pdf)|
+#### `iOS Mobile Developer` [GrowIt!](http://growitmobile.com/) `Feb. 2018 - currently`
+`▷ horticulture`
+- In order to increase **40 percent** of the user base for our third-party clients, I implemented **beacon
+technology**, **relational database**, and **mapbopx** library, which helped the company finalize more 3 contracts
+- Use the **mobile instrumentation tool** to increase the efficiency of compilation time from 5 minutes to 2 minutes
+and a half. Additionally, this help catch **data race conditions** between **Swift and Objective-C**
+- Implement **Behavior Driven Development**, which is a document base layer for stakeholders to help
+understand the situation, requirements, actions and results for every new and legacy feature.
+- Automate the unit testing suite, app production submission, and quality assurance builds using continuous
+integration and continuous deployment pipeline along with **Fastlane**.
+- Help the community team decrease the amount of time reviewing inappropriate content by implementing
+an image **machine learning** model based on a plant database to identify things that are not plants.
+- **Solo developer** in the project
+
+tools/frameworks/libraries:
+
+- fastlane, circleCI, apple push notifications services, RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
+
+#### `Technical Analyst iOS Mobile Developer` [Solstice Consulting](http://solstice.com/) `Sept 2017 - Feb 2018`
+`▷ agriculture`
+- Developing and maintaining ongoing project using unit testing frameworks, **AWS APIs** and **Protobuf**
+- Communicate with clients in order to address concerns and drive feature between hardware and iPad App
+- Deliver a presentation about machine learning intro which helped implement **image recognition** on a robot
+
+tools/frameworks/libraries:
+
+- Jenkins, MongoDB, WebSockets, AutoLayout, Protobuf, ReactiveCocoa/Swift 🛠
+
+#### `Intern  iOS Mobile Developer` [YellowPepper](http://www.yellowpepper.com) `Nov 2016 - May 2017`
+`▷ finnancial technology`
+- Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
+- Worked with an off-site team and product owner (different time zones) in order to address patch fixes.
+- Addressed client’s concern regarding the app’s privacy policy in order to submit to App Store.
+
+tools/frameworks/libraries:
+
+- PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
+
+#### `Instructor CoderDojo Dec 2014 - May 2016`
+`▷ education`
+- Created stimulating lessons/games to an average of 20 students per session.
+- Taught ongoing process and/or created new projects for beginners in a class of twenty students.
+- Adapted sites like scratch.mit.edu and arduino.cc to motivate student’s creativity through technology.
+- Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
+
+#### `Programming Learning Assistant Florida International University Dec 2015 - May 2016`
+`▷ education`
+- Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
+- Explained Object Oriented Programming concepts during in and out sessions
+- Used pair programming with students in order to practice and review material
+
+#### `IT Intern Developer Martin Digital Group Jan 2014 - April 2015`
+`▷ online marketing`
+- Strengthen relationship with the clients by integrating my technical experience and expertise.
+- Fashioned a blog to look like a fitness site for moms and a subscription program.
+- Checked logs and malfunctioning errors to avoid conflict with purchasing process on the website.
+- Maintained the network, installation, and use of new software and process.
 
 # Projects
 
@@ -245,67 +310,6 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 **tech**: iOS: Objective-C, CoreData, UIKit
 
-# Experience
-
-#### `iOS Mobile Developer` [GrowIt!](http://growitmobile.com/) `Feb. 2018 - currently`
-`▷ horticulture`
-- In order to increase 40 percent of the user base for our third-party clients, I implemented beacon
-technology, on-device database, and a map library, which helped the company finalize more 3 contracts
-- Use mobile instrumentation tools to increase the efficiency of compilation time from 5 minutes to 2 minutes
-and a half. Additionally, this help catch data race conditions between Swift and Objective-C
-- Implement Behavior Driven Development, which is a document base layer for stakeholders to help
-understand the situation, requirements, actions and results for every new and legacy feature.
-- Automate the unit testing suite, app production submission, and quality assurance builds using continuous
-integration and continuous deployment pipeline using Fastlane.
-- Help the community team decrease the amount of time reviewing inappropriate content by implementing
-an image machine learning model based on a plant database to identify things that are not plants.
-- Solo developer in the project
-
-tools/frameworks/libraries:
-
-- fastlane, circleCI, apple push notifications services, RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
-
-#### `Technical Analyst iOS Mobile Developer` [Solstice Consulting](http://solstice.com/) `Sept 2017 - Feb 2018`
-`▷ agriculture`
-- Developing and maintaining ongoing project using unit testing frameworks, AWS APIs and Protobuf
-- Communicate with clients in order to address concerns and drive feature between hardware and iPad App
-- Deliver a presentation about machine learning intro which helped implement image recognition on a robot
-
-tools/frameworks/libraries:
-
-- Jenkins, MongoDB, WebSockets, AutoLayout, Protobuf, ReactiveCocoa/Swift 🛠
-
-#### `Intern  iOS Mobile Developer` [YellowPepper](http://www.yellowpepper.com) `Nov 2016 - May 2017`
-`▷ finnancial technology`
--  Worked with multiple iOS mobile banking projects developed with Objective-C and third-party frameworks.
-- Worked with an off-site team and product owner (different time zones) in order to address patch fixes
-- Addressed client’s concern regarding the app’s privacy policy which helped move faster into the App Store
-release process.
-- Developed, released, and debugged native iOS mobile banking apps created with Objective-C for LATAM
-
-tools/frameworks/libraries:
-
-- PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
-
-#### `Instructor CoderDojo Dec 2014 - May 2016`
-`▷ education`
-- Created stimulating lessons/games to an average of 20 students per session.
-- Taught ongoing process and/or created new projects for beginners in a class of twenty students.
-- Adapted sites like scratch.mit.edu and arduino.cc to motivate student’s creativity through technology.
-- Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
-
-#### `Programming Learning Assistant Florida International University Dec 2015 - May 2016`
-`▷ education`
-- Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
-- Explained Object Oriented Programming concepts during in and out sessions
-- Used pair programming with students in order to practice and review material
-
-#### `IT Intern Developer Martin Digital Group Jan 2014 - April 2015`
-`▷ online marketing`
-- Strengthen relationship with the clients by integrating my technical experience and expertise.
-- Fashioned a blog to look like a fitness site for moms and a subscription program.
-- Checked logs and malfunctioning errors to avoid conflict with purchasing process on the website.
-- Maintained the network, installation, and use of new software and process.
 
 # Education
 
