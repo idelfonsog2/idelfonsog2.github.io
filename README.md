@@ -25,7 +25,7 @@ From Venezuela 🇻🇪 in Chicago, IL
 #### `iOS Mobile Developer` [GrowIt!](http://growitmobile.com/) `Feb. 2018 - currently`
 `▷ horticulture`
 - In order to increase **40 percent** of the user base for our third-party clients, I implemented **beacon
-technology**, **relational database**, and **mapbopx** library, which helped the company finalize more 3 contracts
+technology**, **relational database**, and **mapbopx** library, which helped the company finalize 3 more contracts
 - Use the **mobile instrumentation tool** to increase the efficiency of compilation time from 5 minutes to 2 minutes
 and a half. Additionally, this help catch **data race conditions** between **Swift and Objective-C**
 - Implement **Behavior Driven Development**, which is a document base layer for stakeholders to help
