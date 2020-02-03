@@ -2,8 +2,9 @@
 	<img width="180" height="180" src="/img/circular-shot.png"/>
 </p>
 <h2 align="center"> Idelfonso Gutierrez</h2>
+<h3 align="center">👨🏻‍💻iOS Software Developer</h3>
 
- 👨🏻‍💻iOS Software Developer. From Venezuela 🇻🇪. Present: Chicago, IL 
+From Venezuela 🇻🇪 in Chicago, IL 
 
 - Spanish 🇪🇸 English 🇺🇸 speaker
 - Let's go dance Cha-Cha, [Tango 🎻](#tango), Salsa, Swing
