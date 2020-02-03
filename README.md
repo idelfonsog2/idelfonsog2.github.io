@@ -23,7 +23,7 @@ From Venezuela 🇻🇪 in Chicago, IL
 
 # Experience
 
-#### Lead iOS Mobile Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Present
+### Lead iOS Mobile Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Present
 
 - In order to increase **40 percent** of the user base for our third-party clients, I implemented **beacon
 technology**, **relational database**, and **mapbopx** library, which helped the company finalize 3 more contracts
@@ -43,7 +43,7 @@ tools/frameworks/libraries:
 
 tags: horticulture
 
-#### Technical Analyst iOS Mobile Developer | [Solstice Consulting](http://solstice.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
+### Technical Analyst iOS Mobile Developer | [Solstice Consulting](http://solstice.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
 
 - Developing and maintaining ongoing project using unit testing frameworks, **AWS APIs** and **Protobuf**
 - Development of features between Internet of Things device and iPad App
@@ -55,7 +55,7 @@ tools/frameworks/libraries:
 
 tags: agriculture
 
-#### Intern  iOS Mobile Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
+### Intern  iOS Mobile Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
 
 - Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
 - Worked with an off-site team and product owner (different time zones) in order to address patch fixes.
@@ -67,7 +67,7 @@ tools/frameworks/libraries:
 
 tags: finnancial technology
 
-#### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
+### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
 - Created stimulating lessons/games to an average of 20 students per session.
 - Taught ongoing process and/or created new projects for beginners in a class of twenty students.
@@ -76,7 +76,7 @@ tags: finnancial technology
 
 tags: education
 
-#### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
+### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
 
 - Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
 - Explained Object Oriented Programming concepts during in and out sessions
@@ -84,7 +84,7 @@ tags: education
 
 tags: education
 
-#### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
+### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
 
 - Strengthen relationship with the clients by integrating my technical experience and expertise.
 - Fashioned a blog to look like a fitness site for moms and a subscription program.
