@@ -17,94 +17,11 @@ From Venezuela 🇻🇪 in Chicago, IL
 
 [Download PDF](resume_us.pdf) |
 
-[Experience 👨🏻‍💻](#experience) | [Projects 🔬](#projects) | [Clients 🌾](#clients) | [Education 🎓](#education) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf) | [Interests](#tango)
-
-
-# Experience
-
-### Lead iOS Mobile Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Present
-
-- In order to increase **40 percent** of the user base for our third-party clients, I implemented **beacon
-technology**, **relational database**, and **mapbopx** library, which helped the company finalize 3 more contracts
-- Use the **mobile instrumentation tool** to increase the efficiency of compilation time from 5 minutes to 2 minutes
-and a half. Additionally, this help catch **data race conditions** between **Swift and Objective-C**
-- Implement **Behavior Driven Development**, which is a document base layer for stakeholders to help
-understand the situation, requirements, actions and results for every new and legacy feature.
-- Automate the unit testing suite, app production submission, and quality assurance builds using continuous
-integration and continuous deployment pipeline along with **Fastlane**.
-- Help the community team decrease the amount of time reviewing inappropriate content by implementing
-an image **machine learning** model based on a plant database to identify things that are not plants.
-- **Solo developer** in the project
-
-tools/frameworks/libraries:
-
-- fastlane, circleCI, apple push notifications services, RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
-
-tags: horticulture
-
----
-
-### Technical Analyst iOS Mobile Developer | [Solstice Consulting](http://solstice.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
-
-- Developing and maintaining ongoing project using unit testing frameworks, **AWS APIs** and **Protobuf**
-- Development of features between Internet of Things device and iPad App
-- Deliver a presentation about machine learning intro which helped implement **image recognition** on a robot
-
-tools/frameworks/libraries:
-
-- Jenkins, MongoDB, WebSockets, AutoLayout, Protobuf, ReactiveCocoa/Swift 🛠
-
-tags: agriculture
-
----
-
-### Intern  iOS Mobile Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
-
-- Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
-- Worked with an off-site team and product owner (different time zones) in order to address patch fixes.
-- Addressed client’s concern regarding the app’s privacy policy in order to submit to App Store.
-
-tools/frameworks/libraries:
-
-- PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
-
-tags: finnancial technology
-
----
-
-### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
-
-- Created stimulating lessons/games to an average of 20 students per session.
-- Taught ongoing process and/or created new projects for beginners in a class of twenty students.
-- Adapted sites like scratch.mit.edu and arduino.cc to motivate student’s creativity through technology.
-- Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
-
-tags: education
-
----
-
-### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
-
-- Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
-- Explained Object Oriented Programming concepts during in and out sessions
-- Used pair programming with students in order to practice and review material
-
-tags: education
-
----
-
-### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
-
-- Strengthen relationship with the clients by integrating my technical experience and expertise.
-- Fashioned a blog to look like a fitness site for moms and a subscription program.
-- Checked logs and malfunctioning errors to avoid conflict with purchasing process on the website.
-- Maintained the network, installation, and use of new software and process.
-
-tags: online marketing
+[Projects 🔬](#projects | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | 💾 [Save Contact as ...](idelfonso.vcf) | [Interests](#tango)
 
 # Projects
 
-### **`Writting BDD + TDD in my current projects`**
+## Writting BDD + TDD in my current projects
 
 - **Who writes TDD?** tricky question🤔😅. Best case, its the output of a conversation between: devs, product owners/managers, stakeholders, and quality assurance testers
 - **What is TDD?**  write software that assumes your production software is already built and make it compile/pass.
@@ -159,7 +76,7 @@ Developers only need to keep following their TDD approach.
 
 ---
 
-### **`Stranded`**
+## Stranded
 
 <!-- Follow: https://krausefx.com/ Pattern
   The Problem
@@ -194,7 +111,7 @@ You don't need to talk when dancing Foxtrot, Salsa, Tango or Swing!
 
 ---
 
-### **`mmMapp`**
+## mmMapp
 
 #### _Background:_
 Have you ever had too many events in the same day at different times and different locations?
@@ -216,7 +133,7 @@ How happy or how stress are you? ⛱ 🤯
 
 ---
 
-### **`Display vCard`**
+## **`Display vCard`**
 
 ![](img/contact.jpg)
 
@@ -333,6 +250,87 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 **tech**: iOS: Objective-C, CoreData, UIKit
 
+# Experience
+
+### Lead iOS Mobile Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Present
+
+- In order to increase **40 percent** of the user base for our third-party clients, I implemented **beacon
+technology**, **relational database**, and **mapbopx** library, which helped the company finalize 3 more contracts
+- Use the **mobile instrumentation tool** to increase the efficiency of compilation time from 5 minutes to 2 minutes
+and a half. Additionally, this help catch **data race conditions** between **Swift and Objective-C**
+- Implement **Behavior Driven Development**, which is a document base layer for stakeholders to help
+understand the situation, requirements, actions and results for every new and legacy feature.
+- Automate the unit testing suite, app production submission, and quality assurance builds using continuous
+integration and continuous deployment pipeline along with **Fastlane**.
+- Help the community team decrease the amount of time reviewing inappropriate content by implementing
+an image **machine learning** model based on a plant database to identify things that are not plants.
+- **Solo developer** in the project
+
+tools/frameworks/libraries:
+
+- fastlane, circleCI, apple push notifications services, RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
+
+tags: horticulture
+
+---
+
+### Technical Analyst iOS Mobile Developer | [Solstice Consulting](http://solstice.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
+
+- Developing and maintaining ongoing project using unit testing frameworks, **AWS APIs** and **Protobuf**
+- Development of features between Internet of Things device and iPad App
+- Deliver a presentation about machine learning intro which helped implement **image recognition** on a robot
+
+tools/frameworks/libraries:
+
+- Jenkins, MongoDB, WebSockets, AutoLayout, Protobuf, ReactiveCocoa/Swift 🛠
+
+tags: agriculture
+
+---
+
+### Intern  iOS Mobile Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
+
+- Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
+- Worked with an off-site team and product owner (different time zones) in order to address patch fixes.
+- Addressed client’s concern regarding the app’s privacy policy in order to submit to App Store.
+
+tools/frameworks/libraries:
+
+- PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
+
+tags: finnancial technology
+
+---
+
+### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
+
+- Created stimulating lessons/games to an average of 20 students per session.
+- Taught ongoing process and/or created new projects for beginners in a class of twenty students.
+- Adapted sites like scratch.mit.edu and arduino.cc to motivate student’s creativity through technology.
+- Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
+
+tags: education
+
+---
+
+### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
+
+- Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
+- Explained Object Oriented Programming concepts during in and out sessions
+- Used pair programming with students in order to practice and review material
+
+tags: education
+
+---
+
+### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
+
+- Strengthen relationship with the clients by integrating my technical experience and expertise.
+- Fashioned a blog to look like a fitness site for moms and a subscription program.
+- Checked logs and malfunctioning errors to avoid conflict with purchasing process on the website.
+- Maintained the network, installation, and use of new software and process.
+
+tags: online marketing
 
 # Education
 
