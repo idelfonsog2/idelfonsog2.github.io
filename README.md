@@ -43,6 +43,8 @@ tools/frameworks/libraries:
 
 tags: horticulture
 
+---
+
 ### Technical Analyst iOS Mobile Developer | [Solstice Consulting](http://solstice.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
 
 - Developing and maintaining ongoing project using unit testing frameworks, **AWS APIs** and **Protobuf**
@@ -54,6 +56,8 @@ tools/frameworks/libraries:
 - Jenkins, MongoDB, WebSockets, AutoLayout, Protobuf, ReactiveCocoa/Swift 🛠
 
 tags: agriculture
+
+---
 
 ### Intern  iOS Mobile Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
 
@@ -67,6 +71,8 @@ tools/frameworks/libraries:
 
 tags: finnancial technology
 
+---
+
 ### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
 - Created stimulating lessons/games to an average of 20 students per session.
@@ -76,6 +82,8 @@ tags: finnancial technology
 
 tags: education
 
+---
+
 ### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
 
 - Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
@@ -83,6 +91,8 @@ tags: education
 - Used pair programming with students in order to practice and review material
 
 tags: education
+
+---
 
 ### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
 
