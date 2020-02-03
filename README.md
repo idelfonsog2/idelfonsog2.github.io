@@ -11,8 +11,8 @@ From Venezuela 🇻🇪 in Chicago, IL
 - _Recommended Books:_ 
   - BDD in Action
   - Combine, SwiftUI, Working With Legacy Code
+  - Desgining Data-Intensive Applications
   - Vapor Framework 
-  - Desgining Data-Intensive Applications, 
   - A metabolic approach to cancer 📚... _a lot_
 
 [Download PDF](resume_us.pdf) |
