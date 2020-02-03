@@ -10,7 +10,8 @@ From Venezuela 🇻🇪 in Chicago, IL
 - Let's go dance Cha-Cha, [Tango 🎻](#tango), Salsa, Swing
 - _Recommended Books:_ 
   - BDD in Action
-  - Combine, SwiftUI, Working With Legacy Code
+  - Combine
+  - Working With Legacy Code
   - Desgining Data-Intensive Applications
   - Vapor Framework 
   - A metabolic approach to cancer 📚... _a lot_
@@ -67,13 +68,13 @@ tools/frameworks/libraries:
 - Adapted sites like scratch.mit.edu and arduino.cc to motivate student’s creativity through technology.
 - Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
 
-#### Programming Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
+#### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
 `▷ education`
 - Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
 - Explained Object Oriented Programming concepts during in and out sessions
 - Used pair programming with students in order to practice and review material
 
-#### `IT Intern Developer Martin Digital Group Jan 2014 - April 2015`
+#### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
 `▷ online marketing`
 - Strengthen relationship with the clients by integrating my technical experience and expertise.
 - Fashioned a blog to look like a fitness site for moms and a subscription program.
