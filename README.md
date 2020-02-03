@@ -24,7 +24,7 @@ From Venezuela 🇻🇪 in Chicago, IL
 # Experience
 
 #### Lead iOS Mobile Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Present
-`▷ horticulture`
+
 - In order to increase **40 percent** of the user base for our third-party clients, I implemented **beacon
 technology**, **relational database**, and **mapbopx** library, which helped the company finalize 3 more contracts
 - Use the **mobile instrumentation tool** to increase the efficiency of compilation time from 5 minutes to 2 minutes
@@ -41,8 +41,10 @@ tools/frameworks/libraries:
 
 - fastlane, circleCI, apple push notifications services, RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
 
+tags: horticulture
+
 #### Technical Analyst iOS Mobile Developer | [Solstice Consulting](http://solstice.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
-`▷ agriculture`
+
 - Developing and maintaining ongoing project using unit testing frameworks, **AWS APIs** and **Protobuf**
 - Development of features between Internet of Things device and iPad App
 - Deliver a presentation about machine learning intro which helped implement **image recognition** on a robot
@@ -51,8 +53,10 @@ tools/frameworks/libraries:
 
 - Jenkins, MongoDB, WebSockets, AutoLayout, Protobuf, ReactiveCocoa/Swift 🛠
 
+tags: agriculture
+
 #### Intern  iOS Mobile Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
-`▷ finnancial technology`
+
 - Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
 - Worked with an off-site team and product owner (different time zones) in order to address patch fixes.
 - Addressed client’s concern regarding the app’s privacy policy in order to submit to App Store.
@@ -61,25 +65,33 @@ tools/frameworks/libraries:
 
 - PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
 
+tags: finnancial technology
+
 #### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
-`▷ education`
+
 - Created stimulating lessons/games to an average of 20 students per session.
 - Taught ongoing process and/or created new projects for beginners in a class of twenty students.
 - Adapted sites like scratch.mit.edu and arduino.cc to motivate student’s creativity through technology.
 - Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
 
+tags: education
+
 #### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
-`▷ education`
+
 - Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
 - Explained Object Oriented Programming concepts during in and out sessions
 - Used pair programming with students in order to practice and review material
 
+tags: education
+
 #### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
-`▷ online marketing`
+
 - Strengthen relationship with the clients by integrating my technical experience and expertise.
 - Fashioned a blog to look like a fitness site for moms and a subscription program.
 - Checked logs and malfunctioning errors to avoid conflict with purchasing process on the website.
 - Maintained the network, installation, and use of new software and process.
+
+tags: online marketing
 
 # Projects
 
