@@ -1,3 +1,6 @@
+<meta property="og:title" content="Curiosity & Learning is the number one skill">
+<meta property="og:image" content="http://idelfonso.com/img/circular-shot.png">
+
 <p align="center">
 	<img width="180" height="180" src="/img/circular-shot.png"/>
 </p>

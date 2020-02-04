@@ -1,1 +1,6 @@
-google_analytics: UA-79546719-1
+google_analytics         : UA-79546719-1
+title                    : "Idelfonso Gutierrez"
+locale                   : "en-US"
+name                     : &name "Idelfonso Gutierrez"
+description              : &description "Software Developer with particular expertise in iOS, server-side and connected home devices (IoT). Good sense of general UX/UI"
+url                      : https://idelfonsog2.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
