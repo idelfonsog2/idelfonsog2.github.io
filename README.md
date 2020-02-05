@@ -18,7 +18,7 @@ From Venezuela 🇻🇪 in Chicago, IL
   - Vapor Framework 
   - A metabolic approach to cancer 📚... _a lot_
 
-[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | [Interests](#tango) | [Download PDF 💾](resume_us.pdf) |
+[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | [Download PDF 💾](resume_us.pdf) |
 
 # Projects
 
