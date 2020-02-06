@@ -253,7 +253,7 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 # Experience
 
-### Lead iOS Mobile Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Present
+### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Present
 
 - In order to increase **40 percent** of the user base for our third-party clients, I implemented **beacon
 technology**, **relational database**, and **mapbopx** library, which helped the company finalize 3 more contracts
