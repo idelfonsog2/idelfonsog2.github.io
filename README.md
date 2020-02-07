@@ -374,7 +374,7 @@ tags: education
 # Hobbies & Miscenlleneous
 
 ## Reads
-- BDD in Action
+- Behavior Driven Development in Action
 - Async Programming (Rx, SwiftNIO)
 - Working With Legacy Code
 - Desgining Data-Intensive Applications
