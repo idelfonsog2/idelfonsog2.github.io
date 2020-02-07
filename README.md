@@ -303,6 +303,17 @@ tags: finnancial technology
 
 ---
 
+### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
+
+- Strengthen relationship with the clients by integrating my technical experience and expertise.
+- Fashioned a blog to look like a fitness site for moms and a subscription program.
+- Checked logs and malfunctioning errors to avoid conflict with purchasing process on the website.
+- Maintained the network, installation, and use of new software and process.
+
+tags: online marketing
+
+# Volunteer & Miscellaneous
+
 ### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
 - Created stimulating lessons/games to an average of 20 students per session.
@@ -323,15 +334,6 @@ tags: education
 tags: education
 
 ---
-
-### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
-
-- Strengthen relationship with the clients by integrating my technical experience and expertise.
-- Fashioned a blog to look like a fitness site for moms and a subscription program.
-- Checked logs and malfunctioning errors to avoid conflict with purchasing process on the website.
-- Maintained the network, installation, and use of new software and process.
-
-tags: online marketing
 
 # Education
 
