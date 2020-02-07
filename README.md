@@ -355,6 +355,7 @@ tags: education
 - Work on application stability and improving application performance
 - Being the contact person between management and the iOS team
 - Continuously discover, evaluate, and implement new technologies to maximize our development team efficiency.
+- Hands-on development of new features and fixing bugs
 
 --- 
 **Frameworks**
