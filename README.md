@@ -234,6 +234,8 @@ The owner was so glad that she didn't need the help of a tech savvy person and t
 
 [www.allysflower.com](www.allysflower.com)
 
+--- 
+
 ### **`Proendoscopy`**
 
 Created an iOS app to manage a database of items. Pros the effectiveness of adding a new item to the device database and reducing the time up to 97.5%.
