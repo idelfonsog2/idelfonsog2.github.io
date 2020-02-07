@@ -11,9 +11,9 @@ From Venezuela 🇻🇪 in Chicago, IL
 
 🗣 Spanish 🇪🇸 English 🇬🇧
 
-[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Volunteer 🧑🏻‍🏫](#volunteer) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | [Download PDF 💾](resume_us.pdf) | [Hobbies 📚](#hobbies)
+[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Volunteer 🧑🏻‍🏫](#volunteer) | [Tech Stack 🛠](#tech-stack) | [Download PDF 💾](resume_us.pdf) | [Hobbies 📚](#hobbies)
 
-[Github](https://github.com/idelfonsog2) | [@idelfonsoGM](https://twitter.com/idelfonsoGM)
+[Github](https://github.com/idelfonsog2) | [@idelfonsoGM](https://twitter.com/idelfonsoGM) | [Contact 📱](#contact-information)
 
 # Projects
 
