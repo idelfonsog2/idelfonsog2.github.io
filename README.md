@@ -362,7 +362,7 @@ tags: education
 --- 
 **Frameworks**
 - CoreML (machine learning on mobile)
-- coordinator, mvvm, mvc, mvc+vs, modelAdapter-viewBinder (mobile design patterns)
+- mvvm+c, mvc, mvc+vs, mavb (mobile design patterns and anit-patterns)
 - CoreLocation, CoreBluetooth, iBeacon, EventKit... (Apple Frameworks)
 - Swift package manager, Cocoapods (dependency managers)
 - version control systems
