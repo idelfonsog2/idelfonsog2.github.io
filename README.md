@@ -333,8 +333,6 @@ tags: education
 
 tags: education
 
----
-
 # Education
 
 - Startup Cohort @FIU Jan 2017 - April 2017
@@ -344,20 +342,33 @@ tags: education
 
 # Tech stack
 
-- machine learning on mobile: CoreML
-- mobile software design patterns: coordinator, mvvm, mvc, mv?
-- location: CoreLocation (MapKit), Google Maps, Mapbox
-- dependency managers: Swift package manager, Cocoapods
-- version control systems: Git, Github
-- testing suites: XCTest, Cucumber
-- Continuous integration and continuous delivery: fastlane, circleCI, Github Actions
-- Bluetooth device integration: CoreBluetooth, Estimote Beacons
-- functional reactive libraries: ReactiveCocoa/ReactiveSwift
-- App Store release process
-- database: CoreData, Realm
-- cloud providers: heroku
-- object Oriented programming languages: Swift, Objective-C
-- network: RESTs apis, websockets
+- Several years of professional experience developing and shipping iOS apps.
+- Solid knowledge of Swift, Objective-C and the iOS SDK.
+- Knowledge of software architecture and best practices.
+- Experience with Core Data and RESTful APIs.
+- Able to write multi-threaded and asynchronous code.
+- Experience in managing the Apple certification/provisioning and App Store delivery process.
+- Experience working in collaborative teams, and understand the benefits of sharing knowledge via pair programming and code reviews.
+- Keeping up to date with new technologies and the iOS community 🙏
+- Test-driven development experience, knowledge of CI systems (CircleCI, Gitlab, Jenkins)
+- Dependency managers
+- Technical leadership of the iOS team
+- Mentoring other developers (also read: [volunteer](#volunteer))
+- Ensuring best practices and good code quality
+- Own the technical vision of the iOS app
+- Cross-platform collaboration and coordination
+- Work on application stability and improving application performance
+- Being the contact person between management and the iOS team
+- Continuously discover, evaluate, and implement new technologies to maximize our development team efficiency.
+
+--- 
+**Frameworks**
+- CoreML (machine learning on mobile)
+- coordinator, mvvm, mvc, mvc+vs, modelAdapter-viewBinder (mobile design patterns)
+- CoreLocation, CoreBluetooth, iBeacon, EventKit... (Apple Frameworks)
+- Swift package manager, Cocoapods (dependency managers)
+- version control systems
+- asynchronous programming
 
 # *Contact Information*
 
