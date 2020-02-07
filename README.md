@@ -9,14 +9,7 @@
 
 From Venezuela 🇻🇪 in Chicago, IL
 
-- Spanish 🇪🇸 English 🇺🇸 speaker
-- _Recommended Books:_ 
-  - BDD in Action
-  - Reactive Programming
-  - Working With Legacy Code
-  - Desgining Data-Intensive Applications
-  - Vapor Framework 
-  - A metabolic approach to cancer 📚... _a lot_
+🗣 Spanish 🇪🇸 English 🇬🇧
 
 [Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Volunteer 🧑🏻‍🏫](#volunteer) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | [Download PDF 💾](resume_us.pdf) |
 
@@ -335,9 +328,9 @@ tags: education
 
 # Education
 
-- Startup Cohort @FIU Jan 2017 - April 2017
 - B.S. Software Developer Florida International University Aug 2012 - May 2016
   - Minor: Social Media and E-marketing Analytics
+- Startup Cohort @FIU Jan 2017 - April 2017
 - iOS Nanodegree Udacity Sep 2016 - Nov 2016
 
 # Tech stack
@@ -380,9 +373,17 @@ tags: education
 
 # Hobbies & Miscenlleneous
 
+## Reads
+- BDD in Action
+- Async Programming (Rx, SwiftNIO)
+- Working With Legacy Code
+- Desgining Data-Intensive Applications
+- Vapor Framework 
+- A metabolic approach to cancer 📚
+
 <blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# Tango
+## Tango
 Photograph by Charapin 🙌🏾
 
 ![Charapin](/img/tango.jpg)
