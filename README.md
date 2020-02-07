@@ -18,7 +18,7 @@ From Venezuela 🇻🇪 in Chicago, IL
   - Vapor Framework 
   - A metabolic approach to cancer 📚... _a lot_
 
-[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | [Download PDF 💾](resume_us.pdf) |
+[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Volunteer 🧑🏻‍🏫](#volunteer) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | [Download PDF 💾](resume_us.pdf) |
 
 # Projects
 
@@ -312,7 +312,7 @@ tags: finnancial technology
 
 tags: online marketing
 
-# Volunteer & Miscellaneous
+# Volunteer
 
 ### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
