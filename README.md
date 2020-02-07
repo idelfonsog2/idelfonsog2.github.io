@@ -13,6 +13,8 @@ From Venezuela 🇻🇪 in Chicago, IL
 
 [Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Volunteer 🧑🏻‍🏫](#volunteer) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | [Download PDF 💾](resume_us.pdf) | [Hobbies 📚](#hobbies)
 
+[Github](https://github.com/idelfonsog2) | [@idelfonsoGM](https://twitter.com/idelfonsoGM)
+
 # Projects
 
 ## Writting BDD + TDD in my current projects
