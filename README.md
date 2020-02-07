@@ -11,7 +11,7 @@ From Venezuela 🇻🇪 in Chicago, IL
 
 🗣 Spanish 🇪🇸 English 🇬🇧
 
-[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Volunteer 🧑🏻‍🏫](#volunteer) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | [Download PDF 💾](resume_us.pdf) |
+[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Volunteer 🧑🏻‍🏫](#volunteer) | [Tech Stack 🛠](#tech-stack)  | [Contact 📱](#contact-information) | [Download PDF 💾](resume_us.pdf) | [Hobbies 📚](#hobbies-&-miscellaneous)
 
 # Projects
 
@@ -374,7 +374,7 @@ tags: education
 
 💾 [Save Contact as ...](idelfonso.vcf)
 
-# Hobbies & Miscenlleneous
+# Hobbies & Miscellaneous
 
 ## Reads
 - Behavior Driven Development in Action
