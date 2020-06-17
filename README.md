@@ -29,6 +29,8 @@ My job was to extract transform and load this data into system where business te
 
 I have provided the entire process document in the following [PDF](notebooks/cassandra-etl-pipeline.html)
 
+![](img/image_event_datafile_new.jpg)
+
 ---
 
 ## Writting BDD + TDD in my current projects
