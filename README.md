@@ -37,11 +37,11 @@ The following application establishes the follwing case where we have deploy a m
 ```
 My job was to extract transform and load this data into system where business teams could bring their requirements and collect solutions from the data.
 
-- [ETL process](notebooks/cassandra-etl-pipeline.html)
+[🔗 Jupyter Notebook ETL Process](notebooks/cassandra-etl-pipeline.html)
 
 ![](img/image_event_datafile_new.jpg)
 
-[github](https://github.com/idelfonsog2/cassandra-etl-pipeline)
+[Github](https://github.com/idelfonsog2/cassandra-etl-pipeline)
 
 **tech:** Apache Cassandra, Python, Pandas
 
