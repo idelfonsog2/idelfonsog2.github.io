@@ -26,16 +26,16 @@ import pandas
 import cassandra
 ``` 
 
-Losing customer it's not an option. Today in the world we have a ton of devices that are gathering and sending data. The benefits of using a document store database #NoSQL, is that developers don't need to maintain and/or adjust entities, migrations and changes on existing products. Companies and product moves in agile environment, where requirements are constantly changing; NoSQL allows us to spin these requirements in a quick manner.
+Losing customer it's not an option. Today in the world we have a ton of devices that are gathering and sending data. The benefit of using a document store database #NoSQL, is that developers don't need to maintain and/or adjust entities, migrations and changes on existing products. Companies and product moves in an agile environment, where requirements are constantly changing; NoSQL allows us to spin these requirements in a quick manner.
 
 #### The Business Case 💼
 
-The following application establishes the follwing case where we have deploy a music app and its collecting data which it's store to a local text file. From that we known which songs does the user listens to and which membership they are on (at higher level).
+The following application establishes the following case where we have deploy a music app and its collecting data which it's the store to a local text file. From that we known which songs does the user listens to and which membership they are on (at a higher level).
 
 ```swift
 // "Some of the largest production deployments include Apple's, with over 75,000 nodes storing over 10 PB of data, Netflix (2,500 nodes, 420 TB, over 1 trillion requests per day), Chinese search engine Easou (270 nodes, 300 TB, over 800 million requests per day), and eBay (over 100 nodes, 250 TB)." https://cassandra.apache.org/
 ```
-My job was to extract transform and load this data into system where business teams could bring their requirements and collect solutions from the data.
+My job was to extract transform and load this data into the system where business teams could bring their requirements and collect solutions from the data.
 
 [🔗 Jupyter Notebook ETL Process](notebooks/cassandra-etl-pipeline.html)
 
@@ -47,7 +47,7 @@ My job was to extract transform and load this data into system where business te
 
 ---
 
-## Writting BDD + TDD in my current projects
+## Writing BDD + TDD in my current projects
 
 - **Who writes TDD?** tricky question🤔😅. Best case, its the output of a conversation between: devs, product owners/managers, stakeholders, and quality assurance testers
 - **What is TDD?**  write software that assumes your production software is already built and make it compile/pass.
@@ -56,7 +56,7 @@ My job was to extract transform and load this data into system where business te
 - **Where?** TextEdit! 📑 honestly!
 - **How to?** Gherkin + Cucumber...ish + XCTest take a look [https://github.com/idelfonsog2/Cucumberish-UnitTest](https://github.com/idelfonsog2/Cucumberish-UnitTest) 👈🏽👀
 
-Behavior driven development (BDD), Test driven development (TDD)
+Behavior-driven development (BDD), Test-driven-development (TDD)
 
 ####  The Problem
 A developer could write the following below. But this is missing some context, and only developers _**could!**_ be able to understand what is the system is doing.
@@ -96,7 +96,7 @@ func Then("the application will set to [regex]") { expected in
 
 ```
 
-The result out of it is that developers can make a set of reusable tests and stakeholders, product owners, QA tester can expand this tests into every state of the system.
+The result out of it is that developers can make a set of reusable tests and stakeholders, product owners, QA tester can expand the tests into every state of the system.
 
 Developers only need to keep following their TDD approach.
 
@@ -123,7 +123,7 @@ Math ➗ is international spoken, music 🎼 is international heard, body langua
 
 🎺 + 💃🏻 + 🕺🏻 = social interaction
 
-You don't need to talk when dancing Foxtrot, Salsa, Tango or Swing!
+You don't need to talk when dancing the Foxtrot, Salsa, Tango or Swing!
 
 #### _The Solution: Coming soon_
 
@@ -148,7 +148,7 @@ Do you always take into consideration how long will it take you to go from appoi
 
 What about lunch? Do you have time to eat in the middle?
 
-Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its an 1:40 min traffic along the I-95
+Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its 1:40 min traffic along the I-95
 
 **But most importantly!**
 How happy or how stress are you? ⛱ 🤯
@@ -169,7 +169,7 @@ _Do you have a business card? it probably has a cool design_ 📇
 
 _They are useful when you need to leave in a rush_
 
-_There is a individual in the middle, or "man in the middle"_
+_There is an individual in the middle, or "man in the middle"_
 
 _manual work is prompt to error_
 
@@ -177,7 +177,7 @@ _manual work is prompt to error_
 
 - _Update your information properly, inside the contacts app_
 - [Install Shorcut](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) 🛠
-- _Select your contact card inside the shortcut "add contacts" step, it will show "me" on the right hand side of the list item_
+- _Select your contact card inside the shortcut "add contacts" step, it will show "me" on the right-hand side of the list item_
 - _Now everytime you have to leave in a rush have the person use the **built-in! camera app**_ 📲📷 _to scan your contact in one second_
 
 _**Note:** also use "Share sheet" to send it using AirDrop, not too many users allow airdrop from everyone_
@@ -206,9 +206,9 @@ Introduction to Firebase Database, IAM, and backend for the front end developers
 ---
 ### **`Hero World`**
 
-Creating a test case for a new park for The Walt Disney company in order to track schedules and budgeting for the construction of all the projects.
+Creating a test case for a new park for The Walt Disney Company in order to track schedules and budgeting for the construction of all the projects.
 
-Our dev team was able to implement a database using normalization, which helps identifies the identities inside the projects. We developed process of Table Creation, Views, Stored Procedures, Triggers. During the project we learned how an activity relates to a project, how a project can have many employees, and how a firm can own many employees. This is done using the concept of relational database.
+Our dev team was able to implement a database using normalization, which helps identifies the identities inside the projects. We developed a process of Table Creation, Views, Stored Procedures, Triggers. During the project we learned how the activity relates to a project, how a project can have many employees, and how a firm can own many employees. This is done using the concept of a relational database.
 
 **tech**: MySQL*
 
@@ -259,7 +259,7 @@ Think about Virtual Tourist before Instagram search feature using Flicker
 
 Using Wordpress and Woocommerce was able to create a simple solution for a small business.
 
-The owner was so glad that she didn't need the help of a tech savvy person and that it could easily integrate with the power of Square (POS)
+The owner was so glad that she didn't need the help of a tech-savvy person and that it could easily integrate with the power of Square (POS)
 
 
 **tech**: Wordpress, CRM, POS
@@ -296,9 +296,9 @@ an image **machine learning** model based on a plant database to identify things
 
 tools/frameworks/libraries:
 
-- fastlane, circleCI, apple push notifications services, RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
+- Fastlane, CircleCI, apple push notifications services, RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
 
-tags: horticulture
+Tags: horticulture
 
 ---
 
@@ -326,18 +326,18 @@ tools/frameworks/libraries:
 
 - PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
 
-tags: finnancial technology
+tags: financial technology
 
 ---
 
 ### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
 
-- Strengthen relationship with the clients by integrating my technical experience and expertise.
+- Strengthen relationships with the clients by integrating my technical experience and expertise.
 - Fashioned a blog to look like a fitness site for moms and a subscription program.
-- Checked logs and malfunctioning errors to avoid conflict with purchasing process on the website.
+- Checked logs and malfunctioning errors to avoid conflict with a purchasing process on the website.
 - Maintained the network, installation, and use of new software and process.
 
-tags: online marketing
+Tags: online marketing
 
 # Volunteer
 
@@ -413,7 +413,7 @@ tags: education
 - Behavior Driven Development in Action
 - Async Programming (Rx, SwiftNIO)
 - Working With Legacy Code
-- Desgining Data-Intensive Applications
+- Designing Data-Intensive Applications
 - Vapor Framework 
 - A metabolic approach to cancer 📚
 
