@@ -10,13 +10,13 @@
 From Venezuela 🇻🇪 in Chicago, IL
 
 🗣 Spanish 🇪🇸 English 🇬🇧
-
-[Projects 🔬](#projects) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Volunteer 🧑🏻‍🏫](#volunteer) | [Tech Stack 🛠](#tech-stack) | [Hobbies 📚](#hobbies)
+##### Menu
+[Database 📄](#database) | [Miscellaneous 🧪](#miscellaneous) | [Mobile Applications 📱](#mobile-applications) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Volunteer 🧑🏻‍🏫](#volunteer) | [Tech Stack 🛠](#tech-stack) | [Hobbies 📚](#hobbies)
 
 [Github](https://github.com/idelfonsog2) | [@idelfonsoGM](https://twitter.com/idelfonsoGM) | [Contact 📱](#contact-information) | [Download PDF 💾](resume_us.pdf) 
 
-# Projects
 
+# Database
 ## Creating an ETL process with Apache Cassandra
 
 ### _Handling BIG DATA and storage now a days is no just feasible, it's a must._
@@ -46,6 +46,41 @@ My job was to extract transform and load this data into the system where busines
 **tech:** Apache Cassandra, Python, Pandas
 
 ---
+## Data Modeling with PostgreSQL
+
+```python
+cur.execute("DROP DATABASE IF EXISTS ...")
+```
+
+Executing the basic CRUD commands is nothing new when it comes to building a system. A well-thought system it's very agnostic, and concepts are transferable within different lower level products. Some of the most popular RDBMS involve PostgreSQL, OracleSQL, MySQL. But where does the data comes from? How often does the data changes? How many files do we have, and how often we get new ones? Can we blame IoT 🛰 devices? 
+> To the infinity and beyond... - Buzz Lightyear 1995
+
+In the following application are given directory paths of where the client-side system is storing data files based on a music application product. I analyzed the data, build its entities and form the basic link between them. The analytics team is particularly interested in understanding what songs users are listening to
+
+![](img/diagram.png)
+
+[Github](https://github.com/idelfonsog2/pslq-data-modeling)
+
+**tech:** PostgreSQL, Python, Pandas
+
+---
+### **`Hero World`**
+
+Creating a test case for a new park for The Walt Disney Company in order to track schedules and budgeting for the construction of all the projects.
+
+Our dev team was able to implement a database using normalization, which helps identifies the identities inside the projects. We developed a process of Table Creation, Views, Stored Procedures, Triggers. During the project we learned how the activity relates to a project, how a project can have many employees, and how a firm can own many employees. This is done using the concept of a relational database.
+
+**tech**: MySQL*
+
+[GitHub](https://github.com/idelfonsog2/tumblr-app)
+
+---
+
+[back to menu](#menu)
+
+---
+
+# Miscellaneous 
 
 ## Writing BDD + TDD in my current projects
 
@@ -101,6 +136,41 @@ The result out of it is that developers can make a set of reusable tests and sta
 Developers only need to keep following their TDD approach.
 
 ---
+
+## **`Display vCard`**
+
+![](img/contact.jpg)
+
+#### _The Problem:_
+
+_Do you have a business card? it probably has a cool design_ 📇
+
+_They are useful when you need to leave in a rush_
+
+_There is an individual in the middle, or "man in the middle"_
+
+_manual work is prompt to error_
+
+#### _The Solution:_
+
+- _Update your information properly, inside the contacts app_
+- [Install Shorcut](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) 🛠
+- _Select your contact card inside the shortcut "add contacts" step, it will show "me" on the right-hand side of the list item_
+- _Now everytime you have to leave in a rush have the person use the **built-in! camera app**_ 📲📷 _to scan your contact in one second_
+
+_**Note:** also use "Share sheet" to send it using AirDrop, not too many users allow airdrop from everyone_
+
+![](img/display_vcard.gif) ![](img/sample_qrcode.gif)
+
+tech: Siri shortcut
+
+---
+
+[back to menu](#menu)
+
+---
+
+# Mobile Applications 
 
 ## Stranded
 
@@ -158,38 +228,9 @@ How happy or how stress are you? ⛱ 🤯
 <!-- ![](img/badge.svg) -->
 
 ---
-
-## **`Display vCard`**
-
-![](img/contact.jpg)
-
-#### _The Problem:_
-
-_Do you have a business card? it probably has a cool design_ 📇
-
-_They are useful when you need to leave in a rush_
-
-_There is an individual in the middle, or "man in the middle"_
-
-_manual work is prompt to error_
-
-#### _The Solution:_
-
-- _Update your information properly, inside the contacts app_
-- [Install Shorcut](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) 🛠
-- _Select your contact card inside the shortcut "add contacts" step, it will show "me" on the right-hand side of the list item_
-- _Now everytime you have to leave in a rush have the person use the **built-in! camera app**_ 📲📷 _to scan your contact in one second_
-
-_**Note:** also use "Share sheet" to send it using AirDrop, not too many users allow airdrop from everyone_
-
-![](img/display_vcard.gif) ![](img/sample_qrcode.gif)
-
-tech: Siri shortcut
-
----
 ### **`YellowPepper Talks`**
 
-![](img/fir1.png)
+[![](http://img.youtube.com/vi/tImGKXMNiMw/0.jpg)](http://www.youtube.com/watch?v=tImGKXMNiMw)
 
 Introduction to Firebase Database, IAM, and backend for the front end developers.
 
@@ -201,18 +242,7 @@ Introduction to Firebase Database, IAM, and backend for the front end developers
 
 [GitHub](https://github.com/idelfonsog2/firebase_ios)
 
-[Demo video](https://www.youtube.com/embed/tImGKXMNiMw)
-
----
-### **`Hero World`**
-
-Creating a test case for a new park for The Walt Disney Company in order to track schedules and budgeting for the construction of all the projects.
-
-Our dev team was able to implement a database using normalization, which helps identifies the identities inside the projects. We developed a process of Table Creation, Views, Stored Procedures, Triggers. During the project we learned how the activity relates to a project, how a project can have many employees, and how a firm can own many employees. This is done using the concept of a relational database.
-
-**tech**: MySQL*
-
-[GitHub](https://github.com/idelfonsog2/tumblr-app)
+<!-- [Demo video](https://www.youtube.com/embed/tImGKXMNiMw) -->
 
 ---
 
@@ -277,6 +307,12 @@ Proendoscopy is a local company in the city of Sunrise, it specializes in the se
 Our dev team was able to quickly identify the main problem in their workflow and inefficiency of procedures in the sales department
 
 **tech**: iOS: Objective-C, CoreData, UIKit
+
+---
+
+[back to menu](#menu)
+
+---
 
 # Experience
 
