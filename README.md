@@ -12,7 +12,7 @@ From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish🇪🇸/English🇬🇧
 > Curiosity & Learning is the number one skill. 
 
 #### Menú ☕️
-|           | 
+| Entrees       | 
 | ------------- |
 | [Database 📄](#database) ... |
 | [Miscellaneous 🧪](#miscellaneous) |
