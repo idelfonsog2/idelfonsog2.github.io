@@ -7,14 +7,26 @@
 <h2 align="center"> Idelfonso Gutierrez</h2>
 <h3 align="center">👨🏻‍💻iOS Software Developer</h3>
 
-From Venezuela 🇻🇪 in Chicago, IL
+From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish🇪🇸/English🇬🇧
 
-🗣 Spanish 🇪🇸 English 🇬🇧
-##### Menu
-| [Database 📄](#database) | [Miscellaneous 🧪](#miscellaneous) | [Mobile Applications 📱](#mobile-applications) | [Experience 👨🏻‍💻](#experience)  | [Clients 🌾](#clients) | [Education 🎓](#education) | [Volunteer 🧑🏻‍🏫](#volunteer) | [Tech Stack 🛠](#tech-stack) | [Hobbies 📚](#hobbies)
+> Curiosity & Learning is the number one skill. 
 
-[Github](https://github.com/idelfonsog2) | [@idelfonsoGM](https://twitter.com/idelfonsoGM) | [Contact 📱](#contact-information) | [Download PDF 💾](resume_us.pdf) 
-
+#### Menú ☕️
+|           | 
+| ------------- |
+| [Database 📄](#database) ... |
+| [Miscellaneous 🧪](#miscellaneous) |
+| [Mobile Applications 📱](#mobile-applications) |
+| [Experience 👨🏻‍💻](#experience)  |
+| [Clients 🌾](#clients) |
+| [Education 🎓](#education) |
+| [Volunteer 🧑🏻‍🏫](#volunteer) |
+| [Tech Stack 🛠](#tech-stack) |
+| [Hobbies 📚](#hobbies)|
+| [Github](https://github.com/idelfonsog2) |
+| [@idelfonsoGM](https://twitter.com/idelfonsoGM) |
+| [Contact 📱](#contact-information) |
+| [Download PDF 💾](resume_us.pdf) |
 
 # Database
 ## Creating an ETL process with Apache Cassandra
@@ -76,7 +88,7 @@ Our dev team was able to implement a database using normalization, which helps i
 
 ---
 
-[back to menu](#menu)
+[back to menu](#/)
 
 ---
 
