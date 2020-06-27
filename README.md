@@ -12,21 +12,19 @@ From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish🇪🇸/English🇬🇧
 > Curiosity & Learning is the number one skill. 
 
 #### Menú ☕️
-| Entrees       | 
-| ------------- |
-| [Database 📄](#database) ... |
-| [Miscellaneous 🧪](#miscellaneous) |
-| [Mobile Applications 📱](#mobile-applications) |
-| [Experience 👨🏻‍💻](#experience)  |
-| [Clients 🌾](#clients) |
-| [Education 🎓](#education) |
-| [Volunteer 🧑🏻‍🏫](#volunteer) |
-| [Tech Stack 🛠](#tech-stack) |
-| [Hobbies 📚](#hobbies)|
-| [Github](https://github.com/idelfonsog2) |
-| [@idelfonsoGM](https://twitter.com/idelfonsoGM) |
-| [Contact 📱](#contact-information) |
-| [Download PDF 💾](resume_us.pdf) |
+- [Database 📄](#database) 
+- [Miscellaneous 🧪](#miscellaneous) 
+- [Mobile Applications 📱](#mobile-applications) 
+- [Experience 👨🏻‍💻](#experience)  
+- [Clients 🌾](#clients) 
+- [Education 🎓](#education) 
+- [Volunteer 🧑🏻‍🏫](#volunteer) 
+- [Tech Stack 🛠](#tech-stack) 
+- [Hobbies 📚](#hobbies)
+- [Github](https://github.com/idelfonsog2) 
+- [@idelfonsoGM](https://twitter.com/idelfonsoGM) 
+- [Contact 📱](#contact-information) 
+- [Download PDF 💾](resume_us.pdf) 
 
 # Database
 ## Creating an ETL process with Apache Cassandra
