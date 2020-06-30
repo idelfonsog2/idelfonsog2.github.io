@@ -193,12 +193,12 @@ tech: Siri shortcut
 #### _Background:_
 _ORD_ 🛫 _MAD_ 🛬 _ETD 14:00 _
 
-Waiting for your flight? Want to dance?...What's the ice breaker? 🥶
+Waiting for your flight? How to start a conversation with someone? Maybe a dance... In order to dance you only need a smile and good energy
 Math ➗ is international spoken. Music 🎼 is international heard. Dance, sculpture, literature, design, cuisine are different forms of expressions denoted as Arts.
 
 > ## Social interaction is a human need
 
-YES! It's something we get excited for and even further when we meet, travel or try something new. People can connect with each other spite the different languages, origins, cultures.
+YES! It's something we get excited for and even further when we meet, travel or try something new. People can connect with each other despite the different languages, origins, cultures.
 
 #### _The Solution:_
 Stranded 🙂 brings people together at international places (airports) in different time zones! Allowing them to discover something new and exciting... and possibly a new friend.
