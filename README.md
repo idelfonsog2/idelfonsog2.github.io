@@ -194,7 +194,7 @@ tech: Siri shortcut
 _ORD_ 🛫 _MAD_ 🛬 _ETD 14:00 _
 
 Waiting for your flight? How to start a conversation with someone? Maybe a dance... In order to dance you only need a smile and good energy
-Math ➗ is international spoken. Music 🎼 is international heard. Dance, sculpture, literature, design, cuisine are different forms of expressions denoted as Arts.
+Math ➗ is international known. Music 🎼 is international heard. Dance, sculpture, literature, design, cuisine are different forms of expressions denoted as Arts which are internally perform.
 
 > ## Social interaction is a human need
 
