@@ -191,29 +191,20 @@ tech: Siri shortcut
 -->
 
 #### _Background:_
-_ORD_ 🛫 _MIA_ 🛬 _ETD 2:00 hr_
+_ORD_ 🛫 _MAD_ 🛬 _ETD 14:00 _
 
-What's there to do at an airport besides waiting for your flight?
+Waiting for your flight? Want to dance?...What's the ice breaker? 🥶
+Math ➗ is international spoken. Music 🎼 is international heard. Dance, sculpture, literature, design, cuisine are different forms of expressions denoted as Arts.
 
-What about if we could meet someone?... Don't worry is not tinder
+> ## Social interaction is a human need
+YES! It's something we get excited for and even further when we meet, travel or try something new.
 
-What's the ice breaker?
+People can connect with each other spite the different languages, origins, cultures.
 
-Math ➗ is international spoken, music 🎼 is international heard, body language too. A language_ 🗣 not so much 😕
+#### _The Solution:_
+Stranded 🙂 brings people together at international places (airports) in different time zones! Allowing them to discover something new and exciting... and possibly a new friend.
 
-🎺 + 💃🏻 + 🕺🏻 = social interaction
-
-You don't need to talk when dancing the Foxtrot, Salsa, Tango or Swing!
-
-#### _The Solution: Coming soon_
-
-🙂 Stranded brings people together at an international place (airport) in different time zones! 😲 Allowing them to socialize through dancing `<insert research paper here>`
-
-<!-- ![](img/badge.svg) -->
-
-`h233f7343sh2sd chores: brief changes`
-
-**tech:** Vapor Framework
+<!-- ![](img/welcome_screen.png) ![](img/form_screen.png) -->
 
 ---
 
