@@ -193,14 +193,14 @@ Our dev team was able to implement a database using normalization, which helps i
 
 # Miscellaneous 
 
-## Writing BDD + TDD in my current projects
+## Writing BDD + TDD in my current projects. (Open-source software)
 
 - **Who writes TDD?** tricky question🤔😅. Best case, its the output of a conversation between: devs, product owners/managers, stakeholders, and quality assurance testers
 - **What is TDD?**  write software that assumes your production software is already built and make it compile/pass.
 - **Why use TDD?** In order to avoid introducing bugs as you are adding or changing behavior.
 - **When?** Drill down what you want your users to achieve _as concepts_ first _**[capabilities]**_
 - **Where?** TextEdit! 📑 honestly!
-- **How to?** Gherkin + Cucumber...ish + XCTest take a look [Github repository](https://github.com/idelfonsog2/Cucumberish-UnitTest) 👈🏽👀
+- **How to?** Gherkin + Cucumber...ish + XCTest take a look [Cucumberish - Ahmed-Ali](https://cucumber.io/docs/installation/ios/) 👈🏽👀
 
 Behavior-driven development (BDD), Test-driven-development (TDD)
 
@@ -245,6 +245,7 @@ func Then("the application will set to [regex]") { expected in
 The result out of it is that developers can make a set of reusable tests and stakeholders, product owners, QA tester can expand the tests into every state of the system.
 
 Developers only need to keep following their TDD approach.
+
 
 ---
 
