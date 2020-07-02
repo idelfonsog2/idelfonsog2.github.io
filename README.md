@@ -12,9 +12,9 @@ From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish/English been developing, te
 > Curiosity & Learning is the number one skill. 
 
 #### Menú ☕️
+- [Mobile Applications](#mobile-applications) 
 - [Databases](#database) 
 - [Miscellaneous](#miscellaneous) 
-- [Mobile Applications](#mobile-applications) 
 - [Experience](#experience)  
 - [Clients](#clients) 
 - [Education](#education) 
@@ -23,6 +23,109 @@ From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish/English been developing, te
 - [Hobbies](#hobbies)
 - [Contact](#contact-information) 
 - [Download PDF](resume_us.pdf) 
+
+# Mobile Applications 
+
+## Stranded
+
+<!-- Follow: https://krausefx.com/ Pattern
+  The Problem
+  the Solution + images
+  how it works + images
+-->
+
+#### _Background:_
+_ORD_ 🛫 _MAD_ 🛬 _ETD 14:00 _
+
+Waiting for your flight? How to start a conversation with someone? Maybe a dance... In order to dance you only need a smile and good energy
+Math ➗ is international known. Music 🎼 is international heard. Dance, sculpture, literature, design, cuisine are different forms of expressions denoted as Arts which are internally perform.
+
+> ## Social interaction is a human need
+
+YES! It's something we get excited for and even further when we meet, travel or try something new. People can connect with each other despite the different languages, origins, cultures.
+
+#### _The Solution:_
+Stranded 🙂 brings people together at international places (airports) in different time zones! Allowing them to discover something new and exciting... and possibly a new friend.
+
+<!-- ![](img/welcome_screen.png) ![](img/form_screen.png) -->
+
+---
+
+## mmMapp
+
+#### _Pitch:_
+- Have you ever had too many events in the same day at different times and different locations?
+- Were the events or appointments located close to each other?
+- Do you always take into consideration how long will it take you to go from appointment A to appointment B?
+- What about lunch? Do you have time to eat in the middle?
+- Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its 1:40 min traffic along the I-95
+
+**But most importantly!**
+How happy... or how stress are you? ⛱ 🤯
+
+#### _The Solution: Coming soon_
+
+<!-- ![](img/badge.svg) -->
+
+---
+### **`YellowPepper Talks`**
+
+[![](http://img.youtube.com/vi/tImGKXMNiMw/0.jpg)](http://www.youtube.com/watch?v=tImGKXMNiMw)
+
+Introduction to Firebase Database, IAM, and backend for the front end developers.
+
+ I talked about how to start with Firebase, Realtime Database, and its rules. Also about Storage Database and it rules
+
+ Along with it, I developed a small sample iOS project using Swift to send text and image nodes, how they are shown in the firebase console, and which methods I use to retrieve them in the client
+
+**tech:** Swift, UIKit, AutoLayout, Firebase Realtime DB
+
+[GitHub](https://github.com/idelfonsog2/firebase_ios)
+
+<!-- [Demo video](https://www.youtube.com/embed/tImGKXMNiMw) -->
+
+---
+
+### **`Tubmlr Client`**
+
+![](img/tm2.png) ![](img/tm3.png) ![](img/tm4.png)
+
+Created an iOS client in order to search blog users in Tumblr, follow users, and post text blogs.
+
+**tech**: Tumblr API, UIKit
+
+[GitHub](https://github.com/idelfonsog2/tumblr-app)
+
+---
+### **`On the Map`**
+
+![](img/map2.png) ![](img/map3.png) ![](img/map4.png)
+
+"On The Map" app allows users to share their location and a URL with their fellow students
+
+**tech**: MapKit, Parse, Udacity API
+
+[GitHub](https://github.com/idelfonsog2/udacity-on-the-map)
+
+---
+
+### **`Virtual Tourist`**
+
+![](img/vir1.png) ![](img/vir2.png)
+
+Wondering what kind of pictures have people taken in a particular place around the world?
+
+Think about Virtual Tourist before Instagram search feature using Flicker
+
+**tech** Flicker API, MapkKit, UIKit
+
+[GitHub](https://www.idelfonso.com/)
+
+---
+
+[back to menu](#menu)
+
+---
 
 # Database
 ## Creating an ETL process with Apache Cassandra
@@ -84,7 +187,7 @@ Our dev team was able to implement a database using normalization, which helps i
 
 ---
 
-[back to menu](#/)
+[back to menu](#menu)
 
 ---
 
@@ -178,140 +281,6 @@ tech: Siri shortcut
 
 ---
 
-# Mobile Applications 
-
-## Stranded
-
-<!-- Follow: https://krausefx.com/ Pattern
-  The Problem
-  the Solution + images
-  how it works + images
--->
-
-#### _Background:_
-_ORD_ 🛫 _MAD_ 🛬 _ETD 14:00 _
-
-Waiting for your flight? How to start a conversation with someone? Maybe a dance... In order to dance you only need a smile and good energy
-Math ➗ is international known. Music 🎼 is international heard. Dance, sculpture, literature, design, cuisine are different forms of expressions denoted as Arts which are internally perform.
-
-> ## Social interaction is a human need
-
-YES! It's something we get excited for and even further when we meet, travel or try something new. People can connect with each other despite the different languages, origins, cultures.
-
-#### _The Solution:_
-Stranded 🙂 brings people together at international places (airports) in different time zones! Allowing them to discover something new and exciting... and possibly a new friend.
-
-<!-- ![](img/welcome_screen.png) ![](img/form_screen.png) -->
-
----
-
-## mmMapp
-
-#### _Background:_
-Have you ever had too many events in the same day at different times and different locations?
-
-Were the events or appointments located close to each other?
-
-Do you always take into consideration how long will it take you to go from appointment A to appointment B?
-
-What about lunch? Do you have time to eat in the middle?
-
-Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its 1:40 min traffic along the I-95
-
-**But most importantly!**
-How happy or how stress are you? ⛱ 🤯
-
-#### _The Solution: Coming soon_
-
-<!-- ![](img/badge.svg) -->
-
----
-### **`YellowPepper Talks`**
-
-[![](http://img.youtube.com/vi/tImGKXMNiMw/0.jpg)](http://www.youtube.com/watch?v=tImGKXMNiMw)
-
-Introduction to Firebase Database, IAM, and backend for the front end developers.
-
- I talked about how to start with Firebase, Realtime Database, and its rules. Also about Storage Database and it rules
-
- Along with it, I developed a small sample iOS project using Swift to send text and image nodes, how they are shown in the firebase console, and which methods I use to retrieve them in the client
-
-**tech:** Swift, UIKit, AutoLayout, Firebase Realtime DB
-
-[GitHub](https://github.com/idelfonsog2/firebase_ios)
-
-<!-- [Demo video](https://www.youtube.com/embed/tImGKXMNiMw) -->
-
----
-
-### **`Tubmlr Client`**
-
-![](img/tm2.png) ![](img/tm3.png) ![](img/tm4.png)
-
-Created an iOS client in order to search blog users in Tumblr, follow users, and post text blogs.
-
-**tech**: Tumblr API, UIKit
-
-[GitHub](https://github.com/idelfonsog2/tumblr-app)
-
----
-### **`On the Map`**
-
-![](img/map2.png) ![](img/map3.png) ![](img/map4.png)
-
-"On The Map" app allows users to share their location and a URL with their fellow students
-
-**tech**: MapKit, Parse, Udacity API
-
-[GitHub](https://github.com/idelfonsog2/udacity-on-the-map)
-
----
-
-### **`Virtual Tourist`**
-
-![](img/vir1.png) ![](img/vir2.png)
-
-Wondering what kind of pictures have people taken in a particular place around the world?
-
-Think about Virtual Tourist before Instagram search feature using Flicker
-
-**tech** Flicker API, MapkKit, UIKit
-
-[GitHub](https://www.idelfonso.com/)
-
-# Clients
-
-### **`Ally's Flower`**
-
-![](img/al1.png) ![](img/al2.png) ![](img/al3.png)
-
-Using Wordpress and Woocommerce was able to create a simple solution for a small business.
-
-The owner was so glad that she didn't need the help of a tech-savvy person and that it could easily integrate with the power of Square (POS)
-
-
-**tech**: Wordpress, CRM, POS
-
-[www.allysflower.com](www.allysflower.com)
-
---- 
-
-### **`Proendoscopy`**
-
-Created an iOS app to manage a database of items. Pros the effectiveness of adding a new item to the device database and reducing the time up to 97.5%.
-
-Proendoscopy is a local company in the city of Sunrise, it specializes in the service and repair of medical equipment, mainly endoscopes.
-
-Our dev team was able to quickly identify the main problem in their workflow and inefficiency of procedures in the sales department
-
-**tech**: iOS: Objective-C, CoreData, UIKit
-
----
-
-[back to menu](#menu)
-
----
-
 # Experience
 
 ### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Feb. 2020
@@ -373,7 +342,53 @@ tags: financial technology
 
 Tags: online marketing
 
-# Volunteer
+### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
+
+- Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
+- Explained Object Oriented Programming concepts during in and out sessions
+- Used pair programming with students in order to practice and review material
+
+tags: education
+
+---
+
+# Clients
+
+### **`Ally's Flower`**
+
+![](img/al1.png) ![](img/al2.png) ![](img/al3.png)
+
+Using WordPress and Woocommerce was able to create a simple solution for a small business.
+
+The owner was so glad that she didn't need the help of a tech-savvy person and that it could easily integrate with the power of Square (POS)
+
+
+**tech**: WordPress, CRM, POS
+
+[www.allysflower.com](www.allysflower.com)
+
+--- 
+
+### **`Proendoscopy`**
+
+Created an iOS app to manage a database of items. Pros the effectiveness of adding a new item to the device database and reducing the time up to 97.5%.
+
+Proendoscopy is a local company in the city of Sunrise, it specializes in the service and repair of medical equipment, mainly endoscopes.
+
+Our dev team was able to quickly identify the main problem in their workflow and inefficiency of procedures in the sales department
+
+**tech**: iOS: Objective-C, CoreData, UIKit
+
+---
+
+# Education
+
+- B.S. Software Developer Florida International University Aug 2012 - May 2016
+  - Minor: Social Media and E-marketing Analytics
+- Startup Cohort @FIU Jan 2017 - April 2017
+- iOS Nanodegree Udacity Sep 2016 - Nov 2016
+
+# Volunteering 
 
 ### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
@@ -383,23 +398,6 @@ Tags: online marketing
 - Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
 
 tags: education
-
----
-
-### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
-
-- Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
-- Explained Object Oriented Programming concepts during in and out sessions
-- Used pair programming with students in order to practice and review material
-
-tags: education
-
-# Education
-
-- B.S. Software Developer Florida International University Aug 2012 - May 2016
-  - Minor: Social Media and E-marketing Analytics
-- Startup Cohort @FIU Jan 2017 - April 2017
-- iOS Nanodegree Udacity Sep 2016 - Nov 2016
 
 # Tech stack
 
