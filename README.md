@@ -283,6 +283,10 @@ tech: Siri shortcut
 
 # Experience
 
+### Developer | [Ulta Beauty] | Chicago, U.S. | Feb. 2020 - Present
+
+ - Coming soon.
+
 ### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Feb. 2020
 
 - In order to increase **40 percent** of the user base for our third-party clients, I implemented **beacon
