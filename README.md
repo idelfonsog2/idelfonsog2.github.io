@@ -7,24 +7,22 @@
 <h2 align="center"> Idelfonso Gutierrez</h2>
 <h3 align="center">👨🏻‍💻iOS Software Developer</h3>
 
-From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish🇪🇸/English🇬🇧
+From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish/English been developing, testing, publishing and leading mobile applications for iPhone and iPad. Developed a couple projects involving _Internet of Things_ devices
 
 > Curiosity & Learning is the number one skill. 
 
 #### Menú ☕️
-- [Database 📄](#database) 
-- [Miscellaneous 🧪](#miscellaneous) 
-- [Mobile Applications 📱](#mobile-applications) 
-- [Experience 👨🏻‍💻](#experience)  
-- [Clients 🌾](#clients) 
-- [Education 🎓](#education) 
-- [Volunteer 🧑🏻‍🏫](#volunteer) 
-- [Tech Stack 🛠](#tech-stack) 
-- [Hobbies 📚](#hobbies)
-- [Github](https://github.com/idelfonsog2) 
-- [@idelfonsoGM](https://twitter.com/idelfonsoGM) 
-- [Contact 📱](#contact-information) 
-- [Download PDF 💾](resume_us.pdf) 
+- [Databases](#database) 
+- [Miscellaneous](#miscellaneous) 
+- [Mobile Applications](#mobile-applications) 
+- [Experience](#experience)  
+- [Clients](#clients) 
+- [Education](#education) 
+- [Volunteer](#volunteer) 
+- [Tech Stack](#tech-stack) 
+- [Hobbies](#hobbies)
+- [Contact](#contact-information) 
+- [Download PDF](resume_us.pdf) 
 
 # Database
 ## Creating an ETL process with Apache Cassandra
@@ -99,7 +97,7 @@ Our dev team was able to implement a database using normalization, which helps i
 - **Why use TDD?** In order to avoid introducing bugs as you are adding or changing behavior.
 - **When?** Drill down what you want your users to achieve _as concepts_ first _**[capabilities]**_
 - **Where?** TextEdit! 📑 honestly!
-- **How to?** Gherkin + Cucumber...ish + XCTest take a look [https://github.com/idelfonsog2/Cucumberish-UnitTest](https://github.com/idelfonsog2/Cucumberish-UnitTest) 👈🏽👀
+- **How to?** Gherkin + Cucumber...ish + XCTest take a look [Github repository](https://github.com/idelfonsog2/Cucumberish-UnitTest) 👈🏽👀
 
 Behavior-driven development (BDD), Test-driven-development (TDD)
 
@@ -316,7 +314,7 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 # Experience
 
-### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Present
+### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Feb. 2020
 
 - In order to increase **40 percent** of the user base for our third-party clients, I implemented **beacon
 technology**, **relational database**, and **mapbopx** library, which helped the company finalize 3 more contracts
@@ -440,6 +438,10 @@ tags: education
 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
 
 📞 [+1 954 513 9568](tel://+19545139568)
+
+💼 [Github](https://github.com/idelfonsog2) 
+
+📠 [@idelfonsoGM](https://twitter.com/idelfonsoGM) 
 
 💾 [Save Contact as ...](idelfonso.vcf)
 
