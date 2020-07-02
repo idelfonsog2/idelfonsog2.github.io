@@ -388,7 +388,7 @@ Our dev team was able to quickly identify the main problem in their workflow and
 - Startup Cohort @FIU Jan 2017 - April 2017
 - iOS Nanodegree Udacity Sep 2016 - Nov 2016
 
-# Volunteering 
+# Volunteer 
 
 ### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
