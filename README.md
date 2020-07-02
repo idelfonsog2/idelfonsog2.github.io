@@ -283,7 +283,7 @@ tech: Siri shortcut
 
 # Experience
 
-### Developer | [Ulta Beauty] | Chicago, U.S. | Feb. 2020 - Present
+### Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | Feb. 2020 - Present
 
  - Coming soon.
 
