@@ -9,7 +9,7 @@
 
 From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish/English been developing, testing, publishing and leading mobile applications for iPhone and iPad. Developed a couple projects involving _Internet of Things_ devices
 
-> Curiosity & Learning is the number one skill. 
+> ## The ability to keep learning is an invaluable skill. 
 
 #### Menú ☕️
 - [Mobile Applications](#mobile-applications) 
@@ -48,7 +48,7 @@ YES! It's something we get excited for and even further when we meet, travel or 
 Stranded 🙂 brings people together at international places (airports) in different time zones! Allowing them to discover something new and exciting... and possibly a new friend.
 
 <!-- ![](img/welcome_screen.png) ![](img/form_screen.png) -->
-
+tech: Combine, SwiftUI, APNS, database
 ---
 
 ## mmMapp
@@ -452,7 +452,7 @@ tags: education
 
 ## Reads
 - Behavior Driven Development in Action
-- Async Programming (Rx, SwiftNIO)
+- Reactive Programming
 - Working With Legacy Code
 - Designing Data-Intensive Applications
 - Vapor Framework 
