@@ -129,7 +129,7 @@ Think about Virtual Tourist before Instagram search feature using Flicker
 
 ---
 
-# Database
+# Databases
 ## Creating an ETL process with Apache Cassandra
 
 ### _Handling BIG DATA and storage now a days is no just feasible, it's a must._
@@ -288,7 +288,7 @@ tech: Siri shortcut
 
 ### Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | Feb. 2020 - Present
 
- - Coming soon.
+ - Present
 
 ### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Feb. 2020
 
