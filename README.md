@@ -47,8 +47,10 @@ YES! It's something we get excited for and even further when we meet, travel or 
 #### _The Solution:_
 Stranded 🙂 brings people together at international places (airports) in different time zones! Allowing them to discover something new and exciting... and possibly a new friend.
 
-<!-- ![](img/welcome_screen.png) ![](img/form_screen.png) -->
+![](img/stranded.jpg)
+
 tech: Combine, SwiftUI, APNS, database
+
 ---
 
 ## mmMapp
@@ -183,7 +185,7 @@ Our dev team was able to implement a database using normalization, which helps i
 
 **tech**: MySQL*
 
-[GitHub](https://github.com/idelfonsog2/tumblr-app)
+[GitHub](https://github.com/idelfonsog2/HeroWorld-SQL)
 
 ---
 
