@@ -13,7 +13,7 @@ From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish/English been developing, te
 
 #### Menú ☕️
 - [Mobile Applications](#mobile-applications) 
-- [Databases](#database) 
+- [Databases](#databases) 
 - [Miscellaneous](#miscellaneous) 
 - [Experience](#experience)  
 - [Clients](#clients) 
@@ -133,7 +133,7 @@ Think about Virtual Tourist before Instagram search feature using Flicker
 
 ## Non-Columnar Storage, DIST Style, DIST Keys 🔑 and AWS REDSHIFT
 
-### _There is an overcrossing between Infra DevOps and Data Engineers_
+### _There is an overcrossing between Infra DevOps 🛠 and Data Engineers 💾_
 
 For this project I utilize AWS web services like `redshift`, `s3 storage buckets`, `user roles`, `policies`, and `cloud watch`
 
