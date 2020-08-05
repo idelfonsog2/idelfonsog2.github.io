@@ -137,7 +137,7 @@ Think about Virtual Tourist before Instagram search feature using Flicker
 
 For this project I utilize AWS web services like `redshift`, `s3 storage buckets`, `user roles`, `policies`, and `cloud watch`
 
-The idea is how can we prepare data to be use by _Business Intellegince_ applications like Tableu, S4 MIM, or even Jupyternotebook! 👍
+The idea is how can we prepare data to be use by _Business Intelligence_ applications like Tableu, S4 MIM, or even Jupyternotebook! 👍
 In order to help the business see an overview of the data in a diagram of what important features of the product their customers might be using. Mainly, how can we improve the performance of this OLAP and OLTP transactions.
 
 For that, we use the combination of star schema tables, we build an strategy for a distributed data system, and do grouping for all the features thanks to REDSHIFT.
