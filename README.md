@@ -5,9 +5,9 @@
 	<img width="180" height="180" src="/img/circular-shot.png"/>
 </p>
 <h2 align="center"> Idelfonso Gutierrez</h2>
-<h3 align="center">👨🏻‍💻iOS Software Developer</h3>
+<h3 align="center">👨🏻‍💻Software Developer</h3>
 
-From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish/English been developing, testing, publishing and leading mobile applications for iPhone and iPad. Developed a couple projects involving _Internet of Things_ devices
+From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish/English been developing, testing, publishing and leading mobile applications for the Apple platforms. Developed a couple projects involving _Internet of Things_ devices.
 
 > ## The ability to keep learning is an invaluable skill. 
 
@@ -474,11 +474,13 @@ tags: education
 
 ## Reads
 - Behavior Driven Development in Action
-- Reactive Programming
+- Functional Programming
 - Working With Legacy Code
 - Designing Data-Intensive Applications
-- Vapor Framework 
+- Server-Side Swift 
 - A metabolic approach to cancer 📚
+- Geopolitics
+- Urban planning
 
 <blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
