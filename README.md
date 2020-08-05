@@ -47,7 +47,7 @@ YES! It's something we get excited for and even further when we meet, travel or 
 #### _The Solution:_
 Stranded 🙂 brings people together at international places (airports) in different time zones! Allowing them to discover something new and exciting... and possibly a new friend.
 
-![](img/stranded.jpg)
+![](img/stranded-3.jpg)
 
 tech: Combine, SwiftUI, APNS, database
 
@@ -130,6 +130,26 @@ Think about Virtual Tourist before Instagram search feature using Flicker
 ---
 
 # Databases
+
+## Non-Columnar Storage, DIST Style, DIST Keys 🔑 and AWS REDSHIFT
+
+### _There is an overcrossing between Infra DevOps and Data Engineers_
+
+For this project I utilize AWS web services like `redshift`, `s3 storage buckets`, `user roles`, `policies`, and `cloud watch`
+
+The idea is how can we prepare data to be use by _Business Intellegince_ applications like Tableu, S4 MIM, or even Jupyternotebook! 👍
+In order to help the business see an overview of the data in a diagram of what important features of the product their customers might be using. Mainly, how can we improve the performance of this OLAP and OLTP transactions.
+
+For that, we use the combination of star schema tables, we build an strategy for a distributed data system, and do grouping for all the features thanks to REDSHIFT.
+
+![](img/dwdiagram.png)
+
+[Github]()
+
+**tech:** AWS services*, Python, Jupyter
+
+---
+
 ## Creating an ETL process with Apache Cassandra
 
 ### _Handling BIG DATA and storage now a days is no just feasible, it's a must._
