@@ -426,21 +426,19 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 tags: education
 
---- 
 # Tech stack
-- Several years of professional experience the full cycle software development.
+- Several years of professional experience in software development.
 - Solid knowledge of Apple technologies.
 - Solid knowledge of software architecture and best practices.
 - Solid knowledge of web services.
 - Experience working with varitions of teams from solo developer to technical leadership coordination across techstack
-- Keeping up to date with new technologies (and my community ❤️ iOs)
+- Keeping up to date with new technologies (and my community ❤️iOS)
 - MobDevOps, DevOps 
 - Mentoring (also read: [volunteer](#volunteer))
-- Ensuring safe developmen
+- Ensuring safe development
 - Advocate for the technical vision
 
---- 
-**Frameworks**
+# Frameworks
 - Software design patterns (full-stack)
 - Apple Technolopgies (CoreML, Core...)
 - Package software
