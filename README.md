@@ -426,37 +426,25 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 tags: education
 
+--- 
 # Tech stack
-
-- Several years of professional experience developing and shipping iOS apps.
-- Solid knowledge of Swift, Objective-C and the iOS SDK.
-- Knowledge of software architecture and best practices.
-- Experience with Core Data and RESTful APIs.
-- Able to write multi-threaded and asynchronous code.
-- Experience in managing the Apple certification/provisioning and App Store delivery process.
-- Experience working in collaborative teams, and understand the benefits of sharing knowledge via pair programming and code reviews.
-- Keeping up to date with new technologies and the iOS community 🙏
-- Test-driven development experience, knowledge of CI systems (CircleCI, Gitlab, Jenkins)
-- Dependency managers
-- Technical leadership of the iOS team
-- Mentoring other developers (also read: [volunteer](#volunteer))
-- Ensuring best practices and good code quality
-- Own the technical vision of the iOS app
-- Cross-platform collaboration and coordination
-- Work on application stability and improving application performance
-- Being the contact person between management and the iOS team
-- Continuously discover, evaluate, and implement new technologies to maximize our development team efficiency.
-- Hands-on development of new features and fixing bugs
+- Several years of professional experience the full cycle software development.
+- Solid knowledge of Apple technologies.
+- Solid knowledge of software architecture and best practices.
+- Solid knowledge of web services.
+- Experience working with varitions of teams from solo developer to technical leadership coordination across techstack
+- Keeping up to date with new technologies (and my community ❤️ iOs)
+- MobDevOps, DevOps 
+- Mentoring (also read: [volunteer](#volunteer))
+- Ensuring safe developmen
+- Advocate for the technical vision
 
 --- 
 **Frameworks**
-- CoreML (machine learning on mobile)
-- mvvm+c, mvc, mvc+vs, mavb (mobile design patterns and anit-patterns)
-- CoreLocation, CoreBluetooth, iBeacon, EventKit... (Apple Frameworks)
-- Swift package manager, Cocoapods (dependency managers)
-- version control systems
-- asynchronous programming
-- AutoLayout (programmatically & storyboards) ((its better to know both)) 
+- Software design patterns (full-stack)
+- Apple Technolopgies (CoreML, Core...)
+- Package software
+- Version control systems
 
 # *Contact Information*
 
