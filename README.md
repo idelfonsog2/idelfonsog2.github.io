@@ -131,16 +131,24 @@ Think about Virtual Tourist before Instagram search feature using Flicker
 
 # Databases
 
-## Non-Columnar Storage, DIST Style, DIST Keys 🔑 and AWS REDSHIFT
+## STAR vs 3NF 🥊 SCHEMA
 
-### _There is an overcrossing between Infra DevOps 🛠 and Data Engineers 💾_
+> Why would we want to use re-create our table structures for Analytical Procedures?
+
+It happens that performance is much better, we can do fewer joins and access the same information. We still would like to have our 3NF schema for application purposes. Besides re-creating our tables, these can be improve... by a lot more with the following!
+
+- Non-Columnar Storage (AWS REDSHIFT)
+- Distribution table Style (All, even, key), 
+- Distribution Keys 🔑
+
+In the first point, I'm talking about creating an ETL process to load this data, but of course there is some setup that needs to be done
+
+> ### _There is an overcrossing between Infra DevOps 🛠 and Data Engineers 💾_
 
 For this project I utilize AWS web services like `redshift`, `s3 storage buckets`, `user roles`, `policies`, and `cloud watch`
 
-The idea is how can we prepare data to be use by _Business Intelligence_ applications like Tableu, S4 MIM, or even Jupyternotebook! 👍
-In order to help the business see an overview of the data in a diagram of what important features of the product their customers might be using. Mainly, how can we improve the performance of this OLAP and OLTP transactions.
-
-For that, we use the combination of star schema tables, we build an strategy for a distributed data system, and do grouping for all the features thanks to REDSHIFT.
+The idea is how can we prepare data to be use by _Business Intelligence_ applications like Tableu or even Jupyternotebook! 👍
+In order to help the business see an overview of the data in a diagram of what important features of the product their customers might be using. Mainly, how can we improve the performance of this OLAP and OLTP transactions. For that, we use the combination of star schema tables, we build an strategy for a distributed data system, and do grouping for all the features thanks to REDSHIFT.
 
 ![](img/dwdiagram.png)
 
