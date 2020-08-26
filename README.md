@@ -148,7 +148,7 @@ In the first point, I'm talking about creating an ETL process to load this data,
 For this project I utilize AWS web services like `redshift`, `s3 storage buckets`, `user roles`, `policies`, and `cloud watch`
 
 The idea is how can we prepare data to be use by _Business Intelligence_ applications like Tableu or even Jupyternotebook! 👍
-In order to help the business see an overview of the data in a diagram of what important features of the product their customers might be using. Mainly, how can we improve the performance of this OLAP and OLTP transactions. For that, we use the combination of star schema tables, we build an strategy for a distributed data system, and do grouping for all the features thanks to REDSHIFT.
+In order to help the business see an overview of the data in a diagram of what important features of the product their customers might be using. Mainly, how can we improve the performance of these OLAP and OLTP transactions. For that, we use the combination of star schema tables, we build a strategy for a distributed data system, and do grouping for all the features thanks to REDSHIFT.
 
 ![](img/dwdiagram.png)
 
@@ -439,7 +439,7 @@ tags: education
 - Solid knowledge of Apple technologies.
 - Solid knowledge of software architecture and best practices.
 - Solid knowledge of web services.
-- Experience working with varitions of teams from solo developer to technical leadership coordination across techstack
+- Experience working with variations of teams from solo developer to technical leadership coordination across techstack
 - Keeping up to date with new technologies (and my community ❤️iOS)
 - MobDevOps, DevOps 
 - Mentoring (also read: [volunteer](#volunteer))
@@ -448,9 +448,8 @@ tags: education
 
 # Frameworks
 - Software design patterns (full-stack)
-- Apple Technolopgies (CoreML, Core...)
-- Package software
-- Version control systems
+- Apple Technologies (CoreML, Core...)
+- Distributing software
 
 # *Contact Information*
 
