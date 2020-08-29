@@ -152,7 +152,7 @@ In order to help the business see an overview of the data in a diagram of what i
 
 ![](img/dwdiagram.png)
 
-[Github]()
+[Github](https://github.com/idelfonsog2/data_warehouse_with_aws_redshift.git)
 
 **tech:** AWS services*, Python, Jupyter
 
