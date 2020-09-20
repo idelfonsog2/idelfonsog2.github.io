@@ -90,6 +90,8 @@ Introduction to Firebase Database, IAM, and backend for the front end developers
 
 ### **`Tubmlr Client`**
 
+> A prototype is worth a 1000 meetings
+
 ![](img/tm2.png) ![](img/tm3.png) ![](img/tm4.png)
 
 Created an iOS client in order to search blog users in Tumblr, follow users, and post text blogs.
@@ -232,7 +234,7 @@ Our dev team was able to implement a database using normalization, which helps i
 - **Where?** TextEdit! 📑 honestly!
 - **How to?** Gherkin + Cucumber...ish + XCTest take a look [Cucumberish - Ahmed-Ali](https://cucumber.io/docs/installation/ios/) 👈🏽👀
 
-Behavior-driven development (BDD), Test-driven-development (TDD)
+> "No method is more effective than the good example." - Ingvar Kamprad, IKEA Founder
 
 ####  The Problem
 A developer could write the following below. But this is missing some context, and only developers _**could!**_ be able to understand what is the system is doing.
