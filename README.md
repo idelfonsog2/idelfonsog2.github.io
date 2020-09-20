@@ -90,8 +90,6 @@ Introduction to Firebase Database, IAM, and backend for the front end developers
 
 ### **`Tubmlr Client`**
 
-> A prototype is worth a 1000 meetings
-
 ![](img/tm2.png) ![](img/tm3.png) ![](img/tm4.png)
 
 Created an iOS client in order to search blog users in Tumblr, follow users, and post text blogs.
@@ -224,6 +222,21 @@ Our dev team was able to implement a database using normalization, which helps i
 ---
 
 # Miscellaneous 
+
+# Lambdas, Closures, Callbacks..... the famous iOS completionHandler argument label
+
+Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
+The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively. Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE
+
+> # "a prototype is worth a 1000 meetings"
+
+Many people say: "well.... its just a Hello World program" or "it lacks the vote from an enterprise point of view" To them I must say there is not an official council who approves or disapproves what technology lives up to the standards. And newer technology aims to address the issues and lack of current technology, how far we can push it, it's only up to us; developers to run with it an see what we like.
+
+Thank you Fabbian Fet for given us Swift AWS Lambda
+
+![](img/swift-aws.png)
+
+[GitHub](https://github.com/idelfonsog2/swift-aws-lambda-function)
 
 ## Writing BDD + TDD in my current projects. (Open-source software)
 
