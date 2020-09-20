@@ -234,7 +234,7 @@ Our dev team was able to implement a database using normalization, which helps i
 - **Where?** TextEdit! 📑 honestly!
 - **How to?** Gherkin + Cucumber...ish + XCTest take a look [Cucumberish - Ahmed-Ali](https://cucumber.io/docs/installation/ios/) 👈🏽👀
 
-> "No method is more effective than the good example." - Ingvar Kamprad, IKEA Founder
+> # No method is more effective than a good example. - Ingvar Kamprad, IKEA Founder
 
 ####  The Problem
 A developer could write the following below. But this is missing some context, and only developers _**could!**_ be able to understand what is the system is doing.
