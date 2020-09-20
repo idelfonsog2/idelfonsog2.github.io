@@ -266,7 +266,7 @@ func testSystem_whenReset_isInStarted() {
 
 ```
 
-#### A different approach
+#### A different approach: Give me an example
 
 ```gherkin
 Given the application is "in progress"
