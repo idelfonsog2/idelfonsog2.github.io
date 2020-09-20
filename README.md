@@ -232,7 +232,7 @@ The Swift language became really popular thanks to iOS applications. Today, the 
 
 Many people say: "well.... its just a Hello World program" or "it lacks the vote from an enterprise point of view" To them I must say there is not an official council who approves or disapproves what technology lives up to the standards. And newer technology aims to address the issues and lack of current technology, how far we can push it, it's only up to us; developers to run with it an see what we like.
 
-Thank you Fabbian Fet for given us Swift AWS Lambda
+Thank you [Fabbian Fett](https://twitter.com/fabianfett) for given us Swift AWS Lambda
 
 ![](img/swift-aws.png)
 
