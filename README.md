@@ -462,14 +462,18 @@ tags: education
 
 # Tech stack
 - Several years of professional experience in software development.
-- Solid knowledge of Apple technologies.
-- Solid knowledge of software architecture and best practices.
-- Solid knowledge of web services.
+- Implement enterprise business solutions.
+- Implement Location-based mobile applications.
+- Implement realtime mobile application databases.
+- Implement notification system and data exchange mobile applications
+- Implement CI/CD software pipelines.
+- Implement software architecture patterns and best practices.
+- Implement web services communication.
 - Experience working with variations of teams from solo developer to technical leadership coordination across techstack
 - Keeping up to date with new technologies (and my community ❤️iOS)
-- MobDevOps, DevOps 
+- MobDevOps, learning cloud developer operations with AWS web services
 - Mentoring (also read: [volunteer](#volunteer))
-- Ensuring safe development
+- Ensuring safe test-driven and behavior-driven development
 - Advocate for the technical vision
 
 # Frameworks
