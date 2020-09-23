@@ -464,6 +464,7 @@ tags: education
 - Several years of professional experience in software development.
 - Implement enterprise business solutions.
 - Implement IoT iPadOS application.
+- Implement ML Model solution.
 - Implement Social Media based application.
 - Implement Location-based mobile applications.
 - Implement realtime mobile application databases.
