@@ -331,9 +331,16 @@ tech: Siri shortcut
 
 # Experience
 
-### Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | Feb. 2020 - Present
+![](img/ultabeauty.png)
+
+### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | Feb. 2020 - Present
 
  - Present
+
+
+---
+
+![](img/growit.png)
 
 ### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Feb. 2020
 
@@ -357,6 +364,7 @@ Tags: horticulture
 
 ---
 
+![](img/kinkarta.png)
 ### Technical Analyst iOS Mobile Developer | [Solstice Consulting](http://solstice.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
 
 - Developing and maintaining ongoing project using unit testing frameworks, **AWS APIs** and **Protobuf**
@@ -371,6 +379,7 @@ tags: agriculture
 
 ---
 
+![](img/yellowpepper.png)
 ### Intern  iOS Mobile Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
 
 - Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
