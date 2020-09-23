@@ -478,11 +478,6 @@ tags: education
 - Ensuring safe test-driven and behavior-driven development
 - Advocate for the technical vision
 
-# Frameworks
-- Software design patterns (full-stack)
-- Apple Technologies (CoreML, Core...)
-- Distributing software
-
 # *Contact Information*
 
 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
