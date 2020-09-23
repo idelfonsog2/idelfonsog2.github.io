@@ -463,6 +463,8 @@ tags: education
 # Tech stack
 - Several years of professional experience in software development.
 - Implement enterprise business solutions.
+- Implement IoT iPadOS application.
+- Implement Social Media based application.
 - Implement Location-based mobile applications.
 - Implement realtime mobile application databases.
 - Implement notification system and data exchange mobile applications
