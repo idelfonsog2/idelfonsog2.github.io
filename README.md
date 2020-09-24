@@ -471,6 +471,8 @@ tags: education
 - Implement CI/CD software pipelines.
 - Implement software architecture patterns and best practices.
 - Implement web services communication.
+- Beginner experience with AWS services: AWS EMR, REDSHIFT, EC2, IAM, Lambda
+- Beginner experience with Apache Spark, Apache Cassandra
 - Experience working with variations of teams from solo developer to technical leadership coordination across tech stack
 - Keeping up to date with new technologies (and my community ❤️iOS)
 - MobDevOps, learning cloud developer operations with AWS web services
