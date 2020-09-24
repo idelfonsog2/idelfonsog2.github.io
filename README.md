@@ -12,10 +12,10 @@ From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish/English been developing, te
 > ## The ability to keep learning is an invaluable skill. 
 
 #### Menú ☕️
+- [Experience](#experience)
 - [Mobile Applications](#mobile-applications) 
 - [Databases](#databases) 
 - [Miscellaneous](#miscellaneous) 
-- [Experience](#experience)  
 - [Clients](#clients) 
 - [Education](#education) 
 - [Volunteer](#volunteer) 
@@ -472,7 +472,7 @@ tags: education
 - Implement CI/CD software pipelines.
 - Implement software architecture patterns and best practices.
 - Implement web services communication.
-- Experience working with variations of teams from solo developer to technical leadership coordination across techstack
+- Experience working with variations of teams from solo developer to technical leadership coordination across tech stack
 - Keeping up to date with new technologies (and my community ❤️iOS)
 - MobDevOps, learning cloud developer operations with AWS web services
 - Mentoring (also read: [volunteer](#volunteer))
