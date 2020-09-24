@@ -414,7 +414,7 @@ tags: education
 
 # Clients
 
-### **`Ally's Flower`**
+### **Ally's Flower**
 
 ![](img/al1.png) ![](img/al2.png) ![](img/al3.png)
 
@@ -429,13 +429,17 @@ The owner was so glad that she didn't need the help of a tech-savvy person and t
 
 --- 
 
-### **`Proendoscopy`**
+### **Proendoscopy**
 
-Created an iOS app to manage a database of items. Pros the effectiveness of adding a new item to the device database and reducing the time up to 97.5%.
+Created an iOS application to manage the items in inventory for a medical equipment repair company.
+
+- Keep up to date items with the sold, in progress, not started labels
+- Keep a record of prices for each item
+- Group items by brand, category, price range
 
 Proendoscopy is a local company in the city of Sunrise, it specializes in the service and repair of medical equipment, mainly endoscopes.
 
-Our dev team was able to quickly identify the main problem in their workflow and inefficiency of procedures in the sales department
+Our dev team was able to quickly identify the main problem in their workflow and inefficiency of procedures in the sales department.
 
 **tech**: iOS: Objective-C, CoreData, UIKit
 
@@ -447,6 +451,7 @@ Our dev team was able to quickly identify the main problem in their workflow and
   - Minor: Social Media and E-marketing Analytics
 - Startup Cohort @FIU Jan 2017 - April 2017
 - iOS Nanodegree Udacity Sep 2016 - Nov 2016
+- Data Engineer Nanodegree Udacity - in progress
 
 # Volunteer 
 
@@ -494,9 +499,9 @@ tags: education
 
 # Hobbies
 
-## Reads
+## Learning
 - Behavior Driven Development in Action
-- Functional Programming
+- Functional Programming in Swift -> Goal: Scala
 - Working With Legacy Code
 - Designing Data-Intensive Applications
 - Server-Side Swift 
