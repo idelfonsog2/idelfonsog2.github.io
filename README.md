@@ -356,7 +356,7 @@ integration and continuous deployment pipeline along with **Fastlane**.
 an image **machine learning** model based on a plant database to identify things that are not plants.
 - **Solo developer** in the project
 
-tools/frameworks/libraries:
+### tools/frameworks/libraries:
 
 - Fastlane, CircleCI, apple push notifications services, RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
 
@@ -371,8 +371,7 @@ Tags: horticulture
 - Development of features between Internet of Things device and iPad App
 - Deliver a presentation about machine learning intro which helped implement **image recognition** on a robot
 
-tools/frameworks/libraries:
-
+### tools/frameworks/libraries:
 - Jenkins, MongoDB, WebSockets, AutoLayout, Protobuf, ReactiveCocoa/Swift 🛠
 
 tags: agriculture
@@ -386,7 +385,7 @@ tags: agriculture
 - Worked with an off-site team and product owner (different time zones) in order to address patch fixes.
 - Addressed client’s concern regarding the app’s privacy policy in order to submit to App Store.
 
-tools/frameworks/libraries:
+### tools/frameworks/libraries:
 
 - PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
 
