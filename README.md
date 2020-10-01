@@ -452,6 +452,12 @@ Our dev team was able to quickly identify the main problem in their workflow and
 - Startup Cohort @FIU Jan 2017 - April 2017
 - iOS Nanodegree Udacity Sep 2016 - Nov 2016
 - Data Engineer Nanodegree Udacity - in progress
+  - RDBMS Design and SQL
+  - Python scripting
+  - Data Warehouse Architecture
+  - Dimensional Modeling and OLAP cubes
+  - Familiarity with AWS services
+  - Spark & HDFS
 
 # Volunteer 
 
