@@ -23,11 +23,7 @@
 - [Contact](#contact-information) 
 - [Download PDF](resume_us.pdf) 
 
-</br>
-
 > ## The ability to keep learning is an invaluable skill
-
-</br>
 
 # Mobile Applications 
 
