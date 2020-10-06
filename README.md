@@ -7,7 +7,6 @@
 <h2 align="center"> Idelfonso Gutierrez</h2>
 
 <p align="center">I’m a software developer👨🏻‍💻 iOS-Data-System</p> 
-<p align="center">🗣 Billingual dancer from Venezuelan 🇻🇪 </p> 
 <p align="center">Developing, testing, publishing and leading software applications.</p>
 
 #### Menú ☕️
@@ -519,6 +518,8 @@ tags: education
 - Advocate for the technical vision
 
 # *Contact Information*
+
+`status: Billingual dancer from Venezuelan 🇻🇪 in Chicago, IL`
 
 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
 
