@@ -5,11 +5,10 @@
 	<img width="180" height="180" src="/img/circular-shot.png"/>
 </p>
 <h2 align="center"> Idelfonso Gutierrez</h2>
-<h3 align="center">👨🏻‍💻Software Developer</h3>
 
-From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish/English been developing, testing, publishing and leading mobile applications for the Apple platforms. Developed a couple projects involving _Internet of Things_ devices.
-
-> ## The ability to keep learning is an invaluable skill. 
+<p align="center">I’m a software developer👨🏻‍💻 iOS-Data-System</p> 
+<p align="center">🗣 Billingual dancer from Venezuelan 🇻🇪 </p> 
+<p align="center">Developing, testing, publishing and leading software applications.</p>
 
 #### Menú ☕️
 - [Experience](#experience)
@@ -23,6 +22,12 @@ From Venezuela 🇻🇪 in Chicago, IL  🗣 Spanish/English been developing, te
 - [Hobbies](#hobbies)
 - [Contact](#contact-information) 
 - [Download PDF](resume_us.pdf) 
+
+</br>
+
+> ## The ability to keep learning is an invaluable skill
+
+</br>
 
 # Mobile Applications 
 
