@@ -23,8 +23,6 @@
 - [Contact](#contact-information) 
 - [Download PDF](resume_us.pdf) 
 
-> ## The ability to keep learning is an invaluable skill
-
 # Mobile Applications 
 
 ## Stranded
@@ -55,6 +53,8 @@ tech: Combine, SwiftUI, APNS, database
 ---
 
 ## mmMapp
+
+> ## The ability to keep learning is an invaluable skill
 
 #### _Pitch:_
 - Have you ever had too many events in the same day at different times and different locations?
