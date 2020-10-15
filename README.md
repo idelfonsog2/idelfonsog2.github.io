@@ -131,7 +131,7 @@ Think about Virtual Tourist before Instagram search feature using Flicker
 
 # Databases
 
-## Data Lakes 🚤 🏞
+## Data Lakes 🚤  with Apache Spark + EMR Cluster
 
 You can take a trip to a polluted lake or clean lake and how the water looks, taste, or where it comes from matters.
 
