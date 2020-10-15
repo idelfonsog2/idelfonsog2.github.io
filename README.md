@@ -157,7 +157,7 @@ There is a some learning that I'm exited to be touching in the near future: Data
 
 ---
 
-## STAR vs 3NF 🥊 SCHEMA
+## Data Ware🏡 with AWS Redshift
 
 > Why would we want to use re-create our table structures for Analytical Procedures?
 
