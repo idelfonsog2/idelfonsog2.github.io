@@ -516,6 +516,9 @@ tags: education
 - Mentoring (also read: [volunteer](#volunteer))
 - Ensuring safe test-driven and behavior-driven development
 - Advocate for the technical vision
+- Objective-c, Swift, SwiftUI, Python, SQL, Combine
+- TDD, BDD
+- Pandas, Cassandra, Spark, AWS EMR
 
 # *Contact Information*
 
