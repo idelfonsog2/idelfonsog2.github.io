@@ -6,7 +6,7 @@
 </p>
 <h2 align="center"> Idelfonso Gutierrez</h2>
 
-> ### Software developer 👨🏻‍💻  iOS `&&` Data applications. Developing, testing, publishing and leading software applications mostly
+> Software developer 👨🏻‍💻  iOS `&&` data applications. Developing, testing, publishing and leading software applications mostly
 
 #### Menú ☕️
 - [Experience](#experience)
