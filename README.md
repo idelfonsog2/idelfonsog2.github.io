@@ -134,21 +134,21 @@ Think about Virtual Tourist before Instagram search feature using Flicker
 
 You can take a trip to a polluted lake or clean lake and how the water looks, taste, or where it comes from matters.
 
-Data lakes is a new analogy to what Data Warehouse was till not too long ago. We are still using the same hardware for Data lakes, but with new tools which makes possible to cover more ground. In my previous project [STAR vs 3NF 🥊 SCHEMA](#STAR-vs-3NF-🥊-SCHEMA) I prepared the data to be ready for use by BI applications with the OLAP cubes. It's a structure that has been validated and vetted through several implementations and successful cases. When I learned about **Data lakes**: the tools, the language, Serverless (Python, learning Scala) I felt that I save a bit of automation by looking into it. Not to get me wrong, like any other technology it's flexible, there are pros and cons, budget, analysis of your workload, and team work.
+Data lakes is a new analogy to what Data Warehouse was till not too long ago. We are still using the same hardware for Data lakes, but with new tools which makes possible to cover more ground. In my previous project [STAR vs 3NF 🥊 SCHEMA](#STAR-vs-3NF-🥊-SCHEMA) I prepared the data to be ready for use by BI applications with the **OLAP cubes**. It's a structure that has been validated and vetted through several implementations and successful cases. When I learned about **Data lakes**: the tools, the language, Serverless (Python, learning Scala) I felt that I save a bit of automation by looking into it. Not to get me wrong, like any other technology it's flexible, there are pros and cons, budget, analysis of your workload, and team work.
 
 > # Data is the new oil 🛢 🤑 and everybody knows it but not really
 
-As I mention, automation, but not really. Instead of creating tables and doing the ETL dance, lets do the ELT dance. In which, we would infer the schema of "table" by setting the following:
+As I mention, automation, but not really. Instead of creating tables and doing the ETL dance, lets do the **ELT** 💃 dance. In which, we would infer the schema of "table" by setting the following:
 
 ```python
 df = spark.read.csv('s3a://.../file.csv', sep=';', inferSchema=True, header=True)
 ```
 
-We will perform our transformation and have them save in **S3** for which our BI apps could connect to or we could attached to the cluster, but they are expensive 💰. S3 it's cheap and it doesnt get shutdown.
+We will perform our transformation and have them save in **S3** for which our BI apps could connect to or we could attached to the **cluster**, but they are expensive 💰. S3 it's cheap and it doesnt get shutdown.
 
 Another step is the **Schema-on-read** for this process to be possible, and if you catch that there is a lot of steps.
 
-There is a some learning that I'm exited to be touching in the near future: Data Scientist, ML, cloud dev, data streaming
+There is some learning that I'm exited to be touching in the near future: Data Scientist, ML, cloud dev, **data streaming**
 
 [Github]()
 
