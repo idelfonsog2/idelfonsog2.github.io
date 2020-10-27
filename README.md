@@ -7,7 +7,7 @@
 <h2 align="center"> Idelfonso Gutierrez</h2>
 
 > Software developer 👨🏻‍💻  
-> Developing, testing and publishing [Swift](https://swift.org) `&&` data applications
+> Developing, testing, and publishing computer programs
 
 #### Menú ☕️
 - [Experience](#experience)
@@ -143,15 +143,18 @@ As I mention, automation, but not really. Instead of creating tables and doing t
 
 ```python
 df = spark.read.csv('s3a://.../file.csv', sep=';', inferSchema=True, header=True)
+df.createTempView("log_data")
+user_table = df.select('user_id as id',
+                       'year(ts) as year')
+user_table.write.parquet('users', partittionBy='year')
 ```
 
 We will perform our transformation and have them save in **S3** for which our BI apps could connect to or we could attached to the **cluster**, but they are expensive 💰. S3 it's cheap and it doesnt get shutdown.
 
 Another step is the **Schema-on-read** for this process to be possible, and if you catch that there is a lot of steps.
 
-There is some learning that I'm exited to be touching in the near future: Data Scientist, ML, cloud dev, **data streaming**
+There is some learning that I'm exited to be touching in the near future: data analyst, ML, cloud dev, **data streaming**
 
-![](img/elt.png)
 
 [Github](https://github.com/idelfonsog2/spark-music-data-pipeline)
 
