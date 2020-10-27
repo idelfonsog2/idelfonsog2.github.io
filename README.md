@@ -154,6 +154,8 @@ There is some learning that I'm exited to be touching in the near future: Data S
 
 [Github](https://github.com/idelfonsog2/spark-music-data-pipeline)
 
+[Jupyter Notebook](resources/wrangling_data_spark.html)
+
 **tech:** AWS EMR (Spark+Hadoop), Python, Notebooks
 
 ---
