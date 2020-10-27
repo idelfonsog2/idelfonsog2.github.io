@@ -6,7 +6,8 @@
 </p>
 <h2 align="center"> Idelfonso Gutierrez</h2>
 
-> Software developer 👨🏻‍💻  iOS `&&` data applications. Developing, testing, publishing and leading software applications mostly
+> Software developer 👨🏻‍💻  
+> Developing, testing and publishing [Swift](https://swift.org) `&&` data applications
 
 #### Menú ☕️
 - [Experience](#experience)
@@ -500,6 +501,9 @@ Our dev team was able to quickly identify the main problem in their workflow and
 tags: education
 
 # Tech stack
+
+`objective-c` `swift` `SwiftUI` `Python` `sql` `Combine` `TDD` `BDD` `pandas` `apache-cassandra` `apache-spark` `aws-emr` `aws-redshift` `nosql` `aws-s3` `vapor-swift` `jupyter-notebook` `hadoop`
+
 - Several years of professional experience in software development.
 - Implement enterprise business solutions.
 - Implement IoT iPadOS application.
@@ -513,15 +517,12 @@ tags: education
 - Implement web services communication.
 - Beginner experience with AWS services: AWS EMR, REDSHIFT, EC2, IAM, Lambda
 - Beginner experience with Apache Spark, Apache Cassandra
-- Experience working with variations of teams from solo developer to technical leadership coordination across tech stack
+- Experience working with variations of teams from solo developer to technical leadership coordination across tech-stack
 - Keeping up to date with new technologies (and my community ❤️iOS)
 - MobDevOps, learning cloud developer operations with AWS web services
 - Mentoring (also read: [volunteer](#volunteer))
 - Ensuring safe test-driven and behavior-driven development
 - Advocate for the technical vision
-- Objective-c, Swift, SwiftUI, Python, SQL, Combine
-- TDD, BDD
-- Pandas, Cassandra, Spark, AWS EMR
 
 # *Contact Information*
 
