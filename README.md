@@ -144,8 +144,11 @@ As I mention, automation, but not really. Instead of creating tables and doing t
 ```python
 df = spark.read.csv('s3a://.../file.csv', sep=';', inferSchema=True, header=True)
 df.createTempView("log_data")
-user_table = df.select('user_id as id',
-                       'year(ts) as year')
+user_table = df.spark.sql("""
+                        SELECT user_id as id', 'year(ts) as year
+                        FROM log_data
+                        """)
+user_table.show(1)
 user_table.write.parquet('users', partittionBy='year')
 ```
 
