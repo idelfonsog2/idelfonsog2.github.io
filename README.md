@@ -150,7 +150,9 @@ Another step is the **Schema-on-read** for this process to be possible, and if y
 
 There is some learning that I'm exited to be touching in the near future: Data Scientist, ML, cloud dev, **data streaming**
 
-[Github]()
+![](img/elt.png)
+
+[Github](https://github.com/idelfonsog2/spark-music-data-pipeline)
 
 **tech:** AWS EMR (Spark+Hadoop), Python, Notebooks
 
