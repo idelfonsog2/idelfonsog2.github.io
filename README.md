@@ -6,7 +6,6 @@
 </p>
 <h2 align="center"> Idelfonso Gutierrez</h2>
 
-> Software developer 👨🏻‍💻  
 > Developing, testing, and publishing computer programs
 
 #### Menú ☕️
@@ -163,7 +162,7 @@ There is some learning that I'm exited to be touching in the near future: data a
 
 [Github](https://github.com/idelfonsog2/spark-music-data-pipeline)
 
-**tech:** AWS EMR (Spark+Hadoop), Python, Notebooks
+**tech:** AWS EMR (Spark+HDFS), Python, Notebooks
 
 ---
 
@@ -508,11 +507,11 @@ tags: education
 
 # Tech stack
 
-`objective-c` `swift` `SwiftUI` `Python` `sql` `Combine` `TDD` `BDD` `pandas` `apache-cassandra` `apache-spark` `aws-emr` `aws-redshift` `nosql` `aws-s3` `vapor-swift` `jupyter-notebook` `hadoop`
+`objective-c` `swift` `iOS` `watchOS` `SwiftUI` `core-data` `python` `sql` `Combine` `TDD` `BDD` `pandas` `apache-cassandra` `apache-spark` `aws-emr` `aws-redshift` `aws-s3` `vapor-swift` `jupyter-notebook` 
 
 - Several years of professional experience in software development.
 - Implement enterprise business solutions.
-- Implement IoT iPadOS application.
+- Implement IoT iPad OS application.
 - Implement ML Model solution.
 - Implement Social Media based application.
 - Implement Location-based mobile applications.
@@ -559,7 +558,7 @@ tags: education
 <blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Tango
-<iframe src="https://open.spotify.com/embed/track/2AQMjBwUTYCjMqGpcXBayR" width="600" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/track/2AQMjBwUTYCjMqGpcXBayR" width="800" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Photograph by Charapin 🙌🏾
 
