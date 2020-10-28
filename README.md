@@ -6,8 +6,7 @@
 </p>
 <h2 align="center"> Idelfonso Gutierrez</h2>
 
-> `software engineer` 
-> developing, testing, and publishing applications according to the users' specifications
+> `software engineer` developing, testing, and publishing applications according to the users' specifications. examples: instagram, whatsapp, amazon.com, google.com
 
 #### Menú ☕️
 - [Experience](#experience)
