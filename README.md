@@ -6,7 +6,8 @@
 </p>
 <h2 align="center"> Idelfonso Gutierrez</h2>
 
-> Developing, testing, and publishing computer programs
+> `software engineer` 
+> developing, testing, and publishing applications according to the users' specifications
 
 #### Menú ☕️
 - [Experience](#experience)
