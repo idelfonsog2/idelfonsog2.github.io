@@ -151,7 +151,7 @@ user_table.show(1)
 user_table.write.parquet('users', partittionBy='year')
 ```
 
-[Jupyter Notebook](resources/note.md)
+[Jupyter Notebook](resources/data_lake.md)
 
 We will perform our transformation and have them save in **S3** for which our BI apps could connect to or we could attached to the **cluster**, but they are expensive 💰. S3 it's cheap and it doesnt get shutdown.
 
@@ -186,6 +186,9 @@ The idea is how can we prepare data to be use by _Business Intelligence_ applica
 In order to help the business see an overview of the data in a diagram of what important features of the product their customers might be using. Mainly, how can we improve the performance of these OLAP and OLTP transactions. For that, we use the combination of star schema tables, we build a strategy for a distributed data system, and do grouping for all the features thanks to REDSHIFT.
 
 ![](img/dwdiagram.png)
+
+
+[Jupyter Notebook](resources/data_warehouse.md)
 
 [Github](https://github.com/idelfonsog2/data_warehouse_with_aws_redshift.git)
 
