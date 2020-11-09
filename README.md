@@ -510,7 +510,7 @@ tags: education
 
 # Tech stack
 
-`objective-c` `swift` `iOS` `watchOS` `SwiftUI` `core-data` `python` `sql` `Combine` `TDD` `BDD` `pandas` `apache-cassandra` `apache-spark` `aws-emr` `aws-redshift` `aws-s3` `vapor-swift` `jupyter-notebook` 
+`objective-c` `swift` `swift packages` `XCTest` `XCUITest` `TDD` `BDD` `BFF` `iOS` `watchOS` `SwiftUI` `MVVM` `MV` `monolith` `microservices` `core-data` `python` `sql` `Combine` `pandas` `apache-cassandra` `apache-spark` `aws-emr` `aws-redshift` `aws-s3` `vapor-swift` `jupyter-notebook` 
 
 - Several years of professional experience in software development.
 - Implement enterprise business solutions.
