@@ -538,11 +538,11 @@ tags: education
 
 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
 
-📞 [+1 954 513 9568](tel://+19545139568)
+💬 [Chat](https://wa.me/19545139568?text=Hi%20Idelfonso)
 
 💼 [Github](https://github.com/idelfonsog2) 
 
-📠 [@idelfonsoGM](https://twitter.com/idelfonsoGM) 
+🐦 [@idelfonsoGM](https://twitter.com/idelfonsoGM) 
 
 💾 [Save Contact as ...](idelfonso.vcf)
 
