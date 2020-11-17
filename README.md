@@ -23,7 +23,7 @@
 - Miscellaneous
   - [Swift AWS Lambda]()
   - [TDD & BDD]() Use developer and business experience to drive the development of system
-  - [Read more...]((#miscellaneous))
+  - [Read more...](#miscellaneous)
 - [Clients](#clients) 
 - [Education](#education) 
 - [Volunteer](#volunteer) 
