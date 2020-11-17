@@ -9,17 +9,33 @@
 > `software developer` developing, testing, and publishing software application/s according to the users' specifications. think of: instagram, whatsapp, amazon.com, google.com
 
 #### Menú ☕️
-- [Experience](#experience)
-- [Mobile Applications](#mobile-applications) 
-- [Databases](#databases) 
-- [Miscellaneous](#miscellaneous) 
+- [Work Experience](#experience)
+- Mobile Applications
+  - [Stranded](#stranded) Dance with people at the airport
+  - [mmMapp](#mmMapp) Find the best pathway around Miami, FL and forget about your car
+  - [Read more...](#mobile-applications)
+- Databases
+  - [Data Lake](#Data-Lakes-🚤-with-Apache-Spark-+-EMR-Cluster) Use Spark, Schema-On-Write, and EMR to create an ELT* process
+  - [Data Warehouse](#Data-Ware🏡-with-AWS-Redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
+  - [Big Data with Cassandra](#Creating-an-ETL-process-with-Apache-Cassandra) Use the partitioned row store for a distributed system. To analyze, clean and agreggate data.
+  - [Enterprise data modeling](#Data-Modeling-with-PostgreSQL) Normalize a dataset in order for online analytical processes
+  - [Read more...](#databases)
+- Miscellaneous
+  - [Swift AWS Lambda]()
+  - [TDD & BDD]() Use developer and business experience to drive the development of system
+  - [Read more...]((#miscellaneous))
 - [Clients](#clients) 
 - [Education](#education) 
 - [Volunteer](#volunteer) 
 - [Tech Stack](#tech-stack) 
 - [Hobbies](#hobbies)
-- [Contact](#contact-information) 
-- [Download PDF](resume_us.pdf) 
+- [Contact](#contact-information)
+  - 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
+  - 💬 [Chat..](https://wa.me/19545139568?text=Hi%20Idelfonso)
+  - 💼 [Check OSS...](https://github.com/idelfonsog2) 
+  - 🐦 [@idelfonsoGM](https://twitter.com/idelfonsoGM) 
+  - 💾 [Save Contact as ...](idelfonso.vcf)
+  - 💼 [Download PDF](resume_us.pdf) 
 
 # Mobile Applications 
 
@@ -532,20 +548,6 @@ tags: education
 - Ensuring safe test-driven and behavior-driven development
 - Advocate for the technical vision
 
-# *Contact Information*
-
-`status: Billingual dancer from Venezuelan 🇻🇪 in Chicago, IL`
-
-📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
-
-💬 [Chat](https://wa.me/19545139568?text=Hi%20Idelfonso)
-
-💼 [Github](https://github.com/idelfonsog2) 
-
-🐦 [@idelfonsoGM](https://twitter.com/idelfonsoGM) 
-
-💾 [Save Contact as ...](idelfonso.vcf)
-
 # Hobbies
 
 ## Learning
@@ -561,7 +563,7 @@ tags: education
 <blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Tango
-<iframe src="https://open.spotify.com/embed/track/2AQMjBwUTYCjMqGpcXBayR" width="800" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/track/2AQMjBwUTYCjMqGpcXBayR" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 Photograph by Charapin 🙌🏾
 
