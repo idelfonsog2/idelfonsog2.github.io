@@ -15,14 +15,14 @@
   - [mmMapp](#mmMapp) Find the best pathway around Miami, FL and forget about your car
   - [Read more...](#mobile-applications)
 - Databases
-  - [Data Lake](#Data-Lakes-🚤-with-Apache-Spark-+-EMR-Cluster) Use Spark, Schema-On-Write, and EMR to create an ELT* process
-  - [Data Warehouse](#Data-Ware🏡-with-AWS-Redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
-  - [Big Data with Cassandra](#Creating-an-ETL-process-with-Apache-Cassandra) Use the partitioned row store for a distributed system. To analyze, clean and agreggate data.
-  - [Enterprise data modeling](#Data-Modeling-with-PostgreSQL) Normalize a dataset in order for online analytical processes
+  - [Data Lake](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Write, and EMR to create an ELT* process
+  - [Data Warehouse](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
+  - [Big Data with Cassandra](#creating-an-etl-process-with-apache-cassandra) Use the partitioned row store for a distributed system. To analyze, clean and agreggate data.
+  - [Enterprise data modeling](#data-modeling-with-postgresql) Normalize a dataset in order for online analytical processes
   - [Read more...](#databases)
 - Miscellaneous
-  - [Swift AWS Lambda](#Lambdas-in-Swift)
-  - [TDD & BDD](#Writing-BDD-+-TDD-in-my-current-projects) Use developer and business experience to drive the development of system. OSS contribution
+  - [Swift AWS Lambda](#lambdas-in-swift)
+  - [TDD & BDD](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of system. OSS contribution
   - [Read more...](#miscellaneous)
 - [Clients](#clients) 
 - [Education](#education) 
@@ -277,7 +277,7 @@ Our dev team was able to implement a database using normalization, which helps i
 
 # Miscellaneous 
 
-# Lambdas in Swift
+## Lambdas in Swift
 
 Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
 The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively. Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE
