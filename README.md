@@ -21,8 +21,8 @@
   - [Enterprise data modeling](#Data-Modeling-with-PostgreSQL) Normalize a dataset in order for online analytical processes
   - [Read more...](#databases)
 - Miscellaneous
-  - [Swift AWS Lambda]()
-  - [TDD & BDD]() Use developer and business experience to drive the development of system
+  - [Swift AWS Lambda](#Lambdas-in-Swift)
+  - [TDD & BDD](#Writing-BDD-+-TDD-in-my-current-projects) Use developer and business experience to drive the development of system. OSS contribution
   - [Read more...](#miscellaneous)
 - [Clients](#clients) 
 - [Education](#education) 
@@ -277,7 +277,7 @@ Our dev team was able to implement a database using normalization, which helps i
 
 # Miscellaneous 
 
-# Lambdas, Closures, Callbacks..... the famous iOS completionHandler argument label
+# Lambdas in Swift
 
 Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
 The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively. Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE
@@ -294,7 +294,7 @@ Thank you [Fabbian Fett](https://twitter.com/fabianfett) for given us Swift AWS 
 
 ---
 
-## Writing BDD + TDD in my current projects. (Open-source software)
+## Writing BDD + TDD in my current projects
 
 - **Who writes TDD?** tricky question🤔😅. Best case, its the output of a conversation between: devs, product owners/managers, stakeholders, and quality assurance testers
 - **What is TDD?**  write software that assumes your production software is already built and make it compile/pass.
