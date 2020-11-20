@@ -5,10 +5,11 @@
 	<img width="180" height="180" src="/img/circular-shot.png"/>
 </p>
 
-    /// Idelfonso Gutierrez
-    /// Dedicated Software Developer
+## Idelfonso Gutierrez
+### Software Developer
+
 ***
-#### Menú ☕️
+Menú ☕️ :
 - [Work Experience](#experience)
 - Mobile Applications
   - [Stranded](#stranded) Dance with people at the airport
