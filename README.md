@@ -15,6 +15,7 @@
   - [mmMapp](#mmMapp) Find the best pathway around Miami, FL and forget about your car
   - [Read more...](#mobile-applications)
 - Databases
+  - [Data Scheduler](#data-scheduler) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift datawarehouse
   - [Data Lake](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Write, and EMR to create an ELT* process
   - [Data Warehouse](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
   - [Big Data with Cassandra](#creating-an-etl-process-with-apache-cassandra) Use the partitioned row store for a distributed system. To analyze, clean and agreggate data.
@@ -146,6 +147,24 @@ Think about Virtual Tourist before Instagram search feature using Flicker
 
 # Databases
 
+## Data Scheduler
+
+When data analysts and data scientists use data, they rely that is accurate and diverse enough in order to come up with these amazing models that help drive business decisions. Data comes from many places and from different times; a system could start collecting data tomorrow or it was already started 20 years ago; Imagine that 😅
+
+#### Music data analyzer scheduler 
+
+This project showcases how to design and schedule a series of jobs/steps using [Apache Airflow](https://airflow.apache.org/) with the following purposes
+- Backfill data
+- Build a dimensional data model using python
+- load data from AWS S3 bucket to AWS Redshift Datawarehouse
+- run quality checks on the data
+- Use or create custom operators and available hooks to create reusable code
+
+![DAG](img/dag.png)
+
+[Github](https://github.com/idelfonsog2/data-scheduler-airflow)
+
+**tech:** AWS Redshift, Python, Apache Airflow, Docker
 ## Data Lakes 🚤  with Apache Spark + EMR Cluster
 
 You can take a trip to a polluted lake or clean lake and how the water looks, taste, or where it comes from matters.
