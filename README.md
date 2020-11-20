@@ -23,7 +23,7 @@
   - [Read more...](#databases)
 - Miscellaneous
   - [Swift AWS Lambda (sample)](#lambdas-in-swift)
-  - [TDD & BDD](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of system. OSS contribution
+  - [Test Driven Development & Behavior Driven Development](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of system. OSS contribution
   - [Read more...](#miscellaneous)
 - [Clients](#clients) 
 - [Education](#education)
@@ -33,8 +33,8 @@
 - [Contact](#contact-information)
   - 💬 [Chat..](https://wa.me/19545139568?text=Hi%20Idelfonso)
   - 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
-  - 💼 [Check OSS...](https://github.com/idelfonsog2) 
-  - 🐦 [@idelfonsoGM](https://twitter.com/idelfonsoGM) 
+  - 💼 [Check Open Source Software...](https://github.com/idelfonsog2) 
+  - 🐦 [Follow @idelfonsoGM](https://twitter.com/idelfonsoGM) 
   - 💼 [Download PDF](resume_us.pdf) 
   - 💾 [Save Contact as ...](idelfonso.vcf)
 ***
