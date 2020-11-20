@@ -5,8 +5,8 @@
 	<img width="180" height="180" src="/img/circular-shot.png"/>
 </p>
 
-## Idelfonso Gutierrez
-### [`Dedicated Software Developer`](https://en.wikipedia.org/wiki/Programmer)
+    /// Idelfonso Gutierrez
+    /// Dedicated Software Developer
 ***
 #### Menú ☕️
 - [Work Experience](#experience)
