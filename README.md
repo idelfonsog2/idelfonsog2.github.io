@@ -4,15 +4,15 @@
 <p align="center">
 	<img width="180" height="180" src="/img/circular-shot.png"/>
 </p>
-<h2 align="center"> Idelfonso Gutierrez</h2>
 
-> `software developer` developing, testing, and publishing software application/s according to the users' specifications. think of: instagram, whatsapp, amazon.com, google.com
-
+## Idelfonso Gutierrez
+### [`Dedicated Software Developer`](https://en.wikipedia.org/wiki/Programmer)
+***
 #### Menú ☕️
 - [Work Experience](#experience)
 - Mobile Applications
   - [Stranded](#stranded) Dance with people at the airport
-  - [mmMapp](#mmMapp) Find the best pathway around Miami, FL and forget about your car
+  - [mmMapp (sample)](#mmMapp) Find the best pathway around Miami, FL and forget about your car
   - [Read more...](#mobile-applications)
 - Databases
   - [Data Scheduler](#data-scheduler) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift datawarehouse
@@ -22,21 +22,22 @@
   - [Enterprise data modeling](#data-modeling-with-postgresql) Normalize a dataset in order for online analytical processes
   - [Read more...](#databases)
 - Miscellaneous
-  - [Swift AWS Lambda](#lambdas-in-swift)
+  - [Swift AWS Lambda (sample)](#lambdas-in-swift)
   - [TDD & BDD](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of system. OSS contribution
   - [Read more...](#miscellaneous)
 - [Clients](#clients) 
-- [Education](#education) 
+- [Education](#education)
 - [Volunteer](#volunteer) 
 - [Tech Stack](#tech-stack) 
 - [Hobbies](#hobbies)
 - [Contact](#contact-information)
-  - 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
   - 💬 [Chat..](https://wa.me/19545139568?text=Hi%20Idelfonso)
+  - 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
   - 💼 [Check OSS...](https://github.com/idelfonsog2) 
   - 🐦 [@idelfonsoGM](https://twitter.com/idelfonsoGM) 
-  - 💾 [Save Contact as ...](idelfonso.vcf)
   - 💼 [Download PDF](resume_us.pdf) 
+  - 💾 [Save Contact as ...](idelfonso.vcf)
+***
 
 # Mobile Applications 
 
@@ -47,6 +48,7 @@
   the Solution + images
   how it works + images
 -->
+
 
 #### _Background:_
 _ORD_ 🛫 _MAD_ 🛬 _ETD 14:00 _
