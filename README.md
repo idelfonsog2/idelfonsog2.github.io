@@ -16,7 +16,7 @@ Menú ☕️ :
   - [mmMapp (sample)](#mmMapp) Find the best pathway around Miami, FL and forget about your car
   - [Read more...](#mobile-applications)
 - Databases
-  - [Data Scheduler](#data-scheduler) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift datawarehouse
+  - [Data Pipeline Scheduler](#data-scheduler) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift datawarehouse
   - [Data Lake](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Write, and EMR to create an ELT* process
   - [Data Warehouse](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
   - [Big Data with Cassandra](#creating-an-etl-process-with-apache-cassandra) Use the partitioned row store for a distributed system. To analyze, clean and agreggate data.
