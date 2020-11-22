@@ -8,23 +8,21 @@
 ## Idelfonso Gutierrez
 ### Software Developer
 
-***
-Menú ☕️ :
+### Menú ☕️ 
 - [Work Experience](#experience)
 - Mobile Applications
   - [Stranded](#stranded) Dance with people at the airport
   - [mmMapp (sample)](#mmMapp) Find the best pathway around Miami, FL and forget about your car
   - [Read more...](#mobile-applications)
 - Databases
-  - [Data Pipelines with Airflow](#data-pipelines-with-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift datawarehouse
-  - [Data Lake](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Write, and EMR to create an ELT* process
+  - [Data Pipelines with Airflow](#data-pipelines-with-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse - [Data Lake](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Write, and EMR to create an ELT* process
   - [Data Warehouse](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
-  - [Big Data with Cassandra](#creating-an-etl-process-with-apache-cassandra) Use the partitioned row store for a distributed system. To analyze, clean and agreggate data.
+  - [Big Data with Cassandra](#creating-an-etl-process-with-apache-cassandra) Use the partitioned row store for a distributed system. To analyze, clean and aggregate data.
   - [Enterprise data modeling](#data-modeling-with-postgresql) Normalize a dataset in order for online analytical processes
   - [Read more...](#databases)
 - Miscellaneous
   - [Swift AWS Lambda (sample)](#lambdas-in-swift)
-  - [Test Driven Development & Behavior Driven Development](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of system. OSS contribution
+  - [Test Driven Development & Behavior Driven Development](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of systems. OSS contribution
   - [Read more...](#miscellaneous)
 - [Clients](#clients) 
 - [Education](#education)
