@@ -38,41 +38,51 @@
   - 💾 [Save Contact as ...](idelfonso.vcf)
 ***
 
-# Mobile Applications 
+## Mobile Applications 
 
-## Stranded
+*** 
 
 <!-- Follow: https://krausefx.com/ Pattern
   The Problem
   the Solution + images
   how it works + images
 -->
-
-
-#### _Background:_
-_ORD_ 🛫 _MAD_ 🛬 _ETD 14:00 _
-
-Waiting for your flight? How to start a conversation with someone? Maybe a dance... In order to dance you only need a smile and good energy
-Math ➗ is international known. Music 🎼 is international heard. Dance, sculpture, literature, design, cuisine are different forms of expressions denoted as Arts which are internally perform.
-
-> ## Social interaction is a human need
+> Social interaction is a human need
 
 YES! It's something we get excited for and even further when we meet, travel or try something new. People can connect with each other despite the different languages, origins, cultures.
 
-#### _The Solution:_
-Stranded 🙂 brings people together at international places (airports) in different time zones! Allowing them to discover something new and exciting... and possibly a new friend.
+**The Problem**
+- Waiting for your flight?
+- Will you get into the Starbucks Queue?
+- Will your face be bound to your phone screen for the next half up to two hours?
+- Will you wonder around? (Hey exploring not necessarily bad)
 
-![](img/stranded-3.jpg)
+**Context**
+- Math ➗ is international spoken. 
+- Music 🎼 is international heard. 
+- Culture, which involves dance, literature, design, cuisine are different forms of expression.
+
+**The Solution**
+
+Create a connection with a new person using a feature from the cultures in general
+
+## `Stranded`
+
+      Airport Code:
+      Gate:
+      Terminal:
+      Estimated Time of Departure:
+      How you look like:
+
+It will map, filter, reduce common attributes of a person's trip within an international location (airports) for different time zones! Giving them easy discoverability and possibly a new friend/acquaintance. It will notify you when someone is nearby
+
+The rest is **HX**, human experience! 💆‍♀️💆‍♂️
 
 tech: Combine, SwiftUI, APNS, database
 
 ---
 
-## mmMapp
-
-> ## The ability to keep learning is an invaluable skill
-
-#### _Pitch:_
+**Pitch**
 - Have you ever had too many events in the same day at different times and different locations?
 - Were the events or appointments located close to each other?
 - Do you always take into consideration how long will it take you to go from appointment A to appointment B?
@@ -82,12 +92,14 @@ tech: Combine, SwiftUI, APNS, database
 **But most importantly!**
 How happy... or how stress are you? ⛱ 🤯
 
-#### _The Solution: Coming soon_
+> The ability to keep learning is an invaluable skill
 
-<!-- ![](img/badge.svg) -->
+**The Solution**
+
+`mmMapp` link your calendar with your social media accounts and have mmMapp shows you the events in a sequence with stopping points, happy routes to take, human experience taking int consideration. 
 
 ---
-### **`YellowPepper Talks`**
+### `YellowPepper Talks`
 
 [![](http://img.youtube.com/vi/tImGKXMNiMw/0.jpg)](http://www.youtube.com/watch?v=tImGKXMNiMw)
 
@@ -101,11 +113,9 @@ Introduction to Firebase Database, IAM, and backend for the front end developers
 
 [GitHub](https://github.com/idelfonsog2/firebase_ios)
 
-<!-- [Demo video](https://www.youtube.com/embed/tImGKXMNiMw) -->
-
 ---
 
-### **`Tubmlr Client`**
+### `Tubmlr Client`
 
 ![](img/tm2.png) ![](img/tm3.png) ![](img/tm4.png)
 
