@@ -8,16 +8,17 @@
 ## Idelfonso Gutierrez
 ### Software Developer
 
-### Menú ☕️ 
+#### Menú ☕️ 
 - [Work Experience](#experience)
 - Mobile Applications
   - [Stranded](#stranded) Dance with people at the airport
   - [mmMapp (sample)](#mmMapp) Find the best pathway around Miami, FL and forget about your car
   - [Read more...](#mobile-applications)
 - Databases
-  - [Data Pipelines with Airflow](#data-pipelines-with-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse - [Data Lake](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Write, and EMR to create an ELT* process
+  - [Data Pipelines with Apache Airflow](#data-pipelines-with-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse 
+  - [Data Lake with Apache Spark](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Write, and EMR to create an ELT* process
   - [Data Warehouse](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
-  - [Big Data with Cassandra](#creating-an-etl-process-with-apache-cassandra) Use the partitioned row store for a distributed system. To analyze, clean and aggregate data.
+  - [Big Data modeling with Apache Cassandra](#creating-an-etl-process-with-apache-cassandra) Use the partitioned row store for a distributed system. To analyze, clean and aggregate data.
   - [Enterprise data modeling](#data-modeling-with-postgresql) Normalize a dataset in order for online analytical processes
   - [Read more...](#databases)
 - Miscellaneous
@@ -39,8 +40,6 @@
 ***
 
 ## Mobile Applications 
-
-*** 
 
 <!-- Follow: https://krausefx.com/ Pattern
   The Problem
@@ -74,7 +73,10 @@ Create a connection with a new person using a feature from the cultures in gener
       Estimated Time of Departure:
       How you look like:
 
-It will map, filter, reduce common attributes of a person's trip within an international location (airports) for different time zones! Giving them easy discoverability and possibly a new friend/acquaintance. It will notify you when someone is nearby
+- It will map, filter, reduce common attributes of a person's trip 
+- Time zones taking into account within airports
+- Giving each person easy discoverability and possibly a new friend/acquaintance. 
+- It will notify you when someone is nearby
 
 The rest is **HX**, human experience! 💆‍♀️💆‍♂️
 
