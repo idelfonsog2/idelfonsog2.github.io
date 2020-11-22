@@ -538,13 +538,6 @@ Our dev team was able to quickly identify the main problem in their workflow and
 - Startup Cohort @FIU Jan 2017 - April 2017
 - iOS Nanodegree Udacity Sep 2016 - Nov 2016
 - Data Engineer Nanodegree Udacity - in progress
-  - RDBMS Design and SQL
-  - Python scripting
-  - Data Warehouse Architecture
-  - Dimensional Modeling and OLAP cubes
-  - Familiarity with AWS services
-  - Spark & HDFS
-
 # Volunteer 
 
 ### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
@@ -558,13 +551,13 @@ tags: education
 
 # Tech stack
 
-`objective-c` `swift` `swift packages` `XCTest` `XCUITest` `TDD` `BDD` `BFF` `iOS` `watchOS` `SwiftUI` `MVVM` `MV` `monolith` `microservices` `core-data` `python` `sql` `Combine` `pandas` `apache-cassandra` `apache-spark` `aws-emr` `aws-redshift` `aws-s3` `vapor-swift` `jupyter-notebook` 
+`objective-c` `swift` `swift packages` `XCTest` `XCUITest` `TDD` `BDD` `BFF` `iOS` `watchOS` `SwiftUI` `MVVM` `MV` `monolith` `microservices` `core-data` `python` `sql` `Combine` `pandas` `apache-cassandra` `apache-spark` `apache-airflow` `aws-emr` `aws-redshift` `aws-s3` `vapor-swift` `jupyter-lab` 
 
 - Several years of professional experience in software development.
 - Implement enterprise business solutions.
 - Implement IoT iPad OS application.
 - Implement ML Model solution.
-- Implement Social Media based application.
+- Implement Social Media based applications.
 - Implement Location-based mobile applications.
 - Implement realtime mobile application databases.
 - Implement notification system and data exchange mobile applications
@@ -582,9 +575,10 @@ tags: education
 
 # Hobbies
 
-## Learning
+## Good Reads
 - [Behavior Driven Development in Action](https://www.amazon.com/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X/ref=sr_1_1?crid=1QMU5POSX4VUP&dchild=1&keywords=behavior+driven+development&qid=1601994363&s=books&sprefix=behavior+Driven+Deve%2Cstripbooks%2C167&sr=1-1)
 - Functional Programming in Swift -> Goal: Scala
+- [Domain Driven-Design](https://www.amazon.com/gp/product/0321125215?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321125215)
 - [Working With Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)
 - [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=sr_1_1?crid=393J1ET1HBZB8&dchild=1&keywords=designing+data+intensive+applications&qid=1601994325&s=books&sprefix=designing+data+i%2Cstripbooks%2C162&sr=1-1)
 - [Server-Side Swift](https://www.google.com/search?client=safari&rls=en&q=vapor.code&ie=UTF-8&oe=UTF-8)
