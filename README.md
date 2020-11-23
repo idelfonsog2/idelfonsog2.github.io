@@ -6,7 +6,7 @@
 </p>
 
 ## Idelfonso Gutierrez
-### Software Developer
+### Dedicated software developer
 
 #### Menú ☕️ 
 - [Work Experience](#experience)
@@ -218,7 +218,7 @@ There is some learning that I'm exited to be touching in the near future: data a
 
 > Why would we want to use re-create our table structures for Analytical Procedures?
 
-It happens that performance is much better, we can do fewer joins and access the same information. We still would like to have our 3NF schema for application purposes. Besides re-creating our tables, these can be improve... by a lot more with the following!
+It happens that performance is much better, we can do fewer joins and access the same information. We still would like to have our 3NF schema for application purposes on the side, think about it like a separate microservice. Besides re-creating our tables, these can be improve... by a lot more with the following!
 
 - Non-Columnar Storage (AWS REDSHIFT)
 - Distribution table Style (All, even, key), 
@@ -551,7 +551,7 @@ tags: education
 
 # Tech stack
 
-`objective-c` `swift` `swift packages` `XCTest` `XCUITest` `TDD` `BDD` `BFF` `iOS` `watchOS` `SwiftUI` `MVVM` `MV` `monolith` `microservices` `core-data` `python` `sql` `Combine` `pandas` `apache-cassandra` `apache-spark` `apache-airflow` `aws-emr` `aws-redshift` `aws-s3` `vapor-swift` `jupyter-lab` 
+`swift` `python` `sql` `objective-c` `swift packages` `unit test` `ui test` `test driven development` `behavior driven development` `backend for frontend` `iOS` `watchOS` `SwiftUI` `MVVM` `MV` `monolith` `microservices` `core-data` `Combine` `pandas` `apache-cassandra` `apache-spark` `apache-airflow` `aws-emr` `aws-redshift` `aws-s3` `vapor-swift` `jupyter-lab`
 
 - Several years of professional experience in software development.
 - Implement enterprise business solutions.
@@ -567,7 +567,7 @@ tags: education
 - Beginner experience with AWS services: AWS EMR, REDSHIFT, EC2, IAM, Lambda
 - Beginner experience with Apache Spark, Apache Cassandra
 - Experience working with variations of teams from solo developer to technical leadership coordination across tech-stack
-- Keeping up to date with new technologies (and my community ❤️iOS)
+- Keeping up to date with new technologies (and my community ❤️ Apple platforms)
 - MobDevOps, learning cloud developer operations with AWS web services
 - Mentoring (also read: [volunteer](#volunteer))
 - Ensuring safe test-driven and behavior-driven development
