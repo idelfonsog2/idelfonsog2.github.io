@@ -29,8 +29,7 @@
 - [Education](#education)
 - [Volunteer](#volunteer) 
 - [Tech Stack](#tech-stack) 
-- [Hobbies](#hobbies)
-- [Contact](#contact-information)
+- [About Me](#about-me)
   - 💬 [Chat..](https://wa.me/19545139568?text=Hi%20Idelfonso)
   - 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
   - 💼 [Check Open Source Software...](https://github.com/idelfonsog2) 
@@ -175,9 +174,13 @@ This project showcases how to design and schedule a series of jobs/steps using [
 
 ![DAG](img/dag.png)
 
-[Github](https://github.com/idelfonsog2/data-scheduler-airflow)
+[Github](https://github.com/idelfonsog2/data-schedu
+ler-airflow)
+This project was completed under the Data Engineer Udacity Nanodegree [link](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
 
 **tech:** AWS Redshift, Python, Apache Airflow, Docker
+
+***
 ## Data Lakes 🚤  with Apache Spark + EMR Cluster
 
 You can take a trip to a polluted lake or clean lake and how the water looks, taste, or where it comes from matters.
@@ -201,14 +204,15 @@ user_table.write.parquet('users', partittionBy='year')
 
 [Jupyter Notebook](resources/data_lake.md)
 
-We will perform our transformation and have them save in **S3** for which our BI apps could connect to or we could attached to the **cluster**, but they are expensive 💰. S3 it's cheap and it doesnt get shutdown.
+We will perform our transformation and have them save in **S3** for which our BI apps could connect to or we could attached to the **cluster**, but they are expensive 💰. S3 it's cheap and it doesn't get shutdown.
 
 Another step is the **Schema-on-read** for this process to be possible, and if you catch that there is a lot of steps.
 
 There is some learning that I'm exited to be touching in the near future: data analyst, ML, cloud dev, **data streaming**
 
-
 [Github](https://github.com/idelfonsog2/spark-music-data-pipeline)
+
+This project was completed under the Data Engineer Udacity Nanodegree [link](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
 
 **tech:** AWS EMR (Spark+HDFS), Python, Notebooks
 
@@ -239,6 +243,8 @@ In order to help the business see an overview of the data in a diagram of what i
 [Jupyter Notebook](resources/data_warehouse.md)
 
 [Github](https://github.com/idelfonsog2/data_warehouse_with_aws_redshift.git)
+
+This project was completed under the Data Engineer Udacity Nanodegree [link](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
 
 **tech:** AWS services*, Python, Jupyter
 
@@ -272,6 +278,8 @@ My job was to extract transform and load this data into the system where busines
 
 **tech:** Apache Cassandra, Python, Pandas
 
+This project was completed under the Data Engineer Udacity Nanodegree [link](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
+
 ---
 ## Data Modeling with PostgreSQL
 
@@ -287,6 +295,8 @@ In the following application are given directory paths of where the client-side 
 ![](img/diagram.png)
 
 [Github](https://github.com/idelfonsog2/pslq-data-modeling)
+
+This project was completed under the Data Engineer Udacity Nanodegree [link](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
 
 **tech:** PostgreSQL, Python, Pandas
 
@@ -321,6 +331,8 @@ Many people say: "well.... its just a Hello World program" or "it lacks the vote
 Thank you [Fabbian Fett](https://twitter.com/fabianfett) for given us Swift AWS Lambda
 
 ![](img/swift-aws.png)
+
+[Getting started with Swift on AWS Lambda](https://fabianfett.de/getting-started-with-swift-aws-lambda-runtime)
 
 [GitHub](https://github.com/idelfonsog2/swift-aws-lambda-function)
 
@@ -573,15 +585,16 @@ tags: education
 - Ensuring safe test-driven and behavior-driven development
 - Advocate for the technical vision
 
-# Hobbies
+# About Me
 
-## Good Reads
-- [Behavior Driven Development in Action](https://www.amazon.com/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X/ref=sr_1_1?crid=1QMU5POSX4VUP&dchild=1&keywords=behavior+driven+development&qid=1601994363&s=books&sprefix=behavior+Driven+Deve%2Cstripbooks%2C167&sr=1-1)
-- Functional Programming in Swift -> Goal: Scala
+## Readings
+
+- [Functional Programming - with Swift](https://www.objc.io/books/functional-swift/) 
 - [Domain Driven-Design](https://www.amazon.com/gp/product/0321125215?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321125215)
 - [Working With Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)
 - [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=sr_1_1?crid=393J1ET1HBZB8&dchild=1&keywords=designing+data+intensive+applications&qid=1601994325&s=books&sprefix=designing+data+i%2Cstripbooks%2C162&sr=1-1)
 - [Server-Side Swift](https://www.google.com/search?client=safari&rls=en&q=vapor.code&ie=UTF-8&oe=UTF-8)
+- [Behavior Driven Development in Action](https://www.amazon.com/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X/ref=sr_1_1?crid=1QMU5POSX4VUP&dchild=1&keywords=behavior+driven+development&qid=1601994363&s=books&sprefix=behavior+Driven+Deve%2Cstripbooks%2C167&sr=1-1)
 - [A metabolic approach to cancer 📚](https://www.amazon.com/Metabolic-Approach-Cancer-Integrating-Bio-Individualized/dp/1603586865/ref=sr_1_2?crid=K25WDL26D9QF&dchild=1&keywords=a+metabolic+approach+to+cancer&qid=1601994411&sprefix=a+metabolic%2Cstripbooks%2C158&sr=8-2)
 - [Geopolitics](https://www.amazon.com/Next-100-Years-Forecast-Century-ebook/dp/B001NLL946/ref=sr_1_1?crid=2DE719JVUJ0NJ&dchild=1&keywords=the+next+100+years+george+friedman&qid=1601994579&sprefix=the+next+100%2Caps%2C160&sr=8-1)
 - Urban planning
@@ -594,3 +607,5 @@ tags: education
 Photograph by Charapin 🙌🏾
 
 ![Charapin](/img/tango.jpg)
+
+2020, I made this website using Github README file because it is easy to update
