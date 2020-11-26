@@ -16,7 +16,7 @@
   - [Read more...](#mobile-applications)
 - Databases
   - [Data Pipelines with Apache Airflow](#data-pipelines-with-apache-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse 
-  - [Data Lake with Apache Spark](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Write, and EMR to create an ELT* process
+  - [Data Lake with Apache Spark](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Read, and EMR to create an ELT* process
   - [Data Warehouse](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
   - [Big Data modeling with Apache Cassandra](#creating-an-etl-process-with-apache-cassandra) Use the partitioned row store for a distributed system. To analyze, clean and aggregate data.
   - [Enterprise data modeling](#data-modeling-with-postgresql) Normalize a dataset in order for online analytical processes
@@ -183,13 +183,23 @@ This project was completed under the Data Engineer Udacity Nanodegree [link](htt
 ***
 ## Data Lakes 🚤  with Apache Spark + EMR Cluster
 
-You can take a trip to a polluted lake or clean lake and how the water looks, taste, or where it comes from matters.
+You can take a trip to a polluted lake or a clean lake and how the water looks, tastes, or where it comes from matters.
 
-Data lakes is a new analogy to what Data Warehouse was till not too long ago. We are still using the same hardware for Data lakes, but with new tools which makes possible to cover more ground. In my previous project [STAR vs 3NF 🥊 SCHEMA](#STAR-vs-3NF-🥊-SCHEMA) I prepared the data to be ready for use by BI applications with the **OLAP cubes**. It's a structure that has been validated and vetted through several implementations and successful cases. When I learned about **Data lakes**: the tools, the language, Serverless (Python, learning Scala) I felt that I save a bit of automation by looking into it. Not to get me wrong, like any other technology it's flexible, there are pros and cons, budget, analysis of your workload, and team work.
+Data lakes is a new analogy to what Data Warehouse was till not too long ago. We are still using the same hardware for Data lakes, but with new tools which makes possible to cover more ground. 
+
+In my previous project [STAR vs 3NF 🥊 SCHEMA](#STAR-vs-3NF-🥊-SCHEMA) I prepared the data to be ready for use by BI applications with the **OLAP cubes**. It's a structure that has been validated and vetted through several implementations and successful cases. When I learned about **Data lakes**: the tools, the language, Serverless (Python, learning Scala) I felt that I save a bit of automation by looking into it. 
+
+Don't get me wrong, like any other technology it's flexible, there are pros and cons, budget, analysis of your workload, and team work.
 
 > # Data is the new oil 🛢 🤑 and everybody knows it but not really
 
-As I mention, automation, but not really. Instead of creating tables and doing the ETL dance, lets do the **ELT** 💃 dance. In which, we would infer the schema of "table" by setting the following:
+As I mention, automation, but not really. Instead of creating tables and doing the ETL dance, lets do the **ELT** 💃 dance.
+
+Big Data frameworks like Spark focuses on what, where, and how to what Hadoop couldn't
+
+- What *type* of files you read/write has more variety
+- Where the files *reside*; filesystem or databases
+- How everything becomes available through `DataFrames` + `SQL`
 
 ```python
 df = spark.read.csv('s3a://.../file.csv', sep=';', inferSchema=True, header=True)
@@ -206,9 +216,7 @@ user_table.write.parquet('users', partittionBy='year')
 
 We will perform our transformation and have them save in **S3** for which our BI apps could connect to or we could attached to the **cluster**, but they are expensive 💰. S3 it's cheap and it doesn't get shutdown.
 
-Another step is the **Schema-on-read** for this process to be possible, and if you catch that there is a lot of steps.
-
-There is some learning that I'm exited to be touching in the near future: data analyst, ML, cloud dev, **data streaming**
+Another step is the **Schema-on-read** for this process to be possible, and if you noticed there is a lot of steps.
 
 [Github](https://github.com/idelfonsog2/spark-music-data-pipeline)
 
