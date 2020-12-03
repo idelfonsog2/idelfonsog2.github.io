@@ -79,7 +79,11 @@ Create a connection with a new person using a feature from the cultures in gener
 
 The rest is **HX**, human experience! 💆‍♀️💆‍♂️
 
+![](img/stranded.jpg)
+
 tech: Combine, SwiftUI, APNS, database
+
+*status: development*
 
 ---
 
