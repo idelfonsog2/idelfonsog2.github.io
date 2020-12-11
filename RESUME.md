@@ -1,4 +1,5 @@
 <meta property="og:title" content="Curiosity & Learning is the number one skill">
+<meta property="og:description" content="Working with software applications and data pipelines.">
 <meta property="og:image" content="https://idelfonsog2.github.io/img/circular-shot.png">
 
 <p align="center">
@@ -246,8 +247,8 @@ In the first point, I'm talking about creating an ETL process to load this data,
 
 For this project I utilize AWS web services like `redshift`, `s3 storage buckets`, `user roles`, `policies`, and `cloud watch`
 
-The idea is how can we prepare data to be use by _Business Intelligence_ applications like Tableu or even Jupyternotebook! 👍
-In order to help the business see an overview of the data in a diagram of what important features of the product their customers might be using. Mainly, how can we improve the performance of these OLAP and OLTP transactions. For that, we use the combination of star schema tables, we build a strategy for a distributed data system, and do grouping for all the features thanks to REDSHIFT.
+The idea is how can we prepare data to be use by _Business Intelligence_ applications Tableu or even Jupyternotebook! 👍
+In order to help the business see an overview of the data in a diagram of what important features of the product their customers might be using. Mainly, how can we improve the performance of these OLAP and OLTP transactions? For that, we use the combination of star schema tables, we build a strategy for a distributed data system, and do grouping for all the features thanks to REDSHIFT.
 
 ![](img/dwdiagram.png)
 
@@ -299,7 +300,7 @@ This project was completed under the Data Engineer Udacity Nanodegree [link](htt
 cur.execute("DROP DATABASE IF EXISTS ...")
 ```
 
-Executing the basic CRUD commands is nothing new when it comes to building a system. A well-thought system it's very agnostic, and concepts are transferable within different lower level products. Some of the most popular RDBMS involve PostgreSQL, OracleSQL, MySQL. But where does the data comes from? How often does the data changes? How many files do we have, and how often we get new ones? Can we blame IoT 🛰 devices? 
+Executing the basic CRUD commands is nothing new when it comes to building a system. A well-thought system it's very agnostic, and concepts are transferable within different lower level products. Some of the most popular RDBMS involve PostgreSQL, OracleSQL, MySQL. But where does the data comes from? How often does the data change? How many files do we have, and how often we get new ones? Can we blame IoT 🛰 devices? 
 > To the infinity and beyond... - Buzz Lightyear 1995
 
 In the following application are given directory paths of where the client-side system is storing data files based on a music application product. I analyzed the data, build its entities and form the basic link between them. The analytics team is particularly interested in understanding what songs users are listening to
@@ -336,7 +337,7 @@ Our dev team was able to implement a database using normalization, which helps i
 Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
 The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively. Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE
 
-> # "a prototype is worth a 1000 meetings"
+> # "a prototype is worth 1000 meetings"
 
 Many people say: "well.... its just a Hello World program" or "it lacks the vote from an enterprise point of view" To them I must say there is not an official council who approves or disapproves what technology lives up to the standards. And newer technology aims to address the issues and lack of current technology, how far we can push it, it's only up to us; developers to run with it an see what we like.
 
@@ -567,15 +568,13 @@ Our dev team was able to quickly identify the main problem in their workflow and
 ### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
 - Created stimulating lessons/games to an average of 20 students per session.
-- Taught ongoing process and/or created new projects for beginners in a class of twenty students.
+- Taught ongoing processes and/or created new projects for beginners in a class of twenty students.
 - Adapted sites like scratch.mit.edu and arduino.cc to motivate student’s creativity through technology.
 - Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
 
 tags: education
 
 # Tech stack
-
-`swift` `python` `sql` `objective-c` `swift packages` `unit test` `ui test` `test driven development` `behavior driven development` `backend for frontend` `iOS` `watchOS` `SwiftUI` `MVVM` `MV` `monolith` `microservices` `core-data` `Combine` `pandas` `apache-cassandra` `apache-spark` `apache-airflow` `aws-emr` `aws-redshift` `aws-s3` `vapor-swift` `jupyter-lab`
 
 - Several years of professional experience in software development.
 - Implement enterprise business solutions.
@@ -588,14 +587,16 @@ tags: education
 - Implement CI/CD software pipelines.
 - Implement software architecture patterns and best practices.
 - Implement web services communication.
-- Beginner experience with AWS services: AWS EMR, REDSHIFT, EC2, IAM, Lambda
-- Beginner experience with Apache Spark, Apache Cassandra
+- Some experience with AWS services: AWS EMR, REDSHIFT, EC2, IAM, Lambda
+- Some experience with Apache Spark, Apache Cassandra
 - Experience working with variations of teams from solo developer to technical leadership coordination across tech-stack
 - Keeping up to date with new technologies (and my community ❤️ Apple platforms)
 - MobDevOps, learning cloud developer operations with AWS web services
 - Mentoring (also read: [volunteer](#volunteer))
 - Ensuring safe test-driven and behavior-driven development
 - Advocate for the technical vision
+
+`swift` `python` `sql` `objective-c` `swift packages` `unit test` `ui test` `test driven development` `behavior driven development` `backend for frontend` `iOS` `watchOS` `SwiftUI` `MVVM` `MV` `monolith` `microservices` `core-data` `Combine` `pandas` `apache-cassandra` `apache-spark` `apache-airflow` `aws-emr` `aws-redshift` `aws-s3` `vapor-swift` `jupyter-lab`
 
 # About Me
 
@@ -620,4 +621,4 @@ Photograph by Charapin 🙌🏾
 
 ![Charapin](/img/tango.jpg)
 
-2020, I made this website using Github README file because it is easy to update
+2020, Github Pages
