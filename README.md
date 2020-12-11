@@ -14,7 +14,7 @@
 - 📜 Databases
 - 🛒 [Clients](#clients) 
 - 📀 [Tech Stack](#tech-stack)
-- 📄 [Resume](https://www.idelfonso.com/resume.md)
+- 📄 [Resume](https://www.idelfonso.com/resume.html)
 - 💬 [Chat..](https://wa.me/19545139568?text=Hi%20Idelfonso)
 - 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
 - 💼 [Check Open Source Software...](https://github.com/idelfonsog2) 
