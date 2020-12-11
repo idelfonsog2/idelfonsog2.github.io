@@ -612,10 +612,11 @@ tags: education
 - [Geopolitics](https://www.amazon.com/Next-100-Years-Forecast-Century-ebook/dp/B001NLL946/ref=sr_1_1?crid=2DE719JVUJ0NJ&dchild=1&keywords=the+next+100+years+george+friedman&qid=1601994579&sprefix=the+next+100%2Caps%2C160&sr=8-1)
 - Urban planning
 
-<blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella](https://twitter.com/YouTube?ref_src=twsrc%5Etfw)
 
 ## Tango
-<iframe src="https://open.spotify.com/embed/track/2AQMjBwUTYCjMqGpcXBayR" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+[song](https://open.spotify.com/embed/track/2AQMjBwUTYCjMqGpcXBayR)
 
 Photograph by Charapin 🙌🏾
 
