@@ -22,8 +22,8 @@
 - 🐦 [Twitter](https://twitter.com/idelfonsoGM) 
 - 💾 [Save Contact as ...](idelfonso.vcf)
 - 👨‍💻 Side Projects
-  - [Stranded](#stranded) Dance with people at the airport
-  - [mmMapp (sample)](#mmMapp) Find the best pathway around Miami, FL and forget about your car
+  - [Stranded (Side project)](#stranded) Dance with people at the airport, iOS app
+  - [mmMapp (Startup Cohort)](#mmMapp) Find the best pathway around Miami, FL and forget about your car, iOS app
   - [Data Pipelines with Apache Airflow](#data-pipelines-with-apache-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse 
   - [Data Lake with Apache Spark](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Read, and EMR to create an ELT* process
   - [Data Warehouse with AWS S3, Redshift](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
