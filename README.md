@@ -584,7 +584,7 @@ tags: education
 - [Geopolitics](https://www.amazon.com/Next-100-Years-Forecast-Century-ebook/dp/B001NLL946/ref=sr_1_1?crid=2DE719JVUJ0NJ&dchild=1&keywords=the+next+100+years+george+friedman&qid=1601994579&sprefix=the+next+100%2Caps%2C160&sr=8-1)
 - Urban planning
 
-[🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella](https://twitter.com/YouTube?ref_src=twsrc%5Etfw)
+[🙌🏾 Actitud - Victor Küppers - TEDxAndorralaVella](https://twitter.com/YouTube?ref_src=twsrc%5Etfw)
 
 ## Tango
 
