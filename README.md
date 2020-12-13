@@ -13,7 +13,6 @@
 - 📱 [Experience](#experience)
 - 👨‍🏫 [Education](#education)
 - 🏣 [Volunteer](#volunteer) 
-- 📀 [Tech Stack](#tech-stack)
 - 🛒 [Clients](#clients) 
 - 🕺 [About Me](#about-me)
 - 💬 [Chat..](https://wa.me/19545139568?text=Hi%20Idelfonso)
@@ -21,7 +20,8 @@
 - 💼 [Github](https://github.com/idelfonsog2) 
 - 🐦 [Twitter](https://twitter.com/idelfonsoGM) 
 - 💾 [Save Contact as ...](idelfonso.vcf)
-- 👨‍💻 Side Projects
+
+#### Side-projects
   - [Stranded (Side project)](#stranded) Dance with people at the airport, iOS app
   - [mmMapp (Startup Cohort)](#mmMapp) Find the best pathway around Miami, FL and forget about your car, iOS app
   - [Data Pipelines with Apache Airflow](#data-pipelines-with-apache-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse 
@@ -449,6 +449,7 @@ tech: Siri shortcut
 
 - In order to increase **40 percent** of the user base for our third-party clients, I implemented **beacon
 technology**, **relational database**, and **mapbopx** library, which helped the company finalize 3 more contracts
+- Through the use of **Apple push notification system** we created an analytics product for our third-party associates that help them oversee returning customers
 - Use the **mobile instrumentation tool** to increase the efficiency of compilation time from 5 minutes to 2 minutes
 and a half. Additionally, this help catch **data race conditions** between **Swift and Objective-C**
 - Implement **Behavior Driven Development**, which is a document base layer for stakeholders to help
@@ -458,6 +459,9 @@ integration and continuous deployment pipeline along with **Fastlane**.
 - Help the community team decrease the amount of time reviewing inappropriate content by implementing
 an image **machine learning** model based on a plant database to identify things that are not plants.
 - **Solo developer** in the project
+- Development time is valuable therefore created CI/CD software pipelines to facilitate gradual deployment, automated tests, feature flags
+- Delivered features in the most feasible ways using refactoring design patterns
+- Balance between the technical vision and the delivery of products when gathering stakeholders requirements
 
 ### tools/frameworks/libraries:
 
@@ -470,9 +474,9 @@ Tags: horticulture
 ![](img/kinkarta.png)
 ### Technical Analyst iOS Mobile Developer | [Solstice Consulting](http://solstice.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
 
-- Developing and maintaining ongoing project using unit testing frameworks, **AWS APIs** and **Protobuf**
-- Development of features between Internet of Things device and iPad App
-- Deliver a presentation about machine learning intro which helped implement **image recognition** on a robot
+- We deliver a total cost reduction of -$10,000.00 to the consumer of certain mechanical equipment by utilizing an iPadOS app
+- Deliver a presentation about machine learning intro with **CoreML** for image training
+- Help deliver the iPadOS app to give a whole realtime analytics dashboard to the consumer
 
 ### tools/frameworks/libraries:
 - Jenkins, MongoDB, WebSockets, AutoLayout, Protobuf, ReactiveCocoa/Swift 🛠
@@ -565,30 +569,6 @@ Our dev team was able to quickly identify the main problem in their workflow and
 - Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
 
 tags: education
-
-# Tech stack
-
-- Several years of professional experience in software development.
-- Implement enterprise business solutions.
-- Implement IoT iPad OS application.
-- Implement ML Model solution.
-- Implement Social Media based applications.
-- Implement Location-based mobile applications.
-- Implement realtime mobile application databases.
-- Implement notification system and data exchange mobile applications
-- Implement CI/CD software pipelines.
-- Implement software architecture patterns and best practices.
-- Implement web services communication.
-- Some experience with AWS services: AWS EMR, REDSHIFT, EC2, IAM, Lambda
-- Some experience with Apache Spark, Apache Cassandra
-- Experience working with variations of teams from solo developer to technical leadership coordination across tech-stack
-- Keeping up to date with new technologies (and my community ❤️ Apple platforms)
-- MobDevOps, learning cloud developer operations with AWS web services
-- Mentoring (also read: [volunteer](#volunteer))
-- Ensuring safe test-driven and behavior-driven development
-- Advocate for the technical vision
-
-`swift` `python` `sql` `objective-c` `swift packages` `unit test` `ui test` `test driven development` `behavior driven development` `backend for frontend` `iOS` `watchOS` `SwiftUI` `MVVM` `MV` `monolith` `microservices` `core-data` `Combine` `pandas` `apache-cassandra` `apache-spark` `apache-airflow` `aws-emr` `aws-redshift` `aws-s3` `vapor-swift` `jupyter-lab`
 
 # About Me
 
