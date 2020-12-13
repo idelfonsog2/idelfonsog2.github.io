@@ -9,13 +9,13 @@
 ## Idelfonso Gutierrez
 ### Dedicated software developer
 
-#### Menú ☕️ 
-- [Work Experience](#experience)
-- Mobile Applications
+####  
+- [Experience](#experience)
+- 📱 Mobile Applications
   - [Stranded](#stranded) Dance with people at the airport
   - [mmMapp (sample)](#mmMapp) Find the best pathway around Miami, FL and forget about your car
   - [Read more...](#mobile-applications)
-- Databases
+- 📜 Databases
   - [Data Pipelines with Apache Airflow](#data-pipelines-with-apache-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse 
   - [Data Lake with Apache Spark](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Read, and EMR to create an ELT* process
   - [Data Warehouse with AWS S3, Redshift](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
@@ -23,20 +23,21 @@
   - [Enterprise data modeling with PostgreSQL](#data-modeling-with-postgresql) Normalize a dataset in order for online analytical processes
   - [Read more...](#databases)
 - Miscellaneous
-  - [Swift AWS Lambda (sample)](#lambdas-in-swift)
   - [Test Driven Development & Behavior Driven Development](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of systems. OSS contribution
   - [Read more...](#miscellaneous)
-- [Clients](#clients) 
+- 🛒 [Clients](#clients) 
 - [Education](#education)
 - [Volunteer](#volunteer) 
-- [Tech Stack](#tech-stack) 
+- 📀 [Tech Stack](#tech-stack)
 - [About Me](#about-me)
-  - 💬 [Chat..](https://wa.me/19545139568?text=Hi%20Idelfonso)
-  - 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
-  - 💼 [Check Open Source Software...](https://github.com/idelfonsog2) 
-  - 🐦 [Follow @idelfonsoGM](https://twitter.com/idelfonsoGM) 
-  - 💼 [Download PDF](resume_us.pdf) 
-  - 💾 [Save Contact as ...](idelfonso.vcf)
+- 💬 [Chat..](https://wa.me/19545139568?text=Hi%20Idelfonso)
+- 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
+- 💼 [Check Open Source Software...](https://github.com/idelfonsog2) 
+- 🐦 [Follow @idelfonsoGM](https://twitter.com/idelfonsoGM) 
+- 💼 [Download PDF](resume_us.pdf) 
+- 💾 [Save Contact as ...](idelfonso.vcf)
+
+
 ***
 
 ## Mobile Applications 
@@ -231,7 +232,7 @@ This project was completed under the Data Engineer Udacity Nanodegree [link](htt
 
 ---
 
-## Data Ware🏡 with AWS Redshift
+## Data Warehouse with AWS Redshift
 
 > Why would we want to use re-create our table structures for Analytical Procedures?
 
@@ -254,8 +255,6 @@ In order to help the business see an overview of the data in a diagram of what i
 
 
 [Jupyter Notebook](resources/data_warehouse.md)
-
-[Github](https://github.com/idelfonsog2/data_warehouse_with_aws_redshift.git)
 
 This project was completed under the Data Engineer Udacity Nanodegree [link](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
 
