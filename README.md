@@ -459,9 +459,9 @@ integration and continuous deployment pipeline along with **Fastlane**.
 - Help the community team decrease the amount of time reviewing inappropriate content by implementing
 an image **machine learning** model based on a plant database to identify things that are not plants.
 - **Solo developer** in the project
-- Development time is valuable therefore created CI/CD software pipelines to facilitate gradual deployment, automated tests, feature flags
-- Delivered features in the most feasible ways using refactoring design patterns
-- Balance between the technical vision and the delivery of products when gathering stakeholders requirements
+- Developer's **time is valuable**. As a result, created CI/CD software pipelines to facilitate gradual deployment, automated tests, rollbacks, and feature flags
+- Delivered features in the most feasible ways using **refactoring design patterns**
+- Find balance and knowledge between the technical vision and the delivery of products when gathering and delivering stakeholders requirements
 
 ### tools/frameworks/libraries:
 
