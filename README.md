@@ -559,6 +559,8 @@ Our dev team was able to quickly identify the main problem in their workflow and
 - iOS Nanodegree Udacity Sep 2016 - Nov 2016
 - Data Engineer Nanodegree Udacity - in progress
 
+***
+
 ### Part-time Programming Mentor - Volunteering | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
 CoderDojo is a non-profit organization aimed to teach introductory coding-skills concepts through hands-on learning for students between 4th grade and 8th grade.
@@ -578,6 +580,12 @@ Additionally, students are encourage to:
 - Working with other
 - Showcase their achievements
 
+***
+
+## Recommend Lesson
+
+<blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Recommended readings
 
 - [Domain Driven-Design](https://www.amazon.com/gp/product/0321125215?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321125215)
@@ -590,7 +598,7 @@ Additionally, students are encourage to:
 - [Geopolitics](https://www.amazon.com/Next-100-Years-Forecast-Century-ebook/dp/B001NLL946/ref=sr_1_1?crid=2DE719JVUJ0NJ&dchild=1&keywords=the+next+100+years+george+friedman&qid=1601994579&sprefix=the+next+100%2Caps%2C160&sr=8-1)
 - Urban planning
 
-[🙌🏾 Actitud - Victor Küppers - TEDxAndorralaVella](https://twitter.com/YouTube?ref_src=twsrc%5Etfw)
+***
 
 ## Tango
 
