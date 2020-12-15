@@ -435,17 +435,14 @@ tech: Siri shortcut
 
 ### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | Feb. 2020 - Present
 
- - Present
-
-
 ---
 
 ![](img/growit.png)
 
 ### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Feb. 2020
 
-- In order to increase **40 percent** of the user base for our third-party clients, I implemented **beacon
-technology**, **relational database**, and **mapbopx** library, which helped the company finalize 3 more contracts
+- Increase our customer based when finalizing our data product. This involved **beacon
+technology**, **relational database**, and map data vizualization (Mapbopx).
 - Through the use of **Apple push notification system** we created an analytics product for our third-party associates that help them oversee returning customers
 - Use the **mobile instrumentation tool** to increase the efficiency of compilation time from 5 minutes to 2 minutes
 and a half. Additionally, this help catch **data race conditions** between **Swift and Objective-C**
