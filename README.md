@@ -16,8 +16,8 @@
 - 📨 [Email](mailto:idelfonsog2@gmail.com)
 - 💬 [WhatsApp](https://wa.me/19545139568?text=Hi%20Idelfonso)
 - 💾 [Contact Card](idelfonso.vcf)
-<!-- - 💼 [Github](https://github.com/idelfonsog2) 
-- 🐦 [Twitter](https://twitter.com/idelfonsoGM)   -->
+<!-- 💼 [Github](https://github.com/idelfonsog2) -->
+<!-- 🐦 [Twitter](https://twitter.com/idelfonsoGM)   -->
 
 #### Side-projects/learning
   - [Data Pipelines with Apache Airflow](#data-pipelines-with-apache-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse 
