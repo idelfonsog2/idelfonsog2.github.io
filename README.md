@@ -559,12 +559,24 @@ Our dev team was able to quickly identify the main problem in their workflow and
 - iOS Nanodegree Udacity Sep 2016 - Nov 2016
 - Data Engineer Nanodegree Udacity - in progress
 
-### Part-time Programming Instructor - Volunteering | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
+### Part-time Programming Mentor - Volunteering | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
-- Created stimulating lessons/games to an average of 20 students per session.
-- Taught ongoing processes and/or created new projects for beginners in a class of twenty students.
-- Adapted sites like scratch.mit.edu and arduino.cc to motivate student’s creativity through technology.
-- Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
+CoderDojo is a non-profit organization aimed to teach introductory coding-skills concepts through hands-on learning for students between 4th grade and 8th grade.
+
+As a mentor, you will have a transformative experience by being able to teach and spark joy among the students.
+
+Lessons objectives included working with **scratch.mit.edu** in order to demonstrate the following: 
+- iterative loops
+- conditional statements
+- value assignment 
+- functions
+- object-oriented programming / classes
+- Hardware programming using Arduino boards
+
+Additionally, students are encourage to:
+- Creativity
+- Working with other
+- Showcase their achievements
 
 ## Recommended readings
 
