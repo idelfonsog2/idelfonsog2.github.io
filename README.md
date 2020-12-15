@@ -486,8 +486,9 @@ tags: agriculture
 ### Intern  iOS Mobile Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
 
 - Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
-- Worked with an off-site team and product owner (different time zones) in order to address patch fixes.
-- Addressed client’s concern regarding the app’s privacy policy in order to submit to App Store.
+- Worked on production-bugs in collaboration with DevOps and Quality Assurance teams
+- Run small proof of concept features in order to validate the demand
+
 
 ### tools/frameworks/libraries:
 
@@ -520,14 +521,9 @@ tags: education
 
 ### **Ally's Flower**
 
-![](img/al1.png) ![](img/al2.png) ![](img/al3.png)
+<!-- ![](img/al1.png) ![](img/al2.png) ![](img/al3.png) -->
 
-Using WordPress and Woocommerce was able to create a simple solution for a small business.
-
-The owner was so glad that she didn't need the help of a tech-savvy person and that it could easily integrate with the power of Square (POS)
-
-
-**tech**: WordPress, CRM, POS
+Online retail flower shop. The client wanted an easy-to-use platform to manage inventory and customer relationship manager.
 
 [www.allysflower.com](www.allysflower.com)
 
@@ -535,17 +531,17 @@ The owner was so glad that she didn't need the help of a tech-savvy person and t
 
 ### **Proendoscopy**
 
-Created an iOS application to manage the items in inventory for a medical equipment repair company.
-
-- Keep up to date items with the sold, in progress, not started labels
-- Keep a record of prices for each item
-- Group items by brand, category, price range
-
 Proendoscopy is a local company in the city of Sunrise, it specializes in the service and repair of medical equipment, mainly endoscopes.
 
-Our dev team was able to quickly identify the main problem in their workflow and inefficiency of procedures in the sales department.
+Inventory management iOS application:
+- Keep latest status of items when they were sold, currently in repair, or backlog.
+- Keep a record of all the items features
+- Filter and sorting of items by brand, category, price range
+- Image uploads for the item
 
 **tech**: iOS: Objective-C, CoreData, UIKit
+
+[www.proendoscopy.com](www.proendoscopy.com)
 
 ---
 
@@ -561,7 +557,7 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 ***
 
-### Part-time Programming Mentor - Volunteering | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
+### Coding Mentor | Volunteering | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
 CoderDojo is a non-profit organization aimed to teach introductory coding-skills concepts through hands-on learning for students between 4th grade and 8th grade.
 
