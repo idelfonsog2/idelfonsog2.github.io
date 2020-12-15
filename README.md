@@ -11,25 +11,22 @@
 
 #### Work
 - 📱 [Experience](#experience)
-- 👨‍🏫 [Education](#education)
-- 🏣 [Volunteer](#volunteer) 
 - 🛒 [Clients](#clients) 
 - 🕺 [About Me](#about-me)
-- 💬 [Chat..](https://wa.me/19545139568?text=Hi%20Idelfonso)
+- 💬 [Contact Me](https://wa.me/19545139568?text=Hi%20Idelfonso)
+- 💾 [Save Contact as ...](idelfonso.vcf)
 - 📨 [idelfonsog2@gmail.com](mailto:idelfonsog2@gmail.com)
 - 💼 [Github](https://github.com/idelfonsog2) 
-- 🐦 [Twitter](https://twitter.com/idelfonsoGM) 
-- 💾 [Save Contact as ...](idelfonso.vcf)
+- 🐦 [Twitter](https://twitter.com/idelfonsoGM)  
 
-#### Side-projects
-  - [Stranded (Side project)](#stranded) Dance with people at the airport, iOS app
-  - [mmMapp (Startup Cohort)](#mmMapp) Find the best pathway around Miami, FL and forget about your car, iOS app
+#### Side-projects/learning
   - [Data Pipelines with Apache Airflow](#data-pipelines-with-apache-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse 
   - [Data Lake with Apache Spark](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Read, and EMR to create an ELT* process
   - [Data Warehouse with AWS S3, Redshift](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
   - [Big Data modeling with Apache Cassandra](#creating-an-etl-process-with-apache-cassandra) Use the partitioned row store for a distributed system. To analyze, clean and aggregate data.
   - [Enterprise data modeling with PostgreSQL](#data-modeling-with-postgresql) Normalize a dataset in order for online analytical processes
-  - [Lambdas in Swift](#Lambdas-in-Swift)
+  - [Stranded (Side project)](#stranded) Dance with people at the airport, iOS app
+  - [mmMapp (Startup Cohort)](#mmMapp) Find the best pathway around Miami, FL and forget about your car, iOS app
   - [Test Driven Development & Behavior Driven Development](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of systems. OSS contribution
 ***
 
@@ -190,7 +187,7 @@ In my previous project [STAR vs 3NF 🥊 SCHEMA](#STAR-vs-3NF-🥊-SCHEMA) I pre
 
 Don't get me wrong, like any other technology it's flexible, there are pros and cons, budget, analysis of your workload, and team work.
 
-> # Data is the new oil 🛢 🤑 and everybody knows it but not really
+>  Data is the new oil 🛢 
 
 As I mention, automation, but not really. Instead of creating tables and doing the ETL dance, lets do the **ELT** 💃 dance.
 
@@ -552,34 +549,31 @@ Our dev team was able to quickly identify the main problem in their workflow and
 
 ---
 
-# Education
+# About Me
+
+### Education
 
 - B.S. Software Developer Florida International University Aug 2012 - May 2016
   - Minor: Social Media and E-marketing Analytics
 - Startup Cohort @FIU Jan 2017 - April 2017
 - iOS Nanodegree Udacity Sep 2016 - Nov 2016
 - Data Engineer Nanodegree Udacity - in progress
-# Volunteer 
 
-### Instructor | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
+### Part-time Programming Instructor - Volunteering | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
 - Created stimulating lessons/games to an average of 20 students per session.
 - Taught ongoing processes and/or created new projects for beginners in a class of twenty students.
 - Adapted sites like scratch.mit.edu and arduino.cc to motivate student’s creativity through technology.
 - Coached public speaking at the end of each session so young ones can acquire the skills on how to structure their ideas.
 
-tags: education
+## Recommended readings
 
-# About Me
-
-## Readings
-
-- [Functional Programming - with Swift](https://www.objc.io/books/functional-swift/) 
 - [Domain Driven-Design](https://www.amazon.com/gp/product/0321125215?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321125215)
 - [Working With Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)
 - [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=sr_1_1?crid=393J1ET1HBZB8&dchild=1&keywords=designing+data+intensive+applications&qid=1601994325&s=books&sprefix=designing+data+i%2Cstripbooks%2C162&sr=1-1)
-- [Server-Side Swift](https://www.google.com/search?client=safari&rls=en&q=vapor.code&ie=UTF-8&oe=UTF-8)
+- [Functional Programming - with Swift](https://www.objc.io/books/functional-swift/) 
 - [Behavior Driven Development in Action](https://www.amazon.com/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X/ref=sr_1_1?crid=1QMU5POSX4VUP&dchild=1&keywords=behavior+driven+development&qid=1601994363&s=books&sprefix=behavior+Driven+Deve%2Cstripbooks%2C167&sr=1-1)
+- [Server-Side Swift](https://www.google.com/search?client=safari&rls=en&q=vapor.code&ie=UTF-8&oe=UTF-8)
 - [A metabolic approach to cancer 📚](https://www.amazon.com/Metabolic-Approach-Cancer-Integrating-Bio-Individualized/dp/1603586865/ref=sr_1_2?crid=K25WDL26D9QF&dchild=1&keywords=a+metabolic+approach+to+cancer&qid=1601994411&sprefix=a+metabolic%2Cstripbooks%2C158&sr=8-2)
 - [Geopolitics](https://www.amazon.com/Next-100-Years-Forecast-Century-ebook/dp/B001NLL946/ref=sr_1_1?crid=2DE719JVUJ0NJ&dchild=1&keywords=the+next+100+years+george+friedman&qid=1601994579&sprefix=the+next+100%2Caps%2C160&sr=8-1)
 - Urban planning
