@@ -594,7 +594,7 @@ Additionally, students are encourage to:
 
 ## Tango
 
-[song](https://open.spotify.com/embed/track/2AQMjBwUTYCjMqGpcXBayR)
+[Caballo Viejo by Simon Diaz On Spotify: https://open.spotify.com/embed/track/2AQMjBwUTYCjMqGpcXBayR](https://open.spotify.com/embed/track/2AQMjBwUTYCjMqGpcXBayR)
 
 Photograph by Charapin 🙌🏾
 
