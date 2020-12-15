@@ -495,25 +495,6 @@ tags: financial technology
 
 ---
 
-### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
-
-- Strengthen relationships with the clients by integrating my technical experience and expertise.
-- Fashioned a blog to look like a fitness site for moms and a subscription program.
-- Checked logs and malfunctioning errors to avoid conflict with a purchasing process on the website.
-- Maintained the network, installation, and use of new software and process.
-
-Tags: online marketing
-
-### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
-
-- Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
-- Explained Object Oriented Programming concepts during in and out sessions
-- Used pair programming with students in order to practice and review material
-
-tags: education
-
----
-
 # Clients
 
 ### **Ally's Flower**
@@ -543,6 +524,23 @@ Inventory management iOS application:
 ---
 
 # About Me
+
+ From Venezuela 🇻🇪 in Chicago, IL
+
+  > En la vida hay que bailar 💃 y reir // Life is about dancing and laughing
+
+
+[Dancing to the beat of... On Spotify: https://open.spotify.com/user/123399827?si=S9tJH2gQSr-fhRYhqV8_VQ](https://open.spotify.com/user/123399827?si=S9tJH2gQSr-fhRYhqV8_VQ)
+
+Photograph by Charapin 🙌🏾
+
+![Charapin](img/tango.jpg)
+
+## Recommend Lesson
+
+<blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+***
 
 ### Education
 
@@ -575,9 +573,25 @@ Additionally, students are encourage to:
 
 ***
 
-## Recommend Lesson
+### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
 
-<blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+- Strengthen relationships with the clients by integrating my technical experience and expertise.
+- Fashioned a blog to look like a fitness site for moms and a subscription program.
+- Checked logs and malfunctioning errors to avoid conflict with a purchasing process on the website.
+- Maintained the network, installation, and use of new software and process.
+
+Tags: online marketing
+
+*** 
+### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
+
+- Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
+- Explained Object Oriented Programming concepts during in and out sessions
+- Used pair programming with students in order to practice and review material
+
+tags: education
+
+***
 
 ## Recommended readings
 
@@ -592,13 +606,5 @@ Additionally, students are encourage to:
 - Urban planning
 
 ***
-
-## Tango
-
-[Caballo Viejo by Simon Diaz On Spotify: https://open.spotify.com/embed/track/2AQMjBwUTYCjMqGpcXBayR](https://open.spotify.com/embed/track/2AQMjBwUTYCjMqGpcXBayR)
-
-Photograph by Charapin 🙌🏾
-
-![Charapin](/img/tango.jpg)
 
 2020, Github Pages
