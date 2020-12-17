@@ -525,12 +525,9 @@ Inventory management iOS application:
 
 # About Me
 
- From Venezuela 🇻🇪 in Chicago, IL
+Made in Venezuela 🇻🇪
 
   > En la vida hay que bailar 💃 y reir // Life is about dancing and laughing
-
-
-[Dancing to the beat of... On Spotify: https://open.spotify.com/user/123399827?si=S9tJH2gQSr-fhRYhqV8_VQ](https://open.spotify.com/user/123399827?si=S9tJH2gQSr-fhRYhqV8_VQ)
 
 Photograph by Charapin 🙌🏾
 
