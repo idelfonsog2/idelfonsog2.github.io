@@ -27,7 +27,7 @@
   - [Enterprise data modeling with PostgreSQL](#data-modeling-with-postgresql) Normalize a dataset in order for online analytical processes
   - [Stranded (Side project)](#stranded) Dance with people at the airport, iOS app
   - [mmMapp (Startup Cohort)](#mmMapp) Find the best pathway around Miami, FL and forget about your car, iOS app
-  - [Test Driven Development & Behavior Driven Development](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of systems. OSS contribution
+  - [Test Driven Development & Behavior Driven Development Library](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of systems. OSS contribution
 ***
 
 ## Mobile Applications 
@@ -396,19 +396,19 @@ Developers only need to keep following their TDD approach.
 
 ---
 
-## **`Display vCard`**
+## **`Electronic Business Cards`**
 
 ![](img/contact.jpg)
 
 #### _The Problem:_
 
-_Do you have a business card? it probably has a cool design_ 📇
+_On a rush??_
 
-_They are useful when you need to leave in a rush_
+_Do you have an Instagram account or.... a business card? it probably has a cool design_ 📇
 
-_There is an individual in the middle, or "man in the middle"_
+_Maybe Instagram is not your medium_
 
-_manual work is prompt to error_
+_Got it. Give me your whatsapp... -me: Is that the new customer management system/.com? It might be..._
 
 #### _The Solution:_
 
