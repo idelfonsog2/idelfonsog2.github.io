@@ -441,8 +441,8 @@ tech: Siri shortcut
 
 ### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Feb. 2020
 
-- Increase our customer based when finalizing our data product. This involved **beacon
-technology**, **relational database**, and map data vizualization (Mapbopx).
+- Increased our customer based when finalizing our data product. This involved **beacon
+technology**, **relational database**, and map data visualization (Mapbopx).
 - Through the use of **Apple push notification system** we created an analytics product for our third-party associates that help them oversee returning customers
 - Use the **mobile instrumentation tool** to increase the efficiency of compilation time from 5 minutes to 2 minutes
 and a half. Additionally, this help catch **data race conditions** between **Swift and Objective-C**
@@ -468,8 +468,8 @@ Tags: horticulture
 ![](img/kinkarta.png)
 ### Technical Analyst iOS Mobile Developer | [KIN+KARTA](http://kindandkarta.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
 
-- Deliver a total cost reduction of -$10,000.00 MVP application to the consumer of the client which involve integrating an iPadOS app with IoT devices
-- iPadOS app realtime commands and data visualization analytics to/from IoT devices
+- Deliver a total cost reduction of -$10,000.00 by integrating an iPadOS app with IoT devices
+- iPadOS app with commands and realtime data visualization analytics to/from IoT devices
 - Small talk about machine learning use cases and example with **Apple CoreML Framework**
 
 ### tools/frameworks/libraries:
@@ -543,9 +543,10 @@ Photograph by Charapin 🙌🏾
 
 - B.S. Software Developer Florida International University Aug 2012 - May 2016
   - Minor: Social Media and E-marketing Analytics
-- Startup Cohort @FIU Jan 2017 - April 2017
-- iOS Nanodegree Udacity Sep 2016 - Nov 2016
-- Data Engineer Nanodegree Udacity - in progress
+- Startup Cohort @FIU
+- iOS Nanodegree Udacity
+- Data Engineer Nanodegree Udacity
+- Data Streaming Nanodegree Udacity
 
 ***
 
