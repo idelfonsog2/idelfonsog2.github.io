@@ -466,14 +466,14 @@ Tags: horticulture
 ---
 
 ![](img/kinkarta.png)
-### Technical Analyst iOS Mobile Developer | [Solstice Consulting](http://solstice.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
+### Technical Analyst iOS Mobile Developer | [KIN+KARTA](http://kindandkarta.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
 
-- We deliver a total cost reduction of -$10,000.00 to the consumer of certain mechanical equipment by utilizing an iPadOS app
-- Deliver a presentation about machine learning intro with **CoreML** for image training
-- Help deliver the iPadOS app to give a whole realtime analytics dashboard to the consumer
+- Deliver a total cost reduction of -$10,000.00 MVP application to the consumer of the client which involve integrating an iPadOS app with IoT devices
+- iPadOS app realtime commands and data visualization analytics to/from IoT devices
+- Small talk about machine learning use cases and example with **Apple CoreML Framework**
 
 ### tools/frameworks/libraries:
-- Jenkins, MongoDB, WebSockets, AutoLayout, Protobuf, ReactiveCocoa/Swift 🛠
+- Jenkins, MongoDB, WebSockets, Protobuf, UI reactive library 🛠
 
 tags: agriculture
 
