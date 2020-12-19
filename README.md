@@ -19,7 +19,7 @@
 <!-- 💼 [Github](https://github.com/idelfonsog2) -->
 <!-- 🐦 [Twitter](https://twitter.com/idelfonsoGM)   -->
 
-#### Side-projects/learning
+#### Side-projects
   - [Data Pipelines with Apache Airflow](#data-pipelines-with-apache-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse 
   - [Data Lake with Apache Spark](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Read, and EMR to create an ELT* process
   - [Data Warehouse with AWS S3, Redshift](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
