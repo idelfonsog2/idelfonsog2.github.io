@@ -320,7 +320,6 @@ Our dev team was able to implement a database using normalization, which helps i
 ---
 
 # Miscellaneous 
-
 ## Lambdas in Swift
 
 Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
@@ -435,13 +434,21 @@ tech: Siri shortcut
 
 ### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | Feb. 2020 - Present
 
+<!-- - Minimize initial technical debt by introducing test driven development and working with the UX/UI in order to guide them when using the apple platforms.
+- Leading story reviews with business stakeholders
+- Minimize technical support feedback loop and issues funneling by creating a client application for the employees interacting with the customer.
+- Developing with Apple latest frameworks `Combine` `SwiftUI` and `Swift Package Manager`
+- Communicate end-to-end architecture and evaluate techinical desicions as the team keeps working on the project
+- Work on legacy project in order to maintain backwards compability for new features
+- Assisting on hybrid applications projects developed with **Apache Cordova** -->
+
 ---
 
 ![](img/growit.png)
 
 ### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Feb. 2020
 
-- Increased our customer based when finalizing our data product. This involved **beacon
+- Able to lock in 3 customer agreements signups when finalizing our data product. This involved **beacon
 technology**, **relational database**, and map data visualization (Mapbopx).
 - Through the use of **Apple push notification system** we created an analytics product for our third-party associates that help them oversee returning customers
 - Use the **mobile instrumentation tool** to increase the efficiency of compilation time from 5 minutes to 2 minutes
@@ -524,15 +531,6 @@ Inventory management iOS application:
 ---
 
 # About Me
-
-Made in Venezuela 🇻🇪
-
-  > En la vida hay que bailar 💃 y reir // Life is about dancing and laughing
-
-Photograph by Charapin 🙌🏾
-
-![Charapin](img/tango.jpg)
-
 ## Lección para tu vida
 
 <blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -607,5 +605,13 @@ tags: education
 - [Quantum Country](https://quantum.country)
 
 ***
+
+From Venezuela 🇻🇪
+
+  > Vamos a bailar 💃
+
+Photograph by Charapin 🙌🏾
+
+![Charapin](img/tango_small.jpg)
 
 2020, Github Pages
