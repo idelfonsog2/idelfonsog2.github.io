@@ -19,7 +19,107 @@
 <!-- 💼 [Github](https://github.com/idelfonsog2) -->
 <!-- 🐦 [Twitter](https://twitter.com/idelfonsoGM)   -->
 
-#### Side-projects
+---
+
+## Featured App
+
+**Context**
+- Math ➗ is international spoken. 
+- Music 🎼 is international heard. 
+- Culture 🎨 which involves dance, literature, design, cuisine are different forms of expression.
+- Social interaction is a human need
+
+YES! It's something we get excited for and even further when we meet, travel or try something new. People can connect with each other despite the different languages, origins, cultures.
+
+**The Problem**
+
+People like to travel. We spent around 6 to 8 hours at the airports. Once there, people waste that time doing the following, and its actually mentally tiring:
+
+  - Get into the Starbucks queue
+  - Have their face glue to their devices for the next 2 hours
+  - "Walk around"
+  - wait to be the last person to board the plane
+
+**The Solution**
+
+## `Stranded 🙆‍♂️👽 = 🎨 + ⏰`
+
+![](img/stranded.jpg)
+
+**How it works**
+
+It helps you make a new friend, but its up to you.
+- It will map, filter, reduce common attributes of a person's trip 
+- Take different time zones into account for everyones trips and reminders
+- It will notify you when someone is nearby
+- The rest is **HX**, human experience! 💆‍♀️💆‍♂️
+
+*tech: SwiftUI, APNS, Postgres, Vapor*
+
+*status: development*
+
+---
+
+## Contributions
+
+### Writing BDD + TDD in my current projects
+
+**Github Repo** [Cucumberish - Ahmed-Ali](https://cucumber.io/docs/installation/ios/) 👈🏽👀
+
+- **Who writes TDD?** tricky question🤔😅. Best case, its the output of a conversation between: devs, product owners/managers, stakeholders, and quality assurance testers
+- **What is TDD?**  write software that assumes your production software is already built and make it compile/pass.
+- **Why use TDD?** In order to avoid introducing bugs as you are adding or changing behavior.
+- **When?** Drill down what you want your users to achieve _as concepts_ first _**[capabilities]**_
+- **Where?** TextEdit! 📑 honestly!
+- **How to?** Gherkin + Cucumber...ish + XCTest
+
+> ### No method is more effective than a good example. - Ingvar Kamprad, IKEA Founder
+
+####  The Problem
+A developer could write the following below. But this is missing some context, and only developers _**could!**_ be able to understand what is the system is doing.
+
+<!-- not java, swift -->
+```swift
+func testSystem_whenReset_isInStarted() {
+ sut.setToInProgress()
+
+ sut.restart()
+
+ XCTAssertEqual(sut.state, .blank)
+}
+
+```
+
+#### A different approach: Give me an example
+
+```gherkin
+Given the application is "in progress"
+When a user "restarts" the application
+Then the application will set to "default"
+```
+
+```swift
+func Given("the application is [regex]") { state in
+ sut.set(state)
+}
+
+func When("a user [regex] the application") { action in
+ sut.perform(action)
+}
+
+func Then("the application will set to [regex]") { expected in
+ XCTAssertEqual(expected, sut.state)
+}
+
+```
+
+The result out of it is that developers can make a set of reusable tests and stakeholders, product owners, QA tester can expand the tests into every state of the system.
+
+Developers only need to keep following their TDD approach.
+
+---
+
+## Side-projects
   - [Data Pipelines with Apache Airflow](#data-pipelines-with-apache-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse 
   - [Data Lake with Apache Spark](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Read, and EMR to create an ELT* process
   - [Data Warehouse with AWS S3, Redshift](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
@@ -28,56 +128,10 @@
   - [Stranded (Side project)](#stranded) Dance with people at the airport, iOS app
   - [mmMapp (Startup Cohort)](#mmMapp) Find the best pathway around Miami, FL and forget about your car, iOS app
   - [Test Driven Development & Behavior Driven Development Library](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of systems. OSS contribution
-***
-
-## Mobile Applications 
-
-<!-- Follow: https://krausefx.com/ Pattern
-  The Problem
-  the Solution + images
-  how it works + images
--->
-> Social interaction is a human need
-
-YES! It's something we get excited for and even further when we meet, travel or try something new. People can connect with each other despite the different languages, origins, cultures.
-
-**The Problem**
-- Waiting for your flight?
-- Will you get into the Starbucks Queue?
-- Will your face be bound to your phone screen for the next half up to two hours?
-- Will you wonder around? (Hey exploring not necessarily bad)
-
-**Context**
-- Math ➗ is international spoken. 
-- Music 🎼 is international heard. 
-- Culture, which involves dance, literature, design, cuisine are different forms of expression.
-
-**The Solution**
-
-Create a connection with a new person using a feature from the cultures in general
-
-## `Stranded`
-
-      Airport Code:
-      Gate:
-      Terminal:
-      Estimated Time of Departure:
-      How you look like:
-
-- It will map, filter, reduce common attributes of a person's trip 
-- Time zones taking into account within airports
-- Giving each person easy discoverability and possibly a new friend/acquaintance. 
-- It will notify you when someone is nearby
-
-The rest is **HX**, human experience! 💆‍♀️💆‍♂️
-
-![](img/stranded.jpg)
-
-tech: Combine, SwiftUI, APNS, database
-
-*status: development*
 
 ---
+
+## Mobile Applications 
 
 **Pitch**
 - Have you ever had too many events in the same day at different times and different locations?
@@ -336,62 +390,6 @@ Thank you [Fabbian Fett](https://twitter.com/fabianfett) for given us Swift AWS 
 [Getting started with Swift on AWS Lambda](https://fabianfett.de/getting-started-with-swift-aws-lambda-runtime)
 
 [GitHub](https://github.com/idelfonsog2/swift-aws-lambda-function)
-
----
-
-## Writing BDD + TDD in my current projects
-
-- **Who writes TDD?** tricky question🤔😅. Best case, its the output of a conversation between: devs, product owners/managers, stakeholders, and quality assurance testers
-- **What is TDD?**  write software that assumes your production software is already built and make it compile/pass.
-- **Why use TDD?** In order to avoid introducing bugs as you are adding or changing behavior.
-- **When?** Drill down what you want your users to achieve _as concepts_ first _**[capabilities]**_
-- **Where?** TextEdit! 📑 honestly!
-- **How to?** Gherkin + Cucumber...ish + XCTest take a look [Cucumberish - Ahmed-Ali](https://cucumber.io/docs/installation/ios/) 👈🏽👀
-
-> # No method is more effective than a good example. - Ingvar Kamprad, IKEA Founder
-
-####  The Problem
-A developer could write the following below. But this is missing some context, and only developers _**could!**_ be able to understand what is the system is doing.
-
-<!-- not java, swift -->
-```swift
-func testSystem_whenReset_isInStarted() {
- sut.setToInProgress()
-
- sut.restart()
-
- XCTAssertEqual(sut.state, .blank)
-}
-
-```
-
-#### A different approach: Give me an example
-
-```gherkin
-Given the application is "in progress"
-When a user "restarts" the application
-Then the application will set to "default"
-```
-
-```swift
-func Given("the application is [regex]") { state in
- sut.set(state)
-}
-
-func When("a user [regex] the application") { action in
- sut.perform(action)
-}
-
-func Then("the application will set to [regex]") { expected in
- XCTAssertEqual(expected, sut.state)
-}
-
-```
-
-The result out of it is that developers can make a set of reusable tests and stakeholders, product owners, QA tester can expand the tests into every state of the system.
-
-Developers only need to keep following their TDD approach.
-
 
 ---
 
