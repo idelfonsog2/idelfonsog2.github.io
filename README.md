@@ -23,14 +23,6 @@
 
 ## Featured App
 
-**Context**
-- Math ➗ is international spoken. 
-- Music 🎼 is international heard. 
-- Culture 🎨 which involves dance, literature, design, cuisine are different forms of expression.
-- Social interaction is a human need
-
-YES! It's something we get excited for and even further when we meet, travel or try something new. People can connect with each other despite the different languages, origins, cultures.
-
 **The Problem**
 
 People like to travel. We spent around 6 to 8 hours at the airports. Once there, people waste that time doing the following, and its actually mentally tiring:
@@ -46,6 +38,14 @@ People like to travel. We spent around 6 to 8 hours at the airports. Once there,
 
 ![](img/stranded.jpg)
 
+**Background**
+- Math ➗ is international spoken. 
+- Music 🎼 is international heard. 
+- Culture 🎨 which involves dance, literature, design, cuisine are different forms of expression.
+- Social interaction is a human need
+
+YES! It's something we get excited for and even further when we meet, travel or try something new. People can connect with each other despite the different languages, origins, cultures.
+
 **How it works**
 
 It helps you make a new friend, but its up to you.
@@ -60,7 +60,7 @@ It helps you make a new friend, but its up to you.
 
 ---
 
-## Contributions
+## Open Source Contributions
 
 ### Writing BDD + TDD in my current projects
 
@@ -133,7 +133,9 @@ Developers only need to keep following their TDD approach.
 
 ## Mobile Applications 
 
-**Pitch**
+## `mmMap 🚎`
+
+**The Problem**
 - Have you ever had too many events in the same day at different times and different locations?
 - Were the events or appointments located close to each other?
 - Do you always take into consideration how long will it take you to go from appointment A to appointment B?
