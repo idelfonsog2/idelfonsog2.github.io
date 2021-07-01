@@ -44,7 +44,7 @@ People like to travel. We spent around 5 to 6 hours at the airports. Once there,
 **Background**
 - Math ➗ is international spoken.
 - 👋 a hello is international known gesture
-- A more deep thing: Culture 🎨! it involves music, dance, literature, design, cuisine are different forms of expression, which are well known!
+- A more deep thing: Culture 🎨! it involves music, dance, literature, design, and cuisine.
   - You can have KFC in Tanzania and Mozambique
   - You can have an excellent Indian Biryani rice in Chicago, IL
   - You can dance Argentinian Tango in Istanbul, Turkey 
