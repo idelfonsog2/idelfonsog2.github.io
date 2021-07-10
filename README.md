@@ -23,6 +23,10 @@
 
 ## Featured App
 
+## `Stranded 🙆‍♂️👽 = 🎨 + ⏰`
+
+![](img/stranded.jpg)
+
 **The Problem**
 
 People like to travel. We spent around 5 to 6 hours at the airports. Once there, people waste that time doing the following, and its actually mentally tiring:
@@ -34,18 +38,12 @@ People like to travel. We spent around 5 to 6 hours at the airports. Once there,
   - "Walk around" (40 min)
   - Have something to eat (20 min)
   - Waiting to be the last person to board the plane (20 min)
-
-**The Solution**
-
-## `Stranded 🙆‍♂️👽 = 🎨 + ⏰`
-
-![](img/stranded.jpg)
-
+  
 **Background**
 - Math ➗ is international spoken.
 - 👋 a hello is international known gesture
 - A more deep thing: Culture 🎨! it involves music, dance, literature, design, and cuisine.
-  - You can have KFC in Tanzania and Mozambique
+  - You can have KFC in Tanzania and Mozambiqu
   - You can have an excellent Indian Biryani rice in Chicago, IL
   - You can dance Argentinian Tango in Istanbul, Turkey 
 
