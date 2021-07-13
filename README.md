@@ -2,70 +2,41 @@
 <meta property="og:description" content="Working with software applications and data pipelines.">
 <meta property="og:image" content="https://idelfonsog2.github.io/img/circular-shot.png">
 
+## Featured App
+
+## `Stranded`
+
+![](img/stranded.jpg)
+
+## **A trip. New connections. New Culture**
+
+### **Enjoy your time at the airport as you dance with a another human before or after your flight.**
+
+- It will map, filter, reduce common attributes of a person's trip 
+- Take different time zones into account for everyones trips and reminders
+- It will notify you when another person who loves dancing is at the same time and airport that you are in.
+- The rest is **HX**, human experience!
+
+*tech: SwiftUI, APNS, Postgres, Vapor*
+
+*status: development*
+
+---
+
 <p align="center">
 	<img width="180" height="180" src="/img/circular-shot.png"/>
 </p>
 
 ## Idelfonso Gutierrez
-### Dedicated software developer
 
-#### Work
+
+
+- 🕺 [Background](#about-me)
 - 📱 [Experience](#experience)
 - 🛒 [Clients](#clients) 
-- 🕺 [About Me](#about-me)
 - 📨 [Email](mailto:idelfonsog2@gmail.com)
 - 💬 [WhatsApp](https://wa.me/19545139568?text=Hi%20Idelfonso)
 - 💾 [Contact Card](idelfonso.vcf)
-<!-- 💼 [Github](https://github.com/idelfonsog2) -->
-<!-- 🐦 [Twitter](https://twitter.com/idelfonsoGM)   -->
-
----
-
-## Featured App
-
-## `Stranded 🙆‍♂️👽 = 🎨 + ⏰`
-
-![](img/stranded.jpg)
-
-**The Problem**
-
-People like to travel. We spent around 5 to 6 hours at the airports. Once there, people waste that time doing the following, and its actually mentally tiring:
-
-  - Get to the airport (40 min)
-  - Go throught TSA (15 min)
-  - Get into the Starbucks queue (15 min)
-  - Have their face glue to their devices (2-4 hrs off/on flight)
-  - "Walk around" (40 min)
-  - Have something to eat (20 min)
-  - Waiting to be the last person to board the plane (20 min)
-  
-**Background**
-- Math ➗ is international spoken.
-- 👋 a hello is international known gesture
-- A more deep thing: Culture 🎨! it involves music, dance, literature, design, and cuisine.
-  - You can have KFC in Tanzania and Mozambiqu
-  - You can have an excellent Indian Biryani rice in Chicago, IL
-  - You can dance Argentinian Tango in Istanbul, Turkey 
-
-`Social interaction is a human need` YES! It's something we get excited for and even further when we meet, travel or try something new. People can connect with each other despite the different languages, origins, cultures.
-
-**What/Why**
-Like any other platform trying to connect people: 
-- I'm just trying to build something to that allows two person to introduce each other.
-- I love dancing, specially in Turkey, Chicago, Madrid, Hong Kong.
-- I have notice how big, spacious, and great floors airports have.
-
-**How it works**
-
-It helps you make a new friend, but its up to you.
-- It will map, filter, reduce common attributes of a person's trip 
-- Take different time zones into account for everyones trips and reminders
-- It will notify you when another person who loves dancing is at the same time and airport that you are in.
-- The rest is **HX**, human experience! 💆‍♀️💆‍♂️
-
-*tech: SwiftUI, APNS, Postgres, Vapor*
-
-*status: development*
 
 ---
 
