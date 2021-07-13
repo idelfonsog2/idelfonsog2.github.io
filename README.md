@@ -2,7 +2,7 @@
 <meta property="og:description" content="Working with software applications and data pipelines.">
 <meta property="og:image" content="https://idelfonsog2.github.io/img/circular-shot.png">
 
-## Featured App
+### Featured App
 
 ## `Stranded`
 
