@@ -446,7 +446,7 @@ an image **machine learning** model based on a plant database to identify things
 
 ### tools/frameworks/libraries:
 
-- Fastlane, CircleCI, apple push notifications services, RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
+- Fastlane, Circle CI, apple push notifications services, XCUITest, iOS dependency managers(Swift Package Manager, git sub-modules, cocoapods) RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
 
 Tags: horticulture
 
