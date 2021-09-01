@@ -17,7 +17,7 @@
 - It will notify you when another person who loves dancing is at the same time and airport that you are in.
 - The rest is **HX**, human experience!
 
-*tech: SwiftUI, APNS, Postgres, Vapor*
+*tech: SwiftUI, APNS, PostgreSQL, Vapor*
 
 *status: development*
 
@@ -356,7 +356,7 @@ Our dev team was able to implement a database using normalization, which helps i
 ---
 
 # Miscellaneous 
-## Lambdas in Swift
+## AWS Lambda with Swift Runtime
 
 Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
 The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively. Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE
@@ -412,7 +412,7 @@ tech: Siri shortcut
 
 ![](img/ultabeauty.png)
 
-### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | Feb. 2020 - Present
+### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | March. 2020 - Present
 
 <!-- - Minimize initial technical debt by introducing test driven development and working with the UX/UI in order to guide them when using the apple platforms.
 - Leading story reviews with business stakeholders
