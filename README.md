@@ -522,6 +522,8 @@ Inventory management iOS application:
 
 ### tools/frameworks/libraries:
 
+***
+
 - PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
 
 tags: financial technology
