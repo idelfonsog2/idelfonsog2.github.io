@@ -466,22 +466,6 @@ tags: agriculture
 
 ---
 
-![](img/yellowpepper.png)
-### Intern  iOS Mobile Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
-
-- Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
-- Worked on production-bugs in collaboration with DevOps and Quality Assurance teams
-- Run small proof of concept features in order to validate the demand
-
-
-### tools/frameworks/libraries:
-
-- PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
-
-tags: financial technology
-
----
-
 # Clients
 
 ### **Ally's Flower**
@@ -528,11 +512,26 @@ Inventory management iOS application:
 
 ***
 
+![](img/yellowpepper.png)
+### Intern  iOS Mobile Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
+
+- Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
+- Worked on production-bugs in collaboration with DevOps and Quality Assurance teams
+- Run small proof of concept features in order to validate the demand
+
+
+### tools/frameworks/libraries:
+
+- PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
+
+tags: financial technology
+
+
 ### Coding Mentor | Volunteering | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
 CoderDojo is a non-profit organization aimed to teach introductory coding-skills concepts through hands-on learning for students between 4th grade and 8th grade.
 
-As a mentor, you will have a transformative experience by being able to teach and spark joy among the students.
+As a mentor, I had a transformative experience by being able to teach and spark joy among the students.
 
 Lessons objectives included working with **scratch.mit.edu** in order to demonstrate the following: 
 - iterative loops
@@ -543,9 +542,10 @@ Lessons objectives included working with **scratch.mit.edu** in order to demonst
 - Hardware programming using Arduino boards
 
 Additionally, students are encourage to:
-- Creativity
-- Working with other
+- Expose creativity
+- Working with other classmates
 - Showcase their achievements
+- Ask questions
 
 ***
 
