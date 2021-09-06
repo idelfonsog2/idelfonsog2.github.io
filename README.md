@@ -8,6 +8,8 @@
 
 ![](img/stranded.jpg)
 
+[![](img/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg)](https://apps.apple.com/us/app/stranded-at-an-airport/id1522181739)
+
 ## **A trip. New connections. New Culture**
 
 ### **Enjoy your time at the airport as you dance with a another human before or after your flight.**
@@ -22,7 +24,6 @@ The project is inspired by my curiosity, passion for learning, dancing, meeting 
 
 *tech: Async/await, SwiftUI, Vapor/APNS, PostgreSQL, Vapor, SignInWithApple, Docker, Vapor/Fluent(ORM)*
 
-[![](img/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg)](https://apps.apple.com/us/app/stranded-at-an-airport/id1522181739)
 ---
 
 <p align="center">
