@@ -22,7 +22,7 @@ The project is inspired by my curiosity, passion for learning, dancing, meeting 
 
 *tech: Async/await, SwiftUI, Vapor/APNS, PostgreSQL, Vapor, SignInWithApple, Docker, Vapor/Fluent(ORM)*
 
-![https://apps.apple.com/us/app/stranded-at-an-airport/id1522181739](img/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg)
+[![](img/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg)](https://apps.apple.com/us/app/stranded-at-an-airport/id1522181739)
 ---
 
 <p align="center">
