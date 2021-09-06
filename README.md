@@ -17,10 +17,9 @@
 - It will notify you when another person who loves dancing is at the same time and airport that you are in.
 - The rest is **HX**, human experience!
 
-*tech: SwiftUI, APNS, PostgreSQL, Vapor*
+*tech: Async/await, SwiftUI, Vapor/APNS, PostgreSQL, Vapor, SignInWithApple, Docker, Vapor/Fluent(ORM)*
 
-*status: development*
-
+![https://apps.apple.com/us/app/stranded-at-an-airport/id1522181739](img/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg)
 ---
 
 <p align="center">
