@@ -14,8 +14,11 @@
 
 - It will map, filter, reduce common attributes of a person's trip 
 - Take different time zones into account for everyones trips and reminders
-- It will notify you when another person who loves dancing is at the same time and airport that you are in.
+- It will notify you when people are also waiting and they might enjoy a tanda.
 - The rest is **HX**, human experience!
+
+
+The project is inspired by my curiosity, passion for learning, dancing, meeting people, and this [facebook group](https://www.facebook.com/groups/348726108583892/)
 
 *tech: Async/await, SwiftUI, Vapor/APNS, PostgreSQL, Vapor, SignInWithApple, Docker, Vapor/Fluent(ORM)*
 
