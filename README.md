@@ -415,16 +415,18 @@ tech: Siri shortcut
 
 ![](img/ultabeauty.png)
 
-### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | March. 2020 - Present
+### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | March. 2020 - Sept. 2021
 
-<!-- - Minimize initial technical debt by introducing test driven development and working with the UX/UI in order to guide them when using the apple platforms.
+- Minimize initial technical debt by introducing test driven development and working with the UX/UI in order to guide them when using the apple platforms.
 - Leading story reviews with business stakeholders
-- Minimize technical support feedback loop and issues funneling by creating a client application for the employees interacting with the customer.
-- Developing with Apple latest frameworks `Combine` `SwiftUI` and `Swift Package Manager`
-- Communicate end-to-end architecture and evaluate techinical desicions as the team keeps working on the project
+- Minimize technical support feedback loop and hardware issues by integrating the IT support system and the hardware's SDK for troubleshooting.
+- Develop new applications which include flowss, features, and hotfixes utilizing the repository, injection, and modularizing patterns.
+- Communicate end-to-end architecture and evaluate techinical desicions as the project moves forward
+- Develop internal and external business partners relationships to clarify concerns, discuss possible new approaches
 - Work on legacy project in order to maintain backwards compability for new features
-- Assisting on hybrid applications projects developed with **Apache Cordova** -->
-
+- Assisting on developing hybrid applications projects
+- Continuous communication with product manager, product owner about the project's progress
+- Work with mobile device management provider to assist internal hardware and software
 ---
 
 ![](img/growit.png)
@@ -525,12 +527,11 @@ Inventory management iOS application:
 
 ### tools/frameworks/libraries:
 
-***
-
 - PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
 
 tags: financial technology
 
+***
 
 ### Coding Mentor | Volunteering | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
