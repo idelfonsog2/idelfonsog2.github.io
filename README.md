@@ -427,6 +427,8 @@ tech: Siri shortcut
 - Assisting on developing hybrid applications projects
 - Continuous communication with product manager, product owner about the project's progress
 - Work with mobile device management provider to assist internal hardware and software
+- Develop backend and frontend application
+
 ---
 
 ![](img/growit.png)
