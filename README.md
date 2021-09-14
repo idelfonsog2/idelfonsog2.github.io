@@ -22,7 +22,7 @@
 
 The project is inspired by my curiosity, passion for learning, dancing, meeting people, and this [facebook group](https://www.facebook.com/groups/348726108583892/)
 
-*tech: Async/await, SwiftUI, Vapor/APNS, PostgreSQL, Vapor, SignInWithApple, Docker, Vapor/Fluent(ORM)*
+*tech: Async/await, SwiftUI, Vapor/APNS, PostgreSQL, Vapor, SignInWithApple, Docker, Vapor/Fluent(ORM), Passkeys*
 
 ---
 
@@ -420,14 +420,14 @@ tech: Siri shortcut
 - Minimize initial technical debt by introducing test driven development and working with the UX/UI in order to guide them when using the apple platforms.
 - Leading story reviews with business stakeholders
 - Minimize technical support feedback loop and hardware issues by integrating the IT support system and the hardware's SDK for troubleshooting.
-- Develop new applications which include flowss, features, and hotfixes utilizing the repository, injection, and modularizing patterns.
-- Communicate end-to-end architecture and evaluate techinical desicions as the project moves forward
-- Develop internal and external business partners relationships to clarify concerns, discuss possible new approaches
+- Develop new applications which include flows, features, and hotfixes utilizing the repository, injection, and modularizing patterns.
+- Communicate end-to-end architecture and evaluate technical decisions as the project progress
+- Build internal and external business partners relationships to clarify concerns and discuss possible approaches about current and upcoming projects
 - Work on legacy project in order to maintain backwards compability for new features
 - Assisting on developing hybrid applications projects
 - Continuous communication with product manager, product owner about the project's progress
 - Work with mobile device management provider to assist internal hardware and software
-- Develop backend and frontend application
+- Develop backend and frontend applications that improved associates processes
 
 ---
 
