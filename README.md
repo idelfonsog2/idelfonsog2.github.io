@@ -31,15 +31,16 @@ The project is inspired by my curiosity, passion for learning, dancing, meeting 
 </p>
 
 ## idelfonso Gutierrez 
-### Software Developer
+Software Developer
 
-- 🕺 [Background](#about-me)
+- 🕺 [About Me](#current-about-me)
 - 📱 [Experience](#experience)
 - 🛒 [Clients](#clients) 
 - 📨 [Email](mailto:idelfonsog2@gmail.com)
 - 💬 [WhatsApp](https://wa.me/19545139568?text=Hi%20Idelfonso)
 - 💾 [Contact Card](idelfonso.vcf)
 - 💾 [PDF version](resources/resume_us.pdf)
+
 ---
 
 ## Open Source Contributions
@@ -500,9 +501,7 @@ Inventory management iOS application:
 
 ---
 
-# About Me
-
-### Education
+# Education
 
 - B.S. Software Developer Florida International University Aug 2012 - May 2016
   - Minor: Social Media and E-marketing Analytics
