@@ -30,9 +30,8 @@ The project is inspired by my curiosity, passion for learning, dancing, meeting 
 	<img width="180" height="180" src="/img/circular-shot.png"/>
 </p>
 
-## Idelfonso Gutierrez
-
-
+## idelfonso Gutierrez 
+### Software Developer
 
 - 🕺 [Background](#about-me)
 - 📱 [Experience](#experience)
