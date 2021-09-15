@@ -595,8 +595,8 @@ tags: education
 
 > From Venezuela 🇻🇪 Vamos a bailar 💃
 
-Photograph by Charapin 🙌🏾
-
 ![Charapin](img/tango_small.jpg)
+
+Photograph by Charapin 🙌🏾
 
 2020, Github Pages
