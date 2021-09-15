@@ -39,7 +39,7 @@ The project is inspired by my curiosity, passion for learning, dancing, meeting 
 - 📨 [Email](mailto:idelfonsog2@gmail.com)
 - 💬 [WhatsApp](https://wa.me/19545139568?text=Hi%20Idelfonso)
 - 💾 [Contact Card](idelfonso.vcf)
-
+- 💾 [PDF version](resources/resume_us.pdf)
 ---
 
 ## Open Source Contributions
