@@ -501,11 +501,6 @@ Inventory management iOS application:
 ---
 
 # About Me
-## Lección para tu vida
-
-<blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-***
 
 ### Education
 
@@ -576,6 +571,8 @@ tags: education
 
 ***
 
+# Current about me
+
 ## Recommended readings
 
 - [Domain Driven-Design](https://www.amazon.com/gp/product/0321125215?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321125215)
@@ -591,11 +588,13 @@ tags: education
 - [Why Books Don't Work](https://andymatuschak.org/books/)
 - [Quantum Country](https://quantum.country)
 
+## Lección para tu vida
+
+<blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ***
 
-From Venezuela 🇻🇪
-
-  > Vamos a bailar 💃
+> From Venezuela 🇻🇪 Vamos a bailar 💃
 
 Photograph by Charapin 🙌🏾
 
