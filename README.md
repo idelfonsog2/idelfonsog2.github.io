@@ -22,7 +22,7 @@
 
 The project is inspired by my curiosity, passion for learning, [dancing](#current-about-me), meeting people, and this [community group](https://www.facebook.com/groups/348726108583892/)
 
-*tech: Async/await, SwiftUI, Vapor/APNS, PostgreSQL, Vapor, SignInWithApple, Docker, Vapor/Fluent(ORM), Passkeys*
+*tech: Async/await, SwiftUI, Vapor/APNS, PostgreSQL, Vapor, SignInWithApple, Docker, Vapor/Fluent(ORM), Passkeys, Backend for front-end*
 
 ---
 
