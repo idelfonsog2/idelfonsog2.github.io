@@ -20,7 +20,7 @@
 - The rest is **HX**, human experience!
 
 
-The project is inspired by my curiosity, passion for learning, dancing, meeting people, and this [facebook group](https://www.facebook.com/groups/348726108583892/)
+The project is inspired by my curiosity, passion for learning, [dancing](#current-about-me), meeting people, and this [community group](https://www.facebook.com/groups/348726108583892/)
 
 *tech: Async/await, SwiftUI, Vapor/APNS, PostgreSQL, Vapor, SignInWithApple, Docker, Vapor/Fluent(ORM), Passkeys*
 
@@ -33,13 +33,13 @@ The project is inspired by my curiosity, passion for learning, dancing, meeting 
 ## idelfonso Gutierrez 
 Software Developer
 
-- 🕺 [About Me](#current-about-me)
 - 📱 [Experience](#experience)
 - 🛒 [Clients](#clients) 
 - 📨 [Email](mailto:idelfonsog2@gmail.com)
 - 💬 [WhatsApp](https://wa.me/19545139568?text=Hi%20Idelfonso)
 - 💾 [Contact Card](idelfonso.vcf)
 - 💾 [PDF version](resources/resume_us.pdf)
+- 🕺 [About Me](#current-about-me)
 
 ---
 
