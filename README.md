@@ -22,7 +22,7 @@
 
 The project is inspired by my curiosity, passion for learning, [dancing](#current-about-me), meeting people, and this [community group](https://www.facebook.com/groups/348726108583892/)
 
-*tech: Swift Concurrency, SwiftUI, [Vapor](https://vapor.codes), APNS, PostgreSQL, Docker*
+*tech: Swift Concurrency, SwiftUI, [Vapor](https://vapor.codes) (Backend for frontend), APNS, PostgreSQL, Docker*
 
 ---
 
