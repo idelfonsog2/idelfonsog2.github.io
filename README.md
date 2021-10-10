@@ -24,17 +24,13 @@ The project is inspired by my curiosity, passion for learning, [dancing](#curren
 
 *tech: [Swift](https:www.swift.org), [Vapor](https://vapor.codes), [Push Notifications](), [Database](), [Containers](Docker)*
 
-<!-- <p align="center">
+<p align="center">
 	<img width="180" height="180" src="/img/circular-shot.png"/>
 </p>
 
 ## Hola 👋
 
-I'm Idelfonso. I **`code`** mobile applications for small, medium, and enterprise sized businesses. Whether you’re trying to create a proof of concept, need assitant on an ongoing project or even create a whole new application – I can help! [reach-out](mailto:idelfonsog2@gmail.com) -->
-
-|||
-|---|---|
-|<h2> Hola 👋 </h2></br> I'm Idelfonso. I **`code`** mobile applications for small, medium, and enterprise sized businesses. Whether you’re trying to create a proof of concept, need assitant on an ongoing project or even create a whole new application – I can help! [reach-out](mailto:idelfonsog2@gmail.com)| <img width="180" height="180" src="/img/circular-shot.png"/> |
+I'm Idelfonso. I **`code`** mobile applications for small, medium, and enterprise sized businesses. Whether you’re trying to create a proof of concept, need assitant on an ongoing project or even create a whole new application – I can help! [reach-out](mailto:idelfonsog2@gmail.com)
 
 - 📱 [Experience](#experience)
 - 🛒 [Clients](#clients) 
