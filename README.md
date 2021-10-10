@@ -32,7 +32,7 @@ The project is inspired by my curiosity, passion for learning, [dancing](#curren
 
 ## Hola 👋
 
-### I'm Idelfonso. I **`code`** mobile applications for small, medium, and enterprise sized businesses. Whether you’re trying to create a proof of concept, need assitant on an ongoing project or even create a whole new application – I can help! [reach-out](mailto:idelfonsog2@gmail.com)
+I'm Idelfonso. I **`code`** mobile applications for small, medium, and enterprise sized businesses. Whether you’re trying to create a proof of concept, need assitant on an ongoing project or even create a whole new application – I can help! [reach-out](mailto:idelfonsog2@gmail.com)
 
 - 📱 [Experience](#experience)
 - 🛒 [Clients](#clients) 
