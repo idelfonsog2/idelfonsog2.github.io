@@ -22,7 +22,7 @@
 
 The project is inspired by my curiosity, passion for learning, [dancing](#current-about-me), meeting people, and this [community group](https://www.facebook.com/groups/348726108583892/)
 
-*tech: [Swift](https:www.swift.org), [Vapor](https://vapor.codes) (Backend for frontend), [APNS](), [PostgreSQL](), [Docker]()*
+*tech: [Swift](https:www.swift.org), [Vapor](https://vapor.codes), [Push Notifications](), [Database](), [Containers](Docker)*
 
 ---
 
