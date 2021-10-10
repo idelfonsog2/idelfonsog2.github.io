@@ -521,6 +521,7 @@ Inventory management iOS application:
 - iOS Nanodegree Udacity
 - Data Engineer Nanodegree Udacity
 - Data Streaming Nanodegree Udacity
+- Mobile Device Management (MDM) Workspace One Unified Certification by VMWare
 
 ***
 
