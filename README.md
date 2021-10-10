@@ -22,7 +22,7 @@
 
 The project is inspired by my curiosity, passion for learning, [dancing](#current-about-me), meeting people, and this [community group](https://www.facebook.com/groups/348726108583892/)
 
-*tech: [SwiftUI](), [Vapor](https://vapor.codes) (Backend for frontend), [Swift Concurrency](), [APNS](), [PostgreSQL](), [Docker]()*
+*tech: [Swift](https:www.swift.org), [Vapor](https://vapor.codes) (Backend for frontend), [APNS](), [PostgreSQL](), [Docker]()*
 
 ---
 
@@ -30,16 +30,15 @@ The project is inspired by my curiosity, passion for learning, [dancing](#curren
 	<img width="180" height="180" src="/img/circular-shot.png"/>
 </p>
 
-## idelfonso Gutierrez 
-Software Developer
+## Hola 👋
+
+### I'm Idelfonso. I **`code`** mobile applications for small, medium, and enterprise sized businesses. Whether you’re trying to create a proof of concept, need assitant on an ongoing project or even create a whole new application – I can help! [reach-out](mailto:idelfonsog2@gmail.com)
 
 - 📱 [Experience](#experience)
 - 🛒 [Clients](#clients) 
-- 📨 [Email](mailto:idelfonsog2@gmail.com)
-- 💬 [WhatsApp](https://wa.me/19545139568?text=Hi%20Idelfonso)
-- 💾 [Contact Card](idelfonso.vcf)
-- 💾 [PDF version](resources/resume_us.pdf)
 - 🕺 [About Me](#current-about-me)
+- 💾 [PDF version](resources/resume_us.pdf)
+<!-- - 💾 [Contact Card](idelfonso.vcf) -->
 
 ---
 
@@ -413,6 +412,17 @@ tech: Siri shortcut
 
 # Experience
 
+<!-- ![](img/nm-logo.png)
+
+### Mobile Developer | [Northwestern Medicine](https://www.nm.org/) | Chicago, U.S. | Sept. 2021 - Currently
+
+- s
+- s
+- s
+- s
+
+--- -->
+
 ![](img/ultabeauty.png)
 
 ### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | March. 2020 - Sept. 2021
@@ -476,8 +486,6 @@ tags: agriculture
 # Clients
 
 ### **Ally's Flower**
-
-<!-- ![](img/al1.png) ![](img/al2.png) ![](img/al3.png) -->
 
 Online retail flower shop. The client wanted an easy-to-use platform to manage inventory and customer relationship manager.
 
