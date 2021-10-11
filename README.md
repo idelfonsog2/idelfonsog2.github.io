@@ -606,7 +606,7 @@ tags: education
 
 ***
 
-> From Venezuela 🇻🇪 Vamos a bailar 💃
+> From Venezuela 🇻🇪 Bailando 🕺
 
 ![Charapin](img/tango_small.jpg)
 
