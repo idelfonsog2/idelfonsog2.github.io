@@ -36,7 +36,7 @@ I'm Idelfonso. I believe some things can be done much better and delightful.
 
 The way I `code` mobile applications is by making them much simpler, intuitive and user friendly.
 
-I enjoy learning and coding. Whether you are creating a proof of concept, need assitant on an ongoing or a new project – I can help! [reach-out](mailto:idelfonsog2@gmail.com)
+I enjoy reading, uderstanding and building systems. Whether you are creating a proof of concept, need assitant on an ongoing or a new project – I can help! [reach-out](mailto:idelfonsog2@gmail.com)
 
 - 📱 [Experience](#experience)
 - 🛒 [Clients](#clients) 
