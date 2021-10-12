@@ -34,9 +34,9 @@ The project is inspired by my curiosity, passion for learning, [dancing](#curren
 
 I'm Idelfonso. I believe some things can be done much better and delightful.
 
-The way I `code` mobile applications is by making them much simpler, intuitive and user friendly.
+The way I `code` mobile/backend applications is by making them much simpler, intuitive and user friendly.
 
-I review, understand the needs and build systems. Whether you are creating a proof of concept, need assitant on an ongoing or a new project – I can help! [reach-out](mailto:idelfonsog2@gmail.com)
+I will review, help specify the requirements and build the systems. Whether you are creating a proof of concept, need assitant on an ongoing or a new project – I can help! [reach-out](mailto:idelfonsog2@gmail.com)
 
 - 📱 [Experience](#experience)
 - 🛒 [Clients](#clients) 
