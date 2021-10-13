@@ -36,7 +36,7 @@ I'm Idelfonso. I believe some things can be done much better and delightful.
 
 The way I `code` mobile/backend applications is by making them much simpler, intuitive and user friendly.
 
-Do you want me to explain a topic? - [reach-out](mailto:idelfonsog2@gmail.com)
+Whether you are creating a proof of concept, need assitant on an ongoing or a new project – I can help! - [reach-out](mailto:idelfonsog2@gmail.com)
 
 - 📱 [Experience](#experience)
 - 🛒 [Clients](#clients) 
