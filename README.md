@@ -429,7 +429,7 @@ tech: Siri shortcut
 
 ![](img/ultabeauty.png)
 
-### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S. | March. 2020 - Sept. 2021
+### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S.
 
 - Minimize initial technical debt by introducing test driven development and working with the UX/UI in order to guide them when using the apple platforms.
 - Leading story reviews with business stakeholders
@@ -447,7 +447,7 @@ tech: Siri shortcut
 
 ![](img/growit.png)
 
-### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S. | Feb. 2018 - Feb. 2020
+### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S.
 
 - Able to lock in 3 customer agreements signups when finalizing our data product. This involved **beacon
 technology**, **relational database**, and map data visualization (Mapbopx).
@@ -474,7 +474,7 @@ Tags: horticulture
 ---
 
 ![](img/kinkarta.png)
-### Technical Analyst iOS Mobile Developer | [KIN+KARTA](http://kindandkarta.com/) | Chicago, U.S. | Sept 2017 - Feb 2018
+### Technical Analyst iOS Mobile Developer | [KIN+KARTA](http://kindandkarta.com/)
 
 - Deliver a total cost reduction of -$10,000.00 by integrating an iPadOS app with IoT devices
 - iPadOS app with commands and realtime data visualization analytics to/from IoT devices
