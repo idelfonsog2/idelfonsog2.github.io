@@ -447,16 +447,11 @@ tech: Siri shortcut
 
 # Experience
 
-<!-- ![](img/nm-logo.png)
+![](img/nm-logo.png)
 
-### Mobile Developer | [Northwestern Medicine](https://www.nm.org/) | Chicago, U.S. | Sept. 2021 - Currently
+### Mobile Developer | [Northwestern Medicine](https://www.nm.org/) | Chicago, U.S. | Current
 
-- s
-- s
-- s
-- s
-
---- -->
+---
 
 ![](img/ultabeauty.png)
 
