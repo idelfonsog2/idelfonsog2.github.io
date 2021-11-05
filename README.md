@@ -48,7 +48,7 @@ Whether you are creating a proof of concept, need assitant on an ongoing or a ne
 
 ---
 
-## Writting software asynchronously
+## Writting software asynchronously 🧵
 
 With my ongoing project feature at the [top](#featured-app) I have been able to gather all the knowledge I gain into a single application... more like many realated to the same application.
 
