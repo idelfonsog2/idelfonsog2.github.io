@@ -50,7 +50,7 @@ Whether you are creating a proof of concept, need assitant on an ongoing or a ne
 
 ## Writting software asynchronously 🧵
 
-With my ongoing project feature at the [top](#featured-app) I have been able to gather all the knowledge I gain into a single application... more like many realated to the same application.
+With my ongoing project feature at the [top](#featured-app) I have been able to gather all the knowledge I gained into a single application... more like many realated to the same application.
 
 I'm really grateful and content about the excitement there is in the [#SwiftLang](https://twitter.com/search?q=%23SwiftLang) community. Many people think: _You write iPhone applications_ - __maybe!__ I can relate to this conversation [twitter video](https://twitter.com/davejacobseniOS/status/1453743066137907204)
 
