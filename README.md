@@ -458,17 +458,18 @@ tech: Siri shortcut
 
 ### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S.
 
-- Minimize initial technical debt by introducing test driven development and working with the UX/UI in order to guide them when using the apple platforms.
+- Work with mobile device management provider to assist internal hardware and software
+- Develop backend and frontend applications that improved associates processes
+- Write scripts and continuous integration pipelines to address multiple applications and the collaboration of team members
+- Minimize initial technical debt by introducing test-driven development and working with the UX/UI in order to guide them when using the Apple platforms.
 - Leading story reviews with business stakeholders
 - Minimize technical support feedback loop and hardware issues by integrating the IT support system and the hardware's SDK for troubleshooting.
 - Develop new applications which include flows, features, and hotfixes utilizing the repository, injection, and modularizing patterns.
-- Diagram end-to-end architecture and evaluate technical decisions as the project progress
-- Build internal and external business partners relationships to clarify concerns and discuss possible approaches about current and upcoming projects
-- Work on legacy project in order to maintain backwards compability for new features
-- Assisting on developing hybrid applications projects
-- Continuous communication with product manager, product owner about the project's progress
-- Work with mobile device management provider to assist internal hardware and software
-- Develop backend and frontend applications that improved associates processes
+- Diagram end-to-end architecture and evaluate technical decisions as to the project progress
+- Build internal and external business partners relationships to clarify concerns and discuss possible approaches to current and upcoming projects
+- Work on legacy projects in order to maintain backward compatibility for new features
+- Assisting in developing hybrid applications projects
+- Continuous communication with the product manager, product owner about the project's progress
 
 ---
 
