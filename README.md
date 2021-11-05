@@ -52,7 +52,7 @@ Whether you are creating a proof of concept, need assitant on an ongoing or a ne
 
 With my ongoing project feature at the [top](#featured-app) I have been able to gather all the knowledge I gain into a single application... more like many realated to the same application.
 
-I'm really grateful and content about the excitement there is in the [#SwiftLang]() community. Many people think: _You write iPhone applications_ - __maybe!__ I can relate to this conversation [twitter video](https://twitter.com/davejacobseniOS/status/1453743066137907204)
+I'm really grateful and content about the excitement there is in the [#SwiftLang](https://twitter.com/search?q=%23SwiftLang) community. Many people think: _You write iPhone applications_ - __maybe!__ I can relate to this conversation [twitter video](https://twitter.com/davejacobseniOS/status/1453743066137907204)
 
 [Swift](https://www.swift.org) is an open source language which has achieve things like [differential progamming](https://en.wikipedia.org/wiki/Differentiable_programming), [functional programming](https://en.wikipedia.org/wiki/Functional_programming), and [**server-side development**](https://vapor.code). Within the last 2 weeks ago! 🤯, the language gain two new milestones [**Concurrent programming**](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html) and [**Distributed Computing**](https://github.com/apple/swift-distributed-actors). Amazing 🚀.
 
