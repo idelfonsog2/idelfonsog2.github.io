@@ -50,15 +50,15 @@ Whether you are creating a proof of concept, need assitant on an ongoing or a ne
 
 ## Writting software asynchronously 🧵
 
-With my ongoing project feature at the [top](#featured-app) I have been able to gather all the knowledge I gained into a single application... more like many realated to the same application.
+With my ongoing project feature at the [top](#featured-app) I have been able to gather all the knowledge I gained into a single application... more like many related to the same application.
 
-I'm really grateful and content about the excitement there is in the [#SwiftLang](https://twitter.com/search?q=%23SwiftLang) community. Many people think: _You write iPhone applications_ - __maybe!__ I can relate to this conversation [twitter video](https://twitter.com/davejacobseniOS/status/1453743066137907204)
+I'm really grateful and content about the excitement there is in the [#SwiftLang](https://twitter.com/search?q=%23SwiftLang) community. Many people think _You write iPhone applications_ - __maybe!__ I can relate to this conversation [Twitter video](https://twitter.com/davejacobseniOS/status/1453743066137907204)
 
-[Swift](https://www.swift.org) is an open source language which has achieve things like [differential progamming](https://en.wikipedia.org/wiki/Differentiable_programming), [functional programming](https://en.wikipedia.org/wiki/Functional_programming), and [**server-side development**](https://vapor.code). Within the last 2 weeks ago! 🤯, the language gain two new milestones [**Concurrent programming**](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html) and [**Distributed Computing**](https://github.com/apple/swift-distributed-actors). Amazing 🚀.
+[Swift](https://www.swift.org) is an open-source language which has achieve things like [differential progamming](https://en.wikipedia.org/wiki/Differentiable_programming), [functional programming](https://en.wikipedia.org/wiki/Functional_programming), and [**server-side development**](https://vapor.code). Within the last 2 weeks ago! 🤯, the language gain two new milestones [**Concurrent programming**](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html) and [**Distributed Computing**](https://github.com/apple/swift-distributed-actors). Amazing 🚀.
 
-For my project, I have been able to combine and use the server-side development, concurrent programming and leverage the use of declarative programming. These were things that I was looking at the progress of, mainly thanks to the [Swift Evolution](https://github.com/apple/swift-evolution) [#iOSApp](https://apps.apple.com/us/app/evolution-app/id1210898168).
+For my project, I have been able to combine and use server-side development, concurrent programming and leverage the use of declarative programming. These were things that I was looking at the progress of, mainly thanks to the [Swift Evolution](https://github.com/apple/swift-evolution) [#iOSApp](https://apps.apple.com/us/app/evolution-app/id1210898168).
 
-I'm not only writting the mobile front end and the backend with the above as I mentioned. I'm also working with another recent feature announced [Swift AWS Lambda](https://github.com/awslabs/aws-sdk-swift), at this point you might wonder:
+I'm not only writing the mobile front end and the backend with the above as I mentioned. I'm also working with another recent feature announced [Swift AWS Lambda](https://github.com/awslabs/aws-sdk-swift), at this point you might wonder:
 - _Maybe is overkill? Do you pretend to add everything that you find? When would I ship it?_ 
 
 Valid questions!
