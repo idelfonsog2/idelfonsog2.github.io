@@ -10,7 +10,7 @@
 
 [![](img/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg)](https://apps.apple.com/us/app/stranded-at-an-airport/id1522181739)
 
-## **Dancing Tango at the airport 🍷🌹**
+## **Dancing Tango at the airport 🍷**
 <!-- ## **A trip. New connections. New Culture** -->
 
 ### **Enjoy your time at the airport as you dance with a another human before or after your flight.**
