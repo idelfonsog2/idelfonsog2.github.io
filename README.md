@@ -43,7 +43,8 @@ Whether you are creating a proof of concept, need assitant on an ongoing or a ne
 - 🛒 [Clients](#clients) 
 - 🕺 [About Me](#current-about-me)
 - 💾 [PDF version](resources/resume_us.pdf)
-- 💬 [@idelfonsoGM]()
+- **@** [idelfonsoGM](https://twitter.com/idelfonsogm)
+<!-- - **Up** [Side-jobs](https://www.upwork.com/freelancers/~010e40ea91fa4fa610?viewMode=1) -->
 <!-- - 💾 [Contact Card](idelfonso.vcf) -->
 
 ---
