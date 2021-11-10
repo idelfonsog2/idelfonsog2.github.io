@@ -459,12 +459,12 @@ tech: Siri shortcut
 
 ### Enterprise iOS Software Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S.
 
-- Work with mobile device management provider to assist internal hardware and software
+- Work with mobile device management solution to assist managed devices and managed applications
 - Develop backend and frontend applications that improved associates processes
 - Write automation scripts and continuous integration pipelines to address multiple applications and the collaboration of team members
 - Minimize initial technical debt by introducing test-driven development and working with the UX/UI in order to guide them when using the Apple platforms.
 - Leading story reviews with business stakeholders
-- Minimize technical support feedback loop and hardware issues by integrating the IT support system and the hardware's SDK for troubleshooting.
+- Minimize technical support feedback loop and hardware issues by integrating the IT support system and hardware's SDK for troubleshooting.
 - Develop new applications which include flows, features, and hotfixes utilizing the repository, injection, and modularizing patterns.
 - Diagram end-to-end architecture and evaluate technical decisions as to the project progress
 - Build internal and external business partners relationships to clarify concerns and discuss possible approaches to current and upcoming projects
