@@ -451,17 +451,17 @@ tech: Siri shortcut
 
 ![](img/nm-logo.png)
 
-### Mobile Developer | [Northwestern Medicine](https://www.nm.org/) | Chicago, U.S. | Current
+### iOS Software Developer | [Northwestern Medicine](https://www.nm.org/) | Chicago, U.S. | Current
 
 ---
 
 ![](img/ultabeauty.png)
 
-### Enterprise Mobility Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S.
+### Enterprise iOS Software Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S.
 
 - Work with mobile device management provider to assist internal hardware and software
 - Develop backend and frontend applications that improved associates processes
-- Write scripts and continuous integration pipelines to address multiple applications and the collaboration of team members
+- Write automation scripts and continuous integration pipelines to address multiple applications and the collaboration of team members
 - Minimize initial technical debt by introducing test-driven development and working with the UX/UI in order to guide them when using the Apple platforms.
 - Leading story reviews with business stakeholders
 - Minimize technical support feedback loop and hardware issues by integrating the IT support system and the hardware's SDK for troubleshooting.
@@ -503,7 +503,7 @@ Tags: horticulture
 ---
 
 ![](img/kinkarta.png)
-### Technical Analyst iOS Mobile Developer | [KIN+KARTA](http://kindandkarta.com/)
+### iOS Software Developer | [KIN+KARTA](http://kindandkarta.com/)
 
 - Deliver a total cost reduction of -$10,000.00 by integrating an iPadOS app with IoT devices
 - iPadOS app with commands and realtime data visualization analytics to/from IoT devices
@@ -555,7 +555,7 @@ Inventory management iOS application:
 ***
 
 ![](img/yellowpepper.png)
-### Intern  iOS Mobile Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
+### Intern  iOS Software Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
 
 - Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
 - Worked on production-bugs in collaboration with DevOps and Quality Assurance teams
