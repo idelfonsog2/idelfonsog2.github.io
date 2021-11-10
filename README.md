@@ -59,23 +59,12 @@ I'm really grateful and content about the excitement there is in the [#SwiftLang
 
 For my project, I have been able to combine and use server-side development, concurrent programming and leverage the use of declarative programming. These were things that I was looking at the progress of, mainly thanks to the [Swift Evolution](https://github.com/apple/swift-evolution) [#iOSApp](https://apps.apple.com/us/app/evolution-app/id1210898168).
 
-I'm not only writing the mobile front end and the backend with the above as I mentioned. I'm also working with another recent feature announced [Swift AWS Lambda](https://github.com/awslabs/aws-sdk-swift), at this point you might wonder:
+<!-- I'm not only writing the mobile front end and the backend with the above as I mentioned. I'm also working with another recent feature announced [Swift AWS Lambda](https://github.com/awslabs/aws-sdk-swift),  -->
+
+At this point you might wonder:
 - _Maybe is overkill? Do you pretend to add everything that you find? When would I ship it?_ 
 
-Valid questions!
-
-### The true is
-
-- Learn cross platform development N time
-- Write the app for the mobile N time
-- learn go or python N time
-- develop your backend in javascript N time
-- Deploy to a cloud provider N Time
-- Leveraging other people to get those task done N time
-
-Do the above yoursel in Swift... priceless
-
-Nov 4, 2021
+> The true is... I enjoy learning, doing, and improving
 
 --- 
 
