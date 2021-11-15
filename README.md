@@ -39,9 +39,8 @@ The way I `code` mobile/backend applications is by making them much simpler, int
 
 Whether you are creating a proof of concept, need assitant on an ongoing or a new project – I can help! - <strong><a href="mailto:idelfonsog2@gmail.com?subject=I%20saw%20your%20site">send email</a></strong>
 
-- 📱 [Experience](#experience)
-- 🛒 [Clients](#clients) 
-- 🕺 [About Me](#current-about-me)
+- 📱 [Experience](#clients)
+- 🕺 [About Me](#about-me)
 - 💾 [PDF version](resources/resume_us.pdf)
 - **@** [idelfonsoGM](https://twitter.com/idelfonsogm)
 <!-- - **Up** [Side-jobs](https://www.upwork.com/freelancers/~010e40ea91fa4fa610?viewMode=1) -->
@@ -126,7 +125,7 @@ Developers only need to keep following their TDD approach.
 
 ## Mobile Applications 
 
-## `mmMap 🚎`
+### `mmMap 🚎`
 
 **The Problem**
 - Have you ever had too many events in the same day at different times and different locations?
@@ -391,10 +390,34 @@ Our dev team was able to implement a database using normalization, which helps i
 
 [GitHub](https://github.com/idelfonsog2/HeroWorld-SQL)
 
+--- 
+# Clients 🛒
+
+### **Ally's Flower**
+
+Online retail flower shop. The client wanted an easy-to-use platform to manage inventory and customer relationship manager.
+
+[www.allysflower.com](www.allysflower.com)
+
+--- 
+
+### **Proendoscopy**
+
+Proendoscopy is a local company in the city of Sunrise, it specializes in the service and repair of medical equipment, mainly endoscopes.
+
+Inventory management iOS application:
+- Keep latest status of items when they were sold, currently in repair, or backlog.
+- Keep a record of all the items features
+- Filter and sorting of items by brand, category, price range
+- Image uploads for the item
+
+**tech**: iOS: Objective-C, CoreData, UIKit
+
+[www.proendoscopy.com](www.proendoscopy.com)
 
 ---
 
-# Experience
+# Employment 
 
 ![](img/nm-logo.png)
 
@@ -460,32 +483,6 @@ Tags: horticulture
 - Jenkins, MongoDB, WebSockets, Protobuf, UI reactive library 🛠
 
 tags: agriculture
-
----
-
-# Clients
-
-### **Ally's Flower**
-
-Online retail flower shop. The client wanted an easy-to-use platform to manage inventory and customer relationship manager.
-
-[www.allysflower.com](www.allysflower.com)
-
---- 
-
-### **Proendoscopy**
-
-Proendoscopy is a local company in the city of Sunrise, it specializes in the service and repair of medical equipment, mainly endoscopes.
-
-Inventory management iOS application:
-- Keep latest status of items when they were sold, currently in repair, or backlog.
-- Keep a record of all the items features
-- Filter and sorting of items by brand, category, price range
-- Image uploads for the item
-
-**tech**: iOS: Objective-C, CoreData, UIKit
-
-[www.proendoscopy.com](www.proendoscopy.com)
 
 ---
 
@@ -559,7 +556,7 @@ tags: education
 
 ***
 
-# Current about me
+# About me
 
 ## Recommended readings
 
