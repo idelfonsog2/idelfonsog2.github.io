@@ -48,8 +48,38 @@ Whether you are creating a proof of concept, need assitant on an ongoing or a ne
 <!-- - 💾 [Contact Card](idelfonso.vcf) -->
 
 ---
+## Articles
 
-## Writting software asynchronously 🧵
+### Bridging `completionHandler(_:)` and `async/await`
+
+If you have been reading or watching the Swift Evelution proposals you might have barely heard about `continuations`.
+Continuations lets you capture in a closure (in some cases) the result of a delegate callback and return it to be use as a suspension point after you have explictly requested for the value of that object.
+
+There are many different ways to implement continuations. In the next example, I show you how I converted `ASAuthorizationControllerDelegate` "custom" object to be use as an asynchronous function
+
+```swift
+class SignInWithAppleService: NSObject, ASAuthorizationControllerDelegate {
+  //...
+  public func fetchAppleIDCredentials() async throws -> ASAuthorizationAppleIDCredential {
+          let request = ASAuthorizationAppleIDProvider().createRequest()
+          // ...
+          return try await withCheckedThrowingContinuation { continuation in
+              self.activeContinuation = continuation
+              controller.performRequests()
+          }
+    }
+}
+
+// MARK: - Use
+let signInWithAppleService = SignInWithAppleService()
+let credentials = try await signInWithAppleService.fetchAppleIDCredentials()
+```
+
+I left many details out, but it's with the hope to make it an excersice for your the reader. There are still many Apple APIs which were left out of the convertion batch, just like the above. You will find many methods with the new and old API declaration in your autocomplete window. 
+
+---
+
+### Writting software asynchronously 🧵
 
 With my ongoing project feature at the [top](#featured-app) I have been able to gather all the knowledge I gained into a single application... more like many related to the same application.
 
