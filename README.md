@@ -47,55 +47,6 @@ Whether you are creating a proof of concept, need assitant on an ongoing or a ne
 <!-- - **Up** [Side-jobs](https://www.upwork.com/freelancers/~010e40ea91fa4fa610?viewMode=1) -->
 <!-- - 💾 [Contact Card](idelfonso.vcf) -->
 
----
-## Articles
-
-### Bridging `completionHandler(_:)` and `async/await`
-
-If you have been reading or watching the Swift Evelution proposals you might have barely heard about `continuations`.
-Continuations lets you capture in a closure (in some cases) the result of a delegate callback and return it to be use as a suspension point after you have explictly requested for the value of that object.
-
-There are many different ways to implement continuations. In the next example, I show you how I converted `ASAuthorizationControllerDelegate` "custom" object to be use as an asynchronous function
-
-```swift
-class SignInWithAppleService: NSObject, ASAuthorizationControllerDelegate {
-  //...
-  public func fetchAppleIDCredentials() async throws -> ASAuthorizationAppleIDCredential {
-          let request = ASAuthorizationAppleIDProvider().createRequest()
-          // ...
-          return try await withCheckedThrowingContinuation { continuation in
-              self.activeContinuation = continuation
-              controller.performRequests()
-          }
-    }
-}
-
-// MARK: - Use
-let signInWithAppleService = SignInWithAppleService()
-let credentials = try await signInWithAppleService.fetchAppleIDCredentials()
-```
-
-I left many details out, but it's with the hope to make it an excersice for your the reader. There are still many Apple APIs which were left out of the convertion batch, just like the above. You will find many methods with the new and old API declaration in your autocomplete window. 
-
----
-
-### Writting software asynchronously 🧵
-
-With my ongoing project feature at the [top](#featured-app) I have been able to gather all the knowledge I gained into a single application... more like many related to the same application.
-
-I'm really grateful and content about the excitement there is in the [#SwiftLang](https://twitter.com/search?q=%23SwiftLang) community. Many people think _You write iPhone applications_ - __maybe!__ I can relate to this conversation [Twitter video](https://twitter.com/davejacobseniOS/status/1453743066137907204)
-
-[Swift](https://www.swift.org) is an open-source language which has achieve things like [differential progamming](https://en.wikipedia.org/wiki/Differentiable_programming), [functional programming](https://en.wikipedia.org/wiki/Functional_programming), and [**server-side development**](https://vapor.code). Within the last 2 weeks ago! 🤯, the language gain two new milestones [**Concurrent programming**](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html) and [**Distributed Computing**](https://github.com/apple/swift-distributed-actors). Amazing 🚀.
-
-For my project, I have been able to combine and use server-side development, concurrent programming and leverage the use of declarative programming. These were things that I was looking at the progress of, mainly thanks to the [Swift Evolution](https://github.com/apple/swift-evolution) [#iOSApp](https://apps.apple.com/us/app/evolution-app/id1210898168).
-
-<!-- I'm not only writing the mobile front end and the backend with the above as I mentioned. I'm also working with another recent feature announced [Swift AWS Lambda](https://github.com/awslabs/aws-sdk-swift),  -->
-
-At this point you might wonder:
-- _Maybe is overkill? Do you pretend to add everything that you find? When would I ship it?_ 
-
-> The true is... I enjoy learning, doing, and improving
-
 --- 
 
 ## Open Source Contributions
@@ -190,6 +141,76 @@ How happy... or how stress are you? ⛱ 🤯
 `mmMapp` link your calendar with your social media accounts and have mmMapp shows you the events in a sequence with stopping points, happy routes to take, human experience taking int consideration. 
 
 ---
+
+## Articles
+
+### Bridging `completionHandler(_:)` and `async/await`
+
+If you have been reading or watching the Swift Evelution proposals you might have barely heard about `continuations`.
+Continuations lets you capture in a closure (in some cases) the result of a delegate callback and return it to be use as a suspension point after you have explictly requested for the value of that object.
+
+There are many different ways to implement continuations. In the next example, I show you how I converted `ASAuthorizationControllerDelegate` "custom" object to be use as an asynchronous function
+
+```swift
+class SignInWithAppleService: NSObject, ASAuthorizationControllerDelegate {
+  //...
+  public func fetchAppleIDCredentials() async throws -> ASAuthorizationAppleIDCredential {
+          let request = ASAuthorizationAppleIDProvider().createRequest()
+          // ...
+          return try await withCheckedThrowingContinuation { continuation in
+              self.activeContinuation = continuation
+              controller.performRequests()
+          }
+    }
+}
+
+// MARK: - Use
+let signInWithAppleService = SignInWithAppleService()
+let credentials = try await signInWithAppleService.fetchAppleIDCredentials()
+```
+
+I left many details out, but it's with the hope to make it an excersice for your the reader. There are still many Apple APIs which were left out of the convertion batch, just like the above. You will find many methods with the new and old API declaration in your autocomplete window. 
+
+---
+
+### Writting software asynchronously 🧵
+
+With my ongoing project feature at the [top](#featured-app) I have been able to gather all the knowledge I gained into a single application... more like many related to the same application.
+
+I'm really grateful and content about the excitement there is in the [#SwiftLang](https://twitter.com/search?q=%23SwiftLang) community. Many people think _You write iPhone applications_ - __maybe!__ I can relate to this conversation [Twitter video](https://twitter.com/davejacobseniOS/status/1453743066137907204)
+
+[Swift](https://www.swift.org) is an open-source language which has achieve things like [differential progamming](https://en.wikipedia.org/wiki/Differentiable_programming), [functional programming](https://en.wikipedia.org/wiki/Functional_programming), and [**server-side development**](https://vapor.code). Within the last 2 weeks ago! 🤯, the language gain two new milestones [**Concurrent programming**](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html) and [**Distributed Computing**](https://github.com/apple/swift-distributed-actors). Amazing 🚀.
+
+For my project, I have been able to combine and use server-side development, concurrent programming and leverage the use of declarative programming. These were things that I was looking at the progress of, mainly thanks to the [Swift Evolution](https://github.com/apple/swift-evolution) [#iOSApp](https://apps.apple.com/us/app/evolution-app/id1210898168).
+
+<!-- I'm not only writing the mobile front end and the backend with the above as I mentioned. I'm also working with another recent feature announced [Swift AWS Lambda](https://github.com/awslabs/aws-sdk-swift),  -->
+
+At this point you might wonder:
+- _Maybe is overkill? Do you pretend to add everything that you find? When would I ship it?_ 
+
+> The true is... I enjoy learning, doing, and improving
+
+---
+
+### AWS Lambda with Swift Runtime
+
+Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
+The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively. Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE
+
+> # "a prototype is worth 1000 meetings"
+
+Many people say: "well.... its just a Hello World program" or "it lacks the vote from an enterprise point of view" To them I must say there is not an official council who approves or disapproves what technology lives up to the standards. And newer technology aims to address the issues and lack of current technology, how far we can push it, it's only up to us; developers to run with it an see what we like.
+
+Thank you [Fabbian Fett](https://twitter.com/fabianfett) for given us Swift AWS Lambda
+
+![](img/swift-aws.png)
+
+[Getting started with Swift on AWS Lambda](https://fabianfett.de/getting-started-with-swift-aws-lambda-runtime)
+
+[GitHub](https://github.com/idelfonsog2/swift-aws-lambda-function)
+
+---
+
 ### `YellowPepper Talks`
 
 [![](http://img.youtube.com/vi/tImGKXMNiMw/0.jpg)](http://www.youtube.com/watch?v=tImGKXMNiMw)
@@ -206,48 +227,7 @@ Introduction to Firebase Database, IAM, and backend for the front end developers
 
 ---
 
-### `Tubmlr Client`
-
-![](img/tm2.png) ![](img/tm3.png) ![](img/tm4.png)
-
-Created an iOS client in order to search blog users in Tumblr, follow users, and post text blogs.
-
-**tech**: Tumblr API, UIKit
-
-[GitHub](https://github.com/idelfonsog2/tumblr-app)
-
----
-### **`On the Map`**
-
-![](img/map2.png) ![](img/map3.png) ![](img/map4.png)
-
-"On The Map" app allows users to share their location and a URL with their fellow students
-
-**tech**: MapKit, Parse, Udacity API
-
-[GitHub](https://github.com/idelfonsog2/udacity-on-the-map)
-
----
-
-### **`Virtual Tourist`**
-
-![](img/vir1.png) ![](img/vir2.png)
-
-Wondering what kind of pictures have people taken in a particular place around the world?
-
-Think about Virtual Tourist before Instagram search feature using Flicker
-
-**tech** Flicker API, MapkKit, UIKit
-
-[GitHub](https://www.idelfonso.com/)
-
----
-
-[back to menu](#menu)
-
----
-
-# Databases
+# Side projects
 
 ## Data Pipelines with Apache Airflow
 
@@ -410,26 +390,6 @@ Our dev team was able to implement a database using normalization, which helps i
 ---
 
 [back to menu](#menu)
-
----
-
-# Miscellaneous 
-## AWS Lambda with Swift Runtime
-
-Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
-The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively. Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE
-
-> # "a prototype is worth 1000 meetings"
-
-Many people say: "well.... its just a Hello World program" or "it lacks the vote from an enterprise point of view" To them I must say there is not an official council who approves or disapproves what technology lives up to the standards. And newer technology aims to address the issues and lack of current technology, how far we can push it, it's only up to us; developers to run with it an see what we like.
-
-Thank you [Fabbian Fett](https://twitter.com/fabianfett) for given us Swift AWS Lambda
-
-![](img/swift-aws.png)
-
-[Getting started with Swift on AWS Lambda](https://fabianfett.de/getting-started-with-swift-aws-lambda-runtime)
-
-[GitHub](https://github.com/idelfonsog2/swift-aws-lambda-function)
 
 ---
 
