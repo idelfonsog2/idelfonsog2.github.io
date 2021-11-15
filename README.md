@@ -118,6 +118,10 @@ Developers only need to keep following their TDD approach.
   - [mmMapp (Startup Cohort)](#mmMapp) Find the best pathway around Miami, FL and forget about your car, iOS app
   - [Test Driven Development & Behavior Driven Development Library](#writing-bdd--tdd-in-my-current-projects) Use developer and business experience to drive the development of systems. OSS contribution
 
+### `iOS/macOS Shortcuts`
+
+- [Electronic Business Cards Shortcut](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) 🛠
+
 ---
 
 ## Mobile Applications 
@@ -144,7 +148,7 @@ How happy... or how stress are you? ⛱ 🤯
 
 ## Articles
 
-### Bridging `completionHandler(_:)` and `async/await`
+### **Bridging `completionHandler(_:)` and `async/await`**
 
 If you have been reading or watching the Swift Evelution proposals you might have barely heard about `continuations`.
 Continuations lets you capture in a closure (in some cases) the result of a delegate callback and return it to be use as a suspension point after you have explictly requested for the value of that object.
@@ -173,7 +177,7 @@ I left many details out, but it's with the hope to make it an excersice for your
 
 ---
 
-### Writting software asynchronously 🧵
+### **Writting software asynchronously 🧵**
 
 With my ongoing project feature at the [top](#featured-app) I have been able to gather all the knowledge I gained into a single application... more like many related to the same application.
 
@@ -192,7 +196,7 @@ At this point you might wonder:
 
 ---
 
-### AWS Lambda with Swift Runtime
+### **AWS Lambda with Swift Runtime**
 
 Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
 The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively. Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE
@@ -387,42 +391,6 @@ Our dev team was able to implement a database using normalization, which helps i
 
 [GitHub](https://github.com/idelfonsog2/HeroWorld-SQL)
 
----
-
-[back to menu](#menu)
-
----
-
-## **`Electronic Business Cards`**
-
-![](img/contact.jpg)
-
-#### _The Problem:_
-
-_On a rush??_
-
-_Do you have an Instagram account or.... a business card? it probably has a cool design_ 📇
-
-_Maybe Instagram is not your medium_
-
-_Got it. Give me your whatsapp... -me: Is that the new customer management system/.com? It might be..._
-
-#### _The Solution:_
-
-- _Update your information properly, inside the contacts app_
-- [Install Shorcut](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) 🛠
-- _Select your contact card inside the shortcut "add contacts" step, it will show "me" on the right-hand side of the list item_
-- _Now everytime you have to leave in a rush have the person use the **built-in! camera app**_ 📲📷 _to scan your contact in one second_
-
-_**Note:** also use "Share sheet" to send it using AirDrop, not too many users allow airdrop from everyone_
-
-![](img/display_vcard.gif) ![](img/sample_qrcode.gif)
-
-tech: Siri shortcut
-
----
-
-[back to menu](#menu)
 
 ---
 
