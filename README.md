@@ -147,6 +147,31 @@ How happy... or how stress are you? ⛱ 🤯
 
 ## Articles
 
+### **Every mobile app should start with  YAML & Basch**
+
+Basically scripts. Scripts help you do the following things:
+- CI/CD pipeline
+- automation of certificate management
+- build configuration files
+
+The above is no longer a topic of discussion... It's a prerequisite.
+
+- We don't need it at the moment, we can do it manually
+- Isn't too much? it's a single app
+- We can do all the testing with one environmnet
+
+**Disclaimer** If you or your team is already working or starting a software application project then I'm assuming it's serious project. Otherwise, I'm assuming you are testing a new API and the application does not generate revenue or reduce cost in any way.
+
+A pipline prevents your team members from staring at the screen as the app builds. I will present the intricacies and myths about this in anoter short article. The pipeline is so important in mobile that even Apple created one, [XCode Cloud](https://developer.apple.com/xcode-cloud/) 👩‍💻 ☁️
+
+Profiles, certificates and tokens are interchangeble terms. I will refer to the them as certs. Team will benefit from those if there were to use the same ones that every other devloper has. For that I have one word [fastlane](https://docs.fastlane.tools/actions/match/#match) 🚇
+
+Some configurations are better done at higher level and other ones at a lower level. For example, API urls and which distribution method to use, depending on the organization and tools available.
+
+*Extra* **DevOps** is and is not: a methodology, a single piece of software tool, a specific role/task.
+
+---
+
 ### **Bridging `completionHandler(_:)` and `async/await`**
 
 If you have been reading or watching the Swift Evelution proposals you might have barely heard about `continuations`.
