@@ -239,6 +239,18 @@ Thank you [Fabbian Fett](https://twitter.com/fabianfett) for given us Swift AWS 
 
 ---
 
+### `iOS install certs`
+
+If we are in 2021 and the team does not have the following... you are crippling the product and the developers. Not too many people think is important. The budget will reflect it and because is not important it will be hard for stakeholders to pinpoint the money leak. At the moment there is not a good debugging tool for it... I'm looking at you JIRA 👀
+
+The command line is more like `$ fastlane ios_install_certs` Many people would know the previous. For the rest who have left this process manual and up to all team members to figure out, let me explain:
+
+Nobody has to be granted access to the Apple developer portal. Otherwise, the admin**s** has to manage new people and people who are no longer working on the project. But then what's behind the curtain? Git. Because you have previously set up the above in place developers only have to copy the up to date certs from the source control vendor they already using and have access to.
+
+If you are even a single/solo/indie/freelancer app developer for Apple operating systems you (or the rest of the team) will help the client save money. For the developer, s/he can stop wondering if the job they are doing is worth it.
+
+---
+
 ### `YellowPepper Talks`
 
 [![](http://img.youtube.com/vi/tImGKXMNiMw/0.jpg)](http://www.youtube.com/watch?v=tImGKXMNiMw)
