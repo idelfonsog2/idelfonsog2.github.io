@@ -128,6 +128,7 @@ Developers only need to keep following their TDD approach.
 ### `mmMap 🚎`
 
 **The Problem**
+
 - Have you ever had too many events in the same day at different times and different locations?
 - Were the events or appointments located close to each other?
 - Do you always take into consideration how long will it take you to go from appointment A to appointment B?
@@ -147,9 +148,10 @@ How happy... or how stress are you? ⛱ 🤯
 
 ## Articles
 
-### **Every mobile app should start with  YAML & Basch**
+### **DevOps: Every mobile application should be parallel with  YAML & `basch`**
 
-Basically scripts. Scripts help you do the following things:
+Scripts basically. Scripts help you do the following things:
+
 - CI/CD pipeline
 - automation of certificate management
 - build configuration files
@@ -430,15 +432,40 @@ Our dev team was able to implement a database using normalization, which helps i
 --- 
 # Clients
 
-### **Ally's Flower**
+## **Ally's Flower 💐**
 
-Online retail flower shop. The client wanted an easy-to-use platform to manage inventory and customer relationship manager.
+It is an online delivery flower shop located in South Florida, servicing the area of Orlando mostly.
+
+### *Roadmap*
+
+- (stage 1) A website to showcase products
+- (stage 2) Manage leads and customer information
+- (stage 3) Accept payments and order forms
+  - (stage 3.5) limit the range of delivery
+
+### *Communication*
+
+I had initial conversations with the client in order to sense her priorities, budget, and timelines. I happen to bump into a cheerful person who is very creative, organized, and skillful. She had everything on paper and folders. As a matter of fact, she was doing all the floral arrangements from her kitchen and in the living room she had the photo studio setup
+
+### *Implementation*
+
+At the time and the lack of platforms available, I went to help her build her online retail shop using wordpress based on the functionality of uploading the floral photos and purchasing a third party theme.
+
+### *Follow-up*
+
+After a few months, the client reached back again. She wanted to start accepting payments and delivery forms, also for a way to collect customers information. Most of the work was advice and setup.
+
+Knowing there are many platforms out there dedicated for retailing, easy to build, payment integration, and most importantly, a solid foundation. I recommended her *Squareup*
+
+We went ahead and moved the website domain and started filling up the business requirements. After basic training and follow-up calls, the client is happier than ever that she can continue doing business and not having to worry about workplace and retail location.
+
+### *Deliverable*
 
 [www.allysflower.com](www.allysflower.com)
 
 --- 
 
-### **Proendoscopy**
+### **Proendoscopy 💉**
 
 Proendoscopy is a local company in the city of Sunrise, it specializes in the service and repair of medical equipment, mainly endoscopes.
 
