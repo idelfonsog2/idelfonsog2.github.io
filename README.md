@@ -209,7 +209,7 @@ With my ongoing project feature at the [top](#featured-app) I have been able to 
 
 I'm really grateful and content about the excitement there is in the [#SwiftLang](https://twitter.com/search?q=%23SwiftLang) community. Many people think _You write iPhone applications_ - __maybe!__ I can relate to this conversation [Twitter video](https://twitter.com/davejacobseniOS/status/1453743066137907204)
 
-[Swift](https://www.swift.org) is an open-source language which has achieve things like [differential progamming](https://en.wikipedia.org/wiki/Differentiable_programming), [functional programming](https://en.wikipedia.org/wiki/Functional_programming), and [**server-side development**](https://vapor.code). Within the last 2 weeks ago! 🤯, the language gain two new milestones [**Concurrent programming**](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html) and [**Distributed Computing**](https://github.com/apple/swift-distributed-actors). Amazing 🚀.
+[Swift](https://www.swift.org) is an open-source language which has achieve things like [differential progamming](https://en.wikipedia.org/wiki/Differentiable_programming), [functional programming](https://en.wikipedia.org/wiki/Functional_programming), and [**server-side development**](https://vapor.code). Within the last 2 weeks ago! 🤯, the language gain two new milestones [**Concurrent programming**](https://docs.swift.org/swift-book/LanguageGuide/Concurrency.html) and [**Distributed Computing**](https://www.swift.org/blog/distributed-actors). Amazing 🚀.
 
 For my project, I have been able to combine and use server-side development, concurrent programming and leverage the use of declarative programming. These were things that I was looking at the progress of, mainly thanks to the [Swift Evolution](https://github.com/apple/swift-evolution) [#iOSApp](https://apps.apple.com/us/app/evolution-app/id1210898168).
 
@@ -270,15 +270,15 @@ An application can be `build` using the following methods ([reference](https://d
 - developer-id
 - mac-application  
 
-For iOS `development and distribution` would suffice for our reading. Depending on which one you pick, the app should call `registerForRemoteNotifications()` and will use know which method (/certificate) was the app build with; passing that information along too in that call.
+For iOS `development and distribution` would suffice for our reading. Depending on which one you pick, the app should call `registerForRemoteNotifications()` and will know which method (/certificate) was the app built with; passing that information along too in that call.
 
 ![](img/token_exchange.png)
 
-The application will get that token back and you should send that token to your service/backend implementation to be updated and use when the backend/stakeholders want to schedule notifications.
+The application will get that token back and you should send that token to your service/backend implementation to be updated and used when the backend/stakeholders want to schedule notifications.
 
 ![](img/apns_storing.png)
 
-From your backend, you will create an request call to apple push notification server (APNs) and if* it qualifies, APNs will deliver it to the devices.
+From your backend, you will create a request call to apple push notification server (APNs) and if* it qualifies, APNs will deliver it to the devices.
 
 ![](img/apns_delivery.png)
 
