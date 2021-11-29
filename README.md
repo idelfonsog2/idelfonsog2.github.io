@@ -43,7 +43,7 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
 - 🕺 [About Me](#about-me)
 - 💾 [PDF version](resources/resume_us.pdf)
 - **@** [idelfonsoGM](https://twitter.com/idelfonsogm)
-<!-- - **Up** [Side-jobs](https://www.upwork.com/freelancers/~010e40ea91fa4fa610?viewMode=1) -->
+- **Up** [Services](https://www.upwork.com/freelancers/~010e40ea91fa4fa610?viewMode=1)
 <!-- - 💾 [Contact Card](idelfonso.vcf) -->
 
 --- 
@@ -259,7 +259,7 @@ If you are even a single/solo/indie/freelancer app developer for Apple operating
 
 *Now,* let me explain certificates, tokens and [CI](https://en.wikipedia.org/wiki/CI/CD) environments.
 
-An application can be `build` using the following methods ([reference](https://docs.fastlane.tools/actions/gym/#gym))
+An application can be `build` using the following methods (*ref: `xcodebuild --help`*)
 
 - app-store
 - validation
@@ -649,7 +649,7 @@ Tags: online marketing
 
 tags: education
 
-***
+---
 
 # About me
 
@@ -672,12 +672,12 @@ tags: education
 
 <blockquote class="twitter-tweet"><p lang="et" dir="ltr">que bueno 🤣🙌🏾 Actitud | Victor Küppers | TEDxAndorralaVella <a href="https://t.co/orerUgfhpo">https://t.co/orerUgfhpo</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a></p>&mdash; Idelfonso (@idelfonsoGM) <a href="https://twitter.com/idelfonsoGM/status/1197903846305140738?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-***
+---
 
-> From Venezuela 🇻🇪 Bailando 🕺
+> From Venezuela 🇻🇪 bailando 🕺
 
 ![Charapin](img/tango_small.jpg)
 
 Photograph by Charapin 🙌🏾
 
-2020, Github Pages
+2021, Github Pages
