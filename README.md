@@ -235,37 +235,6 @@ If you are even a single/solo/indie/freelancer app developer for Apple operating
 
 ---
 
-### **Quick read: understanding Apple push notification server**
-
-*Disclaimer:* Please read the [official documentation](https://developer.apple.com/documentation/usernotifications) when setting up the client side applications and the backend application. In the simplest implementation, setting up your own backend is easier than setting up the front-end.
-
-*Now,* let me explain certificates, tokens and [CI](https://en.wikipedia.org/wiki/CI/CD) environments.
-
-An application can be `build` using the following methods (*ref: `xcodebuild --help`*)
-
-- app-store
-- validation
-- ad-hoc
-- package
-- enterprise
-- development
-- developer-id
-- mac-application  
-
-For iOS `development and distribution` would suffice for our reading. Depending on which one you pick, the app should call `registerForRemoteNotifications()` and will know which method (/certificate) was the app built with; passing that information along too in that call.
-
-![](img/token_exchange.png)
-
-The application will get that token back and you should send that token to your service/backend implementation to be updated and used when the backend/stakeholders want to schedule notifications.
-
-![](img/apns_storing.png)
-
-From your backend, you will create a request call to apple push notification server (APNs) and if* it qualifies, APNs will deliver it to the devices.
-
-![](img/apns_delivery.png)
-
----
-
 ### `YellowPepper Talks`
 
 [![](http://img.youtube.com/vi/tImGKXMNiMw/0.jpg)](http://www.youtube.com/watch?v=tImGKXMNiMw)
