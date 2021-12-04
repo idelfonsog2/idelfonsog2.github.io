@@ -132,7 +132,13 @@ How happy... or how stress are you? ⛱ 🤯
 
 ## Articles
 
-### **DevOps: Every mobile application should be parallel with  YAML & `basch`**
+### **Distributed Programming with Swift Actors 🎭**
+
+[Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/)
+
+I just completed reading the proposals, watching the talks, and reading the book [Modern Swift Concurrency]() and this feature has less than 2 months old. The concept and implementations has been around for a bit. But what does it really do?
+
+### **DevOps: A mobile application should have YAML & `basch` from the start**
 
 Scripts basically. Scripts help you do the following things:
 
