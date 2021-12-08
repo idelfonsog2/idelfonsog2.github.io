@@ -107,29 +107,6 @@ Developers only need to keep following their TDD approach.
 
 ---
 
-## Mobile Applications 
-
-### `mmMap 🚎`
-
-**The Problem**
-
-- Have you ever had too many events in the same day at different times and different locations?
-- Were the events or appointments located close to each other?
-- Do you always take into consideration how long will it take you to go from appointment A to appointment B?
-- What about lunch? Do you have time to eat in the middle?
-- Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its 1:40 min traffic along the I-95
-
-**But most importantly!**
-How happy... or how stress are you? ⛱ 🤯
-
-> The ability to keep learning is an invaluable skill
-
-**The Solution**
-
-`mmMapp` link your calendar with your social media accounts and have mmMapp shows you the events in a sequence with stopping points, happy routes to take, human experience taking int consideration. 
-
----
-
 ## Articles
 
 ### **Distributed Programming with Swift Actors 🎭**
@@ -562,13 +539,33 @@ tags: agriculture
 
 - B.S. Software Developer Florida International University Aug 2012 - May 2016
   - Minor: Social Media and E-marketing Analytics
-- Startup Cohort @FIU
+- @StartupFIU Small Startup Incubator
 - iOS Nanodegree Udacity
 - Data Engineer Nanodegree Udacity
 - Data Streaming Nanodegree Udacity
 - Mobile Device Management (MDM) Workspace One Unified Certification by VMWare
 
-***
+--- 
+### `mmMap 🚎` @StartupFIU
+
+**The Problem**
+
+- Have you ever had too many events in the same day at different times and different locations?
+- Were the events or appointments located close to each other?
+- Do you always take into consideration how long will it take you to go from appointment A to appointment B?
+- What about lunch? Do you have time to eat in the middle?
+- Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its 1:40 min traffic along the I-95
+
+**But most importantly!**
+How happy... or how stress are you? ⛱ 🤯
+
+> The ability to keep learning is an invaluable skill
+
+**The Solution**
+
+`mmMapp` link your calendar with your social media accounts and have mmMapp shows you the events in a sequence with stopping points, happy routes to take, human experience taking int consideration. 
+
+---
 
 ![](img/yellowpepper.png)
 ### Intern  iOS Software Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
