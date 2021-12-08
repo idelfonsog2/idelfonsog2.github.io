@@ -59,7 +59,8 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
 - **Why use TDD?** In order to avoid introducing bugs as you are adding or changing behavior.
 - **When?** Drill down what you want your users to achieve _as concepts_ first _**[capabilities]**_
 - **Where?** TextEdit! 📑 honestly!
-- **How to?** Gherkin + Cucumber...ish + XCTest
+- **How to BDD?** Gherkin + Cucumber...ish + XCTest
+  - [Behavior Driven Development Book](https://www.manning.com/books/bdd-in-action)
 
 > ### No method is more effective than a good example. - Ingvar Kamprad, IKEA Founder
 
