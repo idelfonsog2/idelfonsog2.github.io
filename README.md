@@ -134,9 +134,15 @@ How happy... or how stress are you? ⛱ 🤯
 
 ### **Distributed Programming with Swift Actors 🎭**
 
-[Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/)
+I just completed [reading the proposals](https://github.com/apple/swift-evolution/tree/main/proposals), [watching the talks](https://developer.apple.com/news/?id=2o3euotz), and reading the book [(Modern Swift Concurrency)](https://www.raywenderlich.com/books/modern-concurrency-in-swift/v1.0) and this feature has less than 2 months old. The concept and implementations has been around for a bit. 
 
-I just completed reading the proposals, watching the talks, and reading the book [Modern Swift Concurrency]() and this feature has less than 2 months old. The concept and implementations has been around for a bit. But what does it really do?
+But what does it really do? 
+
+It helps to reason what code you are writting and not to worry where is been executed. That's what we call `this code is Thread Safe`. We no longer have to hope and rely that Third-party documentation keeps mentioning it and for us (developers) to work around it.
+
+side note about my previous comment "not to worry about where is been executed" You must read: [Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/) and watch Konrad's talk
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7yu6mEq8R2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### **DevOps: A mobile application should have YAML & `basch` from the start**
 
