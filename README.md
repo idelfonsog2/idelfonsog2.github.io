@@ -144,6 +144,8 @@ side note about my previous comment "not to worry about where is been executed" 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7yu6mEq8R2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
 ### **DevOps: A mobile application should have YAML & `basch` from the start**
 
 Scripts basically. Scripts help you do the following things:
