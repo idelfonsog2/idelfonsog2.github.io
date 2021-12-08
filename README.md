@@ -110,7 +110,7 @@ Developers only need to keep following their TDD approach.
 
 ## Articles
 
-### **Distributed Programming with Swift Actors 🎭**
+### **Programming with Swift Distributed Actors 🎭**
 
 I just completed [reading the proposals](https://github.com/apple/swift-evolution/tree/main/proposals), [watching the talks](https://developer.apple.com/news/?id=2o3euotz), and reading the book [(Modern Swift Concurrency)](https://www.raywenderlich.com/books/modern-concurrency-in-swift/v1.0) and this feature has less than 2 months old. The concept and implementations has been around for a bit. 
 
