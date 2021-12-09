@@ -120,7 +120,7 @@ It helps to reason what code you are writting and not to worry where is been exe
 
 side note about my previous comment "not to worry about where is been executed" You must read: [Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/) and watch Konrad's talk
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7yu6mEq8R2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="420" height="358" src="https://www.youtube.com/embed/7yu6mEq8R2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -229,7 +229,7 @@ If you are even a single/solo/indie/freelancer app developer for Apple operating
 
 ### `YellowPepper Talks`
 
-[![](http://img.youtube.com/vi/tImGKXMNiMw/0.jpg)](http://www.youtube.com/watch?v=tImGKXMNiMw)
+[![tet](http://img.youtube.com/vi/tImGKXMNiMw/0.jpg)](http://www.youtube.com/watch?v=tImGKXMNiMw)
 
 Introduction to Firebase Database, IAM, and backend for the front end developers.
 
