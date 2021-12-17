@@ -117,11 +117,19 @@ I just completed [reading the proposals](https://github.com/apple/swift-evolutio
 
 But what does it really do? 
 
-It helps to reason what code you are writting and not to worry where is been executed. That's what we call `this code is Thread Safe`. We no longer have to hope and rely that Third-party documentation keeps mentioning it and for us (developers) to work around it.
+> TL;IR
 
-side note about my previous comment "not to worry about where is been executed" You must read: [Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/) and watch Konrad's talk
+It helps to reason what code you are writting, forget about where is been executed, and helps avoid data races.
 
-<iframe width="420" height="358" src="https://www.youtube.com/embed/7yu6mEq8R2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+`Thread Safe` code is the one you can call from other threads without having to worry about two functions invoking that memory location at the same time.
+
+We no longer have to **hope and pray** on Third-party SDKs to documented this vital piece of information and the develoepers spending days if no weeks debugging the `init` method of the SDK.
+
+"..not to worry about where is been executed?"  
+
+You must read: [Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/) and watch Konrad's talk
+
+<iframe width="350" height="350" src="https://www.youtube.com/embed/7yu6mEq8R2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
