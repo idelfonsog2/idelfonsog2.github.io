@@ -1,4 +1,4 @@
-<meta property="og:title" content="Curiosity & Learning is the number one skill">
+<meta property="og:title" content="Curiosity & continuous learning is an invaluable skill">
 <meta property="og:description" content="Working with software applications and data pipelines.">
 <meta property="og:image" content="https://idelfonsog2.github.io/img/circular-shot.png">
 
@@ -33,9 +33,11 @@ The project is inspired by my curiosity, passion for learning, [dancing](#curren
 
 ## Hola 👋
 
+### Curiosity & continuous learning is an invaluable skill
+
 I'm Idelfonso. I believe some things can be done much better and delightful.
 
-The way I `code` mobile/backend applications is by making them much simpler, intuitive and user friendly.
+The way I write `{code}` software applications is by making them much simpler, intuitive and user friendly.
 
 Whether you are creating a proof of concept, need assitant on an ongoing or starting a new project – I can help! - <strong><a href="mailto:idelfonsog2@gmail.com?subject=I%20saw%20your%20site">send email</a></strong>
 - 📜 [Articles](#articles)
