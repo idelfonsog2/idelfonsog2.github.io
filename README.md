@@ -44,6 +44,7 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
 - **Up** [Services](https://www.upwork.com/freelancers/~010e40ea91fa4fa610?viewMode=1)
   - [Mobile CI/CD ](https://www.upwork.com/services/product/the-ci-cd-that-your-mobile-team-doesn-t-know-it-needs-1465451061987807232?ref=fl_profile)
 - 📱 [Work](#clients)
+- ☁️ [AWS Projects](#aws-projects)
 - 🕺 [About Me](#about-me)
 - 💾 [PDF version](resources/resume_us.pdf)
 - **@** [idelfonsoGM](https://twitter.com/idelfonsogm)
@@ -267,6 +268,8 @@ Introduction to Firebase Database, IAM, and backend for the front end developers
 - [Electronic Business Cards Shortcut](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) 🛠
 
 ---
+
+# AWS Projects
 
 ## Data Pipelines with Apache Airflow
 
