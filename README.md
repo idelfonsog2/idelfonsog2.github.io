@@ -557,8 +557,8 @@ tags: agriculture
 - @StartupFIU Small Startup Incubator
 - reTraining:
   - Cloud Native Application Architecture Nanodegree Program Udacity
-  - Data Engineer Nanodegree Program Udacity
   - Data Streaming Nanodegree Program Udacity
+  - Data Engineer Nanodegree Program Udacity
   - Mobile Device Management (MDM) Workspace One Unified Certification by VMWare
   - iOS Nanodegree Program Udacity
 
