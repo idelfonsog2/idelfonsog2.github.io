@@ -116,9 +116,9 @@ Developers only need to keep following their TDD approach.
 
 ### **Programming with Swift Distributed Actors 🎭**
 
-I just completed [reading the proposals](https://github.com/apple/swift-evolution/tree/main/proposals), [watching the talks](https://developer.apple.com/news/?id=2o3euotz), and reading the book [(Modern Swift Concurrency)](https://www.raywenderlich.com/books/modern-concurrency-in-swift/v1.0) and this feature has less than 2 months old. The concept and implementations has been around for a bit. 
+I just completed [reading the proposals](https://github.com/apple/swift-evolution/tree/main/proposals), [watching the talks](https://developer.apple.com/news/?id=2o3euotz), and reading the book [(Modern Swift Concurrency)](https://www.raywenderlich.com/books/modern-concurrency-in-swift/v1.0) and this feature has less than 2 months old. The concept and implementations has been around for a bit.
 
-But what does it really do? 
+But what does it really do?
 
 > TL;IR
 
@@ -126,13 +126,15 @@ It helps to reason what code you are writting, forget about where is been execut
 
 `Thread Safe` code is the one you can call from other threads without having to worry about two functions invoking that memory location at the same time.
 
-We no longer have to **hope and pray** on Third-party SDKs to documented this vital piece of information and the develoepers spending days if no weeks debugging the `init` method of the SDK.
+We no longer have to rely on the **hope and pray method** of the Third-party SDKs documentation for this vital piece of information and the develoepers spending days if no weeks debugging the `init` method of the SDK.
 
 "..not to worry about where is been executed?"  
 
-You must read: [Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/) and watch Konrad's talk
+You must read: [Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/) and watch Konrad's talk below
 
 <iframe width="350" height="350" src="https://www.youtube.com/embed/7yu6mEq8R2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**NOTE:** All these readings, side projects, and continuous training is part of my ongoing learning of server-side swift development.
 
 ---
 
