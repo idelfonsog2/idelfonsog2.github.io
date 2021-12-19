@@ -555,10 +555,12 @@ tags: agriculture
 - B.S. Software Developer Florida International University Aug 2012 - May 2016
   - Minor: Social Media and E-marketing Analytics
 - @StartupFIU Small Startup Incubator
-- iOS Nanodegree Udacity
-- Data Engineer Nanodegree Udacity
-- Data Streaming Nanodegree Udacity
-- Mobile Device Management (MDM) Workspace One Unified Certification by VMWare
+- reTraining:
+  - Cloud Native Application Architecture Nanodegree Program Udacity
+  - Data Engineer Nanodegree Program Udacity
+  - Data Streaming Nanodegree Program Udacity
+  - Mobile Device Management (MDM) Workspace One Unified Certification by VMWare
+  - iOS Nanodegree Program Udacity
 
 --- 
 ### `mmMap 🚎` @StartupFIU
