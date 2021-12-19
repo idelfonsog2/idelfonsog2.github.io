@@ -130,9 +130,10 @@ We no longer have to rely on the **hope and pray method** of the Third-party SDK
 
 "..not to worry about where is been executed?"  
 
-You must read: [Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/) and watch Konrad's talk below
-
-<iframe width="350" height="350" src="https://www.youtube.com/embed/7yu6mEq8R2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You must read/watch: 
+- [Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/)
+- [Konrad releasing Swift Distributed Actors](https://www.youtube.com/embed/7yu6mEq8R2Q)
+- [Tim Condon using Distributed Tracing in production with Swift](https://www.youtube.com/watch?v=Z2hfW06eyk0&t=958s)
 
 **NOTE:** All these readings, side projects, and continuous training is part of my ongoing learning of server-side swift development.
 
