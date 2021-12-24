@@ -143,7 +143,7 @@ You must read/watch:
 
 ---
 
-### **DevOps: A mobile application should have YAML & `basch` from the start**
+### **DevOps: Even mobile applications should have YAML & `basch` from the start**
 
 Scripts basically. Scripts help you do the following things:
 
