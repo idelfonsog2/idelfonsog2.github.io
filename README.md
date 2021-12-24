@@ -275,6 +275,46 @@ Introduction to Firebase Database, IAM, and backend for the front end developers
 
 ---
 
+# Applications at Scale
+
+## Monoliths vs Microservices - Docker 🐳 + Kubernetes ⚙️
+
+- Monoliths are the best IF your audience is small
+- Microservices are the best IF your audience is large
+
+> ### So whats in between 😅 ? ... Just pros and cos like anything else
+
+Some of the things that a backend application needs are:
+
+- runtimes
+- metrics and logs
+- networking
+- tracing
+- storage
+
+> ### How do you make this transition??? Gradually! Put your Monolith as a microservice and start 📦ing
+
+### Level: 1
+
+When thinking about a monolithic application we can think of applying the above to a single machine and hey it can be fun and bery granular.
+
+Careful now, you don't want to have business logic in these configurations.
+
+### Level: 2
+
+Now you are applications fronent/backend has been running for a couple of months by now and you were finally able to focus on your marketing strategies. You even sign-off with a partner that attracted a couple thousand of users from their private event.
+
+### Final Level: Startup Life
+
+Now your application is giving 500 error cause you only allocated 1 GB to your server; many users tried to sign up at the same time. This goes on for a couple of days. Welcome to the startup life
+
+- Application Packaging with Docker
+- Container Orchestration with Kubernetes
+- Kubernetes Resources
+- Declarative Kubernetes Manifests
+
+---
+
 # AWS Projects
 
 ## Data Pipelines with Apache Airflow
