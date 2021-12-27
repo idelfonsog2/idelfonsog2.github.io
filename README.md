@@ -218,19 +218,22 @@ At this point you might wonder:
 ### **AWS Lambda with Swift Runtime**
 
 Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
-The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively. Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE
+
+The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively.
+
+Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE []()
 
 > # "a prototype is worth 1000 meetings" - IDEO
 
-Many people say: "well.... its just a Hello World program" or "it lacks the vote from an enterprise point of view" To them I must say there is not an official council who approves or disapproves what technology lives up to the standards. And newer technology aims to address the issues and lack of current technology, how far we can push it, it's only up to us; developers to run with it an see what we like.
+Many people say: "well.... its just a Hello World program" or "it lacks the vote from an enterprise point of view" To them I must say there is not an official council who approves or disapproves what technology lives up to the standards. 
 
-Thank you [Fabbian Fett](https://twitter.com/fabianfett) for given us Swift AWS Lambda
+Newer technologies aim to address the issues and lack of current technology, how far we can push it, it's only up to us
 
-![](img/swift-aws.png)
+- [Use Swift on AWS Lambda with Xcode](https://developer.apple.com/wwdc20/10644)
 
-[Getting started with Swift on AWS Lambda](https://fabianfett.de/getting-started-with-swift-aws-lambda-runtime)
+- [AWS Full Stack Swift with Apple CarPlay](https://github.com/aws-samples/aws-serverless-fullstack-swift-apple-carplay-example#readme)
 
-[GitHub](https://github.com/idelfonsog2/swift-aws-lambda-function)
+- [Getting started with Swift on AWS Lambda](https://fabianfett.de/getting-started-with-swift-aws-lambda-runtime) - [Fabbian Fett](https://twitter.com/fabianfett)
 
 ---
 
