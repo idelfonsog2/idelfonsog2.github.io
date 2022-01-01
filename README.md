@@ -159,11 +159,15 @@ The above is no longer a topic of discussion... **It's a prerequisite**.
 
 > **Disclaimer** If you or your team is already working or starting a software application project then I'm assuming it's a serious project. Otherwise, I'm assuming you are testing a new API and the application does not generate any revenue or cuts down on cost in any way.
 
-A pipeline prevents anyone questioning what was done to create the build. Not just logic code can affect your app but what configurations you are injecting will definitely impact it the most. The pipeline is so important in mobile that even Apple created one, [XCode Cloud](https://developer.apple.com/xcode-cloud/) 👩‍💻 ☁️
+Once a team has build a product and structure a process around it, like in: release, testing, or debugging; the next phase is to bring automation. Not just business logic code can affect your app but also the bad use of misconfiguration will impact it the most. The previous is encapsoluted by a CI/CD pipeline.
+
+The pipeline is so important in mobile that even Apple created one, [XCode Cloud](https://developer.apple.com/xcode-cloud/) 👩‍💻 ☁️
 
 Profiles, certificates, and tokens are interchangeable terms, but they are very different. I will refer to them as certs. The team will benefit from having the same downloading the same certs. Otherwise, everybody is creating confusion and not being organize enough. A tip to prevent the previous, use [fastlane](https://docs.fastlane.tools/actions/match/#match) 🚇 Teams at many companies including Google are using it.
 
 *Extra* **DevOps** is and is not: a methodology, a single piece of a software tool, a specific role/task.
+
+> ### ... You can fix the problem at the source, by focusing relentlessly on the length of time between when a line of code is written and when it is fully deployed to production ...- [stackoverflow Fullfillng  the promise of CICD](https://stackoverflow.blog/2021/12/20/fulfilling-the-promise-of-ci-cd/)
 
 ---
 
