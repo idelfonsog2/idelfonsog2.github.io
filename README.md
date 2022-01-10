@@ -161,7 +161,11 @@ The above is no longer a topic of discussion... **It's a prerequisite**.
 
 Once a team has build a product and structure a process around it, like in: release, testing, or debugging; the next phase is to bring automation. Not just business logic code can affect your app but also the bad use of misconfiguration will impact it the most. The previous is encapsoluted by a CI/CD pipeline.
 
+Another way to look at it is: current changes are based on time window, if there are more changes to integrate, that time window will grow. In some cases exponantionally [O(n^2)] Test that run efficiently can bring confidence and assurance of a new release.
+
 The pipeline is so important in mobile that even Apple created one, [XCode Cloud](https://developer.apple.com/xcode-cloud/) 👩‍💻 ☁️
+
+> ### Any CI/CD is better than no CI/CD - [StackOverflow](https://stackoverflow.blog/2021/12/20/fulfilling-the-promise-of-ci-cd/)
 
 Profiles, certificates, and tokens are interchangeable terms, but they are very different. I will refer to them as certs. The team will benefit from having the same downloading the same certs. Otherwise, everybody is creating confusion and not being organize enough. A tip to prevent the previous, use [fastlane](https://docs.fastlane.tools/actions/match/#match) 🚇 Teams at many companies including Google are using it.
 
