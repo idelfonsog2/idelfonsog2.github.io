@@ -163,6 +163,14 @@ Once a team has build a product and structure a process around it, like in: rele
 
 Another way to look at it is: current changes are based on time window, if there are more changes to integrate, that time window will grow. In some cases exponantionally [O(n^2)] Test that run efficiently can bring confidence and assurance of a new release.
 
+Tips + Benefits:
+
+- Adopt current agile practices; configuration file reviews can avoid detecting issues in config files
+- automation process; it helps reduce human error in resource provisioning and esure consistent deployments
+- Secrets Management; manage connection strings, keys, secrets, and certificates within tools provided by the CI system and manage them per environment
+- Access Control; you get the benefit by using manage identities or service accounts to automate resource provisioning
+- Avoid configuration drift; inconsitent deployments
+
 The pipeline is so important in mobile that even Apple created one, [XCode Cloud](https://developer.apple.com/xcode-cloud/) 👩‍💻 ☁️
 
 > ### Any CI/CD is better than no CI/CD - [StackOverflow](https://stackoverflow.blog/2021/12/20/fulfilling-the-promise-of-ci-cd/)
