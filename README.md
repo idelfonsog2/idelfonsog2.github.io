@@ -43,7 +43,7 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
 - 📜 [Articles](#articles)
 - **Up** [Services](https://www.upwork.com/freelancers/~010e40ea91fa4fa610?viewMode=1)
   - [Mobile CI/CD ](https://www.upwork.com/services/product/the-ci-cd-that-your-mobile-team-doesn-t-know-it-needs-1465451061987807232?ref=fl_profile)
-  - [Cucumber.io+BDD Files](https://www.upwork.com/services/product/documentation-files-about-the-requirements-of-your-project-1471520364424605696)
+  - [Documenting products and features](https://www.upwork.com/services/product/documentation-files-about-the-requirements-of-your-project-1471520364424605696)
 - 📱 [Work](#clients)
 - 🐳 [Applications at Scale](#applications-at-scale)
 - ☁️ [AWS Projects](#aws-projects)
@@ -56,16 +56,15 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
 
 ## Open Source Contributions
 
-### Writing BDD + TDD in my current projects
+### Documenting software products and writting tests for them (TDD + BDD)
 
 **Github Repo** [Cucumberish - Ahmed-Ali](https://cucumber.io/docs/installation/ios/) 👈🏽👀
 
-- **Who writes TDD?** tricky question🤔😅. Best case, its the output of a conversation between: devs, product owners/managers, stakeholders, and quality assurance testers
+- **Who writes the User Stories?** tricky question🤔😅. Best case, its the output of a conversation between: devs, product owners/managers, stakeholders, and quality assurance testers
+- **How to write the user stories?** There is a format for that! Gherkin!
 - **What is TDD?**  write software that assumes your production software is already built and make it compile/pass.
 - **Why use TDD?** In order to avoid introducing bugs as you are adding or changing behavior.
-- **When?** Drill down what you want your users to achieve _as concepts_ first _**[capabilities]**_
-- **Where?** TextEdit! 📑 honestly!
-- **How to BDD?** Gherkin + Cucumber...ish + XCTest
+- **How to write TDD + user stories?** There is a library for that Cucumber...(ish iOS) + XCTest
   - [Behavior Driven Development Book](https://www.manning.com/books/bdd-in-action)
 
 > ### No method is more effective than a good example. - Ingvar Kamprad, IKEA Founder
