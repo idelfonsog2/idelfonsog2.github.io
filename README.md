@@ -60,11 +60,16 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
 
 **Github Repo** [Cucumberish - Ahmed-Ali](https://cucumber.io/docs/installation/ios/) 👈🏽👀
 
-- **Who writes the User Stories?** tricky question🤔😅. Best case, its the output of a conversation between: devs, product owners/managers, stakeholders, and quality assurance testers
-- **How to write the user stories?** There is a format for that! Gherkin!
-- **What is TDD?**  write software that assumes your production software is already built and make it compile/pass.
-- **Why use TDD?** In order to avoid introducing bugs as you are adding or changing behavior.
-- **How to write TDD + user stories?** There is a library for that Cucumber...(ish iOS) + XCTest
+- **Who writes the User Stories?** tricky question. Best case, its the output of a conversation between: devs, product owners/managers, stakeholders, and quality assurance testers
+- **How to write them ?** There is a format for that! [Gherkin!](https://cucumber.io/docs/gherkin/)
+- **What is it?**  Specification document + automation test scritps
+- **Why do it?** 
+  1. ⭐️ It gets you the definition of DONE. *In case your client is not product driven, it gets them to help you define what do they really want from the product!*
+  2. ⭐️ Automate regressiong testing. *Don't break backwards compatible funcitonality*
+  3. ⭐️ Brings labor and cost efficiency approaches. *Do not repeat yoruself*
+  4. ⭐️ Documentation. *if you are onboarding as a new developer, this will help you a lot!*
+- **How to implement it ?** 
+  - [Programming libraries](https://cucumber.io/docs/installation/)
   - [Behavior Driven Development Book](https://www.manning.com/books/bdd-in-action)
 
 > ### No method is more effective than a good example. - Ingvar Kamprad, IKEA Founder
