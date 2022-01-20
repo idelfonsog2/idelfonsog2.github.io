@@ -56,19 +56,19 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
 
 ## Open Source Contributions
 
-### Documenting software products and writting tests for them (TDD + BDD)
+### Documenting software products and writing tests for them (TDD + BDD)
 
 **Github Repo** [Cucumberish - Ahmed-Ali](https://cucumber.io/docs/installation/ios/) 👈🏽👀
 
-- **Who writes the User Stories?** tricky question. Best case, its the output of a conversation between: devs, product owners/managers, stakeholders, and quality assurance testers
-- **How to write them ?** There is a format for that! [Gherkin!](https://cucumber.io/docs/gherkin/)
-- **What is it?**  Specification document + automation test scritps
+- **Who writes the User Stories?** tricky question. Best case, is the output of a conversation between devs, product owners/managers, stakeholders, and quality assurance testers
+- **How to write them?** There is a format for that! [Gherkin!](https://cucumber.io/docs/gherkin/)
+- **What is it?**  Specification document + automation test scripts
 - **Why do it?** 
-  1. ⭐️ It gets you the definition of DONE. *In case your client is not product driven, it gets them to help you define what do they really want from the product!*
-  2. ⭐️ Automate regressiong testing. *Don't break backwards compatible funcitonality*
-  3. ⭐️ Brings labor and cost efficiency approaches. *Do not repeat yoruself*
+  1. ⭐️ It gets you the definition of DONE. *In case your client is not product-driven, it gets them to help you define what they want from the product!*
+  2. ⭐️ Automate regression testing. *Don't break backward compatible functionality*
+  3. ⭐️ Brings labor and cost efficiency approaches. *Do not repeat yourself*
   4. ⭐️ Documentation. *if you are onboarding as a new developer, this will help you a lot!*
-- **How to implement it ?** 
+- **How to implement it ?**
   - [Programming libraries](https://cucumber.io/docs/installation/)
   - [Behavior Driven Development Book](https://www.manning.com/books/bdd-in-action)
 
@@ -112,11 +112,11 @@ func Then("the application will set to [regex]") { expected in
 
 ```
 
-The result out of it is that developers can make a set of reusable tests and stakeholders, product owners, QA tester can expand the tests into every state of the system.
+The result out of it is that developers can make a set of reusable tests and stakeholders, product owners, QA testers can expand the tests into every state of the system.
 
 Developers only need to keep following their TDD approach.
 
-Are you interesting in implementing the above? Take a look at this service in [Upwork](https://www.upwork.com/services/product/documentation-files-about-the-requirements-of-your-project-1471520364424605696)
+Are you interested in implementing the above? Take a look at this service in [Upwork](https://www.upwork.com/services/product/documentation-files-about-the-requirements-of-your-project-1471520364424605696)
 
 ---
 
