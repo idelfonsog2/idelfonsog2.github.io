@@ -70,8 +70,8 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
   4. ⭐️ Documentation. *if you are onboarding as a new developer, this will help them a lot!*
   5. ⭐️ Don't do it for free. *Be transparent and show your knowledge to the client.*
 - **How to implement it ?**
-  - [Programming libraries](https://cucumber.io/docs/installation/)
-  - [Behavior Driven Development Book](https://www.manning.com/books/bdd-in-action)
+  - [Java, Swift, NodeJS, Kotlin, Ruby...](https://cucumber.io/docs/installation/)
+  - [Behavior Driven Development in Action](https://www.manning.com/books/bdd-in-action)
 
 > ### No method is more effective than a good example. - Ingvar Kamprad, IKEA Founder
 
