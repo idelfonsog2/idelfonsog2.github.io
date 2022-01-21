@@ -58,7 +58,7 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
 
 ### Documenting software products and writing tests for them (TDD + BDD)
 
-**Github Repo** [Cucumberish - Ahmed-Ali](https://cucumber.io/docs/installation/ios/) 👈🏽👀
+**[Cucumberish - Ahmed-Ali - Github](https://cucumber.io/docs/installation/ios/)**
 
 - **Who writes the User Stories?** tricky question. Best case, is the output of a conversation between devs, product owners/managers, stakeholders, and quality assurance testers
 - **How to write them?** There is a format for that! [Gherkin!](https://cucumber.io/docs/gherkin/)
