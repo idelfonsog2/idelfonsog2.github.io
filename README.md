@@ -320,11 +320,11 @@ Now your application is giving 500 error cause you only allocated 1 GB to your s
 
 # AWS Projects
 
-## Deploying Swift AWS Lambda on an M1 SoC
-
-> *Disclaimer: You will deploy the lambda using an AmazonLinux2 agent* 😅
+## CI/CD Swift AWS Lambda on an M1 SoC
 
 If you are a software developer that is experimenting with containers using macOS M1 and Docker (you know,  the whale 🐳 application). You are not the only one and there are people working and talking about it [Swift Vapor Discord Channel](https://discord.gg/txRsRAqJ)
+
+> *Disclaimer: You will deploy the lambda using an AmazonLinux2 agent as your work from your new M1 Pro* 😅
 
 I have been developing [Swift](https://www.swift.org) lambda intending to work with it more. I did this using the [AWS Serverless Application Model](https://docs.aws.amazon.com/serverless-application-model/index.html). I suggest readers get started with [Fabian's tutorial](https://fabianfett.dev/swift-on-aws-lambda-creating-your-first-http-endpoint). Then, progressively jump to GitHub's discussions. Lastly, there is the [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html) and how to work with AWS CDK.
 
