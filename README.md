@@ -236,28 +236,6 @@ At this point you might wonder:
 
 ---
 
-### **AWS Lambda with Swift Runtime**
-
-Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
-
-The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively.
-
-Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE []()
-
-> # "a prototype is worth 1000 meetings" - IDEO
-
-Many people say: "well.... its just a Hello World program" or "it lacks the vote from an enterprise point of view" To them I must say there is not an official council who approves or disapproves what technology lives up to the standards. 
-
-Newer technologies aim to address the issues and lack of current technology, how far we can push it, it's only up to us
-
-- [Use Swift on AWS Lambda with Xcode](https://developer.apple.com/wwdc20/10644)
-
-- [AWS Full Stack Swift with Apple CarPlay](https://github.com/aws-samples/aws-serverless-fullstack-swift-apple-carplay-example#readme)
-
-- [Getting started with Swift on AWS Lambda](https://fabianfett.de/getting-started-with-swift-aws-lambda-runtime) - [Fabbian Fett](https://twitter.com/fabianfett)
-
----
-
 ### `iOS install certs`
 
 If we are in 2021 and the team does not have the following... you are crippling the product and the developers. Not too many people think is important. The budget will reflect it and because is not important it will be hard for stakeholders to pinpoint the money leak. At the moment there is not a good debugging tool for it... I'm looking at you JIRA 👀
@@ -342,6 +320,98 @@ Now your application is giving 500 error cause you only allocated 1 GB to your s
 
 # AWS Projects
 
+## Deploying Swift AWS Lambda on an M1 SoC
+
+> *Disclaimer: You will deploy the lambda using an AmazonLinux2 agent* 😅
+
+If you are a software developer that is experimenting with containers using macOS M1 and Docker (you know,  the whale 🐳 application). You are not the only one and there are people working and talking about it [Swift Vapor Discord Channel](https://discord.gg/txRsRAqJ)
+
+I have been developing [Swift](https://www.swift.org) lambda intending to work with it more. I did this using the [AWS Serverless Application Model](https://docs.aws.amazon.com/serverless-application-model/index.html). I suggest readers get started with [Fabian's tutorial](https://fabianfett.dev/swift-on-aws-lambda-creating-your-first-http-endpoint). Then, progressively jump to GitHub's discussions. Lastly, there is the [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html) and how to work with AWS CDK.
+
+Serverless: is a transferable concept across stack 📚, cloud providers ☁️,  and programming languages . It is/has become the new architecture. As the nature of my work implies, things change, how quickly and for how long they stayed? Sometimes is both [read more](https://www.hillelwayne.com/post/are-we-really-engineers/)
+
+Here are some things I can show that could block any newcomers:
+
+- Use the latest/experimental branch of the Swift AWS runtime, including the new Swift concurrency features
+
+```swift
+.package(name: "swift-aws-lambda-runtime", url: "https://github.com/swift-server/swift-aws-lambda-runtime", branch: "main")
+```
+
+- Write your `code` 📦
+
+- Edit and use the deployment scripts included with the deployment sample:
+
+```bash
+...
+s3_bucket="<INSERT_NAME"
+aws s3 cp ".build/lambda/$executable/lambda.zip" "s3://$s3_bucket"
+
+echo "-------------------------------------------------------------------------"
+echo "updating to latest \"$executable\""
+echo "-------------------------------------------------------------------------"
+lambda_name="INSERT_NAME"
+aws lambda update-function-code --function $lambda_name --s3-bucket $s3_bucket --s3-key lambda.zip
+```
+
+- Configure a Github Action to run the build, packaging, and deployment scripts with the AWS OIDC trusted provider using Docker
+
+```yml
+uses: aws-actions/configure-aws-credentials@v1
+with:
+  role-to-assume: ${{ env.OPENID_ROLE }}
+  aws-region: ${{ env.AWS_REGION }}
+```
+
+- Adapt the SAM template to what you needed:
+
+```toml
+...
+Resources:
+  APNSServiceFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ../../lambda.zip
+      Handler: xyz
+      Runtime: provided.al2
+      AutoPublishAlias: live
+      FunctionName: send_apns_notification
+      Events:
+        NotifyUsers:
+          Type: HttpApi
+          Properties:
+            Path: /staging/send_apns
+            Method: POST
+```
+
+TL;DR:
+
+It looks.. feels... might be... don't have time... overwhelming and complex. It's also in demand! 😅
+
+---
+
+## **AWS Lambda with Swift Runtime**
+
+Many iOS developers don't realize at the beginning that they are actually using a programming language with Functional Paradigm and Principles.
+
+The Swift language became really popular thanks to iOS applications. Today, the language does not only help builds applications across an array of customer-facing hardware (iOS, WatchOS, iPadOS, CarPlay) but also enterprise-level and research level as of backend applications and machine learning models respectively.
+
+Most recently I saw a microcontroller dev kit for people to start building projects that exist with Raspberry Pi but with Swift and it's own IDE []()
+
+> # "a prototype is worth 1000 meetings" - IDEO
+
+Many people say: "well.... its just a Hello World program" or "it lacks the vote from an enterprise point of view" To them I must say there is not an official council who approves or disapproves what technology lives up to the standards. 
+
+Newer technologies aim to address the issues and lack of current technology, how far we can push it, it's only up to us
+
+- [Use Swift on AWS Lambda with Xcode](https://developer.apple.com/wwdc20/10644)
+
+- [AWS Full Stack Swift with Apple CarPlay](https://github.com/aws-samples/aws-serverless-fullstack-swift-apple-carplay-example#readme)
+
+- [Getting started with Swift on AWS Lambda](https://fabianfett.de/getting-started-with-swift-aws-lambda-runtime) - [Fabbian Fett](https://twitter.com/fabianfett)
+
+---
+
 ## Data Pipelines with Apache Airflow
 
 When data analysts and data scientists use data, they rely that is accurate and diverse enough in order to come up with these amazing models that help drive business decisions. Data comes from many places and from different times; a system could start collecting data tomorrow or it was already started 20 years ago; Imagine that 😅
@@ -349,6 +419,7 @@ When data analysts and data scientists use data, they rely that is accurate and 
 ### DAG
 
 This project showcases how to design and schedule a series of jobs/steps using [Apache Airflow](https://airflow.apache.org/) with the following purposes
+
 - Backfill data
 - Build a dimensional data model using python
 - load data from AWS S3 bucket to AWS Redshift Datawarehouse
@@ -363,7 +434,8 @@ This project was completed under the Data Engineer Udacity Nanodegree [link](htt
 
 **tech:** AWS Redshift, Python, Apache Airflow, Docker
 
-***
+---
+
 ## Data Lakes 🚤  with Apache Spark + EMR Cluster
 
 You can take a trip to a polluted lake or a clean lake and how the water looks, tastes, or where it comes from matters.
