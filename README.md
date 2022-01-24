@@ -63,10 +63,10 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
 - **How to write them?** There is a format for that! [Gherkin!](https://cucumber.io/docs/gherkin/)
 - **What is it?**  Specification document + automation test scripts
 - **Why do it?**
-  1. ⭐️ It gets you the definition of DONE. *In case your client is not product-driven, it gets them to help you define what they want from the product!*
+  1. ⭐️ It gets you the definition of DONE. *In the case your client/organization is not product-driven, it gets them to help you define what they want from the product!*
   2. ⭐️ Automate regression testing. *Don't break backward compatible functionality*
   3. ⭐️ Brings labor and cost efficiency approaches into the light. *Do not repeat yourself*
-  4. ⭐️ Documentation. *if you are onboarding as a new developer, this will help them a lot!*
+  4. ⭐️ It's a living document (Version Control). *New/old stakeholders can read in plain language what does it do!*
   5. ⭐️ Don't do it for free. *Be transparent and show your knowledge to the client.*
 - **How to implement it ?**
   - [Java, Swift, NodeJS, Kotlin, Ruby...](https://cucumber.io/docs/installation/)
