@@ -164,7 +164,7 @@ The above is no longer a topic of discussion... **It's a prerequisite**.
 - Isn't too much? it's a single app
 - We can do all the testing in one environment
 
-> **Disclaimer** If you or your team is already working or starting a software application project then I'm assuming it's a serious project. Otherwise, I'm assuming you are testing a new API and the application does not generate any revenue or cuts down on cost in any way.
+> **Disclaimer** If you or your team is already working or starting a software application project then I'm assuming it's a serious project. Otherwise, I'm assuming you are testing a new API and the application does not generate any revenue or cut down on cost in any way.
 
 Once a team has build a product and structure a process around it, like in: release, testing, or debugging; the next phase is to bring automation. Not just business logic code can affect your app but also the bad use of misconfiguration will impact it the most. The previous is encapsoluted by a CI/CD pipeline.
 
@@ -343,7 +343,7 @@ Here are some things I can clarify that could block any newcomers:
 .package(name: "swift-aws-lambda-runtime", url: "https://github.com/swift-server/swift-aws-lambda-runtime", branch: "main")
 ```
 
-- Write your `code` 📦
+- Write your swift lambda `code` 📦
 
 ```swift
 @main
@@ -389,16 +389,7 @@ lambda_name="INSERT_NAME"
 aws lambda update-function-code --function $lambda_name --s3-bucket $s3_bucket --s3-key lambda.zip
 ```
 
-- Configure a Github Action to run the build, packaging, and deployment scripts with the AWS OIDC trusted provider using Docker
-
-```yml
-uses: aws-actions/configure-aws-credentials@v1
-with:
-  role-to-assume: ${{ env.OPENID_ROLE }}
-  aws-region: ${{ env.AWS_REGION }}
-```
-
-- Adapt the SAM template to what you needed:
+- Adapt the SAM template to what you need:
 
 ```toml
 ...
@@ -419,7 +410,16 @@ Resources:
             Method: POST
 ```
 
-**Come back here when things are starting to look more familiar. I hope the above was helpfull**
+- Configure a Github Action to run the build, packaging, and deployment scripts with the AWS OIDC trusted provider and using Docker action
+
+```yml
+uses: aws-actions/configure-aws-credentials@v1
+with:
+  role-to-assume: ${{ env.OPENID_ROLE }}
+  aws-region: ${{ env.AWS_REGION }}
+```
+
+Come back here when things are starting to look more familiar. I hope the above was helpfull
 
 ---
 
