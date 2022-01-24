@@ -328,9 +328,9 @@ If you are a software developer that is experimenting with containers using macO
 
 I have been developing [Swift](https://www.swift.org) lambda intending to work with it more. I did this using the [AWS Serverless Application Model](https://docs.aws.amazon.com/serverless-application-model/index.html). I suggest readers get started with [Fabian's tutorial](https://fabianfett.dev/swift-on-aws-lambda-creating-your-first-http-endpoint). Then, progressively jump to GitHub's discussions. Lastly, there is the [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html) and how to work with AWS CDK.
 
-Serverless: is a transferable concept across stack 📚, cloud providers ☁️,  and programming languages . It is/has become the new architecture. As the nature of my work implies, things change, how quickly and for how long they stayed? Sometimes is both [read more](https://www.hillelwayne.com/post/are-we-really-engineers/)
+Serverless, is a transferable concept across tooling-🛠 cloud providers-☁️ and programming languages-. It is/has become the new architecture. As the nature of my work implies, things change, how quickly and for how long they stayed? Sometimes is both [read more](https://www.hillelwayne.com/post/are-we-really-engineers/)
 
-Here are some things I can show that could block any newcomers:
+Here are some things I can clarify that could block any newcomers:
 
 - Use the latest/experimental branch of the Swift AWS runtime, including the new Swift concurrency features
 
@@ -339,6 +339,34 @@ Here are some things I can show that could block any newcomers:
 ```
 
 - Write your `code` 📦
+
+```swift
+@main
+struct PushNotificationHandler: LambdaHandler {
+    typealias Event = APIGatewayV2Request
+    typealias Output = APIGatewayV2Response
+    ...
+}
+```
+
+- Make sure your Lambda will take the APIGateway payload. [read more](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-lambda.html)
+
+```json
+{
+  "routeKey": "POST /send_apns",
+  "version": "2.0",
+  "rawPath": "/send_apns",
+  "stageVariables": {},
+  "body": "{\"body\":\"dummy test\"}",
+  "isBase64Encoded": false,
+  "rawQueryString": "",
+  "headers": {
+    "host": "hello.test.com",
+    "user-agent": "Paw/3.1.10 (Macintosh; OS X/10.15.4) GCDHTTPRequest",
+    "content-length": "0"
+  }
+}
+```
 
 - Edit and use the deployment scripts included with the deployment sample:
 
