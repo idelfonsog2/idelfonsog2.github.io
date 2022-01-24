@@ -15,11 +15,10 @@
 
 ### **Enjoy your time at the airport as you dance with a another human before or after your flight.**
 
-- It will map, filter, reduce common attributes of a person's trip 
+- It will map, filter, reduce common attributes of a person's trip
 - Take different time zones into account for everyones trips and reminders
 - It will notify you when people are also waiting and they might enjoy a tanda.
 - The rest is **HX**, human experience!
-
 
 The project is inspired by my curiosity, passion for learning, [dancing](#current-about-me), meeting people, and this [community group](https://www.facebook.com/groups/348726108583892/)
 
@@ -28,7 +27,7 @@ The project is inspired by my curiosity, passion for learning, [dancing](#curren
 ---
 
 <p align="center">
-	<img width="180" height="180" src="/img/circular-shot.png"/>
+ <img width="180" height="180" src="/img/circular-shot.png"/>
 </p>
 
 ## Hola 👋
@@ -40,9 +39,10 @@ I'm Idelfonso. I believe some things can be done much better and delightful.
 The way I write `{code}` software applications is by making them much simpler, intuitive and user friendly.
 
 Whether you are creating a proof of concept, need assitant on an ongoing or starting a new project – I can help! - <strong><a href="mailto:idelfonsog2@gmail.com?subject=I%20saw%20your%20site">send email</a></strong>
+
 - 📜 [Articles](#articles)
 - **Up** [Services](https://www.upwork.com/freelancers/~010e40ea91fa4fa610?viewMode=1)
-  - [Mobile CI/CD ](https://www.upwork.com/services/product/the-ci-cd-that-your-mobile-team-doesn-t-know-it-needs-1465451061987807232?ref=fl_profile)
+  - [Mobile CI/CD](https://www.upwork.com/services/product/the-ci-cd-that-your-mobile-team-doesn-t-know-it-needs-1465451061987807232?ref=fl_profile)
   - [Documenting products and features](https://www.upwork.com/services/product/documentation-files-about-the-requirements-of-your-project-1471520364424605696)
 - 📱 [Work](#clients)
 - 🐳 [Applications at Scale](#applications-at-scale)
@@ -52,7 +52,7 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
 - **@** [idelfonsoGM](https://twitter.com/idelfonsogm)
 <!-- - 💾 [Contact Card](idelfonso.vcf) -->
 
---- 
+---
 
 ## Open Source Contributions
 
@@ -75,7 +75,8 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
 
 > ### No method is more effective than a good example. - Ingvar Kamprad, IKEA Founder
 
-####  The Problem
+#### The Problem
+
 A developer could write the following below. But this is missing some context, and only developers _**could!**_ be able to understand what is the system is doing.
 
 <!-- not java, swift -->
@@ -139,7 +140,8 @@ We no longer have to rely on the **hope and pray method** of the Third-party SDK
 
 "..not to worry about where is been executed?"  
 
-You must read/watch: 
+You must read/watch:
+
 - [Introducing Swift Distributed Actors](https://www.swift.org/blog/distributed-actors/)
 - [Konrad releasing Swift Distributed Actors](https://www.youtube.com/embed/7yu6mEq8R2Q)
 - [Tim Condon using Distributed Tracing in production with Swift](https://www.youtube.com/watch?v=Z2hfW06eyk0&t=958s)
@@ -213,7 +215,7 @@ let signInWithAppleService = SignInWithAppleService()
 let credentials = try await signInWithAppleService.fetchAppleIDCredentials()
 ```
 
-I left many details out, but it's with the hope to make it an excersice for your the reader. There are still many Apple APIs which were left out of the convertion batch, just like the above. You will find many methods with the new and old API declaration in your autocomplete window. 
+I left many details out, but it's with the hope to make it an excersice for your the reader. There are still many Apple APIs which were left out of the convertion batch, just like the above. You will find many methods with the new and old API declaration in your autocomplete window.
 
 ---
 
@@ -230,15 +232,16 @@ For my project, I have been able to combine and use server-side development, con
 <!-- I'm not only writing the mobile front end and the backend with the above as I mentioned. I'm also working with another recent feature announced [Swift AWS Lambda](https://github.com/awslabs/aws-sdk-swift),  -->
 
 At this point you might wonder:
-- _Maybe is overkill? Do you pretend to add everything that you find? When would I ship it?_ 
 
-> The true is... I enjoy learning, doing, and improving
+- _Maybe is overkill? Do you pretend to add everything that you find? When would I ship it?_
+
+> The truth is... I enjoy learning, doing, and improving
 
 ---
 
 ### `iOS install certs`
 
-If we are in 2021 and the team does not have the following... you are crippling the product and the developers. Not too many people think is important. The budget will reflect it and because is not important it will be hard for stakeholders to pinpoint the money leak. At the moment there is not a good debugging tool for it... I'm looking at you JIRA 👀
+If you are in 2021 and the team does not have the following... you are crippling the product and the developers. Not too many people think is important. The budget will reflect it and because is not important it will be hard for stakeholders to pinpoint the money leak. At the moment there is not a good debugging tool for it... I'm looking at you JIRA 👀
 
 The command line is more like `$ fastlane ios_install_certs` Many people would know the previous. For the rest who have left this process manual and up to all team members to figure out, let me explain:
 
@@ -332,6 +335,8 @@ Serverless, is a transferable concept across tooling-🛠 cloud providers-☁️
 
 Here are some things I can clarify that could block any newcomers:
 
+### Developing Part I
+
 - Use the latest/experimental branch of the Swift AWS runtime, including the new Swift concurrency features
 
 ```swift
@@ -367,6 +372,8 @@ struct PushNotificationHandler: LambdaHandler {
   }
 }
 ```
+
+### CI/CD Part II
 
 - Edit and use the deployment scripts included with the deployment sample:
 
@@ -412,9 +419,7 @@ Resources:
             Method: POST
 ```
 
-TL;DR:
-
-It looks.. feels... might be... don't have time... overwhelming and complex. It's also in demand! 😅
+**Come back here when things are starting to look more familiar. I hope the above was helpfull**
 
 ---
 
@@ -428,7 +433,7 @@ Most recently I saw a microcontroller dev kit for people to start building proje
 
 > # "a prototype is worth 1000 meetings" - IDEO
 
-Many people say: "well.... its just a Hello World program" or "it lacks the vote from an enterprise point of view" To them I must say there is not an official council who approves or disapproves what technology lives up to the standards. 
+Many people say: "well.... its just a Hello World program" or "it lacks the vote from an enterprise point of view" To them I must say there is not an official council who approves or disapproves what technology lives up to the standards.
 
 Newer technologies aim to address the issues and lack of current technology, how far we can push it, it's only up to us
 
@@ -456,7 +461,7 @@ This project showcases how to design and schedule a series of jobs/steps using [
 
 ![DAG](img/dag.png)
 
-[Github](https://github.com/idelfonsog2/data-schedu
+[Github](<https://github.com/idelfonsog2/data-schedu>
 ler-airflow)
 This project was completed under the Data Engineer Udacity Nanodegree [link](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
 
@@ -468,13 +473,13 @@ This project was completed under the Data Engineer Udacity Nanodegree [link](htt
 
 You can take a trip to a polluted lake or a clean lake and how the water looks, tastes, or where it comes from matters.
 
-Data lakes is a new analogy to what Data Warehouse was till not too long ago. We are still using the same hardware for Data lakes, but with new tools which makes possible to cover more ground. 
+Data lakes is a new analogy to what Data Warehouse was till not too long ago. We are still using the same hardware for Data lakes, but with new tools which makes possible to cover more ground.
 
-In my previous project [STAR vs 3NF 🥊 SCHEMA](#STAR-vs-3NF-🥊-SCHEMA) I prepared the data to be ready for use by BI applications with the **OLAP cubes**. It's a structure that has been validated and vetted through several implementations and successful cases. When I learned about **Data lakes**: the tools, the language, Serverless (Python, learning Scala) I felt that I save a bit of automation by looking into it. 
+In my previous project [STAR vs 3NF 🥊 SCHEMA](#STAR-vs-3NF-🥊-SCHEMA) I prepared the data to be ready for use by BI applications with the **OLAP cubes**. It's a structure that has been validated and vetted through several implementations and successful cases. When I learned about **Data lakes**: the tools, the language, Serverless (Python, learning Scala) I felt that I save a bit of automation by looking into it.
 
 Don't get me wrong, like any other technology it's flexible, there are pros and cons, budget, analysis of your workload, and team work.
 
->  Data is the new oil 🛢 
+> Data is the new oil 🛢
 
 As I mention, automation, but not really. Instead of creating tables and doing the ETL dance, lets do the **ELT** 💃 dance.
 
@@ -516,7 +521,7 @@ This project was completed under the Data Engineer Udacity Nanodegree [link](htt
 It happens that performance is much better, we can do fewer joins and access the same information. We still would like to have our 3NF schema for application purposes on the side, think about it like a separate microservice. Besides re-creating our tables, these can be improve... by a lot more with the following!
 
 - Non-Columnar Storage (AWS REDSHIFT)
-- Distribution table Style (All, even, key), 
+- Distribution table Style (All, even, key),
 - Distribution Keys 🔑
 
 In the first point, I'm talking about creating an ETL process to load this data, but of course there is some setup that needs to be done
@@ -529,7 +534,6 @@ The idea is how can we prepare data to be use by _Business Intelligence_ applica
 In order to help the business see an overview of the data in a diagram of what important features of the product their customers might be using. Mainly, how can we improve the performance of these OLAP and OLTP transactions? For that, we use the combination of star schema tables, we build a strategy for a distributed data system, and do grouping for all the features thanks to REDSHIFT.
 
 ![](img/dwdiagram.png)
-
 
 [Jupyter Notebook](resources/data_warehouse.md)
 
@@ -546,7 +550,7 @@ This project was completed under the Data Engineer Udacity Nanodegree [link](htt
 ```python
 import pandas
 import cassandra
-``` 
+```
 
 Losing customer it's not an option. Today in the world we have a ton of devices that are gathering and sending data. The benefit of using a document store database #NoSQL, is that developers don't need to maintain and/or adjust entities, migrations and changes on existing products. Companies and product moves in an agile environment, where requirements are constantly changing; NoSQL allows us to spin these requirements in a quick manner.
 
@@ -557,6 +561,7 @@ The following application establishes the following case where we have deploy a 
 ```swift
 // "Some of the largest production deployments include Apple's, with over 75,000 nodes storing over 10 PB of data, Netflix (2,500 nodes, 420 TB, over 1 trillion requests per day), Chinese search engine Easou (270 nodes, 300 TB, over 800 million requests per day), and eBay (over 100 nodes, 250 TB)." https://cassandra.apache.org/
 ```
+
 My job was to extract transform and load this data into the system where business teams could bring their requirements and collect solutions from the data.
 
 [🔗 Jupyter Notebook ETL Process](notebooks/cassandra-etl-pipeline.html)
@@ -570,13 +575,14 @@ My job was to extract transform and load this data into the system where busines
 This project was completed under the Data Engineer Udacity Nanodegree [link](https://www.udacity.com/course/data-engineer-nanodegree--nd027)
 
 ---
+
 ## Data Modeling with PostgreSQL
 
 ```python
 cur.execute("DROP DATABASE IF EXISTS ...")
 ```
 
-Executing the basic CRUD commands is nothing new when it comes to building a system. A well-thought system it's very agnostic, and concepts are transferable within different lower level products. Some of the most popular RDBMS involve PostgreSQL, OracleSQL, MySQL. But where does the data comes from? How often does the data change? How many files do we have, and how often we get new ones? Can we blame IoT 🛰 devices? 
+Executing the basic CRUD commands is nothing new when it comes to building a system. A well-thought system it's very agnostic, and concepts are transferable within different lower level products. Some of the most popular RDBMS involve PostgreSQL, OracleSQL, MySQL. But where does the data comes from? How often does the data change? How many files do we have, and how often we get new ones? Can we blame IoT 🛰 devices?
 > To the infinity and beyond... - Buzz Lightyear 1995
 
 In the following application are given directory paths of where the client-side system is storing data files based on a music application product. I analyzed the data, build its entities and form the basic link between them. The analytics team is particularly interested in understanding what songs users are listening to
@@ -590,6 +596,7 @@ This project was completed under the Data Engineer Udacity Nanodegree [link](htt
 **tech:** PostgreSQL, Python, Pandas
 
 ---
+
 ### **`Hero World`**
 
 Creating a test case for a new park for The Walt Disney Company in order to track schedules and budgeting for the construction of all the projects.
@@ -600,7 +607,8 @@ Our dev team was able to implement a database using normalization, which helps i
 
 [GitHub](https://github.com/idelfonsog2/HeroWorld-SQL)
 
---- 
+---
+
 # Clients
 
 ## **Ally's Flower 💐**
@@ -634,13 +642,14 @@ We went ahead and moved the website domain and started filling up the business r
 
 [www.allysflower.com](www.allysflower.com)
 
---- 
+---
 
 ### **Proendoscopy 💉**
 
 Proendoscopy is a local company in the city of Sunrise, it specializes in the service and repair of medical equipment, mainly endoscopes.
 
 Inventory management iOS application:
+
 - Keep latest status of items when they were sold, currently in repair, or backlog.
 - Keep a record of all the items features
 - Filter and sorting of items by brand, category, price range
@@ -652,7 +661,7 @@ Inventory management iOS application:
 
 ---
 
-# Employers 
+# Employers
 
 ![](img/nm-logo.png)
 
@@ -662,7 +671,7 @@ Inventory management iOS application:
 
 ![](img/ultabeauty.png)
 
-### Enterprise iOS Software Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S.
+### Enterprise iOS Software Developer | [Ulta Beauty](https://www.ulta.com/) | Chicago, U.S
 
 - Work with mobile device management solution to assist managed devices and managed applications
 - Develop backend and frontend applications that improved associates processes
@@ -681,7 +690,7 @@ Inventory management iOS application:
 
 ![](img/growit.png)
 
-### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S.
+### iOS Software Developer | [GrowIt!](http://growitmobile.com/) | Chicago, U.S
 
 - Able to lock in 3 customer agreements signups when finalizing our data product. This involved **beacon
 technology**, **relational database**, and map data visualization (Mapbopx).
@@ -699,7 +708,7 @@ an image **machine learning** model based on a plant database to identify things
 - Delivered features in the most feasible ways using **refactoring design patterns**
 - Find balance and knowledge between the technical vision and the delivery of products when gathering and delivering stakeholders requirements
 
-### tools/frameworks/libraries:
+### tools/frameworks/libraries
 
 - Fastlane, Circle CI, apple push notifications services, XCUITest, iOS dependency managers(Swift Package Manager, git sub-modules, cocoapods) RealmDB, iBeacon, AutoLayout, Mapbox, ReactiveCocoa/Swift 🛠
 
@@ -708,13 +717,15 @@ Tags: horticulture
 ---
 
 ![](img/kinkarta.png)
+
 ### iOS Software Developer | [KIN+KARTA](http://kindandkarta.com/)
 
 - Deliver a total cost reduction of -$10,000.00 by integrating an iPadOS app with IoT devices
 - iPadOS app with commands and realtime data visualization analytics to/from IoT devices
 - Small talk about machine learning use cases and example with **Apple CoreML Framework**
 
-### tools/frameworks/libraries:
+### tools/frameworks/libraries
+
 - Jenkins, MongoDB, WebSockets, Protobuf, UI reactive library 🛠
 
 tags: agriculture
@@ -733,7 +744,8 @@ tags: agriculture
   - Mobile Device Management (MDM) Workspace One Unified Certification by VMWare
   - iOS Nanodegree Program Udacity
 
---- 
+---
+
 ### `mmMap 🚎` @StartupFIU
 
 **The Problem**
@@ -742,7 +754,7 @@ tags: agriculture
 - Were the events or appointments located close to each other?
 - Do you always take into consideration how long will it take you to go from appointment A to appointment B?
 - What about lunch? Do you have time to eat in the middle?
-- Or where you live? Chicago? Great city transit by the way! 5x_ ⭐️ _Miami?_ ☹️ _Sorry its 1:40 min traffic along the I-95
+- Or where you live? Chicago? Great city transit by the way! 5x_⭐️_Miami?_☹️_Sorry its 1:40 min traffic along the I-95
 
 **But most importantly!**
 How happy... or how stress are you? ⛱ 🤯
@@ -751,19 +763,19 @@ How happy... or how stress are you? ⛱ 🤯
 
 **The Solution**
 
-`mmMapp` link your calendar with your social media accounts and have mmMapp shows you the events in a sequence with stopping points, happy routes to take, human experience taking int consideration. 
+`mmMapp` link your calendar with your social media accounts and have mmMapp shows you the events in a sequence with stopping points, happy routes to take, human experience taking int consideration.
 
 ---
 
 ![](img/yellowpepper.png)
+
 ### Intern  iOS Software Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
 
 - Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
 - Worked on production-bugs in collaboration with DevOps and Quality Assurance teams
 - Run small proof of concept features in order to validate the demand
 
-
-### tools/frameworks/libraries:
+### tools/frameworks/libraries
 
 - PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
 
@@ -777,15 +789,17 @@ CoderDojo is a non-profit organization aimed to teach introductory coding-skills
 
 As a mentor, I had a transformative experience by being able to teach and spark joy among the students.
 
-Lessons objectives included working with **scratch.mit.edu** in order to demonstrate the following: 
+Lessons objectives included working with **scratch.mit.edu** in order to demonstrate the following:
+
 - iterative loops
 - conditional statements
-- value assignment 
+- value assignment
 - functions
 - object-oriented programming / classes
 - Hardware programming using Arduino boards
 
 Additionally, students are encourage to:
+
 - Expose creativity
 - Working with other classmates
 - Showcase their achievements
@@ -802,7 +816,8 @@ Additionally, students are encourage to:
 
 Tags: online marketing
 
-*** 
+***
+
 ### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
 
 - Taught on an ongoing process and/or create new projects for college students using Java programming language in a class of twenty students
@@ -820,7 +835,7 @@ tags: education
 - [Domain Driven-Design](https://www.amazon.com/gp/product/0321125215?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0321125215)
 - [Working With Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)
 - [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=sr_1_1?crid=393J1ET1HBZB8&dchild=1&keywords=designing+data+intensive+applications&qid=1601994325&s=books&sprefix=designing+data+i%2Cstripbooks%2C162&sr=1-1)
-- [Functional Programming - with Swift](https://www.objc.io/books/functional-swift/) 
+- [Functional Programming - with Swift](https://www.objc.io/books/functional-swift/)
 - [Behavior Driven Development in Action](https://www.amazon.com/BDD-Action-Behavior-driven-development-lifecycle/dp/161729165X/ref=sr_1_1?crid=1QMU5POSX4VUP&dchild=1&keywords=behavior+driven+development&qid=1601994363&s=books&sprefix=behavior+Driven+Deve%2Cstripbooks%2C167&sr=1-1)
 - [Server-Side Swift](https://www.google.com/search?client=safari&rls=en&q=vapor.code&ie=UTF-8&oe=UTF-8)
 - [A metabolic approach to cancer 📚](https://www.amazon.com/Metabolic-Approach-Cancer-Integrating-Bio-Individualized/dp/1603586865/ref=sr_1_2?crid=K25WDL26D9QF&dchild=1&keywords=a+metabolic+approach+to+cancer&qid=1601994411&sprefix=a+metabolic%2Cstripbooks%2C158&sr=8-2)
