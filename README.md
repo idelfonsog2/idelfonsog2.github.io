@@ -322,7 +322,7 @@ Now your application is giving 500 error cause you only allocated 1 GB to your s
 
 ## CI/CD for Swift AWS Lambda on an M1 SoC
 
-If you are a software developer that is experimenting with containers using macOS M1 and Docker (you know,  the whale 🐳 application). You are not the only one and there are people working and talking about it [Swift Vapor Discord Channel](https://discord.gg/txRsRAqJ)
+If you are a software developer that is experimenting with containers using macOS M1 and Docker. You are not the only one! people are working and talking about it on [Swift Vapor Discord Channel](https://discord.gg/txRsRAqJ)
 
 > *Disclaimer: You will deploy the lambda using an AmazonLinux2 agent as your work from your new M1 Pro* 😅
 
