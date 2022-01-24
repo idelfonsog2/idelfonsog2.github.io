@@ -335,7 +335,7 @@ Serverless, is a transferable concept across tooling-🛠 cloud providers-☁️
 
 Here are some things I can clarify that could block any newcomers:
 
-### Developing Part I
+### Part I: Developing
 
 - Use the latest/experimental branch of the Swift AWS runtime, including the new Swift concurrency features
 
@@ -373,7 +373,7 @@ struct PushNotificationHandler: LambdaHandler {
 }
 ```
 
-### CI/CD Part II
+### Part II: CI/CD 
 
 - Edit and use the deployment scripts included with the deployment sample:
 
