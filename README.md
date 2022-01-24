@@ -13,10 +13,10 @@
 ## **Dancing Tango at the airport 🍷**
 <!-- ## **A trip. New connections. New Culture** -->
 
-### **Enjoy your time at the airport as you dance with a another human before or after your flight.**
+### **Enjoy your time at the airport as you dance with another human before or after your flight.**
 
 - It will map, filter, reduce common attributes of a person's trip
-- Take different time zones into account for everyones trips and reminders
+- Take different time zones into account for everyone's trips and reminders
 - It will notify you when people are also waiting and they might enjoy a tanda.
 - The rest is **HX**, human experience!
 
@@ -231,7 +231,7 @@ For my project, I have been able to combine and use server-side development, con
 
 <!-- I'm not only writing the mobile front end and the backend with the above as I mentioned. I'm also working with another recent feature announced [Swift AWS Lambda](https://github.com/awslabs/aws-sdk-swift),  -->
 
-At this point you might wonder:
+At this stage one might wonder:
 
 - _Maybe is overkill? Do you pretend to add everything that you find? When would I ship it?_
 
@@ -278,46 +278,6 @@ Introduction to Firebase Database, IAM, and backend for the front end developers
 ### `iOS/macOS Shortcuts`
 
 - [Electronic Business Cards Shortcut](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) 🛠
-
----
-
-# Applications at Scale
-
-## Monoliths vs Microservices - Docker 🐳 + Kubernetes ⚙️
-
-- Monoliths are the best IF your audience is small
-- Microservices are the best IF your audience is large
-
-> ### So whats in between 😅 ? ... Just pros and cos like anything else
-
-Some of the things that a backend application needs are:
-
-- runtimes
-- metrics and logs
-- networking
-- tracing
-- storage
-
-> ### How do you make this transition??? Gradually! Put your Monolith as a microservice and start 📦ing
-
-### Level: 1
-
-When thinking about a monolithic application we can think of applying the above to a single machine and hey it can be fun and bery granular.
-
-Careful now, you don't want to have business logic in these configurations.
-
-### Level: 2
-
-Now you are applications fronent/backend has been running for a couple of months by now and you were finally able to focus on your marketing strategies. You even sign-off with a partner that attracted a couple thousand of users from their private event.
-
-### Final Level: Startup Life
-
-Now your application is giving 500 error cause you only allocated 1 GB to your server; many users tried to sign up at the same time. This goes on for a couple of days. Welcome to the startup life
-
-- Application Packaging with Docker
-- Container Orchestration with Kubernetes
-- Kubernetes Resources
-- Declarative Kubernetes Manifests
 
 ---
 
@@ -639,15 +599,15 @@ I had initial conversations with the client in order to sense her priorities, bu
 
 ### *Implementation*
 
-At the time and the lack of platforms available, I went to help her build her online retail shop using wordpress based on the functionality of uploading the floral photos and purchasing a third party theme.
+At the time and the lack of platforms available, I went to help her build her online retail shop using wordpress based on the functionality of uploading the floral photos and purchasing a third-party theme.
 
 ### *Follow-up*
 
 After a few months, the client reached back again. She wanted to start accepting payments and delivery forms, also for a way to collect customers information. Most of the work was advice and setup.
 
-Knowing there are many platforms out there dedicated for retailing, easy to build, payment integration, and most importantly, a solid foundation. I recommended her *Squareup*
+Knowing there are many platforms out there dedicated to retailing, easy to build, payment integration, and most importantly, a solid foundation. I recommended her *Squareup*
 
-We went ahead and moved the website domain and started filling up the business requirements. After basic training and follow-up calls, the client is happier than ever that she can continue doing business and not having to worry about workplace and retail location.
+We went ahead and moved the website domain and started filling up the business requirements. After basic training and follow-up calls, the client is happier than ever that she can continue doing business and not have to worry about workplace and retail location.
 
 ### *Deliverable*
 
@@ -661,7 +621,7 @@ Proendoscopy is a local company in the city of Sunrise, it specializes in the se
 
 Inventory management iOS application:
 
-- Keep latest status of items when they were sold, currently in repair, or backlog.
+- Keep the latest status of items when they were sold, currently in repair, or backlog.
 - Keep a record of all the items features
 - Filter and sorting of items by brand, category, price range
 - Image uploads for the item
@@ -709,13 +669,13 @@ technology**, **relational database**, and map data visualization (Mapbopx).
 - Use the **mobile instrumentation tool** to increase the efficiency of compilation time from 5 minutes to 2 minutes
 and a half. Additionally, this help catch **data race conditions** between **Swift and Objective-C**
 - Implement **Behavior Driven Development**, which is a document base layer for stakeholders to help
-understand the situation, requirements, actions and results for every new and legacy feature.
+understand the situation, requirements, actions, and results for every new and legacy feature.
 - Automate the unit testing suite, app production submission, and quality assurance builds using continuous
 integration and continuous deployment pipeline along with **Fastlane**.
 - Help the community team decrease the amount of time reviewing inappropriate content by implementing
 an image **machine learning** model based on a plant database to identify things that are not plants.
 - **Solo developer** in the project
-- Developer's **time is valuable**. As a result, created CI/CD software pipelines to facilitate gradual deployment, automated tests, rollbacks, and feature flags
+- The developer's **time is valuable**. As a result, created CI/CD software pipelines to facilitate gradual deployment, automated tests, rollbacks, and feature flags
 - Delivered features in the most feasible ways using **refactoring design patterns**
 - Find balance and knowledge between the technical vision and the delivery of products when gathering and delivering stakeholders requirements
 
@@ -732,8 +692,8 @@ Tags: horticulture
 ### iOS Software Developer | [KIN+KARTA](http://kindandkarta.com/)
 
 - Deliver a total cost reduction of -$10,000.00 by integrating an iPadOS app with IoT devices
-- iPadOS app with commands and realtime data visualization analytics to/from IoT devices
-- Small talk about machine learning use cases and example with **Apple CoreML Framework**
+- iPadOS app with commands and real-time data visualization analytics to/from IoT devices
+- Small talk about machine learning use cases and examples with **Apple CoreML Framework**
 
 ### tools/frameworks/libraries
 
@@ -749,7 +709,7 @@ tags: agriculture
   - Minor: Social Media and E-marketing Analytics
 - @StartupFIU Small Startup Incubator
 - reTraining:
-  - Cloud Native Application Architecture Nanodegree Program Udacity
+  - Cloud Computing Nanodegree Program Udacity
   - Data Streaming Nanodegree Program Udacity
   - Data Engineer Nanodegree Program Udacity
   - Mobile Device Management (MDM) Workspace One Unified Certification by VMWare
@@ -783,16 +743,16 @@ How happy... or how stress are you? ⛱ 🤯
 ### Intern  iOS Software Developer | [YellowPepper](http://www.yellowpepper.com) | Miami, U.S. | Nov 2016 - May 2017
 
 - Worked with multiple iOS **mobile banking apps** developed with Objective-C and third-party frameworks.
-- Worked on production-bugs in collaboration with DevOps and Quality Assurance teams
+- Worked on production bugs in collaboration with DevOps and Quality Assurance teams
 - Run small proof of concept features in order to validate the demand
 
-### tools/frameworks/libraries
+**tools/frameworks/libraries**
 
 - PCI APIs, Jenkins, AutoLayout, Objective-C, Alamofire 🛠
 
 tags: financial technology
 
-***
+---
 
 ### Coding Mentor | Volunteering | [CoderDojo](https://coderdojo.com/) | Miami, U.S. | Dec 2014 - May 2016
 
@@ -809,14 +769,14 @@ Lessons objectives included working with **scratch.mit.edu** in order to demonst
 - object-oriented programming / classes
 - Hardware programming using Arduino boards
 
-Additionally, students are encourage to:
+Additionally, students are encouraged to:
 
 - Expose creativity
 - Working with other classmates
 - Showcase their achievements
 - Ask questions
 
-***
+---
 
 ### IT Intern Developer | [Martin Digital Group](https://www.martindigitalgroup.com/) | Miami, U.S. | Jan 2014 - April 2015`
 
@@ -827,7 +787,7 @@ Additionally, students are encourage to:
 
 Tags: online marketing
 
-***
+---
 
 ### Java II Learning Assistant | [Florida International University CIS Department](https://www.cis.fiu.edu/) | Miami, U.S. | Dec 2015 - May 2016
 
