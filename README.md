@@ -413,10 +413,21 @@ Resources:
 - Configure a Github Action to run the build, packaging, and deployment scripts with the AWS OIDC trusted provider and using Docker action
 
 ```yml
-uses: aws-actions/configure-aws-credentials@v1
-with:
-  role-to-assume: ${{ env.OPENID_ROLE }}
-  aws-region: ${{ env.AWS_REGION }}
+permissions: # important
+      id-token: write
+      contents: read
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v2
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: ${{ env.ROLE_TO_ASSUME }}
+          aws-region: ${{ env.AWS_REGION }}
 ```
 
 Come back here when things are starting to look more familiar. I hope the above was helpfull. Comments, feedback, questions [@idelfonsoGM](https://twitter.com/idelfonsoGM)
