@@ -375,17 +375,17 @@ struct PushNotificationHandler: LambdaHandler {
 
 ### Part II: CI/CD 
 
-- Edit and use the deployment scripts included with the deployment sample:
+- The provided script assumes it's running from your M1 Pro Mac. Just set the passing arguments for the commands withing the script:
 
 ```bash
 ...
-s3_bucket="<INSERT_NAME"
+s3_bucket="<INSERT_NAME>"
 aws s3 cp ".build/lambda/$executable/lambda.zip" "s3://$s3_bucket"
 
 echo "-------------------------------------------------------------------------"
 echo "updating to latest \"$executable\""
 echo "-------------------------------------------------------------------------"
-lambda_name="INSERT_NAME"
+lambda_name="<INSERT_NAME>"
 aws lambda update-function-code --function $lambda_name --s3-bucket $s3_bucket --s3-key lambda.zip
 ```
 
@@ -419,7 +419,7 @@ with:
   aws-region: ${{ env.AWS_REGION }}
 ```
 
-Come back here when things are starting to look more familiar. I hope the above was helpfull
+Come back here when things are starting to look more familiar. I hope the above was helpfull. Comments, feedback, questions [@idelfonsoGM](https://twitter.com/idelfonsoGM)
 
 ---
 
