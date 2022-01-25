@@ -191,10 +191,10 @@ Profiles, certificates, and tokens are interchangeable terms, but they are very 
 
 ### **Bridging `completionHandler(_:)` and `async/await`**
 
-If you have been reading or watching the Swift Evelution proposals you might have barely heard about `continuations`.
-Continuations lets you capture in a closure (in some cases) the result of a delegate callback and return it to be use as a suspension point after you have explictly requested for the value of that object.
+If you have been reading or watching the Swift Evolution Proposals, you might have barely heard about `continuations`
+Continuations let you capture in a closure (in some cases) the result of a delegate callback and return it to be used as a suspension point after you have explicitly requested the value of that object.
 
-There are many different ways to implement continuations. In the next example, I show you how I converted `ASAuthorizationControllerDelegate` "custom" object to be use as an asynchronous function
+There are many different ways to implement continuations. In the next example, I show you how I converted `ASAuthorizationControllerDelegate` "custom" object to be used as an asynchronous function
 
 ```swift
 class SignInWithAppleService: NSObject, ASAuthorizationControllerDelegate {
@@ -214,11 +214,11 @@ let signInWithAppleService = SignInWithAppleService()
 let credentials = try await signInWithAppleService.fetchAppleIDCredentials()
 ```
 
-I left many details out, but it's with the hope to make it an excersice for your the reader. There are still many Apple APIs which were left out of the convertion batch, just like the above. You will find many methods with the new and old API declaration in your autocomplete window.
+I left many details out, but it's with the hope to make it an excersice for your reader. There are still many Apple APIs which were left out of the convertion batch, just like the above. You will find many methods with the new and old API declaration in your autocomplete window.
 
 ---
 
-### **Writting software asynchronously 🧵**
+### **Writing software asynchronously 🧵**
 
 With my ongoing project feature at the [top](#featured-app) I have been able to gather all the knowledge I gained into a single application... more like many related to the same application.
 
@@ -240,7 +240,7 @@ At this stage one might wonder:
 
 ### `iOS install certs`
 
-If you are in 2021 and the team does not have the following... you are crippling the product and the developers. Not too many people think is important. The budget will reflect it and because is not important it will be hard for stakeholders to pinpoint the money leak. At the moment there is not a good debugging tool for it... I'm looking at you JIRA 👀
+If you are in 2021 and the team does not have the following below, you are crippling the product and the developers. Not too many people think is important. The budget will reflect it and because is not important it will be hard for stakeholders to pinpoint the money leak. At the moment there is not a good debugging tool for it... I'm looking at you JIRA 👀
 
 The command line is more like `$ fastlane ios_install_certs` Many people would know the previous. For the rest who have left this process manual and up to all team members to figure out, let me explain:
 
@@ -256,27 +256,13 @@ If you are even a single/solo/indie/freelancer app developer for Apple operating
 
 Introduction to Firebase Database, IAM, and backend for the front end developers.
 
- I talked about how to start with Firebase, Realtime Database, and its rules. Also about Storage Database and it rules
+ I talked about "how to start with Firebase", Realtime Database, and its rules. Also about Storage Database and its rules
 
  Along with it, I developed a small sample iOS project using Swift to send text and image nodes, how they are shown in the firebase console, and which methods I use to retrieve them in the client
 
 **tech:** Swift, UIKit, AutoLayout, Firebase Realtime DB
 
 [GitHub](https://github.com/idelfonsog2/firebase_ios)
-
----
-
-# Side projects
-
-- [Data Pipelines with Apache Airflow](#data-pipelines-with-apache-airflow) Use Airflow to backfill and schedule the load and analysis of raw data into Redshift data warehouse
-- [Data Lake with Apache Spark](#data-lakes---with-apache-spark--emr-cluster) Use Spark, Schema-On-Read, and EMR to create an ELT* process
-- [Data Warehouse with AWS S3, Redshift](#data-ware-with-aws-redshift) Create an ETL process to insert OLAP cubes in amazon  redshift
-- [Big Data modeling with Apache Cassandra](#creating-an-etl-process-with-apache-cassandra) Use the partitioned row store for a distributed system. To analyze, clean and aggregate data.
-- [Enterprise data modeling with PostgreSQL](#data-modeling-with-postgresql) Normalize a dataset in order for online analytical processes
-
-### `iOS/macOS Shortcuts`
-
-- [Electronic Business Cards Shortcut](https://www.icloud.com/shortcuts/18cf866696df49e69c4e64bbf4a16e7a) 🛠
 
 ---
 
