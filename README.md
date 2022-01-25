@@ -67,7 +67,7 @@ Whether you are creating a proof of concept, need assitant on an ongoing or star
   2. ⭐️ Automate regression testing. *Don't break backward compatible functionality*
   3. ⭐️ Brings labor and cost efficiency approaches into the light. *Do not repeat yourself*
   4. ⭐️ It's a living document (Version Control). *New/old stakeholders can read in plain language what does it do!*
-  5. ⭐️ Don't do it for free. *Be transparent and show your knowledge to the client.*
+  5. ⭐️ Demonstrates what cost saving ideas and better utilize time you have. *Be transparent and show your knowledge to the client.*
 - **How to implement it ?**
   - [Java, Swift, NodeJS, Kotlin, Ruby...](https://cucumber.io/docs/installation/)
   - [Behavior Driven Development in Action](https://www.manning.com/books/bdd-in-action)
