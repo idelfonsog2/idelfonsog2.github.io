@@ -320,7 +320,9 @@ struct PushNotificationHandler: LambdaHandler {
 
 ### Part II: CI/CD 
 
-- The provided script assumes it's running from your M1 Pro Mac. Just set the passing arguments for the commands withing the script:
+- Edit the `Dockerfile` to use `FROM swift:5.5.2-amazonlinux2`
+
+- Edit the provided script from the [repo](https://github.com/swift-server/swift-aws-lambda-runtime/blob/main/Examples/Deployment/scripts/deploy.sh) to the one below, the original it assumes it's running from your Intel Mac. Just set the passing arguments for the commands within the script:
 
 ```bash
 ...
