@@ -274,9 +274,9 @@ If you are a software developer that is experimenting with containers using macO
 
 > *Disclaimer: You will deploy the lambda using an AmazonLinux2 agent as your work from your new M1 Pro* 😅
 
-I have been developing [Swift](https://www.swift.org) lambda intending to work with it more. I did this using the [AWS Serverless Application Model](https://docs.aws.amazon.com/serverless-application-model/index.html). I suggest readers get started with [Fabian's tutorial](https://fabianfett.dev/swift-on-aws-lambda-creating-your-first-http-endpoint). Then, progressively jump to GitHub's discussions. Lastly, there is the [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html) and how to work with AWS CDK.
+Serverless, is a transferable concept across tooling-🛠 cloud providers-☁️ and programming languages-`{}`. It is/has become the new architecture. As the nature of my work implies, things change, how quickly and for how long they stayed? Sometimes is both [read more](https://www.hillelwayne.com/post/are-we-really-engineers/)
 
-Serverless, is a transferable concept across tooling-🛠 cloud providers-☁️ and programming languages-. It is/has become the new architecture. As the nature of my work implies, things change, how quickly and for how long they stayed? Sometimes is both [read more](https://www.hillelwayne.com/post/are-we-really-engineers/)
+I have been developing [Swift](https://www.swift.org) lambda intending to work with it more. I did this using the [AWS Serverless Application Model](https://docs.aws.amazon.com/serverless-application-model/index.html). I suggest readers get started with [Fabian's tutorial](https://fabianfett.dev/swift-on-aws-lambda-creating-your-first-http-endpoint). Then, progressively jump to GitHub's discussions. Lastly, there is the [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html) and how to work with AWS CDK.
 
 Here are some things I can clarify that could block any newcomers:
 
