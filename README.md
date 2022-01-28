@@ -34,11 +34,11 @@ The project is inspired by my curiosity, passion for learning, [dancing](#curren
 
 ### Curiosity & continuous learning is an invaluable skill
 
-I'm Idelfonso. I believe some things can be done much better and delightful.
+I’m Idelfonso. I believe some things can be done much better and more delightful.
 
-The way I write `{code}` software applications is by making them much simpler, intuitive and user friendly.
+The way I write {code} software applications is by making them much simpler, intuitive, and user-friendly.
 
-Whether you are creating a proof of concept, need assitant on an ongoing or starting a new project – I can help! - <strong><a href="mailto:idelfonsog2@gmail.com?subject=I%20saw%20your%20site">send email</a></strong>
+Whether you are creating a proof of concept, need assistance on an ongoing or starting a new project – I can help! - <strong><a href="mailto:idelfonsog2@gmail.com?subject=I%20saw%20your%20site">send email</a></strong>
 
 - 📜 [Articles](#articles)
 - **Up** [Services](https://www.upwork.com/freelancers/~010e40ea91fa4fa610?viewMode=1)
