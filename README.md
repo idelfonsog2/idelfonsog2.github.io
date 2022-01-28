@@ -278,7 +278,7 @@ Serverless, is a transferable concept across tooling-🛠 cloud providers-☁️
 
 I have been developing [Swift](https://www.swift.org) lambda intending to work with it more. I did this using the [AWS Serverless Application Model](https://docs.aws.amazon.com/serverless-application-model/index.html). I suggest readers get started with [Fabian's tutorial](https://fabianfett.dev/swift-on-aws-lambda-creating-your-first-http-endpoint). Then, progressively jump to GitHub's discussions. Lastly, there is the [documentation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/outputs-section-structure.html) and how to work with AWS CDK.
 
-Here are some things I can clarify that could block any newcomers:
+I'll showcase parts of the code where things can be more clear:
 
 ### Part I: Developing
 
@@ -336,7 +336,7 @@ lambda_name="<INSERT_NAME>"
 aws lambda update-function-code --function $lambda_name --s3-bucket $s3_bucket --s3-key lambda.zip
 ```
 
-- Adapt the SAM template to what you need:
+- Adapt the SAM (CloudFormation) template to what you need:
 
 ```toml
 ...
@@ -355,11 +355,13 @@ Resources:
           Properties:
             Path: /staging/send_apns
             Method: POST
+...
 ```
 
-- Configure a Github Action to run the build, packaging, and deployment scripts with the AWS OIDC trusted provider and using Docker action
+- Configure a Github Action (CI) to run the build, packaging, and deployment scripts with the AWS OIDC trusted provider and using Docker action
 
 ```yml
+...
 permissions: # important
       id-token: write
       contents: read
@@ -375,6 +377,7 @@ jobs:
         with:
           role-to-assume: ${{ env.ROLE_TO_ASSUME }}
           aws-region: ${{ env.AWS_REGION }}
+        ...
 ```
 
 Come back here when things are starting to look more familiar. I hope the above was helpfull. Comments, feedback, questions [@idelfonsoGM](https://twitter.com/idelfonsoGM)
