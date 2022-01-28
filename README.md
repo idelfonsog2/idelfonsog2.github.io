@@ -42,7 +42,8 @@ Whether you are creating a proof of concept, need assistance on an ongoing or st
 
 - 📜 [Articles](#articles)
 - **Up** [Services](https://www.upwork.com/freelancers/~010e40ea91fa4fa610?viewMode=1)
-  - [AWS Lambda Function (In Review)]()
+  - [AWS Lambda Function]()
+  - [Swift Package Library]()
   - [Mobile CI/CD Pipeline](https://www.upwork.com/services/product/the-ci-cd-that-your-mobile-team-doesn-t-know-it-needs-1465451061987807232?ref=project_share)
   - [Feature Documentation (Technical Writting)](https://www.upwork.com/services/product/documentation-files-about-the-requirements-of-your-project-1471520364424605696?ref=project_share)
 - 📱 [Work](#clients)
