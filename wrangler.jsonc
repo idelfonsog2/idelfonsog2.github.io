@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "idelfonsog2-site",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-05-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "routes": [
+    { "pattern": "idelfonso.com/*", "zone_name": "idelfonso.com" },
+    { "pattern": "www.idelfonso.com/*", "zone_name": "idelfonso.com" }
+  ]
+}
