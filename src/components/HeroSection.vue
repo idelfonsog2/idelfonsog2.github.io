@@ -3,20 +3,10 @@
     <v-card-text>
 
       <!-- Profile -->
-      <v-row align="center" class="mb-6" no-gutters>
-        <v-col cols="auto" class="mr-5">
-          <v-avatar size="96">
-            <v-img src="/img/circular-shot.png" alt="Idelfonso Gutierrez" />
-          </v-avatar>
-        </v-col>
-        <v-col>
-          <v-card-title class="pa-0 text-h3 font-weight-bold">Hola 🙋‍♂️</v-card-title>
-          <v-card-title class="pa-0 text-h3 font-weight-bold">I'm Idelfonso Gutierrez</v-card-title>
-          <v-card-subtitle class="pa-0 text-subtitle-1 mt-1">
-            Senior Engineer · iOS · Backend · Healthcare Interoperability
-          </v-card-subtitle>
-        </v-col>
-      </v-row>
+      <v-card-title class="pa-0 text-h3 font-weight-bold mb-1">Hola 🙋‍♂️ I'm Idelfonso Gutierrez</v-card-title>
+      <v-card-subtitle class="pa-0 text-subtitle-1 mb-6">
+        Senior Engineer · iOS · Backend · Healthcare Interoperability
+      </v-card-subtitle>
 
       <v-divider class="mb-6" />
 
