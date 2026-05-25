@@ -1,10 +1,10 @@
 <template>
   <v-card variant="flat">
     <v-card-text>
-      <p class="text-body-2 font-italic text-medium-emphasis mb-4">
+      <v-card-subtitle class="pa-0 font-italic mb-4">
         Curiosity and continuous learning are invaluable skills.
-      </p>
-      <h2 class="text-subtitle-1 font-weight-semibold mb-2">Recent Posts</h2>
+      </v-card-subtitle>
+      <v-card-title class="pa-0 text-subtitle-1 font-weight-semibold mb-2">Recent Posts</v-card-title>
       <v-list lines="two" density="compact">
         <v-list-item
           v-for="post in posts"
@@ -15,7 +15,16 @@
           class="px-0"
         />
       </v-list>
-      <v-icon color="warning" class="mt-2">mdi-rss</v-icon>
+      <v-btn
+        href="#"
+        variant="plain"
+        prepend-icon="mdi-rss"
+        color="warning"
+        size="small"
+        class="pa-0 mt-1"
+      >
+        RSS Feed
+      </v-btn>
     </v-card-text>
   </v-card>
 </template>

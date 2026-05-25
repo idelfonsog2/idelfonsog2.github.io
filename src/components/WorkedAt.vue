@@ -1,19 +1,27 @@
 <template>
-  <div class="text-center mt-12">
-    <h3 class="text-subtitle-1 font-weight-semibold mb-1">Worked @</h3>
-    <p class="text-caption text-medium-emphasis mb-4">
+  <v-card variant="flat" class="text-center mt-12">
+    <v-card-title class="justify-center text-subtitle-1 font-weight-semibold">Worked @</v-card-title>
+    <v-card-subtitle class="mb-4">
       Enterprise / Healthcare / Retail / Agriculture / Financing / Outsourcing / Startup / Ecommerce
-    </p>
-    <div class="d-flex justify-center flex-wrap ga-6">
-      <img
-        v-for="logo in logos"
-        :key="logo.alt"
-        :src="logo.src"
-        :alt="logo.alt"
-        class="company-logo"
-      />
-    </div>
-  </div>
+    </v-card-subtitle>
+    <v-card-text>
+      <v-row justify="center" align="center" class="flex-wrap ga-6">
+        <v-col
+          v-for="logo in logos"
+          :key="logo.alt"
+          cols="auto"
+        >
+          <v-img
+            :src="logo.src"
+            :alt="logo.alt"
+            height="28"
+            width="auto"
+            class="company-logo"
+          />
+        </v-col>
+      </v-row>
+    </v-card-text>
+  </v-card>
 </template>
 
 <script setup lang="ts">
@@ -29,7 +37,6 @@ const logos = [
 
 <style scoped>
 .company-logo {
-  height: 28px;
   opacity: 0.7;
   filter: grayscale(100%);
   transition: opacity 0.2s, filter 0.2s;
