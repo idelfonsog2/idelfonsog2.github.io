@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <v-container max-width="1100">
+      <v-container max-width="760">
         <v-row class="mt-4">
           <v-col cols="12">
             <HeroSection />
