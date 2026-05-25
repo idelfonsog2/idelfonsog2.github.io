@@ -1,0 +1,29 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "schedule": ["before 6am on Monday"],
+  "timezone": "America/Chicago",
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["vue", "vuetify", "vite-plugin-vuetify", "@vitejs/plugin-vue"],
+      "groupName": "Vue / Vuetify",
+      "automerge": false
+    },
+    {
+      "matchPackageNames": ["vite"],
+      "groupName": "Vite",
+      "automerge": false
+    },
+    {
+      "matchPackageNames": ["wrangler"],
+      "groupName": "Wrangler",
+      "automerge": false
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
+    }
+  ]
+}
