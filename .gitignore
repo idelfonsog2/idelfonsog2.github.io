@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Wrangler build & local state
+.wrangler/
+dist/
+
+# Generated types (recreate with: npm run cf-typegen)
+*.d.ts
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Temp / scratch files
+*.sb-*
+
+# Secrets
+.dev.vars
+.env
+.env.*
