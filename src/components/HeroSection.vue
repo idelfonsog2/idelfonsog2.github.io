@@ -3,64 +3,45 @@
     <v-card-text>
 
       <!-- Profile -->
-      <v-row align="center" class="mb-4" no-gutters>
-        <v-col cols="auto" class="mr-4">
-          <v-avatar size="80">
+      <v-row align="center" class="mb-6" no-gutters>
+        <v-col cols="auto" class="mr-5">
+          <v-avatar size="96">
             <v-img src="/img/circular-shot.png" alt="Idelfonso Gutierrez" />
           </v-avatar>
         </v-col>
         <v-col>
-          <v-card-title class="pa-0 text-h4 font-weight-bold">Hola 🙋🏻‍♂️ I'm Idelfonso</v-card-title>
-          <v-card-subtitle class="pa-0">Software Engineer (Remote 🌐)</v-card-subtitle>
+          <v-card-title class="pa-0 text-h3 font-weight-bold">Hola 🙋‍♂️</v-card-title>
+          <v-card-title class="pa-0 text-h3 font-weight-bold">I'm Idelfonso Gutierrez</v-card-title>
+          <v-card-subtitle class="pa-0 text-subtitle-1 mt-1">
+            Software Engineer · iOS · Cloud · Data Pipelines
+          </v-card-subtitle>
         </v-col>
       </v-row>
 
-      <v-divider class="mb-4" />
+      <v-divider class="mb-6" />
 
       <!-- Bio -->
-      <v-card-text class="pa-0 text-body-1 mb-3">
-        As a dedicated software developer, I specialize in crafting ☁️ cloud-based applications and
-        orchestrating ⚙️ deployment automation. My expertise extends to defining 📝 feature requirements
-        and creating sleek 📱 mobile apps, especially for the Apple ecosystem. My aim? Streamlined,
-        intuitive software that delights its users.
-      </v-card-text>
-      <v-card-text class="pa-0 text-body-1 mb-3">
-        When designed thoughtfully, I believe technology can be powerful and wonderfully simple.
-      </v-card-text>
-      <v-card-text class="pa-0 text-body-1 mb-4">
-        I'm here to elevate your project by exploring a new concept, adding features, or optimizing operations.
+      <v-card-text class="pa-0 text-h6 font-weight-regular mb-4" style="line-height: 1.7;">
+        I build software that ships 🚀 — from native iOS apps 📱 to cloud backends ☁️ and data pipelines 🔁.
+        10+ years turning complex requirements into clean, reliable systems ⚙️.
       </v-card-text>
 
-      <v-divider class="mb-4" />
+      <v-card-text class="pa-0 text-h6 font-weight-regular mb-4" style="line-height: 1.8;">
+        Specializing in the Apple ecosystem 🍎, server-side Swift, and cloud-native architectures 🏗️.
+        I care about the details that make software feel effortless to use ✨ and easy to maintain 🧹.
+      </v-card-text>
 
-      <!-- Experience Timeline -->
-      <v-card-subtitle class="pa-0 font-weight-semibold mb-3">Experience</v-card-subtitle>
-      <v-timeline side="end" density="compact" truncate-line="both">
-        <v-timeline-item
-          v-for="item in timeline"
-          :key="item.company"
-          :dot-color="item.color"
-          size="small"
-        >
-          <v-row align="center" no-gutters>
-            <v-col class="font-weight-medium">{{ item.role }}</v-col>
-            <v-col cols="auto" class="text-caption text-medium-emphasis">{{ item.period }}</v-col>
-          </v-row>
-          <v-card-subtitle class="pa-0">{{ item.company }}</v-card-subtitle>
-        </v-timeline-item>
-      </v-timeline>
-
-      <v-divider class="my-4" />
+      <v-divider class="mb-6" />
 
       <!-- Action Buttons -->
-      <v-row no-gutters class="ga-2 flex-wrap">
+      <v-row no-gutters class="ga-3 flex-wrap">
         <v-col v-for="pill in pills" :key="pill.label" cols="auto">
           <v-btn
             :href="pill.href"
             :prepend-icon="pill.icon"
+            :color="pill.color"
             variant="outlined"
             rounded="lg"
-            size="small"
           >
             {{ pill.label }}
           </v-btn>
@@ -73,17 +54,10 @@
 
 <script setup lang="ts">
 const pills = [
-  { label: 'Code', href: '#code', icon: 'mdi-code-braces' },
-  { label: 'Clients', href: '#clients', icon: 'mdi-handshake' },
-  { label: "Let's Dance", href: '#dance', icon: 'mdi-coffee' },
-  { label: 'Services', href: '#services', icon: 'mdi-lightning-bolt' },
-]
-
-const timeline = [
-  { role: 'iOS & Backend Engineer', company: 'Northwestern Medicine', period: '2020 – 2022', color: 'blue' },
-  { role: 'Mobile Engineer', company: 'Ulta Beauty', period: '2019 – 2020', color: 'pink' },
-  { role: 'iOS Developer', company: 'KIN+KARTA', period: '2018 – 2019', color: 'purple' },
-  { role: 'iOS Developer', company: 'YellowPepper', period: '2016 – 2018', color: 'yellow' },
-  { role: 'iOS Developer', company: 'GrowIt', period: '2015 – 2016', color: 'green' },
+  { label: 'Binary Apps', href: '#binary-apps', icon: 'mdi-circle-medium', color: 'success' },
+  { label: 'Code', href: '#code', icon: 'mdi-code-braces', color: undefined },
+  { label: 'Clients', href: '#clients', icon: 'mdi-handshake', color: undefined },
+  { label: "Let's Dance", href: '#dance', icon: 'mdi-coffee', color: undefined },
+  { label: 'Services', href: '#services', icon: 'mdi-lightning-bolt', color: undefined },
 ]
 </script>

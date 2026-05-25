@@ -6,23 +6,10 @@
       </v-card-subtitle>
       <v-card-title class="pa-0 text-subtitle-1 font-weight-semibold mb-2">Recent Posts</v-card-title>
       <v-list lines="two" density="compact">
-        <v-list-item
-          v-for="post in posts"
-          :key="post.title"
-          :href="post.href"
-          :title="post.title"
-          :subtitle="post.meta"
-          class="px-0"
-        />
+        <v-list-item v-for="post in posts" :key="post.title" :href="post.href" :title="post.title" :subtitle="post.meta"
+          class="px-0" />
       </v-list>
-      <v-btn
-        href="#"
-        variant="plain"
-        prepend-icon="mdi-rss"
-        color="warning"
-        size="small"
-        class="pa-0 mt-1"
-      >
+      <v-btn href="#" variant="plain" prepend-icon="mdi-rss" color="warning" size="small" class="pa-0 mt-1">
         RSS Feed
       </v-btn>
     </v-card-text>

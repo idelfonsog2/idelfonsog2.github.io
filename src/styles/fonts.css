@@ -1,0 +1,11 @@
+/* Base font — Inter for all body text */
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Playfair Display for all heading levels */
+.v-card-title,
+.text-h1, .text-h2, .text-h3, .text-h4, .text-h5 {
+  font-family: 'Playfair Display', serif !important;
+  letter-spacing: 0 !important;
+}
