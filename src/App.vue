@@ -8,6 +8,7 @@
           </v-col>
         </v-row>
         <WorkedAt />
+        <FaqSection />
       </v-container>
       <SiteFooter />
     </v-main>
@@ -17,5 +18,6 @@
 <script setup lang="ts">
 import HeroSection from './components/HeroSection.vue'
 import WorkedAt from './components/WorkedAt.vue'
+import FaqSection from './components/FaqSection.vue'
 import SiteFooter from './components/SiteFooter.vue'
 </script>
