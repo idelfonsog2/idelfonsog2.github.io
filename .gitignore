@@ -15,6 +15,12 @@ dist/
 # Temp / scratch files
 *.sb-*
 
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
 # Secrets
 .dev.vars
 .env
