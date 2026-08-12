@@ -1,6 +1,9 @@
 <template>
   <v-card variant="flat" class="mt-12">
-    <v-card-title class="text-subtitle-1 font-weight-semibold">FAQ</v-card-title>
+    <v-card-title class="text-subtitle-1 font-weight-semibold d-flex align-center ga-2">
+      <v-icon icon="mdi-help-circle-outline" color="primary" size="20" />
+      FAQ
+    </v-card-title>
     <v-card-text>
       <v-expansion-panels variant="accordion">
         <v-expansion-panel v-for="item in faqs" :key="item.question" :title="item.question">
