@@ -3,7 +3,9 @@
     <v-card-text>
 
       <!-- Profile -->
-      <v-card-title class="pa-0 text-h3 font-weight-bold mb-1">Hola, I'm Idelfonso Gutierrez 🙋‍♂️</v-card-title>
+      <v-card-title class="pa-0 text-h3 font-weight-bold mb-1">
+        Hola, I'm <span class="hero-name">Idelfonso Gutierrez</span> 🙋‍♂️
+      </v-card-title>
       <v-card-subtitle class="pa-0 text-subtitle-1 mb-6">
         Senior Engineer · iOS · Backend · Healthcare Interoperability
       </v-card-subtitle>
@@ -110,6 +112,12 @@ const superpowers = [
 </script>
 
 <style scoped>
+.hero-name {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
 .superpower-card {
   transition: transform 160ms ease-out, box-shadow 160ms ease-out;
 }
