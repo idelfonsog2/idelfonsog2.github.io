@@ -1,0 +1,167 @@
+{
+  ".claude/settings.local.json": {
+    "mtime": 1779749771.0987864,
+    "ast_hash": "2d64270fb1c600b9fd703a5dc137ca72",
+    "semantic_hash": "2d64270fb1c600b9fd703a5dc137ca72"
+  },
+  ".vscode/launch.json": {
+    "mtime": 1779746004.5212324,
+    "ast_hash": "10f5f78ff3005c6a30c1ab88b366f2c2",
+    "semantic_hash": "10f5f78ff3005c6a30c1ab88b366f2c2"
+  },
+  ".vscode/tasks.json": {
+    "mtime": 1779745998.3452196,
+    "ast_hash": "9a525e4d90d894ca2f1ce07db12eb358",
+    "semantic_hash": "9a525e4d90d894ca2f1ce07db12eb358"
+  },
+  "e2e/faq.spec.ts": {
+    "mtime": 1781119444.025789,
+    "ast_hash": "363abab7e3a0ad0297d4b8a09c0a4f6c",
+    "semantic_hash": "363abab7e3a0ad0297d4b8a09c0a4f6c"
+  },
+  "package.json": {
+    "mtime": 1781119419.5599372,
+    "ast_hash": "36a5d208949da139514831003b32923f",
+    "semantic_hash": "36a5d208949da139514831003b32923f"
+  },
+  "playwright.config.ts": {
+    "mtime": 1781119396.7100437,
+    "ast_hash": "d79ac2f9951ed6a1a54cefeb71d88329",
+    "semantic_hash": "d79ac2f9951ed6a1a54cefeb71d88329"
+  },
+  "renovate.json": {
+    "mtime": 1779748012.8899066,
+    "ast_hash": "acf62ce6ffdd35a3c8adcb86d05f322b",
+    "semantic_hash": "acf62ce6ffdd35a3c8adcb86d05f322b"
+  },
+  "src/App.vue": {
+    "mtime": 1781117965.8747327,
+    "ast_hash": "cba89dc0a36053eebf79dfff0a0b67c7",
+    "semantic_hash": "cba89dc0a36053eebf79dfff0a0b67c7"
+  },
+  "src/components/FaqSection.vue": {
+    "mtime": 1781117947.7673116,
+    "ast_hash": "b060bbf1e9b7c37d4a13ea7e2e5a2371",
+    "semantic_hash": "b060bbf1e9b7c37d4a13ea7e2e5a2371"
+  },
+  "src/components/HeroSection.vue": {
+    "mtime": 1779752638.8580496,
+    "ast_hash": "f8eeb8e33fe67f58a73788ab01024d62",
+    "semantic_hash": "f8eeb8e33fe67f58a73788ab01024d62"
+  },
+  "src/components/RecentPosts.vue": {
+    "mtime": 1779750386.3180726,
+    "ast_hash": "11166a15f72dd8014099f7a4c5a8fe18",
+    "semantic_hash": "11166a15f72dd8014099f7a4c5a8fe18"
+  },
+  "src/components/SiteFooter.vue": {
+    "mtime": 1779750389.0844998,
+    "ast_hash": "6d19ea397e38ac04765bb4592db4b42d",
+    "semantic_hash": "6d19ea397e38ac04765bb4592db4b42d"
+  },
+  "src/components/SiteHeader.vue": {
+    "mtime": 1779750392.491145,
+    "ast_hash": "9a8105f6e2b13019683e7d13e9c4fac8",
+    "semantic_hash": "9a8105f6e2b13019683e7d13e9c4fac8"
+  },
+  "src/components/WorkedAt.vue": {
+    "mtime": 1779750524.7585444,
+    "ast_hash": "a6d123ca77f40d3e7ce57fcfe51a1e1b",
+    "semantic_hash": "a6d123ca77f40d3e7ce57fcfe51a1e1b"
+  },
+  "src/index.ts": {
+    "mtime": 1781117791.3981843,
+    "ast_hash": "085206aa30b2c15e7153232ff3695668",
+    "semantic_hash": "085206aa30b2c15e7153232ff3695668"
+  },
+  "src/main.ts": {
+    "mtime": 1779750801.6223106,
+    "ast_hash": "634c6c4d9042d5d83d3194f6abe8e24f",
+    "semantic_hash": "634c6c4d9042d5d83d3194f6abe8e24f"
+  },
+  "tsconfig.json": {
+    "mtime": 1779745812.7922826,
+    "ast_hash": "b767e16420c6cca88946590e61acdf38",
+    "semantic_hash": "b767e16420c6cca88946590e61acdf38"
+  },
+  "vite.config.ts": {
+    "mtime": 1779745768.3516676,
+    "ast_hash": "35792e3723f0fe01923ed48f2093abc6",
+    "semantic_hash": "35792e3723f0fe01923ed48f2093abc6"
+  },
+  "README.md": {
+    "mtime": 1779717569.1071053,
+    "ast_hash": "8dc7853af108a1f2d9bb3cf706a72e49",
+    "semantic_hash": "8dc7853af108a1f2d9bb3cf706a72e49"
+  },
+  "_config.yml": {
+    "mtime": 1779717569.1072168,
+    "ast_hash": "b58350663bd64e11871e9f3eaeb32ee6",
+    "semantic_hash": "b58350663bd64e11871e9f3eaeb32ee6"
+  },
+  "index.html": {
+    "mtime": 1779750797.730769,
+    "ast_hash": "8fc415b1aa63469ac7e1a13cc5ab515d",
+    "semantic_hash": "8fc415b1aa63469ac7e1a13cc5ab515d"
+  },
+  "notebooks/cassandra-etl-pipeline.html": {
+    "mtime": 1779717569.185293,
+    "ast_hash": "af3cd0f3804a526c34798ff9e126ae34",
+    "semantic_hash": "af3cd0f3804a526c34798ff9e126ae34"
+  },
+  "public/notebooks/cassandra-etl-pipeline.html": {
+    "mtime": 1779717569.0,
+    "ast_hash": "af3cd0f3804a526c34798ff9e126ae34",
+    "semantic_hash": "af3cd0f3804a526c34798ff9e126ae34"
+  },
+  "public/resources/data_lake.md": {
+    "mtime": 1779717569.0,
+    "ast_hash": "d5545ae9af235fe2a91fe063181c40b2",
+    "semantic_hash": "d5545ae9af235fe2a91fe063181c40b2"
+  },
+  "public/resources/data_warehouse.md": {
+    "mtime": 1779717569.0,
+    "ast_hash": "c2a31d671b3be7d3c3fba5037a9e5efe",
+    "semantic_hash": "c2a31d671b3be7d3c3fba5037a9e5efe"
+  },
+  "public/resources/wrangling_data_spark.html": {
+    "mtime": 1779717569.0,
+    "ast_hash": "22ce1b0046fd97b53d54118530a1279a",
+    "semantic_hash": "22ce1b0046fd97b53d54118530a1279a"
+  },
+  "resources/data_lake.md": {
+    "mtime": 1779717569.1863227,
+    "ast_hash": "d5545ae9af235fe2a91fe063181c40b2",
+    "semantic_hash": "d5545ae9af235fe2a91fe063181c40b2"
+  },
+  "resources/data_warehouse.md": {
+    "mtime": 1779717569.1864407,
+    "ast_hash": "c2a31d671b3be7d3c3fba5037a9e5efe",
+    "semantic_hash": "c2a31d671b3be7d3c3fba5037a9e5efe"
+  },
+  "resources/wrangling_data_spark.html": {
+    "mtime": 1779717569.1874597,
+    "ast_hash": "22ce1b0046fd97b53d54118530a1279a",
+    "semantic_hash": "22ce1b0046fd97b53d54118530a1279a"
+  },
+  "notebooks/cassandra-etl-pipeline.pdf": {
+    "mtime": 1779717569.1858447,
+    "ast_hash": "80e43618a32bdf5ab2b28ee1ce6df394",
+    "semantic_hash": "80e43618a32bdf5ab2b28ee1ce6df394"
+  },
+  "public/notebooks/cassandra-etl-pipeline.pdf": {
+    "mtime": 1779717569.0,
+    "ast_hash": "80e43618a32bdf5ab2b28ee1ce6df394",
+    "semantic_hash": "80e43618a32bdf5ab2b28ee1ce6df394"
+  },
+  "public/resources/resume_us.pdf": {
+    "mtime": 1779717569.0,
+    "ast_hash": "4143c733363a92b33cd9f26172b4f5a1",
+    "semantic_hash": "4143c733363a92b33cd9f26172b4f5a1"
+  },
+  "resources/resume_us.pdf": {
+    "mtime": 1779717569.1868746,
+    "ast_hash": "4143c733363a92b33cd9f26172b4f5a1",
+    "semantic_hash": "4143c733363a92b33cd9f26172b4f5a1"
+  }
+}
