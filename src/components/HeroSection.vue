@@ -31,7 +31,7 @@
           cols="12"
           sm="6"
         >
-          <v-card variant="tonal" rounded="lg" class="pa-3">
+          <v-card variant="tonal" rounded="lg" class="pa-3 superpower-card">
             <v-row align="start" no-gutters>
               <v-col cols="auto" class="mr-3">
                 <v-icon :icon="power.icon" color="primary" size="20" />
@@ -108,3 +108,26 @@ const superpowers = [
   },
 ]
 </script>
+
+<style scoped>
+.superpower-card {
+  transition: transform 160ms ease-out, box-shadow 160ms ease-out;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .superpower-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .superpower-card {
+    transition: box-shadow 160ms ease-out;
+  }
+
+  .superpower-card:hover {
+    transform: none;
+  }
+}
+</style>
