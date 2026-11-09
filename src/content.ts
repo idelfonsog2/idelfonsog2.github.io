@@ -130,7 +130,7 @@ export const en: Content = {
     superpower:
       'I find the real problem before anyone opens a code editor — then build the full stack to prove it: iOS, backend, infra, CI/CD, App Store.',
     story:
-      'At Northwestern Medicine I co-own the FHIR integration platform for 9+ external vendors. At ULTA I shipped two iOS apps during a pandemic with no playbook. At GrowIt! I replaced a broken moderation workflow with an on-device ML model nobody asked for but everyone needed.',
+      'At Northwestern Medicine I co-own the FHIR integration platform for 9+ external vendors. At ULTA I solo-built the curbside pickup app during the pandemic with no playbook. At GrowIt! I replaced a broken moderation workflow with an on-device ML model nobody asked for but everyone needed.',
     counter: { value: '8+', label: 'years building iOS, backend and healthcare platforms' },
     cta: 'Get in touch',
     navLabel: 'Primary',
@@ -194,6 +194,8 @@ export const en: Content = {
           'Co-own the platform that governs how 9+ external vendors access Epic clinical data, plus the iOS apps clinicians use daily.',
         highlights: [
           'Built and shipped patient-facing and internal iOS apps used daily by nurses and clinicians (SwiftUI, UIKit, TCA, Swift Concurrency, gRPC)',
+          'Developed a BFF (backend-for-frontend) for the employee iOS app and created pipelines using the AppSync APIs; the app is built with The Composable Architecture (TCA)',
+          'Took part in migrating the iOS apps from Objective-C to Swift and adopting Swift Package Manager',
           'Co-own a multi-vendor FHIR R4/DSTU3 integration platform (team of 4) serving 9+ vendors',
           'Designed an event-driven integration (SmartRecruiters → Azure Service Bus), 1,000+ events/day; authored the canonical event schema adopted org-wide',
           'Built an internal observability platform (metrics UI + client SDK); fixed a production query-performance crisis with partitioning, hot/cold archiving, indexing and caching',
@@ -241,13 +243,12 @@ export const en: Content = {
         location: 'Chicago, IL',
         title: 'Software Engineer, Mobile',
         dates: 'Mar 2020 – Sep 2021',
-        summary: 'Shipped the curbside pickup apps nationwide under a pandemic timeline.',
+        summary: 'Solo-built the curbside pickup app during the pandemic and worked on two more ULTA apps.',
         highlights: [
-          'Designed and shipped two iOS apps for curbside pickup (consumer + in-store associate) across stores nationwide on a compressed timeline',
-          'Built an inventory management iOS app for store associates',
+          "Solo planned, designed, built and maintained the consumer curbside-pickup iOS app for ULTA's Midwest stores during the pandemic (2021); pickups were faster",
           'Navigated APNS rate limits in production by adjusting notification batching and delivery',
-          'Integrated VMware Workspace ONE MDM to manage the store device fleet',
-          'Designed end-to-end system architecture and led technical decisions',
+          'Worked as part of a team on the in-store inventory management iOS app, including the VMware Workspace ONE MDM integration that manages the store device fleet',
+          'Fixed production incidents in the consumer retail iOS app while onboarding, building familiarity with the codebase',
         ],
       },
       {
@@ -312,7 +313,7 @@ export const en: Content = {
     styleTitle: 'How I work',
     styleBullets: [
       'Curiosity: asks "should this exist?" before writing code',
-      'Empathy: designs for both sides of the screen (customer and associate, nurse and patient)',
+      'Empathy: designs for both sides of the screen (clinicians and patients)',
       'Ownership: from the Swift model to the Kubernetes deployment',
     ],
   },
@@ -345,18 +346,18 @@ export const en: Content = {
       { name: 'Empathy', line: 'designs for both sides of the screen' },
       { name: 'Communication', line: 'translates between clinicians and engineers' },
       { name: 'Creativity', line: 'on-device CoreML instead of a backend pipeline' },
-      { name: 'Courage', line: 'shipped pandemic-timeline apps with no playbook' },
+      { name: 'Courage', line: 'solo-built a pandemic-era curbside pickup app with no playbook' },
       { name: 'Resilience', line: 'fixed a production DB crisis that staging never showed' },
     ],
     stackHeading: 'Technical stack',
     stack: [
       {
         group: 'Mobile',
-        items: ['Swift', 'SwiftUI', 'UIKit', 'TCA', 'Swift Concurrency', 'gRPC', 'APNS', 'Sign in with Apple', 'Swift Package Manager', 'Fastlane', 'Xcode'],
+        items: ['Swift', 'Objective-C (migration to Swift)', 'SwiftUI', 'UIKit', 'TCA', 'Swift Concurrency', 'gRPC', 'APNS', 'Sign in with Apple', 'Swift Package Manager', 'Fastlane', 'Xcode'],
       },
       {
         group: 'Backend',
-        items: ['Vapor (Swift)', 'REST APIs', '.NET', 'Blazor', 'Postgres', 'SQL', 'AWS Lambda', 'Serverless Framework', 'CloudFormation', 'Docker'],
+        items: ['Vapor (Swift)', 'REST APIs', 'BFF design', 'AppSync APIs', '.NET', 'Blazor', 'Postgres', 'SQL', 'AWS Lambda', 'Serverless Framework', 'CloudFormation', 'Docker'],
       },
       {
         group: 'Cloud & Infrastructure',
@@ -442,7 +443,7 @@ export const es: Content = {
     superpower:
       'Encuentro el problema real antes de que nadie abra un editor de código — y luego construyo el stack completo para demostrarlo: iOS, backend, infraestructura, CI/CD, App Store.',
     story:
-      'En Northwestern Medicine co-lidero la plataforma de integración FHIR para más de 9 proveedores externos. En ULTA lancé dos apps iOS durante una pandemia sin manual de instrucciones. En GrowIt! reemplacé un flujo de moderación roto con un modelo de ML en el dispositivo que nadie pidió pero todos necesitaban.',
+      'En Northwestern Medicine co-lidero la plataforma de integración FHIR para más de 9 proveedores externos. En ULTA construí en solitario la app de recogida en tienda durante la pandemia, sin manual de instrucciones. En GrowIt! reemplacé un flujo de moderación roto con un modelo de ML en el dispositivo que nadie pidió pero todos necesitaban.',
     counter: { value: '8+', label: 'años construyendo plataformas iOS, backend y de salud' },
     cta: 'Escríbeme',
     navLabel: 'Principal',
@@ -506,6 +507,8 @@ export const es: Content = {
           'Co-lidero la plataforma que gobierna cómo más de 9 proveedores externos acceden a los datos clínicos de Epic, además de las apps iOS que usan los clínicos a diario.',
         highlights: [
           'Construí y lancé apps iOS para pacientes y uso interno, usadas a diario por enfermeras y clínicos (SwiftUI, UIKit, TCA, Swift Concurrency, gRPC)',
+          'Desarrollé un BFF (backend-for-frontend) para la app iOS de empleados y creé pipelines con las APIs de AppSync; la app está construida con The Composable Architecture (TCA)',
+          'Participé en la migración de las apps iOS de Objective-C a Swift y en la adopción de Swift Package Manager',
           'Co-lidero una plataforma de integración FHIR R4/DSTU3 multi-proveedor (equipo de 4) que atiende a más de 9 proveedores',
           'Diseñé una integración orientada a eventos (SmartRecruiters → Azure Service Bus), más de 1,000 eventos/día; escribí el esquema canónico de eventos adoptado en toda la organización',
           'Construí una plataforma interna de observabilidad (UI de métricas + SDK cliente); resolví una crisis de rendimiento de consultas en producción con particionado, archivado hot/cold, índices y caché',
@@ -553,13 +556,12 @@ export const es: Content = {
         location: 'Chicago, IL',
         title: 'Ingeniero de Software, Mobile',
         dates: 'mar 2020 – sep 2021',
-        summary: 'Lancé las apps de recogida en tienda (curbside) a nivel nacional con un calendario de pandemia.',
+        summary: 'Construí en solitario la app de recogida en tienda (curbside) durante la pandemia y trabajé en otras dos apps de ULTA.',
         highlights: [
-          'Diseñé y lancé dos apps iOS para la recogida en tienda (consumidor + asociado en tienda) en todo el país con un calendario comprimido',
-          'Construí una app iOS de gestión de inventario para los asociados de tienda',
+          'Planifiqué, diseñé, construí y mantuve en solitario la app iOS de recogida en tienda para consumidores en las tiendas ULTA del Medio Oeste durante la pandemia (2021); las recogidas fueron más rápidas',
           'Resolví los límites de tasa de APNS en producción ajustando el agrupamiento y la entrega de notificaciones',
-          'Integré VMware Workspace ONE MDM para administrar la flota de dispositivos de las tiendas',
-          'Diseñé la arquitectura de sistema de punta a punta y lideré las decisiones técnicas',
+          'Trabajé en equipo en la app iOS de gestión de inventario en tiendas, incluida la integración con VMware Workspace ONE MDM que administra la flota de dispositivos',
+          'Corregí incidentes de producción en la app iOS de retail para consumidores durante mi incorporación, conociendo a fondo el código',
         ],
       },
       {
@@ -624,7 +626,7 @@ export const es: Content = {
     styleTitle: 'Cómo trabajo',
     styleBullets: [
       'Curiosidad: se pregunta "¿debería existir esto?" antes de escribir código',
-      'Empatía: diseña para ambos lados de la pantalla (cliente y asociado, enfermera y paciente)',
+      'Empatía: diseña para ambos lados de la pantalla (clínicos y pacientes)',
       'Responsabilidad: del modelo en Swift al despliegue en Kubernetes',
     ],
   },
@@ -657,18 +659,18 @@ export const es: Content = {
       { name: 'Empatía', line: 'diseña para ambos lados de la pantalla' },
       { name: 'Comunicación', line: 'traduce entre clínicos e ingenieros' },
       { name: 'Creatividad', line: 'CoreML en el dispositivo en lugar de un pipeline backend' },
-      { name: 'Valentía', line: 'lanzó apps con calendario de pandemia sin manual' },
+      { name: 'Valentía', line: 'construyó en solitario una app de recogida en tienda en plena pandemia, sin manual' },
       { name: 'Resiliencia', line: 'resolvió una crisis de base de datos en producción que staging nunca mostró' },
     ],
     stackHeading: 'Stack técnico',
     stack: [
       {
         group: 'Mobile',
-        items: ['Swift', 'SwiftUI', 'UIKit', 'TCA', 'Swift Concurrency', 'gRPC', 'APNS', 'Sign in with Apple', 'Swift Package Manager', 'Fastlane', 'Xcode'],
+        items: ['Swift', 'Objective-C (migración a Swift)', 'SwiftUI', 'UIKit', 'TCA', 'Swift Concurrency', 'gRPC', 'APNS', 'Sign in with Apple', 'Swift Package Manager', 'Fastlane', 'Xcode'],
       },
       {
         group: 'Backend',
-        items: ['Vapor (Swift)', 'APIs REST', '.NET', 'Blazor', 'Postgres', 'SQL', 'AWS Lambda', 'Serverless Framework', 'CloudFormation', 'Docker'],
+        items: ['Vapor (Swift)', 'APIs REST', 'Diseño de BFF', 'APIs de AppSync', '.NET', 'Blazor', 'Postgres', 'SQL', 'AWS Lambda', 'Serverless Framework', 'CloudFormation', 'Docker'],
       },
       {
         group: 'Cloud e infraestructura',
