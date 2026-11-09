@@ -71,3 +71,15 @@ test('follows the OS dark preference when nothing is saved', async ({ browser })
   await expect(page.locator('.v-application')).toHaveClass(/v-theme--dark/)
   await context.close()
 })
+
+test('tech stack chips turn blue on hover', async ({ page }) => {
+  await page.goto('/')
+  const chip = page.locator('.stack-chip', { hasText: 'Kubernetes' })
+  await chip.scrollIntoViewIfNeeded()
+  const before = await chip.evaluate((el) => getComputedStyle(el).backgroundColor)
+  await chip.hover()
+  await expect
+    .poll(async () => chip.evaluate((el) => getComputedStyle(el).backgroundColor))
+    .toBe('rgb(24, 103, 192)') // Vuetify primary #1867C0
+  expect(before).not.toBe('rgb(24, 103, 192)')
+})
