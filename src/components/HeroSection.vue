@@ -83,16 +83,18 @@ const c = useContent()
   display: block;
 }
 .hero-lead {
-  font-size: clamp(1.35rem, 3.4vw, 1.75rem);
-  line-height: 1.5;
+  /* back to the previous size */
+  font-size: 1rem;
+  line-height: 1.7;
 }
 .hero-label {
   font-size: clamp(1.15rem, 2.8vw, 1.4rem);
   font-weight: 700;
 }
 .hero-story {
-  font-size: clamp(1.1rem, 2.6vw, 1.3rem);
-  line-height: 1.7;
+  /* back to the previous size */
+  font-size: 1rem;
+  line-height: 1.8;
 }
 .hero-counter-value {
   font-size: clamp(2.25rem, 6vw, 3.25rem);
