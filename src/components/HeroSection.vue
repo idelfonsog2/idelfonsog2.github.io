@@ -97,12 +97,14 @@ const c = useContent()
   line-height: 1.8;
 }
 .hero-counter-value {
-  font-size: clamp(2.25rem, 6vw, 3.25rem);
+  /* back to the previous size */
+  font-size: 1rem;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.5;
 }
 .hero-counter-label {
-  font-size: clamp(1.05rem, 2.6vw, 1.25rem);
-  line-height: 1.4;
+  /* back to the previous size */
+  font-size: 1rem;
+  line-height: 1.5;
 }
 </style>
