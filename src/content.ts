@@ -254,6 +254,25 @@ export const en: Content = {
           'Worked as part of a team on the in-store inventory management iOS app, including the VMware Workspace ONE MDM integration that manages the store device fleet',
           'Fixed production incidents in the consumer retail iOS app while onboarding, building familiarity with the codebase',
         ],
+        features: [
+          {
+            tag: 'Solo project',
+            title: 'Curbside Pickup App',
+            description:
+              'Consumer iOS app for in-store pickup, built during the pandemic. Planned, designed, built and maintained solo.',
+            bullets: [
+              'Owned end to end: planning, design, implementation and long-term maintenance',
+              "Rolled out to ULTA's Midwest stores in 2021; pickups were faster",
+              'Push notifications over APNS, including working through APNS rate limits in production',
+              'View model + views architecture',
+            ],
+            stats: [
+              { value: 'Solo', label: 'plan to maintenance' },
+              { value: '2021', label: 'pandemic launch' },
+              { value: 'Midwest', label: 'ULTA stores' },
+            ],
+          },
+        ],
       },
       {
         id: 'growit',
@@ -262,11 +281,31 @@ export const en: Content = {
         location: 'Chicago, IL',
         title: 'Software Engineer, iOS',
         dates: 'Feb 2018 – Feb 2020',
-        summary: 'Built iOS features that drove growth and automated moderation and releases.',
+        summary: 'The only iOS developer: built and shipped the features that grew the customer base and automated moderation and releases.',
         highlights: [
+          'Sole iOS owner and developer: drove the UI/UX and the migration',
           "Grew the customer base 25% with a location-aware iBeacon experience in partnership with Chicago's Lurie Garden",
           'Built an on-device CoreML model that flags inappropriate posts in real time, replacing a manual scroll-and-flag workflow and extending coverage beyond one city',
           'Automated the full release pipeline (tests, QA builds, App Store submission) with CircleCI and Fastlane',
+        ],
+        features: [
+          {
+            tag: 'CoreML',
+            title: 'On-Device Image Moderation',
+            description:
+              'Image recognition that screens user-posted photos for inappropriate or off-topic content as they are submitted, and flags them for the moderation team.',
+            bullets: [
+              "Runs entirely on-device with CoreML (no backend pipeline), using a model trained on the app's plant database",
+              'Analyzes photos in real time as users post them',
+              'Sends behind-the-scenes alerts to the moderation team for review',
+              'Replaced a manual scroll-and-flag workflow and extended coverage beyond the Chicago feed',
+            ],
+            stats: [
+              { value: 'On-device', label: 'no backend pipeline' },
+              { value: 'Real-time', label: 'as photos are posted' },
+              { value: 'Beyond Chicago', label: 'moderation coverage' },
+            ],
+          },
         ],
         result: {
           headline: '+25% customer growth',
@@ -571,6 +610,25 @@ export const es: Content = {
           'Trabajé en equipo en la app iOS de gestión de inventario en tiendas, incluida la integración con VMware Workspace ONE MDM que administra la flota de dispositivos',
           'Corregí incidentes de producción en la app iOS de retail para consumidores durante mi incorporación, conociendo a fondo el código',
         ],
+        features: [
+          {
+            tag: 'Proyecto en solitario',
+            title: 'App de recogida en tienda (curbside)',
+            description:
+              'App iOS para consumidores para recoger pedidos en tienda, construida durante la pandemia. Planificada, diseñada, construida y mantenida en solitario.',
+            bullets: [
+              'Responsable de punta a punta: planificación, diseño, implementación y mantenimiento a largo plazo',
+              'Desplegada en las tiendas ULTA del Medio Oeste en 2021; las recogidas fueron más rápidas',
+              'Notificaciones push con APNS, incluido resolver los límites de tasa de APNS en producción',
+              'Arquitectura de view model + vistas',
+            ],
+            stats: [
+              { value: 'En solitario', label: 'del plan al mantenimiento' },
+              { value: '2021', label: 'lanzamiento en pandemia' },
+              { value: 'Medio Oeste', label: 'tiendas ULTA' },
+            ],
+          },
+        ],
       },
       {
         id: 'growit',
@@ -579,11 +637,31 @@ export const es: Content = {
         location: 'Chicago, IL',
         title: 'Ingeniero de Software, iOS',
         dates: 'feb 2018 – feb 2020',
-        summary: 'Construí funciones iOS que impulsaron el crecimiento y automaticé la moderación y los lanzamientos.',
+        summary: 'El único desarrollador de iOS: construí y lancé las funciones que hicieron crecer la base de clientes y automaticé la moderación y los lanzamientos.',
         highlights: [
+          'Único responsable y desarrollador de iOS: lideré el UI/UX y la migración',
           'Aumenté la base de clientes un 25% con una experiencia iBeacon basada en ubicación, en alianza con el Lurie Garden de Chicago',
           'Construí un modelo CoreML en el dispositivo que marca publicaciones inapropiadas en tiempo real, reemplazando un flujo manual de revisión y ampliando la cobertura más allá de una ciudad',
           'Automaticé todo el pipeline de lanzamiento (pruebas, builds de QA, envío al App Store) con CircleCI y Fastlane',
+        ],
+        features: [
+          {
+            tag: 'CoreML',
+            title: 'Moderación de imágenes en el dispositivo',
+            description:
+              'Reconocimiento de imágenes que revisa las fotos publicadas por los usuarios en busca de contenido inapropiado o fuera de tema al momento de enviarlas, y las marca para el equipo de moderación.',
+            bullets: [
+              'Se ejecuta por completo en el dispositivo con CoreML (sin pipeline en backend), con un modelo entrenado con la base de datos de plantas de la app',
+              'Analiza las fotos en tiempo real mientras los usuarios las publican',
+              'Envía alertas en segundo plano al equipo de moderación para su revisión',
+              'Reemplazó un flujo manual de revisión y amplió la cobertura más allá del feed de Chicago',
+            ],
+            stats: [
+              { value: 'En el dispositivo', label: 'sin pipeline en backend' },
+              { value: 'Tiempo real', label: 'al publicar las fotos' },
+              { value: 'Más allá de Chicago', label: 'cobertura de moderación' },
+            ],
+          },
         ],
         result: {
           headline: '+25% de crecimiento de clientes',
