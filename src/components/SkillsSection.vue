@@ -21,7 +21,7 @@
     <div v-for="g in c.skills.stack" :key="g.group" class="mb-4">
       <h4 class="text-body-2 font-weight-semibold mb-1">{{ g.group }}</h4>
       <div class="d-flex flex-wrap ga-2">
-        <v-chip v-for="i in g.items" :key="i" size="small" variant="outlined">{{ i }}</v-chip>
+        <v-chip v-for="i in g.items" :key="i" size="small" variant="outlined" class="stack-chip">{{ i }}</v-chip>
       </div>
     </div>
   </section>
@@ -33,3 +33,21 @@ import SectionTitle from './SectionTitle.vue'
 
 const c = useContent()
 </script>
+
+<style scoped>
+/* Tech stack chips fill with the theme's blue on hover (theme-aware: lighter blue + dark text in dark mode) */
+.stack-chip {
+  cursor: default;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+.stack-chip:hover {
+  background-color: rgb(var(--v-theme-primary));
+  border-color: rgb(var(--v-theme-primary));
+  color: rgb(var(--v-theme-on-primary));
+}
+@media (prefers-reduced-motion: reduce) {
+  .stack-chip {
+    transition: none;
+  }
+}
+</style>
