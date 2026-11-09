@@ -7,10 +7,10 @@
           <v-img :src="media.avatar" :alt="c.hero.avatarAlt" />
         </v-avatar>
         <div>
-          <v-card-title tag="h1" class="pa-0 text-h4 text-sm-h3 font-weight-bold mb-1 text-wrap">
+          <v-card-title tag="h1" class="hero-name pa-0 font-weight-bold mb-1 text-wrap">
             {{ c.hero.greeting }}
           </v-card-title>
-          <p class="hero-headline text-subtitle-1 text-medium-emphasis mb-0">
+          <p class="hero-headline text-medium-emphasis mb-0">
             <span class="sr-only">{{ c.hero.fullHeadline }}</span>
             <span aria-hidden="true">{{ c.hero.headlinePrefix }} <RotatingWord :words="c.hero.rotating" /></span>
           </p>
@@ -20,14 +20,14 @@
       <v-divider class="mb-6" />
 
       <!-- Bio -->
-      <p class="text-h6 font-weight-regular mb-4" style="line-height: 1.7;">{{ c.hero.superpower }}</p>
-      <p class="text-body-1 mb-4" style="line-height: 1.8;">{{ c.hero.subhead }}</p>
-      <p class="text-body-1 text-medium-emphasis mb-6" style="line-height: 1.8;">{{ c.hero.story }}</p>
+      <p class="hero-lead mb-6">{{ c.hero.superpower }}</p>
+      <p class="hero-label mb-1">{{ c.hero.storyLabel }}</p>
+      <p class="hero-story text-medium-emphasis mb-6">{{ c.hero.story }}</p>
 
       <!-- Counter -->
       <div class="d-flex align-center ga-3 mb-6">
-        <span class="text-h3 text-primary font-weight-bold">{{ c.hero.counter.value }}</span>
-        <span class="text-body-1 text-medium-emphasis">{{ c.hero.counter.label }}</span>
+        <span class="hero-counter-value text-primary">{{ c.hero.counter.value }}</span>
+        <span class="hero-counter-label text-medium-emphasis">{{ c.hero.counter.label }}</span>
       </div>
 
       <!-- Primary action -->
@@ -66,8 +66,44 @@ const c = useContent()
 </script>
 
 <style scoped>
-/* Reserve two lines so the rotating phrase never changes the page height */
+/* Explicit sizes: this Vuetify version ignores the legacy text-h* classes. Fluid so mobile never overflows. */
+.hero-name {
+  font-size: clamp(2rem, 6.5vw, 3.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  /* v-card-title hyphenates; never split the name mid-word */
+  hyphens: manual;
+  overflow-wrap: normal;
+  word-break: normal;
+}
 .hero-headline {
-  min-height: 3em;
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  line-height: 1.35;
+  /* Always two lines: prefix, then the rotating phrase on its own line, so nothing jumps */
+  min-height: 2.7em;
+}
+.hero-headline :deep(.rotating) {
+  display: block;
+}
+.hero-lead {
+  font-size: clamp(1.35rem, 3.4vw, 1.75rem);
+  line-height: 1.5;
+}
+.hero-label {
+  font-size: clamp(1.15rem, 2.8vw, 1.4rem);
+  font-weight: 700;
+}
+.hero-story {
+  font-size: clamp(1.1rem, 2.6vw, 1.3rem);
+  line-height: 1.7;
+}
+.hero-counter-value {
+  font-size: clamp(2.25rem, 6vw, 3.25rem);
+  font-weight: 700;
+  line-height: 1;
+}
+.hero-counter-label {
+  font-size: clamp(1.05rem, 2.6vw, 1.25rem);
+  line-height: 1.4;
 }
 </style>

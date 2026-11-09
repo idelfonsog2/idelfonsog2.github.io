@@ -51,7 +51,7 @@ export interface Content {
     headlinePrefix: string
     rotating: string[]
     fullHeadline: string
-    subhead: string
+    storyLabel: string
     superpower: string
     story: string
     counter: { value: string; label: string }
@@ -130,8 +130,7 @@ export const en: Content = {
     rotating: ['iOS', 'backend platforms', 'healthcare interoperability', 'cloud platforms'],
     fullHeadline:
       'Senior engineer across iOS, backend platforms, healthcare interoperability and cloud platforms',
-    subhead:
-      "Co-owner of the FHIR integration platform that governs how 9+ vendors access Epic clinical data at Northwestern Medicine.",
+    storyLabel: 'Currently:',
     superpower:
       'I find the real problem before anyone opens a code editor — then build the full stack to prove it: iOS, backend, infra, CI/CD, App Store.',
     story:
@@ -448,8 +447,7 @@ export const es: Content = {
     rotating: ['iOS', 'plataformas backend', 'interoperabilidad en salud', 'plataformas cloud'],
     fullHeadline:
       'Ingeniero senior en iOS, plataformas backend, interoperabilidad en salud y plataformas cloud',
-    subhead:
-      'Co-responsable de la plataforma de integración FHIR que gobierna cómo más de 9 proveedores acceden a los datos clínicos de Epic en Northwestern Medicine.',
+    storyLabel: 'Actualmente:',
     superpower:
       'Encuentro el problema real antes de que nadie abra un editor de código — y luego construyo el stack completo para demostrarlo: iOS, backend, infraestructura, CI/CD, App Store.',
     story:
