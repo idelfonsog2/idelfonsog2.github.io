@@ -281,11 +281,31 @@ export const en: Content = {
         location: 'Chicago, IL',
         title: 'Software Engineer, iOS',
         dates: 'Feb 2018 – Feb 2020',
-        summary: 'Built iOS features that drove growth and automated moderation and releases.',
+        summary: 'The only iOS developer: built and shipped the features that grew the customer base and automated moderation and releases.',
         highlights: [
+          'Sole iOS owner and developer: drove the UI/UX and the migration',
           "Grew the customer base 25% with a location-aware iBeacon experience in partnership with Chicago's Lurie Garden",
           'Built an on-device CoreML model that flags inappropriate posts in real time, replacing a manual scroll-and-flag workflow and extending coverage beyond one city',
           'Automated the full release pipeline (tests, QA builds, App Store submission) with CircleCI and Fastlane',
+        ],
+        features: [
+          {
+            tag: 'CoreML',
+            title: 'On-Device Image Moderation',
+            description:
+              'Image recognition that screens user-posted photos for inappropriate or off-topic content as they are submitted, and flags them for the moderation team.',
+            bullets: [
+              "Runs entirely on-device with CoreML (no backend pipeline), using a model trained on the app's plant database",
+              'Analyzes photos in real time as users post them',
+              'Sends behind-the-scenes alerts to the moderation team for review',
+              'Replaced a manual scroll-and-flag workflow and extended coverage beyond the Chicago feed',
+            ],
+            stats: [
+              { value: 'On-device', label: 'no backend pipeline' },
+              { value: 'Real-time', label: 'as photos are posted' },
+              { value: 'Beyond Chicago', label: 'moderation coverage' },
+            ],
+          },
         ],
         result: {
           headline: '+25% customer growth',
@@ -617,11 +637,31 @@ export const es: Content = {
         location: 'Chicago, IL',
         title: 'Ingeniero de Software, iOS',
         dates: 'feb 2018 – feb 2020',
-        summary: 'Construí funciones iOS que impulsaron el crecimiento y automaticé la moderación y los lanzamientos.',
+        summary: 'El único desarrollador de iOS: construí y lancé las funciones que hicieron crecer la base de clientes y automaticé la moderación y los lanzamientos.',
         highlights: [
+          'Único responsable y desarrollador de iOS: lideré el UI/UX y la migración',
           'Aumenté la base de clientes un 25% con una experiencia iBeacon basada en ubicación, en alianza con el Lurie Garden de Chicago',
           'Construí un modelo CoreML en el dispositivo que marca publicaciones inapropiadas en tiempo real, reemplazando un flujo manual de revisión y ampliando la cobertura más allá de una ciudad',
           'Automaticé todo el pipeline de lanzamiento (pruebas, builds de QA, envío al App Store) con CircleCI y Fastlane',
+        ],
+        features: [
+          {
+            tag: 'CoreML',
+            title: 'Moderación de imágenes en el dispositivo',
+            description:
+              'Reconocimiento de imágenes que revisa las fotos publicadas por los usuarios en busca de contenido inapropiado o fuera de tema al momento de enviarlas, y las marca para el equipo de moderación.',
+            bullets: [
+              'Se ejecuta por completo en el dispositivo con CoreML (sin pipeline en backend), con un modelo entrenado con la base de datos de plantas de la app',
+              'Analiza las fotos en tiempo real mientras los usuarios las publican',
+              'Envía alertas en segundo plano al equipo de moderación para su revisión',
+              'Reemplazó un flujo manual de revisión y amplió la cobertura más allá del feed de Chicago',
+            ],
+            stats: [
+              { value: 'En el dispositivo', label: 'sin pipeline en backend' },
+              { value: 'Tiempo real', label: 'al publicar las fotos' },
+              { value: 'Más allá de Chicago', label: 'cobertura de moderación' },
+            ],
+          },
         ],
         result: {
           headline: '+25% de crecimiento de clientes',
