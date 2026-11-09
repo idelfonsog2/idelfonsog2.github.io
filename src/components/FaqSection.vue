@@ -1,12 +1,13 @@
 <template>
   <v-card variant="flat" class="mt-12">
-    <v-card-title class="text-subtitle-1 font-weight-semibold d-flex align-center ga-2">
+    <v-card-title tag="h2" class="text-h6 font-weight-semibold d-flex align-center ga-2 text-wrap">
       <v-icon icon="mdi-help-circle-outline" color="primary" size="20" />
       FAQ
     </v-card-title>
     <v-card-text>
-      <v-expansion-panels variant="accordion">
-        <v-expansion-panel v-for="item in faqs" :key="item.question" :title="item.question">
+      <!-- Flat + border so it matches the other (flat) sections instead of floating on a shadow -->
+      <v-expansion-panels variant="accordion" class="border rounded-lg">
+        <v-expansion-panel v-for="item in faqs" :key="item.question" :title="item.question" elevation="0">
           <template #text>
             <span v-html="item.answer" />
           </template>

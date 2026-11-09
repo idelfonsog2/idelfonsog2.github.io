@@ -1,12 +1,19 @@
 <template>
-  <v-card variant="flat" class="text-center mt-12">
-    <v-card-title class="justify-center text-subtitle-1 font-weight-semibold">Worked @</v-card-title>
-    <v-card-subtitle class="mb-4">
+  <v-card variant="flat" class="mt-12">
+    <v-card-title tag="h2" class="text-h6 font-weight-semibold d-flex align-center ga-2 text-wrap">
+      <v-icon icon="mdi-domain" color="primary" size="20" />
+      Worked @
+    </v-card-title>
+    <v-card-subtitle class="mb-4 text-wrap text-medium-emphasis opacity-100">
       Enterprise / Healthcare / Retail / Agriculture / Financing / Outsourcing / Startup / Ecommerce
     </v-card-subtitle>
-    <v-card-text class="d-flex justify-center align-center flex-wrap" style="gap: 10px;">
-      <v-img v-for="logo in logos" :key="logo.alt" :src="logo.src" :alt="logo.alt" height="40" max-width="160"
-        width="auto" class="company-logo flex-grow-0" />
+    <v-card-text>
+      <div class="logo-grid">
+        <!-- Fixed-size box reserves space before lazy-load (no layout shift); contain keeps aspect ratio -->
+        <div v-for="logo in logos" :key="logo.alt" class="logo-cell">
+          <v-img :src="logo.src" :alt="logo.alt" height="40" contain class="company-logo" />
+        </div>
+      </div>
     </v-card-text>
   </v-card>
 </template>
@@ -23,6 +30,26 @@ const logos = [
 </script>
 
 <style scoped>
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .logo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.logo-cell {
+  width: 100%;
+  max-width: 160px;
+  height: 40px;
+}
+
 .company-logo {
   opacity: 0.7;
   filter: grayscale(100%);

@@ -3,10 +3,15 @@
     <v-card-text>
 
       <!-- Profile -->
-      <v-card-title class="pa-0 text-h3 font-weight-bold mb-1">Hola, I'm Idelfonso Gutierrez 🙋‍♂️</v-card-title>
-      <v-card-subtitle class="pa-0 text-subtitle-1 mb-6">
-        Senior Engineer · iOS · Backend · Healthcare Interoperability
-      </v-card-subtitle>
+      <header>
+        <!-- tag="h1": real heading for screen readers/SEO; text-wrap: v-card-title defaults to nowrap + ellipsis -->
+        <v-card-title tag="h1" class="pa-0 text-h4 text-sm-h3 font-weight-bold mb-1 text-wrap">
+          Hola, I'm Idelfonso Gutierrez 🙋‍♂️
+        </v-card-title>
+        <v-card-subtitle class="pa-0 text-subtitle-1 mb-6 text-wrap text-medium-emphasis opacity-100">
+          Senior Engineer · iOS · Backend · Healthcare Interoperability
+        </v-card-subtitle>
+      </header>
 
       <v-divider class="mb-6" />
 
@@ -23,42 +28,57 @@
         AI has made me faster at execution; it hasn't replaced the curiosity or the judgment.
       </v-card-text>
 
-      <!-- Superpowers -->
-      <v-row class="mb-6" dense>
+      <!-- Primary action -->
+      <v-btn
+        href="mailto:idelfonsog2@gmail.com"
+        prepend-icon="mdi-email-outline"
+        color="primary"
+        variant="flat"
+        size="large"
+        rounded="lg"
+        class="mb-6"
+      >
+        Get in touch
+      </v-btn>
+
+      <!-- Secondary navigation: one consistent style, 44px+ touch targets -->
+      <nav aria-label="Primary" class="mb-6">
+        <div class="d-flex flex-wrap ga-3">
+          <v-btn
+            v-for="pill in pills"
+            :key="pill.label"
+            :href="pill.href"
+            :prepend-icon="pill.icon"
+            variant="outlined"
+            rounded="lg"
+            size="large"
+          >
+            {{ pill.label }}
+          </v-btn>
+        </div>
+      </nav>
+
+      <v-divider class="mb-6" />
+
+      <!-- Strengths (trimmed to the four that don't repeat the intro above) -->
+      <v-row dense>
         <v-col
           v-for="power in superpowers"
           :key="power.label"
           cols="12"
           sm="6"
         >
-          <v-card variant="tonal" rounded="lg" class="pa-3">
+          <v-card variant="outlined" rounded="lg" class="pa-3 h-100">
             <v-row align="start" no-gutters>
               <v-col cols="auto" class="mr-3">
                 <v-icon :icon="power.icon" color="primary" size="20" />
               </v-col>
               <v-col>
                 <div class="text-body-2 font-weight-semibold">{{ power.label }}</div>
-                <div class="text-caption text-medium-emphasis">{{ power.description }}</div>
+                <div class="text-body-2 text-medium-emphasis">{{ power.description }}</div>
               </v-col>
             </v-row>
           </v-card>
-        </v-col>
-      </v-row>
-
-      <v-divider class="mb-6" />
-
-      <!-- Action Buttons -->
-      <v-row no-gutters class="ga-3 flex-wrap">
-        <v-col v-for="pill in pills" :key="pill.label" cols="auto" align-self="center">
-          <v-btn
-            :href="pill.href"
-            :prepend-icon="pill.icon"
-            :color="pill.color"
-            variant="outlined"
-            rounded="lg"
-          >
-            {{ pill.label }}
-          </v-btn>
         </v-col>
       </v-row>
 
@@ -68,19 +88,14 @@
 
 <script setup lang="ts">
 const pills = [
-  { label: 'Binary Apps', href: '#binary-apps', icon: 'mdi-circle-medium', color: 'success' },
-  { label: 'Code', href: '#code', icon: 'mdi-code-braces', color: undefined },
-  { label: 'Clients', href: '#clients', icon: 'mdi-handshake', color: undefined },
-  { label: "Let's Dance", href: '#dance', icon: 'mdi-coffee', color: undefined },
-  { label: 'Services', href: '#services', icon: 'mdi-lightning-bolt', color: undefined },
+  { label: 'Binary Apps', href: '#binary-apps', icon: 'mdi-apps' },
+  { label: 'Code', href: '#code', icon: 'mdi-code-braces' },
+  { label: 'Clients', href: '#clients', icon: 'mdi-handshake' },
+  { label: "Let's Dance", href: '#dance', icon: 'mdi-coffee' },
+  { label: 'Services', href: '#services', icon: 'mdi-lightning-bolt' },
 ]
 
 const superpowers = [
-  {
-    label: 'Problem Discovery',
-    description: 'Finds the real problem before anyone opens a code editor',
-    icon: 'mdi-magnify',
-  },
   {
     label: 'Full-Stack Ownership',
     description: 'iOS → backend → infra → CI/CD → App Store → production',
@@ -100,11 +115,6 @@ const superpowers = [
     label: 'Stakeholder Bridge',
     description: 'Translates between clinical/business stakeholders and engineering',
     icon: 'mdi-account-group',
-  },
-  {
-    label: 'AI-Augmented Execution',
-    description: 'Uses AI to accelerate delivery — judgment and taste still human',
-    icon: 'mdi-robot',
   },
 ]
 </script>
