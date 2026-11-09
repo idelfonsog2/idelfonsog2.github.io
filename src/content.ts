@@ -166,9 +166,9 @@ export const en: Content = {
         icon: 'mdi-layers',
       },
       {
-        title: 'Healthcare Interoperability',
-        description: 'FHIR R4/DSTU3, Epic SMART on FHIR, HIPAA de-identification, multi-vendor API governance',
-        icon: 'mdi-hospital-box',
+        title: 'Secure Integration & API Governance',
+        description: 'Designs multi-vendor API platforms with auth, access control and data masking for regulated environments',
+        icon: 'mdi-shield-lock-outline',
       },
       {
         title: 'Platform Thinking',
@@ -208,17 +208,17 @@ export const en: Content = {
         ],
         features: [
           {
-            tag: 'FHIR R4 / DSTU3',
-            title: 'Multi-vendor Healthcare Interoperability Platform',
+            tag: 'Regulated APIs',
+            title: 'Multi-vendor API Integration Platform',
             description:
-              "The layer between Northwestern Medicine's Epic EHR and external vendors: a reusable platform, not a one-off integration.",
+              'A reusable integration layer between a core clinical system and external vendors: a platform, not a one-off integration.',
             bullets: [
-              'Exposes Patient, Observation, Appointment, Encounter and MedicationRequest resources',
-              'APIM gateway validates tokens and request criteria',
-              'Azure AD custom auth checks resource permissions, project assignments and vendor access profiles',
-              'Epic SMART on FHIR client management',
-              'Field-level masking of PII for HIPAA de-identification',
-              'Cohort app lets evangelists configure which resources each vendor can access',
+              'Exposes standards-based data resources to authorized vendors',
+              'API gateway validates tokens and request criteria',
+              'Custom auth layer checks resource permissions, project assignments and vendor access profiles',
+              'Vendor client and permission management',
+              'Field-level masking of sensitive data for de-identification',
+              'Admin app lets staff configure which resources each vendor can access',
             ],
             stats: [
               { value: '9+', label: 'vendors' },
@@ -483,9 +483,9 @@ export const es: Content = {
         icon: 'mdi-layers',
       },
       {
-        title: 'Interoperabilidad en salud',
-        description: 'FHIR R4/DSTU3, Epic SMART on FHIR, desidentificación HIPAA, gobierno de APIs multi-proveedor',
-        icon: 'mdi-hospital-box',
+        title: 'Integración segura y gobierno de APIs',
+        description: 'Diseña plataformas de APIs multi-proveedor con autenticación, control de acceso y enmascaramiento de datos para entornos regulados',
+        icon: 'mdi-shield-lock-outline',
       },
       {
         title: 'Pensamiento de plataforma',
@@ -525,17 +525,17 @@ export const es: Content = {
         ],
         features: [
           {
-            tag: 'FHIR R4 / DSTU3',
-            title: 'Plataforma de interoperabilidad en salud multi-proveedor',
+            tag: 'APIs reguladas',
+            title: 'Plataforma de integración de APIs multi-proveedor',
             description:
-              'La capa entre el EHR Epic de Northwestern Medicine y los proveedores externos: una plataforma reutilizable, no una integración puntual.',
+              'Una capa de integración reutilizable entre un sistema clínico central y proveedores externos: una plataforma, no una integración puntual.',
             bullets: [
-              'Expone los recursos Patient, Observation, Appointment, Encounter y MedicationRequest',
-              'El gateway APIM valida tokens y criterios de las solicitudes',
-              'La autenticación personalizada con Azure AD verifica permisos de recursos, asignaciones de proyecto y perfiles de acceso por proveedor',
-              'Gestión de clientes con Epic SMART on FHIR',
-              'Enmascaramiento a nivel de campo de datos personales para la desidentificación HIPAA',
-              'La app de cohortes permite a los evangelistas configurar a qué recursos accede cada proveedor',
+              'Expone recursos de datos basados en estándares a proveedores autorizados',
+              'El gateway de APIs valida tokens y criterios de las solicitudes',
+              'Una capa de autenticación personalizada verifica permisos de recursos, asignaciones de proyecto y perfiles de acceso por proveedor',
+              'Gestión de clientes y permisos de proveedores',
+              'Enmascaramiento a nivel de campo de datos sensibles para la desidentificación',
+              'Una app de administración permite configurar a qué recursos accede cada proveedor',
             ],
             stats: [
               { value: '9+', label: 'proveedores' },
