@@ -1,0 +1,74 @@
+/* Faint dot-grid texture over the grey page background (from the santifer.io design reference) */
+.v-application {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.13) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Sections sit directly on the textured background instead of opaque cards */
+.v-card--variant-flat {
+  background: transparent;
+}
+
+/* Orange accent on interaction */
+.v-card--variant-outlined {
+  transition: border-color 0.2s;
+}
+.v-card--variant-outlined:hover {
+  border-color: rgb(var(--v-theme-secondary));
+}
+
+/* Visually hidden but available to screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip link: hidden until focused by keyboard */
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -64px;
+  z-index: 2000;
+  padding: 12px 16px;
+  border-radius: 999px;
+  background: rgb(var(--v-theme-primary));
+  color: rgb(var(--v-theme-on-primary));
+  text-decoration: none;
+  font-weight: 600;
+  transition: top 0.15s;
+}
+.skip-link:focus {
+  top: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Spacing comes from utility classes (mb-*, mt-*), not browser-default margins on text blocks.
+   Kept inside Vuetify's core layer so Vuetify's utility layer (mt-*, mb-*) still wins over it. */
+@layer vuetify-core {
+  .v-application p,
+  .v-application h1,
+  .v-application h2,
+  .v-application h3,
+  .v-application h4 {
+    margin-block: 0;
+  }
+  .v-application ul,
+  .v-application dl {
+    margin-top: 0;
+  }
+}

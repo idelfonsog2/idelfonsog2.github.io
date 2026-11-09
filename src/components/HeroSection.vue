@@ -1,110 +1,73 @@
 <template>
   <v-card variant="flat">
     <v-card-text>
-
       <!-- Profile -->
-      <v-card-title class="pa-0 text-h3 font-weight-bold mb-1">Hola, I'm Idelfonso Gutierrez 🙋‍♂️</v-card-title>
-      <v-card-subtitle class="pa-0 text-subtitle-1 mb-6">
-        Senior Engineer · iOS · Backend · Healthcare Interoperability
-      </v-card-subtitle>
+      <header class="d-flex align-center ga-4 mb-6">
+        <v-avatar size="80" class="flex-shrink-0">
+          <v-img :src="media.avatar" :alt="c.hero.avatarAlt" />
+        </v-avatar>
+        <div>
+          <v-card-title tag="h1" class="pa-0 text-h4 text-sm-h3 font-weight-bold mb-1 text-wrap">
+            {{ c.hero.greeting }}
+          </v-card-title>
+          <p class="hero-headline text-subtitle-1 text-medium-emphasis mb-0">
+            <span class="sr-only">{{ c.hero.fullHeadline }}</span>
+            <span aria-hidden="true">{{ c.hero.headlinePrefix }} <RotatingWord :words="c.hero.rotating" /></span>
+          </p>
+        </div>
+      </header>
 
       <v-divider class="mb-6" />
 
       <!-- Bio -->
-      <v-card-text class="pa-0 text-h6 font-weight-regular mb-4" style="line-height: 1.7;">
-        I find the real problem before anyone opens a code editor — then build the full stack to prove it:
-        iOS, backend, infra, CI/CD, App Store.
-      </v-card-text>
+      <p class="text-h6 font-weight-regular mb-4" style="line-height: 1.7;">{{ c.hero.superpower }}</p>
+      <p class="text-body-1 mb-4" style="line-height: 1.8;">{{ c.hero.subhead }}</p>
+      <p class="text-body-1 text-medium-emphasis mb-6" style="line-height: 1.8;">{{ c.hero.story }}</p>
 
-      <v-card-text class="pa-0 text-body-1 text-medium-emphasis mb-6" style="line-height: 1.8;">
-        8+ years across iOS, .NET, Kubernetes, and Azure — most recently co-owning a FHIR R4 integration
-        platform at Northwestern Medicine, serving 9+ external vendors and exposing Epic clinical data
-        at hospital scale. The event schema my team built is now adopted org-wide.
-        AI has made me faster at execution; it hasn't replaced the curiosity or the judgment.
-      </v-card-text>
+      <!-- Counter -->
+      <div class="d-flex align-center ga-3 mb-6">
+        <span class="text-h3 text-primary font-weight-bold">{{ c.hero.counter.value }}</span>
+        <span class="text-body-1 text-medium-emphasis">{{ c.hero.counter.label }}</span>
+      </div>
 
-      <!-- Superpowers -->
-      <v-row class="mb-6" dense>
-        <v-col
-          v-for="power in superpowers"
-          :key="power.label"
-          cols="12"
-          sm="6"
-        >
-          <v-card variant="tonal" rounded="lg" class="pa-3">
-            <v-row align="start" no-gutters>
-              <v-col cols="auto" class="mr-3">
-                <v-icon :icon="power.icon" color="primary" size="20" />
-              </v-col>
-              <v-col>
-                <div class="text-body-2 font-weight-semibold">{{ power.label }}</div>
-                <div class="text-caption text-medium-emphasis">{{ power.description }}</div>
-              </v-col>
-            </v-row>
-          </v-card>
-        </v-col>
-      </v-row>
+      <!-- Primary action -->
+      <v-btn
+        :href="`mailto:${links.email}`"
+        prepend-icon="mdi-email-outline"
+        color="primary"
+        variant="flat"
+        size="large"
+        class="mb-6"
+      >
+        {{ c.hero.cta }}
+      </v-btn>
 
-      <v-divider class="mb-6" />
-
-      <!-- Action Buttons -->
-      <v-row no-gutters class="ga-3 flex-wrap">
-        <v-col v-for="pill in pills" :key="pill.label" cols="auto" align-self="center">
-          <v-btn
-            :href="pill.href"
-            :prepend-icon="pill.icon"
-            :color="pill.color"
-            variant="outlined"
-            rounded="lg"
-          >
-            {{ pill.label }}
+      <!-- Section navigation: one consistent style, 44px+ touch targets -->
+      <nav :aria-label="c.hero.navLabel">
+        <div class="d-flex flex-wrap ga-3">
+          <v-btn v-for="item in c.hero.nav" :key="item.href" :href="item.href" variant="outlined" size="large">
+            <template #prepend>
+              <v-icon :icon="item.icon" color="secondary" />
+            </template>
+            {{ item.label }}
           </v-btn>
-        </v-col>
-      </v-row>
-
+        </div>
+      </nav>
     </v-card-text>
   </v-card>
 </template>
 
 <script setup lang="ts">
-const pills = [
-  { label: 'Binary Apps', href: '#binary-apps', icon: 'mdi-circle-medium', color: 'success' },
-  { label: 'Code', href: '#code', icon: 'mdi-code-braces', color: undefined },
-  { label: 'Clients', href: '#clients', icon: 'mdi-handshake', color: undefined },
-  { label: "Let's Dance", href: '#dance', icon: 'mdi-coffee', color: undefined },
-  { label: 'Services', href: '#services', icon: 'mdi-lightning-bolt', color: undefined },
-]
+import { links, media } from '../content'
+import { useContent } from '../i18n'
+import RotatingWord from './RotatingWord.vue'
 
-const superpowers = [
-  {
-    label: 'Problem Discovery',
-    description: 'Finds the real problem before anyone opens a code editor',
-    icon: 'mdi-magnify',
-  },
-  {
-    label: 'Full-Stack Ownership',
-    description: 'iOS → backend → infra → CI/CD → App Store → production',
-    icon: 'mdi-layers',
-  },
-  {
-    label: 'Healthcare Interoperability',
-    description: 'FHIR R4/DSTU3, Epic SMART on FHIR, HIPAA, multi-vendor API governance',
-    icon: 'mdi-hospital-box',
-  },
-  {
-    label: 'Platform Thinking',
-    description: 'Builds systems other teams depend on — event schemas, SDKs, integration layers',
-    icon: 'mdi-sitemap',
-  },
-  {
-    label: 'Stakeholder Bridge',
-    description: 'Translates between clinical/business stakeholders and engineering',
-    icon: 'mdi-account-group',
-  },
-  {
-    label: 'AI-Augmented Execution',
-    description: 'Uses AI to accelerate delivery — judgment and taste still human',
-    icon: 'mdi-robot',
-  },
-]
+const c = useContent()
 </script>
+
+<style scoped>
+/* Reserve two lines so the rotating phrase never changes the page height */
+.hero-headline {
+  min-height: 3em;
+}
+</style>

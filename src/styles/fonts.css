@@ -1,9 +1,15 @@
-/* Inter for all text, headings included — one type system across the page */
+/* DM Sans for body text */
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: 'DM Sans', system-ui, sans-serif;
 }
 
-/* Large headings get tighter tracking as they grow, per optical sizing */
+/* Space Grotesk for headings; tighter tracking as they grow, per optical sizing */
+h1, h2, h3, h4, h5, h6,
+.v-card-title,
+.text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6 {
+  font-family: 'Space Grotesk', system-ui, sans-serif !important;
+}
+
 .v-card-title,
 .text-h1, .text-h2, .text-h3, .text-h4, .text-h5 {
   letter-spacing: -0.02em !important;
