@@ -68,19 +68,16 @@ const c = useContent()
 <style scoped>
 /* Explicit sizes: this Vuetify version ignores the legacy text-h* classes. Fluid so mobile never overflows. */
 .hero-name {
-  font-size: clamp(2rem, 6.5vw, 3.5rem);
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-  /* v-card-title hyphenates; never split the name mid-word */
+  /* Size is the previous default (v-card-title); only keep the name from splitting mid-word */
   hyphens: manual;
   overflow-wrap: normal;
   word-break: normal;
 }
 .hero-headline {
-  font-size: clamp(1.2rem, 3vw, 1.6rem);
-  line-height: 1.35;
+  font-size: 1rem;
+  line-height: 1.5;
   /* Always two lines: prefix, then the rotating phrase on its own line, so nothing jumps */
-  min-height: 2.7em;
+  min-height: 3em;
 }
 .hero-headline :deep(.rotating) {
   display: block;

@@ -2,6 +2,7 @@
   <header class="d-flex justify-end ga-2 pt-4">
     <!-- Language: one button that flips in place; label is the language you'd switch to -->
     <v-btn
+      class="header-btn"
       variant="outlined"
       size="large"
       prepend-icon="mdi-translate"
@@ -15,6 +16,7 @@
 
     <!-- Theme: icon shows what you'd switch to -->
     <v-btn
+      class="header-btn header-btn--icon"
       variant="outlined"
       size="large"
       icon
@@ -45,3 +47,16 @@ function toggleTheme() {
   saveMode(next)
 }
 </script>
+
+<style scoped>
+/* Both controls share one height; the icon-only theme button is a 44px circle */
+.header-btn {
+  height: 44px;
+  min-height: 44px;
+}
+.header-btn--icon {
+  width: 44px;
+  min-width: 44px;
+  padding: 0;
+}
+</style>
