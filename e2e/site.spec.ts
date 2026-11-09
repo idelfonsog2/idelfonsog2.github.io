@@ -5,7 +5,7 @@ test('defaults to English, switches to Spanish and remembers the choice', async 
   await expect(page.locator('html')).toHaveAttribute('lang', 'en')
   await expect(page.getByRole('heading', { level: 1 })).toContainText("I'm Idelfonso")
 
-  await page.getByRole('button', { name: 'Español' }).click()
+  await page.getByRole('button', { name: 'Cambiar a español' }).click()
   await expect(page.locator('html')).toHaveAttribute('lang', 'es')
   await expect(page.getByRole('heading', { level: 1 })).toContainText('soy Idelfonso')
   await expect(page).toHaveTitle(/Ingeniero de Software/)
@@ -39,4 +39,35 @@ test('contact links point to the right places', async ({ page }) => {
   await page.goto('/')
   await expect(page.getByRole('link', { name: 'Email me' })).toHaveAttribute('href', 'mailto:idelfonsog2@gmail.com')
   await expect(page.getByRole('link', { name: 'LinkedIn' })).toHaveAttribute('href', /linkedin\.com\/in\/idelfonsog/)
+})
+
+test('language button flips in place and back', async ({ page }) => {
+  await page.goto('/')
+  await page.getByRole('button', { name: 'Cambiar a español' }).click()
+  await expect(page.locator('html')).toHaveAttribute('lang', 'es')
+  await page.getByRole('button', { name: 'Switch to English' }).click()
+  await expect(page.locator('html')).toHaveAttribute('lang', 'en')
+})
+
+test('theme toggles light/dark and remembers the choice', async ({ page }) => {
+  await page.goto('/')
+  const app = page.locator('.v-application')
+  await expect(app).toHaveClass(/v-theme--light/)
+
+  await page.getByRole('button', { name: 'Switch to dark theme' }).click()
+  await expect(app).toHaveClass(/v-theme--dark/)
+
+  await page.reload()
+  await expect(app).toHaveClass(/v-theme--dark/)
+
+  await page.getByRole('button', { name: 'Switch to light theme' }).click()
+  await expect(app).toHaveClass(/v-theme--light/)
+})
+
+test('follows the OS dark preference when nothing is saved', async ({ browser }) => {
+  const context = await browser.newContext({ colorScheme: 'dark' })
+  const page = await context.newPage()
+  await page.goto('/')
+  await expect(page.locator('.v-application')).toHaveClass(/v-theme--dark/)
+  await context.close()
 })

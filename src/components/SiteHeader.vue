@@ -1,22 +1,47 @@
 <template>
-  <header class="d-flex justify-end pt-4">
-    <v-btn-toggle
-      :model-value="locale"
-      mandatory
-      divided
+  <header class="d-flex justify-end ga-2 pt-4">
+    <!-- Language: one button that flips in place; label is the language you'd switch to -->
+    <v-btn
       variant="outlined"
-      rounded="pill"
-      :aria-label="c.langLabel"
-      @update:model-value="setLocale"
+      size="large"
+      prepend-icon="mdi-translate"
+      :lang="target"
+      :aria-label="c.header.switchLanguage"
+      :title="c.header.switchLanguage"
+      @click="setLocale(target)"
     >
-      <v-btn value="en" size="large" lang="en" aria-label="English">EN</v-btn>
-      <v-btn value="es" size="large" lang="es" aria-label="Español">ES</v-btn>
-    </v-btn-toggle>
+      {{ c.header.langCode }}
+    </v-btn>
+
+    <!-- Theme: icon shows what you'd switch to -->
+    <v-btn
+      variant="outlined"
+      size="large"
+      icon
+      :aria-label="isDark ? c.header.themeToLight : c.header.themeToDark"
+      :title="isDark ? c.header.themeToLight : c.header.themeToDark"
+      @click="toggleTheme"
+    >
+      <v-icon :icon="isDark ? 'mdi-weather-sunny' : 'mdi-weather-night'" />
+    </v-btn>
   </header>
 </template>
 
 <script setup lang="ts">
-import { locale, setLocale, useContent } from '../i18n'
+import { computed } from 'vue'
+import { useTheme } from 'vuetify'
+import { locale, setLocale, useContent, type Locale } from '../i18n'
+import { saveMode, type Mode } from '../theme'
 
 const c = useContent()
+const theme = useTheme()
+
+const target = computed<Locale>(() => (locale.value === 'en' ? 'es' : 'en'))
+const isDark = computed(() => theme.global.name.value === 'dark')
+
+function toggleTheme() {
+  const next: Mode = isDark.value ? 'light' : 'dark'
+  theme.global.name.value = next
+  saveMode(next)
+}
 </script>

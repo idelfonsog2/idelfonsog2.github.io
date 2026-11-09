@@ -72,3 +72,25 @@ html {
     margin-top: 0;
   }
 }
+
+/* ---- Dark theme ---- */
+.v-theme--dark.v-application {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  color-scheme: dark;
+}
+.v-theme--light.v-application {
+  color-scheme: light;
+}
+
+/* Dark theme: multiply would hide dark logos, so sit them on a light chip instead.
+   Kept global (not in scoped styles) so the selector keeps its theme-class ancestor. */
+.v-application.v-theme--dark .company-logo,
+.v-application.v-theme--dark .logo-multiply {
+  mix-blend-mode: normal;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 0 4px #fff;
+}
+.v-application.v-theme--dark .company-logo {
+  opacity: 0.9;
+}

@@ -44,7 +44,7 @@ export interface Role {
 export interface Content {
   meta: { title: string; description: string; locale: string }
   skip: string
-  langLabel: string
+  header: { themeToDark: string; themeToLight: string; switchLanguage: string; langCode: string }
   hero: {
     greeting: string
     avatarAlt: string
@@ -117,7 +117,12 @@ export const en: Content = {
     locale: 'en_US',
   },
   skip: 'Skip to content',
-  langLabel: 'Language',
+  header: {
+    themeToDark: 'Switch to dark theme',
+    themeToLight: 'Switch to light theme',
+    switchLanguage: 'Cambiar a español',
+    langCode: 'ES',
+  },
   hero: {
     greeting: "Hola, I'm Idelfonso Gutierrez 🙋‍♂️",
     avatarAlt: 'Portrait of Idelfonso Gutierrez',
@@ -430,7 +435,12 @@ export const es: Content = {
     locale: 'es_ES',
   },
   skip: 'Saltar al contenido',
-  langLabel: 'Idioma',
+  header: {
+    themeToDark: 'Cambiar a tema oscuro',
+    themeToLight: 'Cambiar a tema claro',
+    switchLanguage: 'Switch to English',
+    langCode: 'EN',
+  },
   hero: {
     greeting: 'Hola, soy Idelfonso Gutierrez 🙋‍♂️',
     avatarAlt: 'Retrato de Idelfonso Gutierrez',

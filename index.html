@@ -6,6 +6,14 @@
     <title>Idelfonso Gutierrez — Software Engineer</title>
     <meta name="description" content="Senior engineer across iOS, backend platforms and healthcare interoperability (FHIR, Epic). Based in Chicago." />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      // Paint the right background before the app loads (no white flash in dark mode)
+      try {
+        var t = localStorage.getItem('theme');
+        var dark = t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.style.background = dark ? '#121416' : '#F4F5F5';
+      } catch (e) {}
+    </script>
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Idelfonso Gutierrez" />
     <meta property="og:url" content="https://idelfonso.com/" />
