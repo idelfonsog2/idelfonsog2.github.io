@@ -1,31 +1,30 @@
 <template>
-  <v-card variant="flat" class="mt-12">
-    <v-card-title tag="h2" class="text-h6 font-weight-semibold d-flex align-center ga-2 text-wrap">
-      <v-icon icon="mdi-domain" color="primary" size="20" />
-      Worked @
-    </v-card-title>
-    <v-card-subtitle class="mb-4 text-wrap text-medium-emphasis opacity-100">
-      Enterprise / Healthcare / Retail / Agriculture / Financing / Outsourcing / Startup / Ecommerce
-    </v-card-subtitle>
-    <v-card-text>
-      <div class="logo-grid">
-        <!-- Fixed-size box reserves space before lazy-load (no layout shift); contain keeps aspect ratio -->
-        <div v-for="logo in logos" :key="logo.alt" class="logo-cell">
-          <v-img :src="logo.src" :alt="logo.alt" height="40" contain class="company-logo" />
-        </div>
+  <section class="mt-12" aria-labelledby="worked-at">
+    <SectionTitle id="worked-at" icon="mdi-domain">{{ c.workedAt.title }}</SectionTitle>
+    <p class="text-body-2 text-medium-emphasis mb-4">{{ c.workedAt.industries }}</p>
+    <div class="logo-grid">
+      <!-- Fixed-size box reserves space before lazy-load (no layout shift); contain keeps aspect ratio -->
+      <div v-for="logo in logos" :key="logo.alt" class="logo-cell">
+        <v-img :src="logo.src" :alt="logo.alt" height="40" contain class="company-logo" />
       </div>
-    </v-card-text>
-  </v-card>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
+import { media } from '../content'
+import { useContent } from '../i18n'
+import SectionTitle from './SectionTitle.vue'
+
+const c = useContent()
+
 const logos = [
-  { src: '/img/nm-logo.png', alt: 'Northwestern Medicine' },
-  { src: '/img/ultabeauty.png', alt: 'Ulta Beauty' },
-  { src: '/img/growit.png', alt: 'GrowIt' },
-  { src: '/img/kinkarta.png', alt: 'KIN+KARTA' },
-  { src: '/img/yellowpepper.png', alt: 'YellowPepper' },
-  { src: '/img/ally_logo.png', alt: "Ally's Flower" },
+  { src: media.nm, alt: 'Northwestern Medicine' },
+  { src: media.ulta, alt: 'Ulta Beauty' },
+  { src: media.growit, alt: 'GrowIt' },
+  { src: media.kinkarta, alt: 'KIN+KARTA' },
+  { src: media.yellowpepper, alt: 'YellowPepper' },
+  { src: media.ally, alt: "Ally's Flower" },
 ]
 </script>
 
@@ -53,6 +52,7 @@ const logos = [
 .company-logo {
   opacity: 0.7;
   filter: grayscale(100%);
+  mix-blend-mode: multiply; /* drops white logo backgrounds onto the grey page */
   transition: opacity 0.2s, filter 0.2s;
 }
 
