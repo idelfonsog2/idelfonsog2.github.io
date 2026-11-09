@@ -254,6 +254,25 @@ export const en: Content = {
           'Worked as part of a team on the in-store inventory management iOS app, including the VMware Workspace ONE MDM integration that manages the store device fleet',
           'Fixed production incidents in the consumer retail iOS app while onboarding, building familiarity with the codebase',
         ],
+        features: [
+          {
+            tag: 'Solo project',
+            title: 'Curbside Pickup App',
+            description:
+              'Consumer iOS app for in-store pickup, built during the pandemic. Planned, designed, built and maintained solo.',
+            bullets: [
+              'Owned end to end: planning, design, implementation and long-term maintenance',
+              "Rolled out to ULTA's Midwest stores in 2021; pickups were faster",
+              'Push notifications over APNS, including working through APNS rate limits in production',
+              'View model + views architecture',
+            ],
+            stats: [
+              { value: 'Solo', label: 'plan to maintenance' },
+              { value: '2021', label: 'pandemic launch' },
+              { value: 'Midwest', label: 'ULTA stores' },
+            ],
+          },
+        ],
       },
       {
         id: 'growit',
@@ -570,6 +589,25 @@ export const es: Content = {
           'Resolví los límites de tasa de APNS en producción ajustando el agrupamiento y la entrega de notificaciones',
           'Trabajé en equipo en la app iOS de gestión de inventario en tiendas, incluida la integración con VMware Workspace ONE MDM que administra la flota de dispositivos',
           'Corregí incidentes de producción en la app iOS de retail para consumidores durante mi incorporación, conociendo a fondo el código',
+        ],
+        features: [
+          {
+            tag: 'Proyecto en solitario',
+            title: 'App de recogida en tienda (curbside)',
+            description:
+              'App iOS para consumidores para recoger pedidos en tienda, construida durante la pandemia. Planificada, diseñada, construida y mantenida en solitario.',
+            bullets: [
+              'Responsable de punta a punta: planificación, diseño, implementación y mantenimiento a largo plazo',
+              'Desplegada en las tiendas ULTA del Medio Oeste en 2021; las recogidas fueron más rápidas',
+              'Notificaciones push con APNS, incluido resolver los límites de tasa de APNS en producción',
+              'Arquitectura de view model + vistas',
+            ],
+            stats: [
+              { value: 'En solitario', label: 'del plan al mantenimiento' },
+              { value: '2021', label: 'lanzamiento en pandemia' },
+              { value: 'Medio Oeste', label: 'tiendas ULTA' },
+            ],
+          },
         ],
       },
       {
