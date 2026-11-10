@@ -51,7 +51,7 @@ Multi-vendor API Integration Platform: A reusable integration layer between a co
 - Field-level masking of sensitive data for de-identification
 - Admin app lets staff configure which resources each vendor can access
 
-SmartRecruiters Webhub: ATS API integrated with Azure Service Bus; every account change is published as a structured event for teams across the organization.
+Event-Driven Messaging & Data Transformation: An event engine that carries messages and transforms data between public-facing services and systems behind the firewall; every account change is published as a structured event for teams across the organization.
 - Canonical event schema in one shared model class
 - Adopted by teams outside my own
 - Built on .NET and Azure Service Bus
