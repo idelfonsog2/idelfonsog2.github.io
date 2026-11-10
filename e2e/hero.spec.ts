@@ -36,3 +36,44 @@ test('hero flow does not overflow on a phone', async ({ browser }) => {
   expect(overflow).toBe(false)
   await ctx.close()
 })
+
+const capabilityTitles = [
+  'Problem Discovery',
+  'Full-Stack Ownership',
+  'Secure Integration & API Governance',
+  'Platform Thinking',
+  'Stakeholder Bridge',
+  'AI-Augmented Execution',
+]
+
+test('rotating headline uses the capability titles plus Product Driven (only there)', async ({ page }) => {
+  await page.goto('/')
+  const headline = (await page.locator('.hero-headline .sr-only').textContent()) ?? ''
+  // sections start collapsed, so open Experience before looking at its capability cards
+  await page.getByRole('heading', { level: 2, name: 'Experience' }).getByRole('button').click()
+  for (const title of capabilityTitles) {
+    expect(headline, `rotating headline is missing "${title}"`).toContain(title)
+    // ...and each one is a real capability card in Experience
+    await expect(page.locator('#experience').getByRole('heading', { level: 3, name: title })).toBeVisible()
+  }
+  expect(headline).toContain('Product Driven')
+
+  // "Product Driven" is not a capability card
+  await expect(page.locator('#experience')).not.toContainText('Product Driven')
+})
+
+test('rotating headline actually rotates', async ({ page }) => {
+  await page.goto('/')
+  const word = page.locator('.hero-headline .rotating')
+  const first = await word.innerText()
+  await expect.poll(async () => word.innerText(), { timeout: 9000 }).not.toBe(first)
+})
+
+test('rotating headline is translated in Spanish', async ({ page }) => {
+  await page.goto('/')
+  await page.getByRole('button', { name: 'Cambiar a español' }).click()
+  const headline = (await page.locator('.hero-headline .sr-only').textContent()) ?? ''
+  expect(headline).toContain('Descubrimiento de problemas')
+  expect(headline).toContain('Orientado a producto')
+  expect(headline).not.toContain('Product Driven')
+})
