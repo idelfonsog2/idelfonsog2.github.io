@@ -24,7 +24,6 @@
         class="qa-panel"
         role="dialog"
         aria-labelledby="qa-title"
-        @keydown.esc="closePanel"
       >
         <header class="qa-header">
           <v-avatar size="40" class="flex-shrink-0">
@@ -40,7 +39,7 @@
         </header>
 
         <!-- New messages are announced to screen readers -->
-        <div ref="scroller" class="qa-body" role="log" aria-live="polite" aria-relevant="additions">
+        <div ref="scroller" class="qa-body" role="log" tabindex="-1" aria-live="polite" aria-relevant="additions">
           <div v-for="(m, i) in messages" :key="i" class="qa-row" :class="`qa-row--${m.role}`">
             <div class="qa-bubble" :class="`qa-bubble--${m.role}`">
               <p>{{ textOf(m) }}</p>
@@ -92,7 +91,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, nextTick, onBeforeUnmount, ref } from 'vue'
+import { computed, nextTick, onBeforeUnmount, ref, watch } from 'vue'
 import { links, media } from '../content'
 import { useContent } from '../i18n'
 
@@ -132,6 +131,16 @@ async function scrollToEnd() {
   scroller.value?.scrollTo({ top: scroller.value.scrollHeight, behavior: reducedMotion() ? 'auto' : 'smooth' })
 }
 
+function onKeydown(e: KeyboardEvent) {
+  if (e.key === 'Escape') closePanel()
+}
+
+// Listen for Escape anywhere on the page, but only while the panel is open
+watch(open, (isOpen) => {
+  if (isOpen) document.addEventListener('keydown', onKeydown)
+  else document.removeEventListener('keydown', onKeydown)
+})
+
 async function openPanel() {
   open.value = true
   await nextTick()
@@ -146,6 +155,9 @@ async function closePanel() {
 
 function ask(item: Item) {
   if (pending.value) return
+  // The clicked suggestion is about to be removed from the page; keep keyboard focus inside the
+  // panel (on the message log) so Tab order and Escape keep working
+  scroller.value?.focus()
   asked.value = new Set(asked.value).add(item.id)
   messages.value.push({ role: 'visitor', id: item.id })
   pending.value = true
@@ -171,7 +183,10 @@ function restart() {
   scrollToEnd()
 }
 
-onBeforeUnmount(() => window.clearTimeout(timer))
+onBeforeUnmount(() => {
+  window.clearTimeout(timer)
+  document.removeEventListener('keydown', onKeydown)
+})
 </script>
 
 <style scoped>
@@ -239,6 +254,7 @@ onBeforeUnmount(() => window.clearTimeout(timer))
   flex: 1;
   overflow-y: auto;
   padding: 16px;
+  outline: none; /* focused programmatically, not a tab stop */
 }
 .qa-row {
   display: flex;

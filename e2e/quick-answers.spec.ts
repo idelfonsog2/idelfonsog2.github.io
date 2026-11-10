@@ -66,3 +66,42 @@ test('quick answers: asking everything ends with a get-in-touch message; restart
   await dialog.getByRole('button', { name: 'Start over' }).click()
   await expect(dialog.locator('.qa-suggestion')).toHaveCount(5)
 })
+
+test('quick answers: keyboard focus stays in the panel after picking a suggestion', async ({ page }) => {
+  await page.goto('/')
+  await page.getByRole('button', { name: 'Open quick answers' }).click()
+  const dialog = page.getByRole('dialog', { name: 'Quick answers' })
+
+  // pick with the keyboard: the chosen button is removed from the page afterwards
+  await dialog.getByRole('button', { name: 'What are your rates?' }).focus()
+  await page.keyboard.press('Enter')
+  await expect(dialog.getByRole('log')).toContainText("Let's talk and figure out")
+
+  const focusInside = await page.evaluate(() => !!document.activeElement?.closest('#qa-panel'))
+  expect(focusInside).toBe(true)
+
+  // Tab reaches another suggestion, not the top of the page
+  await expect(dialog.locator('.qa-typing')).toHaveCount(0)
+  await page.keyboard.press('Tab')
+  await expect(dialog.locator('.qa-suggestion').first()).toBeFocused()
+})
+
+test('quick answers: Escape closes after answering a question', async ({ page }) => {
+  await page.goto('/')
+  const launcher = page.getByRole('button', { name: 'Open quick answers' })
+  await launcher.click()
+  await page.getByRole('dialog').getByRole('button', { name: 'What are your rates?' }).click()
+  await expect(page.getByRole('log')).toContainText("Let's talk and figure out")
+
+  await page.keyboard.press('Escape')
+  await expect(page.getByRole('dialog')).toHaveCount(0)
+  await expect(launcher).toBeFocused()
+})
+
+test('quick answers: Escape closes even when focus is outside the panel', async ({ page }) => {
+  await page.goto('/')
+  await page.getByRole('button', { name: 'Open quick answers' }).click()
+  await page.getByRole('button', { name: 'Switch to dark theme' }).click() // focus moves to the page header
+  await page.keyboard.press('Escape')
+  await expect(page.getByRole('dialog')).toHaveCount(0)
+})
