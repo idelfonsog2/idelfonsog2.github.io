@@ -43,7 +43,7 @@ const isDark = computed(() => theme.global.name.value === 'dark')
 
 function toggleTheme() {
   const next: Mode = isDark.value ? 'light' : 'dark'
-  theme.global.name.value = next
+  theme.change(next)
   saveMode(next)
 }
 </script>
