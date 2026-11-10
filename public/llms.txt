@@ -12,7 +12,7 @@ Personal site: https://idelfonso.com/ (a single page, in English and Spanish; ad
 
 ## About
 
-I find the real problem before anyone opens a code editor — then build the full stack to prove it: iOS, backend, infra, CI/CD, App Store.
+I start by understanding the real problem, not by opening a code editor: I talk with the people involved, ask the uncomfortable questions about whether a feature should exist at all, and only then build the full stack to prove the answer. That means iOS apps, backend services, infrastructure, CI/CD and App Store releases.
 
 At Northwestern Medicine I co-own the FHIR integration platform for 9+ external vendors. At ULTA I solo-built the curbside pickup app during the pandemic with no playbook. At GrowIt! I replaced a broken moderation workflow with an on-device ML model nobody asked for but everyone needed.
 

@@ -146,7 +146,7 @@ export const en: Content = {
       'Senior engineer across iOS, backend platforms, healthcare interoperability and cloud platforms',
     storyLabel: 'Currently:',
     superpower:
-      'I find the real problem before anyone opens a code editor — then build the full stack to prove it: iOS, backend, infra, CI/CD, App Store.',
+      'I start by understanding the real problem, not by opening a code editor: I talk with the people involved, ask the uncomfortable questions about whether a feature should exist at all, and only then build the full stack to prove the answer. That means iOS apps, backend services, infrastructure, CI/CD and App Store releases.',
     story:
       'At Northwestern Medicine I co-own the FHIR integration platform for 9+ external vendors. At ULTA I solo-built the curbside pickup app during the pandemic with no playbook. At GrowIt! I replaced a broken moderation workflow with an on-device ML model nobody asked for but everyone needed.',
     counter: { value: '8+', label: 'years building iOS, backend and healthcare platforms' },
@@ -577,7 +577,7 @@ export const es: Content = {
       'Ingeniero senior en iOS, plataformas backend, interoperabilidad en salud y plataformas cloud',
     storyLabel: 'Actualmente:',
     superpower:
-      'Encuentro el problema real antes de que nadie abra un editor de código — y luego construyo el stack completo para demostrarlo: iOS, backend, infraestructura, CI/CD, App Store.',
+      'Empiezo por entender el problema real, no por abrir un editor de código: hablo con las personas involucradas, hago las preguntas incómodas sobre si una funcionalidad debería existir y solo después construyo el stack completo para demostrar la respuesta. Eso significa apps iOS, servicios backend, infraestructura, CI/CD y lanzamientos en el App Store.',
     story:
       'En Northwestern Medicine co-lidero la plataforma de integración FHIR para más de 9 proveedores externos. En ULTA construí en solitario la app de recogida en tienda durante la pandemia, sin manual de instrucciones. En GrowIt! reemplacé un flujo de moderación roto con un modelo de ML en el dispositivo que nadie pidió pero todos necesitaban.',
     counter: { value: '8+', label: 'años construyendo plataformas iOS, backend y de salud' },

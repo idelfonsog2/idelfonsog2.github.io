@@ -83,18 +83,17 @@ const c = useContent()
   display: block;
 }
 .hero-lead {
-  /* back to the previous size */
-  font-size: 1rem;
-  line-height: 1.7;
+  /* a step up from body text: it is the hero's main statement */
+  font-size: clamp(1.1rem, 2.6vw, 1.3rem);
+  line-height: 1.6;
 }
 .hero-label {
-  font-size: clamp(1.15rem, 2.8vw, 1.4rem);
+  font-size: clamp(1rem, 2.2vw, 1.15rem);
   font-weight: 700;
 }
 .hero-story {
-  /* back to the previous size */
-  font-size: 1rem;
-  line-height: 1.8;
+  font-size: 0.9375rem; /* 15px, still above the 14px readability floor */
+  line-height: 1.75;
 }
 .hero-counter-value {
   /* back to the previous size */
