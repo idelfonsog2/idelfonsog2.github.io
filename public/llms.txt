@@ -12,7 +12,15 @@ Personal site: https://idelfonso.com/ (a single page, in English and Spanish; ad
 
 ## About
 
-I find the real problem before anyone opens a code editor — then build the full stack to prove it: iOS, backend, infra, CI/CD, App Store.
+Before I write any code, I ask:
+
+1. **Desired state:** What is the desired state?
+2. **People:** Who is involved, and who has the right to say yes or no?
+3. **Context:** Is this really an issue, and why does it still fail today? What is the context behind it?
+4. **Scope:** What is a nice-to-have, and what is actually needed?
+5. **Purpose:** Is this meant to serve an integration, an app, a phone call, a person, a physical product or an experience?
+
+Then I build the full stack to prove the answer: iOS apps, backend services, infrastructure, CI/CD and App Store releases.
 
 At Northwestern Medicine I co-own the FHIR integration platform for 9+ external vendors. At ULTA I solo-built the curbside pickup app during the pandemic with no playbook. At GrowIt! I replaced a broken moderation workflow with an on-device ML model nobody asked for but everyone needed.
 

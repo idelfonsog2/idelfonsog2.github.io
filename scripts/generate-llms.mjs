@@ -19,7 +19,9 @@ add(`- [LinkedIn](${links.linkedin})`)
 add(`- [GitHub](${links.github})`, '')
 
 add('## About', '')
-add(en.hero.superpower, '', en.hero.story, '', `${en.hero.counter.value} ${en.hero.counter.label}.`, '')
+add(en.hero.approach.title, '')
+en.hero.approach.steps.forEach((s, i) => add(`${i + 1}. **${s.title}:** ${s.question}`))
+add('', en.hero.approach.closing, '', en.hero.story, '', `${en.hero.counter.value} ${en.hero.counter.label}.`, '')
 
 add(`## ${en.experience.heading}`, '', en.experience.intro, '')
 for (const r of en.experience.roles) {
