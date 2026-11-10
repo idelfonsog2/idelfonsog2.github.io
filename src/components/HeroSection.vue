@@ -20,7 +20,20 @@
       <v-divider class="mb-6" />
 
       <!-- Bio -->
-      <p class="hero-lead mb-6">{{ c.hero.superpower }}</p>
+      <!-- How I start: a short sequence of questions, shown as stages -->
+      <div class="hero-flow mb-6">
+        <p id="hero-flow-title" class="hero-flow-title">{{ c.hero.approach.title }}</p>
+        <ol class="hero-flow-steps" role="list" aria-labelledby="hero-flow-title">
+          <li v-for="(step, i) in c.hero.approach.steps" :key="step.title" class="hero-step">
+            <span class="hero-step-marker">{{ i + 1 }}</span>
+            <div class="hero-step-body">
+              <p class="hero-step-title">{{ step.title }}</p>
+              <p class="hero-step-question">{{ step.question }}</p>
+            </div>
+          </li>
+        </ol>
+        <p class="hero-flow-closing">{{ c.hero.approach.closing }}</p>
+      </div>
       <p class="hero-label mb-1">{{ c.hero.storyLabel }}</p>
       <p class="hero-story text-medium-emphasis mb-6">{{ c.hero.story }}</p>
 
@@ -82,10 +95,67 @@ const c = useContent()
 .hero-headline :deep(.rotating) {
   display: block;
 }
-.hero-lead {
-  /* a step up from body text: it is the hero's main statement */
+.hero-flow-title {
+  margin-bottom: 14px;
   font-size: clamp(1.1rem, 2.6vw, 1.3rem);
-  line-height: 1.6;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.hero-flow-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hero-step {
+  position: relative;
+  display: flex;
+  gap: 14px;
+  padding-bottom: 18px;
+}
+/* connector between stages */
+.hero-step:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  top: 34px;
+  bottom: 2px;
+  left: 15px;
+  width: 2px;
+  background: rgba(var(--v-theme-primary), 0.35);
+}
+.hero-step-marker {
+  z-index: 1;
+  display: grid;
+  flex: 0 0 32px;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border: 2px solid rgb(var(--v-theme-primary));
+  border-radius: 50%;
+  background: rgb(var(--v-theme-surface));
+  color: rgb(var(--v-theme-primary));
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.hero-step-body {
+  min-width: 0;
+  padding-top: 3px;
+}
+.hero-step-title {
+  font-size: clamp(1rem, 2.4vw, 1.15rem);
+  font-weight: 700;
+  line-height: 1.35;
+}
+.hero-step-question {
+  font-size: clamp(1rem, 2.4vw, 1.1rem);
+  line-height: 1.55;
+  color: rgba(var(--v-theme-on-surface), var(--v-medium-emphasis-opacity));
+}
+.hero-flow-closing {
+  margin-top: 2px;
+  padding-left: 14px;
+  border-left: 3px solid rgb(var(--v-theme-secondary)); /* orange accent: a border, never text */
+  font-size: clamp(1.05rem, 2.5vw, 1.2rem);
+  line-height: 1.55;
 }
 .hero-label {
   font-size: clamp(1rem, 2.2vw, 1.15rem);

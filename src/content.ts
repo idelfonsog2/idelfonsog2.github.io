@@ -52,7 +52,7 @@ export interface Content {
     rotating: string[]
     fullHeadline: string
     storyLabel: string
-    superpower: string
+    approach: { title: string; steps: { title: string; question: string }[]; closing: string }
     story: string
     counter: { value: string; label: string }
     cta: string
@@ -145,8 +145,24 @@ export const en: Content = {
     fullHeadline:
       'Senior engineer across iOS, backend platforms, healthcare interoperability and cloud platforms',
     storyLabel: 'Currently:',
-    superpower:
-      'I start by understanding the real problem, not by opening a code editor: I talk with the people involved, ask the uncomfortable questions about whether a feature should exist at all, and only then build the full stack to prove the answer. That means iOS apps, backend services, infrastructure, CI/CD and App Store releases.',
+    approach: {
+      title: 'Before I write any code, I ask:',
+      steps: [
+        { title: 'Desired state', question: 'What is the desired state?' },
+        { title: 'People', question: 'Who is involved, and who has the right to say yes or no?' },
+        {
+          title: 'Context',
+          question: 'Is this really an issue, and why does it still fail today? What is the context behind it?',
+        },
+        { title: 'Scope', question: 'What is a nice-to-have, and what is actually needed?' },
+        {
+          title: 'Purpose',
+          question: 'Is this meant to serve an integration, an app, a phone call, a person, a physical product or an experience?',
+        },
+      ],
+      closing:
+        'Then I build the full stack to prove the answer: iOS apps, backend services, infrastructure, CI/CD and App Store releases.',
+    },
     story:
       'At Northwestern Medicine I co-own the FHIR integration platform for 9+ external vendors. At ULTA I solo-built the curbside pickup app during the pandemic with no playbook. At GrowIt! I replaced a broken moderation workflow with an on-device ML model nobody asked for but everyone needed.',
     counter: { value: '8+', label: 'years building iOS, backend and healthcare platforms' },
@@ -576,8 +592,24 @@ export const es: Content = {
     fullHeadline:
       'Ingeniero senior en iOS, plataformas backend, interoperabilidad en salud y plataformas cloud',
     storyLabel: 'Actualmente:',
-    superpower:
-      'Empiezo por entender el problema real, no por abrir un editor de código: hablo con las personas involucradas, hago las preguntas incómodas sobre si una funcionalidad debería existir y solo después construyo el stack completo para demostrar la respuesta. Eso significa apps iOS, servicios backend, infraestructura, CI/CD y lanzamientos en el App Store.',
+    approach: {
+      title: 'Antes de escribir código, pregunto:',
+      steps: [
+        { title: 'Estado deseado', question: '¿Cuál es el estado deseado?' },
+        { title: 'Personas', question: '¿Quiénes están involucrados y quién tiene la potestad de decir sí o no?' },
+        {
+          title: 'Contexto',
+          question: '¿Es realmente un problema y por qué sigue fallando hoy? ¿Cuál es el contexto detrás?',
+        },
+        { title: 'Alcance', question: '¿Qué es deseable pero opcional y qué es realmente necesario?' },
+        {
+          title: 'Propósito',
+          question: '¿Esto es para servir a una integración, una app, una llamada telefónica, una persona, un producto físico o una experiencia?',
+        },
+      ],
+      closing:
+        'Luego construyo el stack completo para demostrar la respuesta: apps iOS, servicios backend, infraestructura, CI/CD y lanzamientos en el App Store.',
+    },
     story:
       'En Northwestern Medicine co-lidero la plataforma de integración FHIR para más de 9 proveedores externos. En ULTA construí en solitario la app de recogida en tienda durante la pandemia, sin manual de instrucciones. En GrowIt! reemplacé un flujo de moderación roto con un modelo de ML en el dispositivo que nadie pidió pero todos necesitaban.',
     counter: { value: '8+', label: 'años construyendo plataformas iOS, backend y de salud' },
