@@ -1,7 +1,7 @@
 <template>
-  <section id="education" class="mt-12" aria-labelledby="education-title">
-    <SectionTitle id="education-title" icon="mdi-school-outline">{{ c.education.heading }}</SectionTitle>
-    <ul class="plain-list mb-8">
+  <CollapsibleSection id="education" icon="mdi-school-outline">
+    <template #title>{{ c.education.heading }}</template>
+    <ul class="plain-list">
       <li v-for="e in c.education.items" :key="e.program" class="mb-3">
         <p class="text-body-1 font-weight-semibold mb-0">{{ e.program }}</p>
         <p class="text-body-2 text-medium-emphasis mb-0">
@@ -9,20 +9,22 @@
         </p>
       </li>
     </ul>
+  </CollapsibleSection>
 
-    <SectionTitle id="certifications-title" icon="mdi-certificate-outline">{{ c.education.certHeading }}</SectionTitle>
+  <CollapsibleSection id="certifications" icon="mdi-certificate-outline">
+    <template #title>{{ c.education.certHeading }}</template>
     <ul class="plain-list">
       <li v-for="cert in c.education.certs" :key="cert.name" class="mb-3">
         <p class="text-body-1 font-weight-semibold mb-0">{{ cert.name }}</p>
         <p class="text-body-2 text-medium-emphasis mb-0">{{ cert.issuer }}</p>
       </li>
     </ul>
-  </section>
+  </CollapsibleSection>
 </template>
 
 <script setup lang="ts">
 import { useContent } from '../i18n'
-import SectionTitle from './SectionTitle.vue'
+import CollapsibleSection from './CollapsibleSection.vue'
 
 const c = useContent()
 </script>
