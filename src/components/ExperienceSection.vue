@@ -1,6 +1,6 @@
 <template>
-  <section id="experience" class="mt-12" aria-labelledby="experience-title">
-    <SectionTitle id="experience-title" icon="mdi-briefcase-outline">{{ c.experience.heading }}</SectionTitle>
+  <CollapsibleSection id="experience" icon="mdi-briefcase-outline">
+    <template #title>{{ c.experience.heading }}</template>
     <p class="text-body-1 text-medium-emphasis mb-6">{{ c.experience.intro }}</p>
 
     <!-- Capabilities -->
@@ -88,13 +88,13 @@
         </v-card>
       </v-col>
     </v-row>
-  </section>
+  </CollapsibleSection>
 </template>
 
 <script setup lang="ts">
 import { media } from '../content'
 import { useContent } from '../i18n'
-import SectionTitle from './SectionTitle.vue'
+import CollapsibleSection from './CollapsibleSection.vue'
 
 const c = useContent()
 </script>

@@ -1,6 +1,6 @@
 <template>
-  <section class="mt-12" aria-labelledby="worked-at">
-    <SectionTitle id="worked-at" icon="mdi-domain">{{ c.workedAt.title }}</SectionTitle>
+  <CollapsibleSection id="worked-at" icon="mdi-domain">
+    <template #title>{{ c.workedAt.title }}</template>
     <p class="text-body-2 text-medium-emphasis mb-4">{{ c.workedAt.industries }}</p>
     <div class="logo-grid">
       <!-- Fixed-size box reserves space before lazy-load (no layout shift); contain keeps aspect ratio -->
@@ -8,13 +8,13 @@
         <v-img :src="logo.src" :alt="logo.alt" height="40" contain class="company-logo" />
       </div>
     </div>
-  </section>
+  </CollapsibleSection>
 </template>
 
 <script setup lang="ts">
 import { media } from '../content'
 import { useContent } from '../i18n'
-import SectionTitle from './SectionTitle.vue'
+import CollapsibleSection from './CollapsibleSection.vue'
 
 const c = useContent()
 

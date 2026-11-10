@@ -37,6 +37,7 @@ test('skip link is the first tab stop and targets main content', async ({ page }
 
 test('contact links point to the right places', async ({ page }) => {
   await page.goto('/')
+  await page.getByRole('heading', { level: 2, name: "Let's talk" }).getByRole('button').click()
   await expect(page.getByRole('link', { name: 'Email me' })).toHaveAttribute('href', 'mailto:idelfonsog2@gmail.com')
   await expect(page.getByRole('link', { name: 'LinkedIn' })).toHaveAttribute('href', /linkedin\.com\/in\/idelfonsog/)
 })
@@ -74,6 +75,7 @@ test('follows the OS dark preference when nothing is saved', async ({ browser })
 
 test('tech stack chips turn blue on hover', async ({ page }) => {
   await page.goto('/')
+  await page.getByRole('heading', { level: 2, name: 'Skills' }).getByRole('button').click()
   const chip = page.locator('.stack-chip', { hasText: 'Kubernetes' })
   await chip.scrollIntoViewIfNeeded()
   const before = await chip.evaluate((el) => getComputedStyle(el).backgroundColor)

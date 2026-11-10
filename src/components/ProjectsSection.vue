@@ -1,6 +1,6 @@
 <template>
-  <section id="projects" class="mt-12" aria-labelledby="projects-title">
-    <SectionTitle id="projects-title" icon="mdi-code-braces">{{ c.projects.heading }}</SectionTitle>
+  <CollapsibleSection id="projects" icon="mdi-code-braces">
+    <template #title>{{ c.projects.heading }}</template>
 
     <v-row density="comfortable">
       <v-col v-for="p in c.projects.items" :key="p.name" cols="12">
@@ -48,13 +48,13 @@
     >
       {{ c.projects.githubLabel }}
     </v-btn>
-  </section>
+  </CollapsibleSection>
 </template>
 
 <script setup lang="ts">
 import { links } from '../content'
 import { useContent } from '../i18n'
-import SectionTitle from './SectionTitle.vue'
+import CollapsibleSection from './CollapsibleSection.vue'
 
 const c = useContent()
 </script>
