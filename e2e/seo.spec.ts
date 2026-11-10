@@ -24,13 +24,14 @@ test('llms.txt covers every role shown on the page (regenerate with `npm run llm
   const body = await (await request.get('/llms.txt')).text()
   await page.goto('/')
 
-  const companies = await page.locator('article.role h3').allInnerTexts()
+  // textContent, not innerText: sections start collapsed, so their text is not "visible"
+  const companies = (await page.locator('article.role h3').allTextContents()).map((t) => t.trim())
   expect(companies.length).toBeGreaterThanOrEqual(3)
   for (const company of companies) {
     expect(body, `llms.txt is missing "${company}"`).toContain(company)
   }
 
-  const projects = await page.locator('#projects h3').allInnerTexts()
+  const projects = (await page.locator('#projects h3').allTextContents()).map((t) => t.trim())
   for (const name of projects.filter((t) => t !== 'How I work')) {
     expect(body, `llms.txt is missing project "${name}"`).toContain(name)
   }

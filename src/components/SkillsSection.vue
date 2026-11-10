@@ -1,6 +1,6 @@
 <template>
-  <section id="skills" class="mt-12" aria-labelledby="skills-title">
-    <SectionTitle id="skills-title" icon="mdi-lightning-bolt">{{ c.skills.heading }}</SectionTitle>
+  <CollapsibleSection id="skills" icon="mdi-lightning-bolt">
+    <template #title>{{ c.skills.heading }}</template>
 
     <h3 class="text-subtitle-1 font-weight-bold mb-2">{{ c.skills.languagesHeading }}</h3>
     <div class="d-flex flex-wrap ga-2 mb-6">
@@ -24,12 +24,12 @@
         <v-chip v-for="i in g.items" :key="i" size="small" variant="outlined" class="stack-chip">{{ i }}</v-chip>
       </div>
     </div>
-  </section>
+  </CollapsibleSection>
 </template>
 
 <script setup lang="ts">
 import { useContent } from '../i18n'
-import SectionTitle from './SectionTitle.vue'
+import CollapsibleSection from './CollapsibleSection.vue'
 
 const c = useContent()
 </script>
