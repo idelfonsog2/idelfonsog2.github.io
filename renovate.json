@@ -1,13 +1,26 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
-  "enabledManagers": ["npm"],
+  "enabledManagers": ["npm", "github-actions"],
   "ignorePaths": ["**/notebooks/**", "**/resources/**", "**/_*/**"],
   "schedule": ["before 6am on Monday"],
   "timezone": "America/Chicago",
   "labels": ["dependencies"],
+  "platformAutomerge": false,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 6am on the first day of the month"],
+    "automerge": false
+  },
   "packageRules": [
     {
+      "description": "Order matters: later rules override earlier ones. Low-risk dev tooling patch/minor updates merge themselves once CI passes.",
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
+    },
+    {
+      "description": "Anything that can change how the site looks or deploys gets a human review.",
       "matchPackageNames": ["vue", "vuetify", "vite-plugin-vuetify", "@vitejs/plugin-vue"],
       "groupName": "Vue / Vuetify",
       "automerge": false
@@ -23,9 +36,15 @@
       "automerge": false
     },
     {
-      "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["patch", "minor"],
-      "automerge": true
+      "matchManagers": ["github-actions"],
+      "groupName": "GitHub Actions",
+      "automerge": false
+    },
+    {
+      "description": "Major versions always need a human.",
+      "matchUpdateTypes": ["major"],
+      "automerge": false,
+      "labels": ["dependencies", "major"]
     }
   ]
 }
