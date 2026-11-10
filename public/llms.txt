@@ -1,0 +1,128 @@
+# Idelfonso Gutierrez
+
+> Senior engineer across iOS, backend platforms and healthcare interoperability (FHIR, Epic). Based in Chicago. Open to contract, contract-to-hire or full-time work, fully remote on US Central Time.
+
+Personal site: https://idelfonso.com/ (a single page, in English and Spanish; add ?lang=es for Spanish). This file is a plain-text summary of that page, because the page itself is rendered with JavaScript.
+
+## Contact
+
+- [Email](mailto:idelfonsog2@gmail.com): best way to reach me
+- [LinkedIn](https://www.linkedin.com/in/idelfonsog/)
+- [GitHub](https://github.com/idelfonsog2)
+
+## About
+
+I find the real problem before anyone opens a code editor — then build the full stack to prove it: iOS, backend, infra, CI/CD, App Store.
+
+At Northwestern Medicine I co-own the FHIR integration platform for 9+ external vendors. At ULTA I solo-built the curbside pickup app during the pandemic with no playbook. At GrowIt! I replaced a broken moderation workflow with an on-device ML model nobody asked for but everyone needed.
+
+8+ years building iOS, backend and healthcare platforms.
+
+## Experience
+
+Full-stack ownership from discovery to production: mobile, API, infrastructure, CI/CD and release, with the domain depth to work in regulated systems.
+
+### Northwestern Medicine — Senior Software Engineer (Oct 2021 – Present, Chicago, IL)
+
+Co-own the platform that governs how 9+ external vendors access Epic clinical data, plus the iOS apps clinicians use daily.
+
+- Built and shipped patient-facing and internal iOS apps used daily by nurses and clinicians (SwiftUI, UIKit, TCA, Swift Concurrency, gRPC)
+- Developed a BFF (backend-for-frontend) for the employee iOS app and created pipelines using the AppSync APIs; the app is built with The Composable Architecture (TCA)
+- Took part in migrating the iOS apps from Objective-C to Swift and adopting Swift Package Manager
+- Co-own a multi-vendor FHIR R4/DSTU3 integration platform (team of 4) serving 9+ vendors
+- Designed an event-driven integration (SmartRecruiters → Azure Service Bus), 1,000+ events/day; authored the canonical event schema adopted org-wide
+- Built an internal observability platform (metrics UI + client SDK); fixed a production query-performance crisis with partitioning, hot/cold archiving, indexing and caching
+- Led the on-prem → Azure migration; evolved CI/CD (automated dependency PRs, semantic versioning, Argo Rollouts)
+- Run Kubernetes clusters (APIs, workers, cron jobs, web UIs) via ArgoCD + Terraform, with daily production releases
+
+Multi-vendor API Integration Platform: A reusable integration layer between a core clinical system and external vendors: a platform, not a one-off integration.
+- Exposes standards-based data resources to authorized vendors
+- API gateway validates tokens and request criteria
+- Custom auth layer checks resource permissions, project assignments and vendor access profiles
+- Vendor client and permission management
+- Field-level masking of sensitive data for de-identification
+- Admin app lets staff configure which resources each vendor can access
+
+SmartRecruiters Webhub: ATS API integrated with Azure Service Bus; every account change is published as a structured event for teams across the organization.
+- Canonical event schema in one shared model class
+- Adopted by teams outside my own
+- Built on .NET and Azure Service Bus
+
+### ULTA Beauty — Software Engineer, Mobile (Mar 2020 – Sep 2021, Chicago, IL)
+
+Solo-built the curbside pickup app during the pandemic and worked on two more ULTA apps.
+
+- Solo planned, designed, built and maintained the consumer curbside-pickup iOS app for ULTA's Midwest stores during the pandemic (2021); pickups were faster
+- Navigated APNS rate limits in production by adjusting notification batching and delivery
+- Worked as part of a team on the in-store inventory management iOS app, including the VMware Workspace ONE MDM integration that manages the store device fleet
+- Fixed production incidents in the consumer retail iOS app while onboarding, building familiarity with the codebase
+
+Curbside Pickup App: Consumer iOS app for in-store pickup, built during the pandemic. Planned, designed, built and maintained solo.
+- Owned end to end: planning, design, implementation and long-term maintenance
+- Rolled out to ULTA's Midwest stores in 2021; pickups were faster
+- Push notifications over APNS, including working through APNS rate limits in production
+- View model + views architecture
+
+### GrowIt! — Software Engineer, iOS (Feb 2018 – Feb 2020, Chicago, IL)
+
+The only iOS developer: built and shipped the features that grew the customer base and automated moderation and releases.
+
+- Sole iOS owner and developer: drove the UI/UX and the migration
+- Grew the customer base 25% with a location-aware iBeacon experience in partnership with Chicago's Lurie Garden
+- Built an on-device CoreML model that flags inappropriate posts in real time, replacing a manual scroll-and-flag workflow and extending coverage beyond one city
+- Automated the full release pipeline (tests, QA builds, App Store submission) with CircleCI and Fastlane
+
+On-Device Image Moderation: Image recognition that screens user-posted photos for inappropriate or off-topic content as they are submitted, and flags them for the moderation team.
+- Runs entirely on-device with CoreML (no backend pipeline), using a model trained on the app's plant database
+- Analyzes photos in real time as users post them
+- Sends behind-the-scenes alerts to the moderation team for review
+- Replaced a manual scroll-and-flag workflow and extended coverage beyond the Chicago feed
+
++25% customer growth: iBeacon partnership with Lurie Garden drove a seasonal user-acquisition campaign.
+
+### Also worked with
+
+- KIN+KARTA — Software Developer
+- YellowPepper — Software Developer
+- Ally's Flower — Software Developer
+
+## Projects
+
+- **Stranded at an Airport** (App Store): Designed and built the full stack solo: SwiftUI app (redux-like TCA pattern), Vapor REST API, Postgres, APNS push notifications, Sign in with Apple. Containerized with Docker and shipped through GitHub Actions CI/CD. Tech: SwiftUI, TCA, Vapor, Postgres, APNS, Docker, GitHub Actions, Swift Package Manager. [View on GitHub](https://github.com/idelfonsog2)
+- **Push Notification Lambda Service** (Article): A Swift AWS Lambda custom runtime deployed with the Serverless Framework and CloudFormation, least-privilege IAM policies, and automated container image deployment through GitHub Actions. Tech: Swift, AWS Lambda, Serverless Framework, CloudFormation, IAM, GitHub Actions.
+- **This portfolio** (Live): Personal site on Vue 3 + Vuetify, deployed as a Cloudflare Worker. Tech: Vue 3, Vuetify, TypeScript, Vite, Cloudflare Workers. [idelfonso.com](https://idelfonso.com)
+
+## Skills
+
+Languages: English (Fluent), Spanish (Fluent).
+
+Soft skills: Curiosity (asks "should this exist?"); Empathy (designs for both sides of the screen); Communication (translates between clinicians and engineers); Creativity (on-device CoreML instead of a backend pipeline); Courage (solo-built a pandemic-era curbside pickup app with no playbook); Resilience (fixed a production DB crisis that staging never showed).
+
+- Mobile: Swift, Objective-C (migration to Swift), SwiftUI, UIKit, TCA, Swift Concurrency, gRPC, APNS, Sign in with Apple, Swift Package Manager, Fastlane, Xcode
+- Backend: Vapor (Swift), REST APIs, BFF design, AppSync APIs, .NET, Blazor, Postgres, SQL, AWS Lambda, Serverless Framework, CloudFormation, Docker
+- Cloud & Infrastructure: Azure, AWS, Kubernetes, ArgoCD, Argo Rollouts, Terraform, GitHub Actions, CircleCI, Azure Service Bus, APIM
+- Healthcare & Interoperability: FHIR R4, FHIR DSTU3, HL7, Epic SMART on FHIR, EHR integration, HIPAA compliance, PHI de-identification, Multi-vendor API governance
+- Practices: CI/CD, DevOps, Agile/Scrum, Event-driven architecture, Semantic versioning, MDM (VMware Workspace ONE), CoreML, iBeacon, IAM
+
+## Education and Certifications
+
+- B.S. Information Systems / Software Development, Florida International University (2012 – 2016)
+- iOS Developer Nanodegree, Udacity
+- Data Engineer Nanodegree, Udacity
+- Mobile Device Management (MDM) Workspace ONE Unified Certification (VMware)
+
+## FAQ
+
+**Are you open to new opportunities?** Yes — I'm open to a conversation and exploring what you're working on. No pressure either way; if it's a good fit for both of us, great, and if not, no worries.
+
+**What kind of work arrangements do you consider?** Contract, contract-to-hire, or full-time. I'm flexible on structure as long as the work and team are a good fit.
+
+**Do you work remotely? What timezone are you in?** I'm fully remote, based in US Central Time (CST/CDT). I have a strong overlap with US timezones and am comfortable working with distributed teams across other regions.
+
+**What are your rates?** It depends on the scope, duration, and type of engagement — let's talk and figure out what makes sense for both sides.
+
+**What does your tech stack look like?** iOS/Swift for mobile, cloud platforms like AWS and Cloudflare for infrastructure and deployment automation, and Vue/TypeScript for web. I'm comfortable picking up new tools when the project calls for it.
+
+**What kind of projects or roles are you a good fit for?** Mobile (iOS) development, cloud infrastructure and deployment automation, feature development, and general full-stack work — from new concepts to optimizing existing systems.
+
+**How do I get in touch?** Email me at idelfonsog2@gmail.com — happy to set up a call to discuss further.
