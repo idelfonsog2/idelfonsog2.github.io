@@ -95,6 +95,13 @@ const c = useContent()
 .hero-headline :deep(.rotating) {
   display: block;
 }
+/* Phones: the longer labels (e.g. "Secure Integration & API Governance") can wrap to two lines,
+   so reserve prefix + two lines to keep the hero from jumping as the phrase rotates */
+@media (max-width: 599px) {
+  .hero-headline {
+    min-height: 4.5em;
+  }
+}
 .hero-flow-title {
   margin-bottom: 14px;
   font-size: clamp(1.1rem, 2.6vw, 1.3rem);
