@@ -16,6 +16,7 @@
     </v-main>
     <!-- Outside <main> so it counts as the page's footer (contentinfo) landmark -->
     <SiteFooter />
+    <QuickAnswers />
   </v-app>
 </template>
 
@@ -31,6 +32,7 @@ import SkillsSection from './components/SkillsSection.vue'
 import FaqSection from './components/FaqSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import SiteFooter from './components/SiteFooter.vue'
+import QuickAnswers from './components/QuickAnswers.vue'
 
 const c = useContent()
 </script>

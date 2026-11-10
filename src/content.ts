@@ -104,6 +104,20 @@ export interface Content {
     linkedin: string
     github: string
   }
+  chat: {
+    launcherLabel: string
+    launcher: string
+    title: string
+    subtitle: string
+    greeting: string
+    prompt: string
+    allDone: string
+    close: string
+    restart: string
+    email: string
+    linkedin: string
+    items: { id: string; question: string; answer: string; contact?: boolean }[]
+  }
   footer: { copyright: string }
 }
 
@@ -462,6 +476,81 @@ export const en: Content = {
     linkedin: 'LinkedIn',
     github: 'GitHub',
   },
+  chat: {
+    launcherLabel: 'Ask me',
+    launcher: 'Open quick answers',
+    title: 'Quick answers',
+    subtitle: 'Pre-written answers to common questions',
+    greeting: "Hi, I'm Idelfonso. Pick a question below and I'll answer it.",
+    prompt: 'Suggested questions',
+    allDone: "That's everything I have pre-written. For anything else, let's talk.",
+    close: 'Close quick answers',
+    restart: 'Start over',
+    email: 'Email me',
+    linkedin: 'LinkedIn',
+    items: [
+      {
+        id: 'problem',
+        question: 'What problem can you solve for us?',
+        answer:
+          "I'm strongest where mobile, backend and platform work meet: shipping iOS apps, building the APIs and integration layers behind them, and automating how they are released. I start by finding the real problem before writing code, then own the build through to production.",
+      },
+      {
+        id: 'ownership',
+        question: 'Can you own a project end to end?',
+        answer:
+          "Yes. I planned, designed, built and maintained a consumer iOS app on my own at ULTA Beauty, and I was the sole iOS owner and developer at GrowIt!. I'm comfortable across mobile, API, infrastructure, CI/CD and release.",
+      },
+      {
+        id: 'availability',
+        question: 'Are you available, and how can we work together?',
+        answer:
+          "Yes, I'm open to a conversation about what you're building. Contract, contract-to-hire or full-time: I'm flexible on structure as long as the work and the team are a good fit.",
+      },
+      {
+        id: 'rates',
+        question: 'What are your rates?',
+        answer:
+          "It depends on the scope, duration and type of engagement. Let's talk and figure out what makes sense for both sides.",
+      },
+      {
+        id: 'contact',
+        question: 'How do I get in touch?',
+        answer: "Email is best, and I'm happy to set up a call. You can also reach me on LinkedIn.",
+        contact: true,
+      },
+      {
+        id: 'regulated',
+        question: 'Have you worked in regulated environments?',
+        answer:
+          'Yes, in healthcare, where security, access control and data masking are requirements rather than extras: multi-vendor API access, permission checks and de-identification of sensitive data.',
+      },
+      {
+        id: 'stakeholders',
+        question: 'How do you work with non-technical stakeholders?',
+        answer:
+          'I translate between the business or clinical side and engineering: I ask what outcome they need, question whether a feature should exist, and explain trade-offs in plain language.',
+      },
+      {
+        id: 'hard-problem',
+        question: 'Tell me about a hard production problem you solved.',
+        answer:
+          'A metrics screen kept dropping database connections under real production volume, something staging never showed. I fixed it in layers: table partitioning, queries aimed at the recent partition, hot/cold archiving, targeted indexes and caching.',
+      },
+      {
+        id: 'ai',
+        question: 'How do you use AI in your work?',
+        answer:
+          "AI makes me faster at execution, but it doesn't replace curiosity or judgment. I use it to speed up building and review, and I still own discovery, design decisions and quality.",
+      },
+      {
+        id: 'remote',
+        question: 'Do you work remotely? What timezone are you in?',
+        answer:
+          "I'm fully remote, based in US Central Time (CST/CDT), with strong overlap with US timezones, and comfortable working with distributed teams.",
+      },
+    ],
+  },
   footer: { copyright: '© 2026 Idelfonso Gutierrez' },
 }
 
@@ -817,6 +906,81 @@ export const es: Content = {
     email: 'Escríbeme',
     linkedin: 'LinkedIn',
     github: 'GitHub',
+  },
+  chat: {
+    launcherLabel: 'Pregúntame',
+    launcher: 'Abrir respuestas rápidas',
+    title: 'Respuestas rápidas',
+    subtitle: 'Respuestas escritas de antemano a preguntas frecuentes',
+    greeting: 'Hola, soy Idelfonso. Elige una pregunta y te la respondo.',
+    prompt: 'Preguntas sugeridas',
+    allDone: 'Eso es todo lo que tengo escrito. Para cualquier otra cosa, hablemos.',
+    close: 'Cerrar respuestas rápidas',
+    restart: 'Empezar de nuevo',
+    email: 'Escríbeme',
+    linkedin: 'LinkedIn',
+    items: [
+      {
+        id: 'problem',
+        question: '¿Qué problema puedes resolvernos?',
+        answer:
+          'Soy más fuerte donde se encuentran el móvil, el backend y las plataformas: lanzar apps iOS, construir las APIs y capas de integración que las respaldan, y automatizar cómo se publican. Empiezo por encontrar el problema real antes de escribir código y luego me hago cargo de la construcción hasta producción.',
+      },
+      {
+        id: 'ownership',
+        question: '¿Puedes hacerte cargo de un proyecto de punta a punta?',
+        answer:
+          'Sí. Planifiqué, diseñé, construí y mantuve por mi cuenta una app iOS para consumidores en ULTA Beauty, y fui el único responsable y desarrollador de iOS en GrowIt!. Me muevo con soltura entre móvil, API, infraestructura, CI/CD y lanzamiento.',
+      },
+      {
+        id: 'availability',
+        question: '¿Estás disponible y cómo podemos trabajar juntos?',
+        answer:
+          'Sí, estoy abierto a conversar sobre lo que estás construyendo. Contrato, contrato con opción a planta o tiempo completo: soy flexible con la estructura mientras el trabajo y el equipo encajen.',
+      },
+      {
+        id: 'rates',
+        question: '¿Cuáles son tus tarifas?',
+        answer:
+          'Depende del alcance, la duración y el tipo de contratación. Hablemos y veamos qué tiene sentido para ambas partes.',
+      },
+      {
+        id: 'contact',
+        question: '¿Cómo me pongo en contacto?',
+        answer: 'Lo mejor es el correo, y con gusto agendamos una llamada. También puedes escribirme por LinkedIn.',
+        contact: true,
+      },
+      {
+        id: 'regulated',
+        question: '¿Has trabajado en entornos regulados?',
+        answer:
+          'Sí, en salud, donde la seguridad, el control de acceso y el enmascaramiento de datos son requisitos y no extras: acceso de APIs multi-proveedor, verificación de permisos y desidentificación de datos sensibles.',
+      },
+      {
+        id: 'stakeholders',
+        question: '¿Cómo trabajas con personas no técnicas?',
+        answer:
+          'Traduzco entre el lado de negocio o clínico y la ingeniería: pregunto qué resultado necesitan, cuestiono si una funcionalidad debería existir y explico los compromisos en lenguaje claro.',
+      },
+      {
+        id: 'hard-problem',
+        question: 'Cuéntame de un problema difícil en producción que hayas resuelto.',
+        answer:
+          'Una pantalla de métricas perdía conexiones a la base de datos con el volumen real de producción, algo que staging nunca mostró. Lo resolví por capas: particionado de tablas, consultas dirigidas a la partición reciente, archivado hot/cold, índices específicos y caché.',
+      },
+      {
+        id: 'ai',
+        question: '¿Cómo usas la IA en tu trabajo?',
+        answer:
+          'La IA me hace más rápido en la ejecución, pero no reemplaza la curiosidad ni el criterio. La uso para acelerar la construcción y la revisión, y sigo siendo responsable del descubrimiento, las decisiones de diseño y la calidad.',
+      },
+      {
+        id: 'remote',
+        question: '¿Trabajas en remoto? ¿En qué zona horaria estás?',
+        answer:
+          'Trabajo 100% en remoto, en hora central de EE. UU. (CST/CDT), con buen solapamiento con las zonas horarias de EE. UU. y cómodo con equipos distribuidos.',
+      },
+    ],
   },
   footer: { copyright: '© 2026 Idelfonso Gutierrez' },
 }
