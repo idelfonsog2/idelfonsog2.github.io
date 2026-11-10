@@ -299,9 +299,9 @@ export const en: Content = {
           },
           {
             tag: 'Platform',
-            title: 'SmartRecruiters Webhub',
+            title: 'Event-Driven Messaging & Data Transformation',
             description:
-              'ATS API integrated with Azure Service Bus; every account change is published as a structured event for teams across the organization.',
+              'An event engine that carries messages and transforms data between public-facing services and systems behind the firewall; every account change is published as a structured event for teams across the organization.',
             bullets: [
               'Canonical event schema in one shared model class',
               'Adopted by teams outside my own',
@@ -714,9 +714,9 @@ export const es: Content = {
           },
           {
             tag: 'Plataforma',
-            title: 'SmartRecruiters Webhub',
+            title: 'Mensajería Orientada a Eventos y Transformación de Datos',
             description:
-              'API de ATS integrada con Azure Service Bus; cada cambio de cuenta se publica como un evento estructurado para equipos de toda la organización.',
+              'Un motor de eventos que transporta mensajes y transforma datos entre servicios públicos y sistemas detrás del firewall; cada cambio de cuenta se publica como un evento estructurado para equipos de toda la organización.',
             bullets: [
               'Esquema canónico de eventos en una sola clase de modelo compartida',
               'Adoptado por equipos ajenos al mío',
