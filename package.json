@@ -8,7 +8,8 @@
     "worker:dev": "wrangler dev",
     "test:e2e": "playwright test",
     "deploy": "vite build && wrangler deploy",
-    "cf-typegen": "wrangler types"
+    "cf-typegen": "wrangler types",
+    "llms": "node scripts/generate-llms.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.60.0",
