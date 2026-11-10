@@ -49,6 +49,8 @@ const capabilityTitles = [
 test('rotating headline uses the capability titles plus Product Driven (only there)', async ({ page }) => {
   await page.goto('/')
   const headline = (await page.locator('.hero-headline .sr-only').textContent()) ?? ''
+  // sections start collapsed, so open Experience before looking at its capability cards
+  await page.getByRole('heading', { level: 2, name: 'Experience' }).getByRole('button').click()
   for (const title of capabilityTitles) {
     expect(headline, `rotating headline is missing "${title}"`).toContain(title)
     // ...and each one is a real capability card in Experience
