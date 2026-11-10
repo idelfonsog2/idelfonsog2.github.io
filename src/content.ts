@@ -123,6 +123,79 @@ export interface Content {
 
 const mail = `<a href="mailto:${links.email}">${links.email}</a>`
 
+// Capabilities are defined once: the Experience cards and the hero rotating headline both read them.
+type Capabilities = Content['experience']['capabilities']
+
+const capabilitiesEn: Capabilities = [
+  {
+    title: 'Problem Discovery',
+    description: 'Finds the real problem before anyone opens a code editor',
+    icon: 'mdi-magnify',
+  },
+  {
+    title: 'Full-Stack Ownership',
+    description: 'iOS → backend → infra → CI/CD → App Store → production',
+    icon: 'mdi-layers',
+  },
+  {
+    title: 'Secure Integration & API Governance',
+    description: 'Designs multi-vendor API platforms with auth, access control and data masking for regulated environments',
+    icon: 'mdi-shield-lock-outline',
+  },
+  {
+    title: 'Platform Thinking',
+    description: 'Builds systems other teams depend on: event schemas, SDKs, integration layers',
+    icon: 'mdi-sitemap',
+  },
+  {
+    title: 'Stakeholder Bridge',
+    description: 'Translates between clinical/business stakeholders and engineering',
+    icon: 'mdi-account-group',
+  },
+  {
+    title: 'AI-Augmented Execution',
+    description: 'Uses AI to accelerate delivery while keeping judgment, taste and discovery human',
+    icon: 'mdi-robot',
+  },
+]
+
+const capabilitiesEs: Capabilities = [
+  {
+    title: 'Descubrimiento de problemas',
+    description: 'Encuentra el problema real antes de que nadie abra un editor de código',
+    icon: 'mdi-magnify',
+  },
+  {
+    title: 'Propiedad full-stack',
+    description: 'iOS → backend → infra → CI/CD → App Store → producción',
+    icon: 'mdi-layers',
+  },
+  {
+    title: 'Integración segura y gobierno de APIs',
+    description: 'Diseña plataformas de APIs multi-proveedor con autenticación, control de acceso y enmascaramiento de datos para entornos regulados',
+    icon: 'mdi-shield-lock-outline',
+  },
+  {
+    title: 'Pensamiento de plataforma',
+    description: 'Construye sistemas de los que dependen otros equipos: esquemas de eventos, SDKs, capas de integración',
+    icon: 'mdi-sitemap',
+  },
+  {
+    title: 'Puente con stakeholders',
+    description: 'Traduce entre stakeholders clínicos/de negocio e ingeniería',
+    icon: 'mdi-account-group',
+  },
+  {
+    title: 'Ejecución aumentada con IA',
+    description: 'Usa IA para acelerar la entrega, manteniendo el criterio, el gusto y el descubrimiento en manos humanas',
+    icon: 'mdi-robot',
+  },
+]
+
+// "Product Driven" appears only in the rotating headline, not as a capability card
+const rotatingEn = [...capabilitiesEn.map((c) => c.title), 'Product Driven']
+const rotatingEs = [...capabilitiesEs.map((c) => c.title), 'Orientado a producto']
+
 export const en: Content = {
   meta: {
     title: 'Idelfonso Gutierrez — Software Engineer',
@@ -140,10 +213,9 @@ export const en: Content = {
   hero: {
     greeting: "Hola, I'm Idelfonso Gutierrez 🙋‍♂️",
     avatarAlt: 'Portrait of Idelfonso Gutierrez',
-    headlinePrefix: 'Senior engineer across',
-    rotating: ['iOS', 'backend platforms', 'healthcare interoperability', 'cloud platforms'],
-    fullHeadline:
-      'Senior engineer across iOS, backend platforms, healthcare interoperability and cloud platforms',
+    headlinePrefix: 'Senior engineer',
+    rotating: rotatingEn,
+    fullHeadline: `Senior engineer: ${rotatingEn.join(', ')}`,
     storyLabel: 'Currently:',
     approach: {
       title: 'Before I write any code, I ask:',
@@ -184,38 +256,7 @@ export const en: Content = {
     heading: 'Experience',
     intro:
       'Full-stack ownership from discovery to production: mobile, API, infrastructure, CI/CD and release, with the domain depth to work in regulated systems.',
-    capabilities: [
-      {
-        title: 'Problem Discovery',
-        description: 'Finds the real problem before anyone opens a code editor',
-        icon: 'mdi-magnify',
-      },
-      {
-        title: 'Full-Stack Ownership',
-        description: 'iOS → backend → infra → CI/CD → App Store → production',
-        icon: 'mdi-layers',
-      },
-      {
-        title: 'Secure Integration & API Governance',
-        description: 'Designs multi-vendor API platforms with auth, access control and data masking for regulated environments',
-        icon: 'mdi-shield-lock-outline',
-      },
-      {
-        title: 'Platform Thinking',
-        description: 'Builds systems other teams depend on: event schemas, SDKs, integration layers',
-        icon: 'mdi-sitemap',
-      },
-      {
-        title: 'Stakeholder Bridge',
-        description: 'Translates between clinical/business stakeholders and engineering',
-        icon: 'mdi-account-group',
-      },
-      {
-        title: 'AI-Augmented Execution',
-        description: 'Uses AI to accelerate delivery while keeping judgment, taste and discovery human',
-        icon: 'mdi-robot',
-      },
-    ],
+    capabilities: capabilitiesEn,
     roles: [
       {
         id: 'nm',
@@ -587,10 +628,9 @@ export const es: Content = {
   hero: {
     greeting: 'Hola, soy Idelfonso Gutierrez 🙋‍♂️',
     avatarAlt: 'Retrato de Idelfonso Gutierrez',
-    headlinePrefix: 'Ingeniero senior en',
-    rotating: ['iOS', 'plataformas backend', 'interoperabilidad en salud', 'plataformas cloud'],
-    fullHeadline:
-      'Ingeniero senior en iOS, plataformas backend, interoperabilidad en salud y plataformas cloud',
+    headlinePrefix: 'Ingeniero senior',
+    rotating: rotatingEs,
+    fullHeadline: `Ingeniero senior: ${rotatingEs.join(', ')}`,
     storyLabel: 'Actualmente:',
     approach: {
       title: 'Antes de escribir código, pregunto:',
@@ -631,38 +671,7 @@ export const es: Content = {
     heading: 'Experiencia',
     intro:
       'Responsabilidad de punta a punta, del descubrimiento a producción: móvil, API, infraestructura, CI/CD y lanzamiento, con la profundidad de dominio para trabajar en sistemas regulados.',
-    capabilities: [
-      {
-        title: 'Descubrimiento de problemas',
-        description: 'Encuentra el problema real antes de que nadie abra un editor de código',
-        icon: 'mdi-magnify',
-      },
-      {
-        title: 'Propiedad full-stack',
-        description: 'iOS → backend → infra → CI/CD → App Store → producción',
-        icon: 'mdi-layers',
-      },
-      {
-        title: 'Integración segura y gobierno de APIs',
-        description: 'Diseña plataformas de APIs multi-proveedor con autenticación, control de acceso y enmascaramiento de datos para entornos regulados',
-        icon: 'mdi-shield-lock-outline',
-      },
-      {
-        title: 'Pensamiento de plataforma',
-        description: 'Construye sistemas de los que dependen otros equipos: esquemas de eventos, SDKs, capas de integración',
-        icon: 'mdi-sitemap',
-      },
-      {
-        title: 'Puente con stakeholders',
-        description: 'Traduce entre stakeholders clínicos/de negocio e ingeniería',
-        icon: 'mdi-account-group',
-      },
-      {
-        title: 'Ejecución aumentada con IA',
-        description: 'Usa IA para acelerar la entrega, manteniendo el criterio, el gusto y el descubrimiento en manos humanas',
-        icon: 'mdi-robot',
-      },
-    ],
+    capabilities: capabilitiesEs,
     roles: [
       {
         id: 'nm',
